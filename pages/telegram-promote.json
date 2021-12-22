@@ -14,5 +14,64 @@
         "value": ""
       }]
     }
+  }, {
+    "method": "POST",
+    "url": "https://promote.telegram.org/api?hash=e9d41e69dd1f9695da",
+    "queryString": [{
+      "name": "hash",
+      "value": "e9d41e69dd1f9695da"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "method=logOut",
+      "params": [{
+        "name": "method",
+        "value": "logOut"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://promote.telegram.org/api?hash=e9d41e69dd1f9695da",
+    "httpVersion": "http/2.0",
+    "queryString": [{
+      "name": "hash",
+      "value": "e9d41e69dd1f9695da"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "query=&field=&method=searchChannel",
+      "params": [{
+        "name": "query",
+        "value": ""
+      }, {
+        "name": "field",
+        "value": ""
+      }, {
+        "name": "method",
+        "value": "searchChannel"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://promote.telegram.org/api?hash=e9d41e69dd1f9695da",
+    "httpVersion": "http/2.0",
+    "queryString": [{
+      "name": "hash",
+      "value": "e9d41e69dd1f9695da"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "owner_id=&offset_id=&method=getAdsList",
+      "params": [{
+        "name": "owner_id",
+        "value": ""
+      }, {
+        "name": "offset_id",
+        "value": ""
+      }, {
+        "name": "method",
+        "value": "getAdsList"
+      }]
+    }
   }]
 }
