@@ -1,0 +1,18 @@
+{
+  "resource_id": null,
+  "url": "https://promote.telegram.org/",
+  "deps": [{
+    "method": "POST",
+    "url": "https://promote.telegram.org/auth/request",
+    "httpVersion": "http/2.0",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "phone=",
+      "params": [{
+        "name": "phone",
+        "value": ""
+      }]
+    }
+  }]
+}

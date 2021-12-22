@@ -1,0 +1,262 @@
+{
+    "1": {
+        "url": "https://promote.telegram.org/css/bootstrap.min.css?3",
+        "type": "css",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["text/css"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Etag": ["W/\"5a05e7c6-a61b\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Fri, 10 Nov 2017 17:54:14 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "10": {
+        "url": "https://promote.telegram.org/js/widget-frame.js?54",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"61c342ff-14f2f\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Wed, 22 Dec 2021 15:23:43 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "11": {
+        "url": "https://promote.telegram.org/js/jquery.min.js?1",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"5a05e7c6-1762a\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Fri, 10 Nov 2017 17:54:14 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "12": {
+        "url": "https://promote.telegram.org/js/bootstrap.min.js",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"5a05e7c6-7d0d\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Fri, 10 Nov 2017 17:54:14 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "13": {
+        "url": "https://promote.telegram.org/js/main-aj.js?56",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"61aba36c-8813\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Sat, 04 Dec 2021 17:20:44 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "14": {
+        "url": "https://promote.telegram.org/js/promote.js?47",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"61bb9aec-121a3\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Thu, 16 Dec 2021 20:00:44 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "15": {
+        "url": "https://promote.telegram.org/js/tchart.min.js?18",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"61a2a4f6-14f4e\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Sat, 27 Nov 2021 21:36:54 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "16": {
+        "url": "https://promote.telegram.org/js/jquery-ex.js?6",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"614cb1f0-ee13\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Thu, 23 Sep 2021 16:57:20 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "17": {
+        "url": "https://promote.telegram.org/js/jquery-ui.min.js?1",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"5a05e7c6-181a9\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Fri, 10 Nov 2017 17:54:14 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "2": {
+        "url": "https://fonts.googleapis.com/css?family=Roboto:400,500,700",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Origin": ["*"],
+            "Alt-Svc": ["h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""],
+            "Cache-Control": ["private, max-age=86400, stale-while-revalidate=604800"],
+            "Content-Type": ["text/css; charset=utf-8"],
+            "Cross-Origin-Opener-Policy": ["same-origin-allow-popups"],
+            "Cross-Origin-Resource-Policy": ["cross-origin"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Expires": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Wed, 22 Dec 2021 16:27:29 GMT"],
+            "Link": ["\u003chttps://fonts.gstatic.com\u003e; rel=preconnect; crossorigin"],
+            "Server": ["ESF"],
+            "Strict-Transport-Security": ["max-age=31536000"],
+            "Timing-Allow-Origin": ["*"],
+            "X-Content-Type-Options": ["nosniff"],
+            "X-Frame-Options": ["SAMEORIGIN"],
+            "X-Xss-Protection": ["0"]
+        }
+    },
+    "3": {
+        "url": "https://promote.telegram.org/css/widget-frame.css?51",
+        "type": "css",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["text/css"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Etag": ["W/\"61c342ff-119a2\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Wed, 22 Dec 2021 15:23:43 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "4": {
+        "url": "https://promote.telegram.org/css/bootstrap-extra.css?2",
+        "type": "css",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["text/css"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Etag": ["W/\"5a05e7c6-11648\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Fri, 10 Nov 2017 17:54:14 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "5": {
+        "url": "https://promote.telegram.org/css/tchart.min.css?10",
+        "type": "css",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["text/css"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Etag": ["W/\"5e4ec458-4076\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Thu, 20 Feb 2020 17:39:36 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "6": {
+        "url": "https://promote.telegram.org/css/promote.css?54",
+        "type": "css",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["text/css"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Etag": ["W/\"61afcb24-12e2b\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Tue, 07 Dec 2021 20:59:16 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "7": {
+        "url": "https://promote.telegram.org/css/jquery-ui.min.css?1",
+        "type": "css",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["text/css"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Etag": ["W/\"5a05e7c6-7b7\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Fri, 10 Nov 2017 17:54:14 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "8": {
+        "url": "https://promote.telegram.org/css/telegram.css?215",
+        "type": "css",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["text/css"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Etag": ["W/\"61b1f128-1aef6\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:10 GMT"],
+            "Last-Modified": ["Thu, 09 Dec 2021 12:06:00 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "9": {
+        "url": "https://promote.telegram.org/js/health.js?15",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=345600"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Wed, 22 Dec 2021 16:49:11 GMT"],
+            "Etag": ["W/\"61afcb24-235c\""],
+            "Expires": ["Sun, 26 Dec 2021 16:49:11 GMT"],
+            "Last-Modified": ["Tue, 07 Dec 2021 20:59:16 GMT"],
+            "Server": ["nginx/1.18.0"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
+        }
+    },
+    "index.html": {
+        "url": "https://promote.telegram.org/",
+        "type": "document",
+        "headers": {
+            "Cache-Control": ["no-store"],
+            "Content-Type": ["text/html; charset=utf-8"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Pragma": ["no-cache"],
+            "Server": ["nginx/1.18.0"],
+            "Set-Cookie": ["stel_ssid=95a16e20573d8d0e66_1740573045203401599; expires=Thu, 22 Dec 2022 16:16:22 GMT; path=/; samesite=None; secure; HttpOnly"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"],
+            "X-Frame-Options": ["SAMEORIGIN"]
+        }
+    }
+}
