@@ -1,0 +1,386 @@
+{
+  "resource_id": 8827563,
+  "url": "https://iticket.md/event/#tab-1",
+  "deps": [{
+    "method": "POST",
+    "url": "https://iticket.md/home/popup-answer",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "Answer%5B30%5D%5Bcomment%5D=--",
+      "params": [{
+        "name": "Answer%5B30%5D%5Bcomment%5D",
+        "value": "--"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/VerifyDiscountKey",
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&ev=&id=unk",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "ev",
+        "value": ""
+      }, {
+        "name": "id",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/Date",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&ev=&id=&iframe=",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "ev",
+        "value": ""
+      }, {
+        "name": "id",
+        "value": ""
+      }, {
+        "name": "iframe",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/addSeat",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&ev=&id=&iframe=",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "ev",
+        "value": ""
+      }, {
+        "name": "id",
+        "value": ""
+      }, {
+        "name": "iframe",
+        "value": "false"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/paymentInfo",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&ev=&iframe=false&qt=1",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "ev",
+        "value": ""
+      }, {
+        "name": "iframe",
+        "value": "false"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/PaymentEnd",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&juridic=&tfb=0",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "juridic",
+        "value": ""
+      }, {
+        "name": "tfb",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/PaymentMethod",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&ev=&info=&iframe=false",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "ev",
+        "value": ""
+      }, {
+        "name": "info",
+        "value": ""
+      }, {
+        "name": "iframe",
+        "value": "false"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/ProfilePay",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&info=",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "info",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/PaymentEndAccount",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&ev=",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "ev",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/invoice",
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&ev=",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "ev",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/calculateTax",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=&tfb=0",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }, {
+        "name": "tfb",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/ro/events",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/search/index?text=",
+    "queryString": [{
+      "name": "text",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/filter/categories?category=&main=1",
+    "queryString": [{
+      "name": "category",
+      "value": ""
+    }, {
+      "name": "main",
+      "value": "1"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/filter/categories?main=1&category=&page=",
+    "queryString": [{
+      "name": "main",
+      "value": "1"
+    }, {
+      "name": "category",
+      "value": ""
+    }, {
+      "name": "page",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/filter/eventsbydate?one_date=",
+    "queryString": [{
+      "name": "one_date",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/filter/categories?page=&sort=&category=",
+    "queryString": [{
+      "name": "page",
+      "value": ""
+    }, {
+      "name": "sort",
+      "value": ""
+    }, {
+      "name": "category",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://iticket.md/account/tickets",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "main=1&category=&offset=",
+      "params": [{
+        "name": "main",
+        "value": "1"
+      }, {
+        "name": "category",
+        "value": ""
+      }, {
+        "name": "offset",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://iticket.md/event/add-to-favorite",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "id=",
+      "params": [{
+        "name": "id",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/filter/event?category=&sort=",
+    "queryString": [{
+      "name": "category",
+      "value": ""
+    }, {
+      "name": "sort",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://iticket.md/filter/event?sort=",
+    "queryString": [{
+      "name": "sort",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://admin.iticket.md/booking/newPayment",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "lang=ro&si=67n927qtf5e7vpfo2hfcp5bc5t&cli=",
+      "params": [{
+        "name": "lang",
+        "value": "ro"
+      }, {
+        "name": "si",
+        "value": "67n927qtf5e7vpfo2hfcp5bc5t"
+      }, {
+        "name": "cli",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://iticket.md/account/delete-ticket",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "seat=&type=",
+      "params": [{
+        "name": "seat",
+        "value": ""
+      }, {
+        "name": "type",
+        "value": ""
+      }]
+    }
+  }]
+}
