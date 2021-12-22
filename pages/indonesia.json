@@ -1,0 +1,159 @@
+{
+  "resource_id": 9500429,
+  "url": "https://worldgeographyindonesia.wordpress.com/2014/10/14/ocean-currents-of-indonesia/",
+  "deps": [{
+    "method": "POST",
+    "url": "https://worldgeographyindonesia.wordpress.com/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=post_reblog&reblog_source=carousel&original_blog_id=&original_post_id=&blog_id=&blog_url=&blog_title=&post_url=&post_title=&note=&_wpnonce=hhu",
+      "params": [{
+        "name": "action",
+        "value": "post_reblog"
+      }, {
+        "name": "reblog_source",
+        "value": "carousel"
+      }, {
+        "name": "original_blog_id",
+        "value": ""
+      }, {
+        "name": "original_post_id",
+        "value": ""
+      }, {
+        "name": "blog_id",
+        "value": ""
+      }, {
+        "name": "blog_url",
+        "value": ""
+      }, {
+        "name": "blog_title",
+        "value": ""
+      }, {
+        "name": "post_url",
+        "value": ""
+      }, {
+        "name": "post_title",
+        "value": ""
+      }, {
+        "name": "note",
+        "value": ""
+      }, {
+        "name": "_wpnonce",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://worldgeographyindonesia.wordpress.com/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=post_attachment_comment&nonce=6ec284ce3f&blog_id=&id=&comment=&email=&author=&url=",
+      "params": [{
+        "name": "action",
+        "value": "post_attachment_comment"
+      }, {
+        "name": "nonce",
+        "value": "6ec284ce3f"
+      }, {
+        "name": "blog_id",
+        "value": ""
+      }, {
+        "name": "id",
+        "value": ""
+      }, {
+        "name": "comment",
+        "value": ""
+      }, {
+        "name": "email",
+        "value": ""
+      }, {
+        "name": "author",
+        "value": ""
+      }, {
+        "name": "url",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://worldgeographyindonesia.wordpress.com/wp-admin/admin-ajax.php?action=get_attachment_comments&nonce=6ec284ce3f&id=&offset=",
+    "queryString": [{
+      "name": "action",
+      "value": "get_attachment_comments"
+    }, {
+      "name": "nonce",
+      "value": "6ec284ce3f"
+    }, {
+      "name": "id",
+      "value": ""
+    }, {
+      "name": "offset",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://worldgeographyindonesia.wordpress.com/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=view_comment_likes&_wpnonce=&like_comment=&blog_id=",
+      "params": [{
+        "name": "action",
+        "value": "view_comment_likes"
+      }, {
+        "name": "_wpnonce",
+        "value": ""
+      }, {
+        "name": "like_comment",
+        "value": ""
+      }, {
+        "name": "blog_id",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://worldgeographyindonesia.wordpress.com/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=like_comment&_wpnonce=&like_comment=&blog_id=",
+      "params": [{
+        "name": "action",
+        "value": "like_comment"
+      }, {
+        "name": "_wpnonce",
+        "value": ""
+      }, {
+        "name": "like_comment",
+        "value": ""
+      }, {
+        "name": "blog_id",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://worldgeographyindonesia.wordpress.com/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=unlike_comment&_wpnonce=&like_comment=&blog_id=",
+      "params": [{
+        "name": "action",
+        "value": "unlike_comment"
+      }, {
+        "name": "_wpnonce",
+        "value": ""
+      }, {
+        "name": "like_comment",
+        "value": ""
+      }, {
+        "name": "blog_id",
+        "value": ""
+      }]
+    }
+  }]
+}
