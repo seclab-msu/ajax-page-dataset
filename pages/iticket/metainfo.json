@@ -1,5 +1,26 @@
 {
-    "1": {
+    "index.html": {
+        "url": "https://iticket.md/event/#tab-1",
+        "type": "document",
+        "headers": {
+            "Cache-Control": ["no-store, no-cache, must-revalidate"],
+            "Cf-Cache-Status": ["DYNAMIC"],
+            "Cf-Ray": ["62927bfad9c54c26-AMS"],
+            "Cf-Request-Id": ["088f6bd0c800004c267d8bf000000001"],
+            "Content-Type": ["text/html; charset=UTF-8"],
+            "Date": ["Mon, 01 Mar 2021 12:45:46 GMT"],
+            "Expect-Ct": ["max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""],
+            "Expires": ["Thu, 19 Nov 1981 08:52:00 GMT"],
+            "Nel": ["{\"max_age\":604800,\"report_to\":\"cf-nel\"}"],
+            "Pragma": ["no-cache"],
+            "Report-To": ["{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=VGg0HWllkGvfmNN1Eth8JZq0G9Hq7rBmf6%2BUI1e7YMvirXl2Ara8aJ9BG2%2FbEB2YFsmxyy%2BRPxClxweXz28Ht3sGqT%2FbiJoAMPQX9feGooPMVDTx1rst\"}],\"max_age\":604800}"],
+            "Server": ["cloudflare"],
+            "Set-Cookie": ["popup_inc=155; expires=Thu, 11-Mar-2021 12:45:46 GMT; Max-Age=864000; path=/; domain=iticket.md"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubdomains"],
+            "Vary": ["Accept-Encoding"]
+        }
+    },
+    "assets_5315e63c_ro.js": {
         "url": "https://iticket.md/assets/5315e63c/ro.js",
         "type": "javascript",
         "headers": {
@@ -21,7 +42,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "10": {
+    "assets_js_2owl.carousel.min.js": {
         "url": "https://iticket.md/assets/js/2owl.carousel.min.js",
         "type": "javascript",
         "headers": {
@@ -42,7 +63,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "11": {
+    "assets_js_jquery-ui.min.js": {
         "url": "https://iticket.md/assets/js/jquery-ui.min.js",
         "type": "javascript",
         "headers": {
@@ -63,7 +84,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "12": {
+    "assets_js_ticket.js": {
         "url": "https://iticket.md/assets/js/ticket.js?1",
         "type": "javascript",
         "headers": {
@@ -84,7 +105,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "13": {
+    "assets_a643b82a_yii.js": {
         "url": "https://iticket.md/assets/a643b82a/yii.js",
         "type": "javascript",
         "headers": {
@@ -105,7 +126,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "14": {
+    "assets_js_select.min.js": {
         "url": "https://iticket.md/assets/js/select.min.js",
         "type": "javascript",
         "headers": {
@@ -126,7 +147,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "15": {
+    "assets_js_jquery.flip.js": {
         "url": "https://iticket.md/assets/js/jquery.flip.js",
         "type": "javascript",
         "headers": {
@@ -147,7 +168,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "16": {
+    "assets_js_script.js": {
         "url": "https://iticket.md/assets/js/script.js?7",
         "type": "javascript",
         "headers": {
@@ -168,7 +189,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "17": {
+    "assets_js_pnotify.custom.min.js": {
         "url": "https://iticket.md/assets/js/pnotify.custom.min.js",
         "type": "javascript",
         "headers": {
@@ -189,7 +210,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "18": {
+    "assets_js_jquery.countdown.min.js": {
         "url": "https://iticket.md/assets/js/jquery.countdown.min.js",
         "type": "javascript",
         "headers": {
@@ -210,7 +231,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "19": {
+    "assets_a643b82a_yii.validation.js": {
         "url": "https://iticket.md/assets/a643b82a/yii.validation.js",
         "type": "javascript",
         "headers": {
@@ -231,7 +252,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "2": {
+    "b3afcb6109606db5eb7b2c87cb0edccc7c9b014e.css": {
         "url": "https://iticket.md/minify/b3afcb6109606db5eb7b2c87cb0edccc7c9b014e.css",
         "type": "css",
         "headers": {
@@ -252,7 +273,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "20": {
+    "assets_js_jquery.spinner.js": {
         "url": "https://iticket.md/assets/js/jquery.spinner.js",
         "type": "javascript",
         "headers": {
@@ -273,7 +294,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "21": {
+    "assets_a643b82a_yii.activeform.js": {
         "url": "https://iticket.md/assets/a643b82a/yii.activeForm.js",
         "type": "javascript",
         "headers": {
@@ -294,7 +315,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "22": {
+    "assets_a699650_authchoice.js": {
         "url": "https://iticket.md/assets/a699650/authchoice.js",
         "type": "javascript",
         "headers": {
@@ -315,7 +336,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "23": {
+    "cdn.jsdelivr.net_momentjs_latest_moment.min.js": {
         "url": "https://cdn.jsdelivr.net/momentjs/latest/moment.min.js",
         "type": "javascript",
         "headers": {
@@ -342,7 +363,7 @@
             "X-Served-By": ["cache-fra19135-FRA, cache-ams21077-AMS"]
         }
     },
-    "24": {
+    "cdn.jsdelivr.net_daterangepicker.js": {
         "url": "https://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js",
         "type": "javascript",
         "headers": {
@@ -369,7 +390,7 @@
             "X-Served-By": ["cache-fra19166-FRA, cache-ams21078-AMS"]
         }
     },
-    "3": {
+    "assets_b647a346_javascripts_md5.js": {
         "url": "https://iticket.md/assets/b647a346/javascripts/md5.js",
         "type": "javascript",
         "headers": {
@@ -390,7 +411,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "4": {
+    "assets_b647a346_javascripts_lajax.js": {
         "url": "https://iticket.md/assets/b647a346/javascripts/lajax.js",
         "type": "javascript",
         "headers": {
@@ -411,7 +432,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "5": {
+    "assets_js_bootstrap.min.js": {
         "url": "https://iticket.md/assets/js/bootstrap.min.js",
         "type": "javascript",
         "headers": {
@@ -432,7 +453,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "6": {
+    "assets_js_jquery.ui.datepicker-ru.js": {
         "url": "https://iticket.md/assets/js/jquery.ui.datepicker-ru.js",
         "type": "javascript",
         "headers": {
@@ -453,7 +474,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "7": {
+    "assets_js_select2.min.js": {
         "url": "https://iticket.md/assets/js/select2.min.js",
         "type": "javascript",
         "headers": {
@@ -474,7 +495,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "8": {
+    "assets_443b44c3_jquery.js": {
         "url": "https://iticket.md/assets/443b44c3/jquery.js",
         "type": "javascript",
         "headers": {
@@ -495,7 +516,7 @@
             "Vary": ["Accept-Encoding"]
         }
     },
-    "9": {
+    "cdn.onesignal.com_sdks_onesignalsdk.js": {
         "url": "https://cdn.onesignal.com/sdks/OneSignalSDK.js",
         "type": "javascript",
         "headers": {
@@ -511,27 +532,6 @@
             "Expires": ["Mon, 01 Mar 2021 13:44:20 GMT"],
             "Server": ["cloudflare"],
             "Set-Cookie": ["__cfduid=d3eee69d87b472758fa78db997c3d226d1614602660; expires=Wed, 31-Mar-21 12:44:20 GMT; path=/; domain=.onesignal.com; HttpOnly; SameSite=Lax"],
-            "Vary": ["Accept-Encoding"]
-        }
-    },
-    "index.html": {
-        "url": "https://iticket.md/event/#tab-1",
-        "type": "document",
-        "headers": {
-            "Cache-Control": ["no-store, no-cache, must-revalidate"],
-            "Cf-Cache-Status": ["DYNAMIC"],
-            "Cf-Ray": ["62927bfad9c54c26-AMS"],
-            "Cf-Request-Id": ["088f6bd0c800004c267d8bf000000001"],
-            "Content-Type": ["text/html; charset=UTF-8"],
-            "Date": ["Mon, 01 Mar 2021 12:45:46 GMT"],
-            "Expect-Ct": ["max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""],
-            "Expires": ["Thu, 19 Nov 1981 08:52:00 GMT"],
-            "Nel": ["{\"max_age\":604800,\"report_to\":\"cf-nel\"}"],
-            "Pragma": ["no-cache"],
-            "Report-To": ["{\"group\":\"cf-nel\",\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report?s=VGg0HWllkGvfmNN1Eth8JZq0G9Hq7rBmf6%2BUI1e7YMvirXl2Ara8aJ9BG2%2FbEB2YFsmxyy%2BRPxClxweXz28Ht3sGqT%2FbiJoAMPQX9feGooPMVDTx1rst\"}],\"max_age\":604800}"],
-            "Server": ["cloudflare"],
-            "Set-Cookie": ["popup_inc=155; expires=Thu, 11-Mar-2021 12:45:46 GMT; Max-Age=864000; path=/; domain=iticket.md"],
-            "Strict-Transport-Security": ["max-age=31536000; includeSubdomains"],
             "Vary": ["Accept-Encoding"]
         }
     }

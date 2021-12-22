@@ -1,5 +1,19 @@
 {
-    "1": {
+    "index.html": {
+        "url": "https://promote.telegram.org/",
+        "type": "document",
+        "headers": {
+            "Cache-Control": ["no-store"],
+            "Content-Type": ["text/html; charset=utf-8"],
+            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
+            "Pragma": ["no-cache"],
+            "Server": ["nginx/1.18.0"],
+            "Set-Cookie": ["stel_ssid=95a16e20573d8d0e66_1740573045203401599; expires=Thu, 22 Dec 2022 16:16:22 GMT; path=/; samesite=None; secure; HttpOnly"],
+            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"],
+            "X-Frame-Options": ["SAMEORIGIN"]
+        }
+    },
+    "css_bootstrap.min.css": {
         "url": "https://promote.telegram.org/css/bootstrap.min.css?3",
         "type": "css",
         "headers": {
@@ -13,7 +27,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "10": {
+    "js_widget-frame.js": {
         "url": "https://promote.telegram.org/js/widget-frame.js?54",
         "type": "javascript",
         "headers": {
@@ -27,7 +41,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "11": {
+    "js_jquery.min.js": {
         "url": "https://promote.telegram.org/js/jquery.min.js?1",
         "type": "javascript",
         "headers": {
@@ -41,7 +55,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "12": {
+    "js_bootstrap.min.js": {
         "url": "https://promote.telegram.org/js/bootstrap.min.js",
         "type": "javascript",
         "headers": {
@@ -55,7 +69,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "13": {
+    "js_main-aj.js": {
         "url": "https://promote.telegram.org/js/main-aj.js?56",
         "type": "javascript",
         "headers": {
@@ -69,7 +83,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "14": {
+    "js_promote.js": {
         "url": "https://promote.telegram.org/js/promote.js?47",
         "type": "javascript",
         "headers": {
@@ -83,7 +97,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "15": {
+    "js_tchart.min.js": {
         "url": "https://promote.telegram.org/js/tchart.min.js?18",
         "type": "javascript",
         "headers": {
@@ -97,7 +111,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "16": {
+    "js_jquery-ex.js": {
         "url": "https://promote.telegram.org/js/jquery-ex.js?6",
         "type": "javascript",
         "headers": {
@@ -111,7 +125,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "17": {
+    "js_jquery-ui.min.js": {
         "url": "https://promote.telegram.org/js/jquery-ui.min.js?1",
         "type": "javascript",
         "headers": {
@@ -125,7 +139,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "2": {
+    "fonts.googleapis.com_css": {
         "url": "https://fonts.googleapis.com/css?family=Roboto:400,500,700",
         "type": "css",
         "headers": {
@@ -138,7 +152,7 @@
             "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
             "Expires": ["Wed, 22 Dec 2021 16:49:10 GMT"],
             "Last-Modified": ["Wed, 22 Dec 2021 16:27:29 GMT"],
-            "Link": ["\u003chttps://fonts.gstatic.com\u003e; rel=preconnect; crossorigin"],
+            "Link": ["<https://fonts.gstatic.com>; rel=preconnect; crossorigin"],
             "Server": ["ESF"],
             "Strict-Transport-Security": ["max-age=31536000"],
             "Timing-Allow-Origin": ["*"],
@@ -147,7 +161,7 @@
             "X-Xss-Protection": ["0"]
         }
     },
-    "3": {
+    "css_widget-frame.css": {
         "url": "https://promote.telegram.org/css/widget-frame.css?51",
         "type": "css",
         "headers": {
@@ -161,7 +175,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "4": {
+    "css_bootstrap-extra.css": {
         "url": "https://promote.telegram.org/css/bootstrap-extra.css?2",
         "type": "css",
         "headers": {
@@ -175,7 +189,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "5": {
+    "css_tchart.min.css": {
         "url": "https://promote.telegram.org/css/tchart.min.css?10",
         "type": "css",
         "headers": {
@@ -189,7 +203,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "6": {
+    "css_promote.css": {
         "url": "https://promote.telegram.org/css/promote.css?54",
         "type": "css",
         "headers": {
@@ -203,7 +217,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "7": {
+    "css_jquery-ui.min.css": {
         "url": "https://promote.telegram.org/css/jquery-ui.min.css?1",
         "type": "css",
         "headers": {
@@ -217,7 +231,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "8": {
+    "css_telegram.css": {
         "url": "https://promote.telegram.org/css/telegram.css?215",
         "type": "css",
         "headers": {
@@ -231,7 +245,7 @@
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
         }
     },
-    "9": {
+    "js_health.js": {
         "url": "https://promote.telegram.org/js/health.js?15",
         "type": "javascript",
         "headers": {
@@ -243,20 +257,6 @@
             "Last-Modified": ["Tue, 07 Dec 2021 20:59:16 GMT"],
             "Server": ["nginx/1.18.0"],
             "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"]
-        }
-    },
-    "index.html": {
-        "url": "https://promote.telegram.org/",
-        "type": "document",
-        "headers": {
-            "Cache-Control": ["no-store"],
-            "Content-Type": ["text/html; charset=utf-8"],
-            "Date": ["Wed, 22 Dec 2021 16:49:10 GMT"],
-            "Pragma": ["no-cache"],
-            "Server": ["nginx/1.18.0"],
-            "Set-Cookie": ["stel_ssid=95a16e20573d8d0e66_1740573045203401599; expires=Thu, 22 Dec 2022 16:16:22 GMT; path=/; samesite=None; secure; HttpOnly"],
-            "Strict-Transport-Security": ["max-age=31536000; includeSubDomains; preload"],
-            "X-Frame-Options": ["SAMEORIGIN"]
         }
     }
 }
