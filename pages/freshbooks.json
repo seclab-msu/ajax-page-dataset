@@ -1,0 +1,61 @@
+{
+  "resource_id": 841684,
+  "url": "https://support.freshbooks.com/hc/en-us",
+  "deps": [{
+    "method": "POST",
+    "url": "https://support.freshbooks.com/hc/tracking/events?locale=en-us",
+    "queryString": [{
+      "name": "locale",
+      "value": "en-us"
+    }],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"event\":\"front_page_viewed\",\"data\":\"BAh7BjoKX21ldGF7CzoPYWNjb3VudF9pZGkD57cNOhNoZWxwX2NlbnRlcl9pZGkEnvvuCzoNYnJhbmRfaWRpA5T0CzoMdXNlcl9pZDA6E3VzZXJfcm9sZV9uYW1lSSIOQU5PTllNT1VTBjoGRVQ6C2xvY2FsZUkiCmVuLXVzBjsLVA==--3f9a238596477367988953151855532901de0694\",\"referrer\":\"\"}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://support.freshbooks.com/hc/api/internal/csrf_token.json",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://support.freshbooks.com/api/v2/help_center/articles/search.json?query=",
+    "queryString": [{
+      "name": "query",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://support.freshbooks.com/api/v2/help_center/en-us/categories.json",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://support.freshbooks.com/api/v2/help_center/en-us/sections/UNKNOWN.json",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://support.freshbooks.com/api/v2/help_center/en-us/categories/UNKNOWN/sections.json",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://support.freshbooks.com/api/v2/help_center/en-us/sections/UNKNOWN/articles.json",
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://support.freshbooks.com/api/v2/help_center/community/posts/UNKNOWN/stats/view.json",
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://support.freshbooks.com/api/v2/help_center/UNKNOWN/articles/UNKNOWN/stats/view.json",
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "deflected_to_article=&last_visited_article_id=",
+      "params": [{
+        "name": "deflected_to_article",
+        "value": ""
+      }, {
+        "name": "last_visited_article_id",
+        "value": ""
+      }]
+    }
+  }]
+}
