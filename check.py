@@ -63,6 +63,8 @@ def match_post_data(reference, found):
     if ref_mime != found.get('mimeType'):
         return False
     ref_params = reference.get('params')
+    if ref_params is None:
+        return reference.get('text') == found.get('text')
     found_params = found.get('params')
     return compare_unordered_keyvalue_ignoreemptyval(ref_params, found_params)
 
