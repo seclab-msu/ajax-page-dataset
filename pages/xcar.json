@@ -1,0 +1,782 @@
+{
+  "resource_id": 1811531,
+  "url": "https://newcar.xcar.com.cn/4907/",
+  "deps": [{
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=AlaOrder/getmodel&pserid=4907",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "AlaOrder/getmodel"
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=dealerPopw/filterKeyword&name=",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "dealerPopw/filterKeyword"
+    },
+    {
+      "name": "name",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/DealerPopw/AldPost",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/DealerPopw/AldPost"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "mid=&name=&mobile=&province_id=&city_id=&pserid=4907&gender=3&source_type=8&type=1&dealer_id=0&loans=1",
+      "params": [{
+        "name": "mid",
+        "value": ""
+      }, {
+        "name": "mobile",
+        "value": ""
+      }, {
+        "name": "province_id",
+        "value": ""
+      }, {
+        "name": "city_id",
+        "value": ""
+      }, {
+        "name": "pserid",
+        "value": "4907"
+      }, {
+        "name": "gender",
+        "value": "3"
+      }, {
+        "name": "source_type",
+        "value": "8"
+      }, {
+        "name": "type",
+        "value": "1"
+      }, {
+        "name": "dealer_id",
+        "value": "0"
+      }, {
+        "name": "loans",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/DealerPopw/AldPost",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/DealerPopw/AldPost"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "mid=&name=&mobile=&province_id=&city_id=&pserid=4907&gender=3&source_type=8&type=1&dealer_id=0",
+      "params": [{
+        "name": "mid",
+        "value": ""
+      }, {
+        "name": "mobile",
+        "value": ""
+      }, {
+        "name": "province_id",
+        "value": ""
+      }, {
+        "name": "city_id",
+        "value": ""
+      }, {
+        "name": "pserid",
+        "value": "4907"
+      }, {
+        "name": "gender",
+        "value": "3"
+      }, {
+        "name": "source_type",
+        "value": "8"
+      }, {
+        "name": "type",
+        "value": "1"
+      }, {
+        "name": "dealer_id",
+        "value": "0"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=ajax/ShowPsGiveLike&rand=&pserid=4907",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "ajax/ShowPsGiveLike"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=Ajax/AjaxQcSmsLink&rand=&pserid=4907",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "Ajax/AjaxQcSmsLink"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://reg.xcar.com.cn/ajax/checklogin.php?callback=",
+    "queryString": [{
+      "name": "callback",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_box_login_code.php?callback=&action=getu&t=",
+    "queryString": [{
+      "name": "callback",
+      "value": ""
+    },
+    {
+      "name": "action",
+      "value": "getu"
+    },
+    {
+      "name": "t",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_dosecque.php?callback=&quesnumid=&quesanstxt=&userauth&t=",
+    "queryString": [{
+      "name": "callback",
+      "value": ""
+    },
+    {
+      "name": "quesnumid",
+      "value": ""
+    },{
+      "name": "quesanstxt",
+      "value": ""
+    },{
+      "name": "userauth",
+      "value": ""
+    },
+    {
+      "name": "t",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_boxlogin_send_new.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "mobile=&NECaptchaValidate&t=",
+      "params": [{
+        "name": "mobile",
+        "value": ""
+      }, {
+        "name": "NECaptchaValidate",
+        "value": ""
+      }, {
+        "name": "t",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_dologin.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "mobile=&msgcode=&logintype=&uuid=",
+      "params": [{
+        "name": "mobile",
+        "value": ""
+      }, {
+        "name": "msgcode",
+        "value": ""
+      }, {
+        "name": "logintype",
+        "value": ""
+      }, {
+        "name": "uuid",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_dologin.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "logintype=&username=&userpwd=&u=&checkcode=",
+      "params": [{
+        "name": "logintype",
+        "value": ""
+      }, {
+        "name": "username",
+        "value": ""
+      }, {
+        "name": "userpwd",
+        "value": ""
+      }, {
+        "name": "u",
+        "value": ""
+      }, {
+        "name": "checkcode",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_box_login_code.php?callback=&uid=&u=&mobile=&t=",
+    "queryString": [{
+      "name": "callback",
+      "value": ""
+    },
+    {
+      "name": "uid",
+      "value": ""
+    },
+    {
+      "name": "u",
+      "value": ""
+    },
+    {
+      "name": "mobile",
+      "value": ""
+    },
+    {
+      "name": "t",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_box_login_code.php?callback=&uid=&msgcode=&mobile=&t=",
+    "queryString": [{
+      "name": "callback",
+      "value": ""
+    },
+    {
+      "name": "uid",
+      "value": ""
+    },
+    {
+      "name": "msgcode",
+      "value": ""
+    },
+    {
+      "name": "mobile",
+      "value": ""
+    },
+    {
+      "name": "t",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=ajax/zhugebutton&params=&did=&pserid=&mid=&is_cms=&cid=&type=",
+    "queryString": [{
+      "name": "r",
+      "value": "ajax/zhugebutton"
+    },
+    {
+      "name": "params",
+      "value": ""
+    },
+    {
+      "name": "did",
+      "value": ""
+    },
+    {
+      "name": "pserid",
+      "value": ""
+    },
+    {
+      "name": "mid",
+      "value": ""
+    },
+    {
+      "name": "is_cms",
+      "value": ""
+    },
+    {
+      "name": "cid",
+      "value": ""
+    },
+    {
+      "name": "type",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=ajax/zhugeCarOperationClick&params=&pserid=4907&mid=",
+    "queryString": [{
+      "name": "r",
+      "value": "ajax/zhugeCarOperationClick"
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "mid",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/Attention/checkAttStatus&format=json&rand=&type=mid&id=0",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/Attention/checkAttStatus"
+    },
+    {
+      "name": "format",
+      "value": "json"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "type",
+      "value": "mid"
+    },
+    {
+      "name": "id",
+      "value": "0"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/Attention/setAttStatus&format=json&rand=&command=del&id=0&type=mid",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/Attention/setAttStatus"
+    },
+    {
+      "name": "format",
+      "value": "json"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "command",
+      "value": "del"
+    },
+    {
+      "name": "id",
+      "value": "0"
+    },
+    {
+      "name": "type",
+      "value": "mid"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=ajax/NavPrice&c=475&p=4907&m=0",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "ajax/NavPrice"
+    },
+    {
+      "name": "c",
+      "value": "475"
+    },
+    {
+      "name": "p",
+      "value": "4907"
+    },
+    {
+      "name": "m",
+      "value": "0"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=ajax/CheckUsedCar&pserid=4907&city_id=475&province_id=&pbid=82",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "ajax/CheckUsedCar"
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "city_id",
+      "value": "475"
+    },
+    {
+      "name": "province_id",
+      "value": ""
+    },
+    {
+      "name": "pbid",
+      "value": "82"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/compare/commendNew&mids=1&style=data",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/compare/commendNew"
+    },
+    {
+      "name": "mids",
+      "value": "1"
+    },
+    {
+      "name": "style",
+      "value": "data"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/SeriseParentIndex/AjaxHezuo58V3&rand=&pserid=4907&city_id=&psname=%E7%80%B9%E5%BF%93%E5%8E%9CMINIEV",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/SeriseParentIndex/AjaxHezuo58V3"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "city_id",
+      "value": ""
+    },
+    {
+      "name": "psname",
+      "value": "%E7%80%B9%E5%BF%93%E5%8E%9CMINIEV"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/SeriseParentIndex/Ajax_used2_car&rand=&pbid=82&pserid=4907&provinceId=0&cityId=&max_price=0&min_price=0",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/SeriseParentIndex/Ajax_used2_car"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "pbid",
+      "value": "82"
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "provinceId",
+      "value": "0"
+    },
+    {
+      "name": "cityId",
+      "value": ""
+    },
+    {
+      "name": "max_price",
+      "value": "0"
+    },
+    {
+      "name": "min_price",
+      "value": "0"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=Ajax/AjaxGetLimitOffer&rand=&type_id=1",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "Ajax/AjaxGetLimitOffer"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "type_id",
+      "value": "1"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=Ajax/AjaxLoanCar&rand=&city_id=",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "Ajax/AjaxLoanCar"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "city_id",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=Ajax/TloanCar&pserid=4907&city=",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "Ajax/TloanCar"
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "city",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/SeriseParentIndex/AjaxStopSaleModel&rand=&pserid=4907&year=0",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/SeriseParentIndex/AjaxStopSaleModel"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "year",
+      "value": "0"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=ajax/GetDealerPrice2&flag=1&did_type=1&is_num=1&sort_price=1&is_pre_sale=1&province_id=0&city_id=&pserid=4907&rand=",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "ajax/GetDealerPrice2"
+    },
+    {
+      "name": "flag",
+      "value": "1"
+    },
+    {
+      "name": "did_type",
+      "value": "1"
+    },
+    {
+      "name": "is_num",
+      "value": "1"
+    },
+    {
+      "name": "sort_price",
+      "value": "1"
+    },
+    {
+      "name": "is_pre_sale",
+      "value": "1"
+    },
+    {
+      "name": "province_id",
+      "value": "0"
+    },
+    {
+      "name": "city_id",
+      "value": ""
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=Ajax/GetModelLink&rand=&pserid=4907&city_id=",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "Ajax/GetModelLink"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "city_id",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/Attention/checkAttStatus&format=json&rand=&type=pserid&id=4907",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/Attention/checkAttStatus"
+    },
+    {
+      "name": "format",
+      "value": "json"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "type",
+      "value": "pserid"
+    },
+    {
+      "name": "id",
+      "value": "4907"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/Attention/setAttStatus&format=json&rand=&command=del&id=4907&type=pserid",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/Attention/setAttStatus"
+    },
+    {
+      "name": "format",
+      "value": "json"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "command",
+      "value": "del"
+    },
+    {
+      "name": "id",
+      "value": "4907"
+    },
+    {
+      "name": "type",
+      "value": "pserid"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/Attention/setAttStatus&format=json&rand=&command=insert&id=4907&type=pserid",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/Attention/setAttStatus"
+    },
+    {
+      "name": "format",
+      "value": "json"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "command",
+      "value": "insert"
+    },
+    {
+      "name": "id",
+      "value": "4907"
+    },
+    {
+      "name": "type",
+      "value": "pserid"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/SeriseParentIndex/DealerAjax&pserid=4907&city_id=&type=-2-&page=1&province_id=0&zoneclick=1&rand=",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/SeriseParentIndex/DealerAjax"
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    },
+    {
+      "name": "city_id",
+      "value": ""
+    },
+    {
+      "name": "type",
+      "value": "-2-"
+    },
+    {
+      "name": "page",
+      "value": "1"
+    },
+    {
+      "name": "province_id",
+      "value": "0"
+    },
+    {
+      "name": "zoneclick",
+      "value": "1"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://newcar.xcar.com.cn/auto/index.php?r=newcar/SeriseParentIndex/getSpecialCar&rand=&city_id=&pserid=4907",
+    "queryString": [
+    {
+      "name": "r",
+      "value": "newcar/SeriseParentIndex/getSpecialCar"
+    },
+    {
+      "name": "rand",
+      "value": ""
+    },
+    {
+      "name": "city_id",
+      "value": ""
+    },
+    {
+      "name": "pserid",
+      "value": "4907"
+    }]
+  }]
+}

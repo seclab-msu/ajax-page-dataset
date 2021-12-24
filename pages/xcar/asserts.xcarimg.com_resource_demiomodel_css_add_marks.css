@@ -1,0 +1,25 @@
+.ref_pc em{
+    position: relative;
+}
+.tag_subsidy_only{
+    width: 30px;
+    height: 14px;
+    position: absolute;
+    bottom: 19px;
+    right: -25px;
+}
+.subsidy_color{color:#FB4840;}
+
+.table_main .no_td{
+    position: relative;
+}
+.tag_subsidy_contrast{
+    width: 30px;
+    height: 14px;
+    position: absolute;
+    bottom: 65px;
+    left: 113px;
+}
+.car_price{
+    padding-top: 15px;
+}
