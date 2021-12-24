@@ -93,11 +93,11 @@ def have_dep(found_deps, want_dep):
             return True
     return False
 
-def main():
+def check_pages(pages_jsons):
     reference_dep_count = 0
     found_dep_count = 0
-    for sample_file in glob.glob(PAGES_PATH + '/*.json'):
-        page_dir = sample_file.rstrip('.json')
+    for sample_file in pages_jsons:
+        page_dir = sample_file[:-5]
         with open(sample_file, encoding='utf8') as f:
             sample_info = json.load(f)
         reference_deps = sample_info['deps']
@@ -112,6 +112,16 @@ def main():
             elif DEBUG:
                     print("MISSED", reference_dep['method'], reference_dep['url'])
     print("Score: %d of %d (%.1f%%)" % (found_dep_count, reference_dep_count, 100 * found_dep_count / reference_dep_count))
+
+def main():
+    if len(sys.argv) < 2:
+        pages_jsons = glob.glob(PAGES_PATH + '/*.json')
+    else:
+        pages_jsons = sys.argv[1:]
+        for i in range(len(pages_jsons)):
+            if not pages_jsons[i].endswith('.json'):
+                pages_jsons[i] += '.json'
+    check_pages(pages_jsons)
 
 
 if __name__ == "__main__":
