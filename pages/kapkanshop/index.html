@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<!--[if IE 8 ]>
+<html dir="ltr" lang="ru" class="ie8"><![endif]-->
+<!--[if IE 9 ]>
+<html dir="ltr" lang="ru" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html dir="ltr" lang="ru">
+<!--<![endif]-->
+<head>
+    <!-- Google Tag Manager -->
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+
+    })(window,document,'script','dataLayer','GTM-M73FCP');</script>
+
+    <!-- End Google Tag Manager -->
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-47930996-4"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'UA-47930996-4');
+</script>
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+(function(){ var widget_id = 'uhY4VDsKZh';var d=document;var w=window;function l(){var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);}if(d.readyState=='complete'){l();}else{if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})();
+</script>
+<!-- {/literal} END JIVOSITE CODE -->            <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Авторизация</title>
+
+
+
+        <script type="text/javascript">
+        window.addEventListener("load", function () {
+            var googleData = '';
+            var product_impressions = '';
+            var g_product_detail = '';
+            if (googleData) {
+                var dataLayer = window.dataLayer || [];
+            }
+            if (googleData || product_impressions) {
+                var g_tag_manager = JSON.parse(googleData);
+                if (g_tag_manager) {
+                    dataLayer.push({
+                        'google_tag_params': g_tag_manager
+                    });
+                }
+            }
+            if (product_impressions) {
+                var productImpressions = JSON.parse(product_impressions)
+                dataLayer.push({
+                    event: 'ProductImpressions',
+                    ecommerce: {
+                        impressions: productImpressions
+                    }
+                });
+
+            } else if (g_product_detail) {
+                var gProductDetail = JSON.parse(g_product_detail)
+                dataLayer.push({
+                    event: 'productDetail',
+                    ecommerce: {
+                        detail: gProductDetail
+                    }
+                });
+            }
+        });
+    </script>
+
+    <base href="https://kapkanshop.com/"/>
+            <meta name="HandheldFriendly" content="true">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, width=device-width">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+    <link href="/catalog/view/theme/kapkan/stylesheet/main.css" type="text/css" rel="stylesheet">
+            <link href="https://kapkanshop.com/image/catalog/logo.png" rel="icon"/>
+            <script src="/catalog/view/theme/kapkan/js/jquery.min.js" type="text/javascript"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwU6g-xEesDjt0nJiwW5zeWGYXvie7_78" type="text/javascript"></script>
+        <title>Авторизация</title>
+    <style>
+        .snow, .winter-is-coming {
+            z-index: 100;
+            pointer-events: none;
+        }
+
+        .winter-is-coming {
+            overflow: hidden;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .snow {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            animation: falling linear infinite both;
+            transform: translate3D(0, -100%, 0);
+        }
+        .snow--near {
+            animation-duration: 10s;
+            background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png");
+            background-size: contain;
+        }
+        .snow--near + .snow--alt {
+            animation-delay: 5s;
+        }
+        .snow--mid {
+            animation-duration: 20s;
+            background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png");
+            background-size: contain;
+        }
+        .snow--mid + .snow--alt {
+            animation-delay: 10s;
+        }
+        .snow--far {
+            animation-duration: 30s;
+            background-image: url("https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png");
+            background-size: contain;
+        }
+        .snow--far + .snow--alt {
+            animation-delay: 15s;
+        }
+
+        @keyframes falling {
+            0% {
+                transform: translate3D(-7.5%, -100%, 0);
+            }
+            100% {
+                transform: translate3D(7.5%, 100%, 0);
+            }
+        }
+    </style>
+
+
+    
+
+
+        <link rel="stylesheet" type="text/css" href="catalog/view/css/facebook/cookieconsent.min.css" />
+        <script type="text/javascript" src = "catalog/view/javascript/facebook/cookieconsent.min.js"></script>
+        <script>
+        window.addEventListener("load", function(){
+          function setConsent() {
+            fbq(
+              'consent',
+              this.hasConsented() ? 'grant' : 'revoke'
+            );
+          }
+          window.cookieconsent.initialise({
+            palette: {
+              popup: {
+                background: '#237afc'
+              },
+              button: {
+                background: '#fff',
+                text: '#237afc'
+              }
+            },
+            cookie: {
+              name: fbq.consentCookieName
+            },
+            type: 'opt-out',
+            showLink: false,
+            content: {
+              dismiss: 'Agree',
+              deny: 'Opt Out',
+              header: 'Our Site Uses Cookies',
+              message: 'By clicking Agree, you agree to our <a class="cc-link" href="https://www.facebook.com/legal/terms/update" target="_blank">terms of service</a>, <a class="cc-link" href="https://www.facebook.com/policies/" target="_blank">privacy policy</a> and <a class="cc-link" href="https://www.facebook.com/policies/cookies/" target="_blank">cookies policy</a>.'
+            },
+            layout: 'basic-header',
+            location: true,
+            revokable: true,
+            onInitialise: setConsent,
+            onStatusChange: setConsent,
+            onRevokeChoice: setConsent
+          }, function (popup) {
+            // If this isn't open, we know that we can use cookies.
+            if (!popup.getStatus() && !popup.options.enabled) {
+              popup.setStatus(cookieconsent.status.dismiss);
+            }
+          });
+        });
+        </script>
+        <script type="text/javascript">
+          !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+          n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+          n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+          t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+          document,'script','https://connect.facebook.net/en_US/fbevents.js');
+          fbq.consentCookieName = 'fb_cookieconsent_status';
+
+          (function() {
+            function getCookie(t){var i=("; "+document.cookie).split("; "+t+"=");if(2==i.length)return i.pop().split(";").shift()}
+            var consentValue = getCookie(fbq.consentCookieName);
+            fbq('consent', consentValue === 'dismiss' ? 'grant' : 'revoke');
+          })();
+        </script>
+        <script type="text/javascript" src = "catalog/view/javascript/facebook/facebook_pixel.js"></script>
+                  <script type="text/javascript">
+            (function() {
+              var params = {
+    "agent": "exopencart-2.3.0.2-1.0.14"
+};
+              _facebookAdsExtension.facebookPixel.init(
+                '241851326879443',
+                {},
+                params);
+                          })();
+          </script>
+        
+</head>
+<body class="account-login">
+
+<!-- Google Tag Manager (noscript) -->
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M73FCP"
+
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- End Google Tag Manager (noscript) -->
+
+<header>
+    <section class="header-top-body">
+        <div class="container header-top-container">
+            <div class="header-top-left">
+                <span class="ico1 open-modal-map">Магазин в центре Киева</span>
+                <span class="ico2">
+                    <a href="tel:80673141611">+38 067 314 16 11</a>
+                </span>
+                <span class="ico3">понедельник - суббота с 11:00 до 19:00;    воскресенье с 11:00 до 18:00</span>
+            </div>
+            <div class="header-top-right">
+                <div class="header-btn-login">
+                                        <a href="https://kapkanshop.com/login" class="open-modal-login">Вход</a>
+                                    </div>
+                <form class="searchbox " id="search">
+    <input type="search" placeholder="Поиск" name="search" class="searchbox-input" onkeyup="buttonUp();" required="" value="">
+    <input type="submit" class="searchbox-submit">
+    <span class="searchbox-icon"></span>
+</form>            </div>
+        </div>
+    </section>
+    <section class="bg-white ">
+        <div class="container header-box clr">
+            <a class="logo-site" href="/"></a>
+            <div class="header-menu-btn-mobile">
+                <div class="header-menu-open"><span></span></div>
+            </div>
+            <div class="header-cart-block">
+                <div class="header-cart-favorites">
+                    <a href="https://kapkanshop.com/index.php?route=account/favourite">ИЗБРАННОЕ</a>
+                </div>
+                <div class="header-btn-cart">
+                    <a href="https://kapkanshop.com/cart">
+    КОРЗИНА <span class="cart-count">0</span>
+</a>
+<div class="header-cart-body" id="header-cart" style="display:none">
+    <div class="header-cart-box">
+        <div class="header-cart-product-container">
+                    </div>
+        <div class="header-cart-box-total-summ">
+            <div class="header-cart-box-total-summ-txt clr">
+                <div>Итого</div>
+                <div>Всего  <span class="cart-total-sum">0</span>&nbsp;UAH</div>
+            </div>
+            <div class="header-cart-box-go-cart">
+                <a href="https://kapkanshop.com/checkout">Оформить заказ</a>
+                <a class="quick-order-btn" href="">Быстрый Заказ</a>
+            </div>
+            <div class="header-cart-box-info-delivery">Бесплатная доставка по Украине и Киеву при заказе от 2500 грн</div>
+        </div>
+    </div>
+</div>
+<div class="quick-order-popup">
+    <div class="quick-order-modal">
+        <div class="quick-order-modal__body">
+            <div class="box-modal-close"></div>
+            <div class="popup-wrappper">
+                <div class="form-block">
+                    <h2>Быстрый Заказ</h2>
+                    <p>Оставьте номер вашего телефона и наш оператор перезвонит вам в течение часа.</p>
+                    <form method="POST" id="form-quickorder" class="form-quickorder">
+                        <label for="quickordername">Ваше имя</label>
+                        <input name="qname" type="text" placeholder="Ваше имя" title="Ваше имя" id="quickordername" class="required-entry input-text">
+                        <label for="quickorder-phone">Ваш номер телефона</label>
+                        <input name="qphone" type="text" placeholder="+38 (XXX) XXX-XX-XX" phonemask="+38 (999) 999-99-99" title="Ваш номер телефона" id="quickorder-phone" class="required-entry input-text">
+                        <input type="submit" id="quickorder-btn" data-sending="false" value="ЗАКАЗАТЬ" title="ЗАКАЗАТЬ" class="quickorder-button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).on('click', '#quickorder-btn', function(e){
+        var name = $('#form-quickorder input[name="qname"]').val();
+        var phone = $('#form-quickorder input[name="qphone"]').val();
+        var self = this;
+        
+        $('#form-quickorder input[name="qname"]').removeClass('_error');
+        $('#form-quickorder input[name="qphone"]').removeClass('_error');
+                    
+        if (name.length && phone.length && mask_qphone.unmaskedValue.length == 12){
+            if ($(self).data().sending) {return;}
+            else {$(self).data('sending', true)}
+            $.ajax({
+                url: 'index.php?route=checkout/cart/quick_order',
+                type: 'post',
+                data: $('#form-quickorder input[name="qname"], #form-quickorder input[name="qphone"]'),
+                dataType: 'json',
+                beforeSend: function(){
+                    $('#quickorder-btn').val('ОФОРМЛЕНИЕ...');
+                },
+                success: function(json) {
+                    $('#quickorder-btn').val('ЗАКАЗАТЬ');
+                    if (json['order_id'] !== undefined){
+                        location = json['redirect'];
+                    }
+                }
+            })
+        } else {
+            if (!name.length){$('#form-quickorder input[name="qname"]').addClass('_error')}
+            if (!phone.length || mask_qphone.unmaskedValue.length != 12){$('#form-quickorder input[name="qphone"]').addClass('_error')}
+        }
+
+        e.preventDefault();
+        // e.stopPropagation();
+        return false;
+    })
+    
+        
+    if (window.update_qorder_masks){
+        window.update_qorder_masks();
+    }
+
+    
+</script>
+
+<style>
+    ._error{
+        border: 1px solid red;
+    }
+</style>
+
+                </div>
+            </div>
+            <div class="header-menu-body">
+                <nav class="header-menu-block">
+                    <ul class="main-menu">
+                                                                                    <li class="sub-menu-btn">
+                                    <a href="https://kapkanshop.com/brands">
+                                        Бренды                                    </a>
+                                                                            <div class="container-sub-menu">
+                                            <div class="container-sub-menu-block">
+                                                <div class="sub-menu--back"></div>
+                                                <div class="container">
+                                                    <ul class="link-sub-menu-brand">
+                                                                                                                    <li><a href="https://kapkanshop.com/adidas">Adidas Originals</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/alpha-industries">Alpha Industries</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/asics">ASICS</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/brixton">BRIXTON</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/carhartt-wip">Carhartt WIP</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/champion">Champion</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/chinatown-market">Chinatown Market</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/civilist">Civilist</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/colorful-standard">Colorful Standard </a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/converse">Converse</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/dickies">Dickies</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/dime">DIME</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/dux">DUX</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/eastpak">Eastpak</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/fila">FILA</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/fjallraven">Fjallraven</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/happy-hour">HAPPY HOUR</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/hockey">Hockey</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/juice">Juice</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/kapkan-clth">Kapkan Clth</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/kolii">Kolii</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/la-boussole">La boussole</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/la-petite-porcherie">La Petite Porcherie</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/marvis">Marvis</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/native-shoes">Native Shoes</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/nike">NIKE</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/novesta">Novesta</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/nudie-jeans">Nudie Jeans</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/papa-power">Papa Power</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/peace-date">Peace Date</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/penfield">Penfield</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/polar-skate-co">Polar Skate Co.</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/pop-trading-company">Pop Trading Company</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/reebok">Reebok</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/ripndip">RIPNDIP</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/ruh-institute">Ruh.institute</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/samopal-int">Samopal Int.</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/saucony">Saucony </a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/sneakybrand">Sneaky Brand</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/stance">Stance</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/stussy">Stüssy</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/surf-is-dead">Surf Is Dead</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/syndicate">Syndicate</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/teva">Teva </a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/the-north-face">The North Face</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/thrasher">Thrasher</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/ubernormal">Ubernormal</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/uglycool">UglyCool</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/uyua">UЮА</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/vans">Vans</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/vintage-industries">Vintage Industries</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/modernistskaya-uniforma">Модернистская униформа</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/rassvet">РАССВЕТ</a></li>
+                                                                                                            </ul>
+                                                    <div class="sub-menu-all-brand">
+                                                        <a href="https://kapkanshop.com/brands">Показать все бренды</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                                            </li>
+                                                            <li class="">
+                                    <a href="https://kapkanshop.com/new">
+                                        Новинки                                    </a>
+                                                                                                                                            </li>
+                                                            <li class="sub-menu-btn">
+                                    <a href="https://kapkanshop.com/shoes">
+                                        Обувь                                     </a>
+                                                                                                                                                    <div class="container-sub-menu">
+                                            <div class="container-sub-menu-block">
+                                                <div class="sub-menu--back"></div>
+                                                <div class="container">
+                                                    <div class="grid-submenu">
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/shoes/obuv/boots">Ботинки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/shoes/obuv/gumshoes">Кеды</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/shoes/obuv/sneakers">Кроссовки </a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/shoes/obuv/otkrytaya-obuv">Открытая обувь</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/shoes/obuv/shoe-care">Уход за обувью</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/shoes/obuv/chistka-obuvi">Чистка обуви</a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                    </li>
+                                                            <li class="sub-menu-btn">
+                                    <a href="https://kapkanshop.com/clothing">
+                                        Одежда                                    </a>
+                                                                                                                                                    <div class="container-sub-menu">
+                                            <div class="container-sub-menu-block">
+                                                <div class="sub-menu--back"></div>
+                                                <div class="container">
+                                                    <div class="grid-submenu">
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/clothing/verhnyaya-odezhda/jackets">Куртки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/verhnyaya-odezhda/anoraki">Анораки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/verhnyaya-odezhda/parki">Парки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/verhnyaya-odezhda/bombery">Бомберы</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/verhnyaya-odezhda/zhiletki">Жилетки</a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/clothing/odezhda/t-shirts">Футболки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/odezhda/longslivy">Лонгсливы</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/odezhda/hoodies-and-sweatshirts">Толстовки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/odezhda/shirts">Рубашки</a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/clothing/s/pants">Брюки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/s/jeans">Джинсы</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/clothing/s/shorts">Шорты</a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                    </li>
+                                                            <li class="sub-menu-btn">
+                                    <a href="https://kapkanshop.com/skejtbording">
+                                        Скейтбординг                                    </a>
+                                                                                                                <div class="container-sub-menu">
+                                            <div class="container-sub-menu-block">
+                                                <div class="sub-menu--back"></div>
+                                                <div class="container">
+                                                    <ul class="link-sub-menu-brand">
+                                                                                                                    <li><a href="https://kapkanshop.com/skejtbording/akssesuary">Аксессуары к доскам</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/skejtbording/doski">Доски</a></li>
+                                                                                                                    <li><a href="https://kapkanshop.com/skejtbording/nazhdak">Наждак</a></li>
+                                                                                                            </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                        </li>
+                                                            <li class="sub-menu-btn">
+                                    <a href="https://kapkanshop.com/accessories">
+                                        Аксессуары                                    </a>
+                                                                                                                                                    <div class="container-sub-menu">
+                                            <div class="container-sub-menu-block">
+                                                <div class="sub-menu--back"></div>
+                                                <div class="container">
+                                                    <div class="grid-submenu">
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/accessories/gifts/other">Другое</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/gifts/watch">Наручные часы</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/gifts/glasses">Очки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/gifts/gift-card">Подарочные сертификаты</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/gifts/sketchbooks">Скетчбуки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/gifts/wallets">Кошельки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/gifts/knigi">Журналы и книги</a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/accessories/bags/travelbags">Дорожные сумки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/bags/backpacks">Рюкзаки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/bags/sumki">Сумки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/bags/sumki-na-poyas">Сумки на пояс </a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/accessories/grooming/shaving">Для бритья</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/grooming/hairstyle">Для волос</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/grooming/face-care">Для лица</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/grooming/body-wash">Для тела</a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                                    <div class="grid-submenu-item">
+                                                                <ul class="link-sub-menu">
+<!--                                                                    <li><b><a href="--><!--">--><!--</a></b></li>-->
+                                                                                                                                                                                                                        <li><a href="https://kapkanshop.com/accessories/aksessuary/caps">Кепки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/aksessuary/noski">Носки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/aksessuary/perchatki">Перчатки</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/aksessuary/belts">Ремни</a></li>
+                                                                                                                                                    <li><a href="https://kapkanshop.com/accessories/aksessuary/shapki">Шапки</a></li>
+                                                                                                                                                                                                            </ul>
+                                                            </div>
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                    </li>
+                                                            <li class="sale">
+                                    <a href="https://kapkanshop.com/sale">
+                                        Скидки                                    </a>
+                                                                                                                                            </li>
+                                                            <li class="sub-menu-btn">
+                                    <a href="https://kapkanshop.com/blog">
+                                        Журнал                                    </a>
+                                                                                                                                            </li>
+                                                                        </ul>
+                </nav>
+            </div>
+        </div>
+<!--        <div class="winter-is-coming">-->
+<!---->
+<!--            <div class="snow snow--near"></div>-->
+<!--            <div class="snow snow--near snow--alt"></div>-->
+<!---->
+<!--            <div class="snow snow--mid"></div>-->
+<!--            <div class="snow snow--mid snow--alt"></div>-->
+<!---->
+<!--            <div class="snow snow--far"></div>-->
+<!--            <div class="snow snow--far snow--alt"></div>-->
+<!--        </div>-->
+    </section>
+</header>
+<section class="container login-page">
+  <div class="login-form-body">
+    <div class="lf-item1">
+        <div class="title">
+            <span>Логин</span>
+            <p>Войдите, используя свой логин и пароль</p>
+        </div>
+        <form class="lf-data" action="https://kapkanshop.com/login" method="post" enctype="multipart/form-data">
+            <input type="text" name="email" value="" placeholder="Логин/E-Mail" id="login-email">
+            <input type="password" name="password" value="" placeholder="Пароль" id="login-password">
+            <button type="submit"><span>Войти</span></button>
+                        <input type="hidden" name="redirect" value="https://kapkanshop.com/login" />
+                        <input type="hidden" name="is_auth" value="1">
+        </form>
+        <div class="lf-link clr">
+            <a href="https://kapkanshop.com/forgot-password">Забыли пароль?</a>
+            <a href="https://kapkanshop.com/create-account">Регистрация</a>
+        </div>
+                    </div>
+    <div class="lf-item2">
+        <div class="title"><p>Или войдите, используя свой аккаунт в соцсетях:</p></div><div id="oneall_social_login_9791009"></div>
+	<script type='text/javascript'>
+	 /* OneAll Social Login - http://www.oneall.com/ */
+	 var _oneall = _oneall || [];
+	 _oneall.push(['social_login', 'set_providers', ['facebook','google','twitter','vkontakte']]);
+	 _oneall.push(['social_login', 'set_callback_uri', 'https://kapkanshop.com/index.php?route=extension/module/oneall/callback']);
+	 _oneall.push(['social_login', 'set_grid_size', 'x', 99]);
+	 _oneall.push(['social_login', 'set_grid_size', 'y', 99]);
+	 _oneall.push(['social_login', 'set_custom_css_uri', 'https://kapkanshop.com/catalog/view/theme/kapkan/stylesheet/social.css']);
+	 _oneall.push(['social_login', 'do_render_ui', 'oneall_social_login_9791009']);
+	 var have_oa_lib = (have_oa_lib || false);
+	 (function(){if (!have_oa_lib){
+	  var lib = document.createElement('script');
+	  lib.type = 'text/javascript'; lib.async = true;
+	  lib.src = '//kapkanshop.api.oneall.com/socialize/library.js';
+	  var node = document.getElementsByTagName('script')[0];
+	  node.parentNode.insertBefore(lib, node); have_oa_lib = true;
+	 }})();
+	</script>
+    </div>
+</div></section>
+<footer class="footer-body">
+    <div class="container">
+        <div class="footer-grid-body">
+            <div class="footer-grid-item">
+                <aside id="column-left" class="col-sm-3 hidden-xs">
+    <div>
+    <div class="footer-contact-info"><a href="tel:+380673141611">+38 (067) 314 16 11</a>
+<p>г. Киев, ул. Рейтарская 9</p>
+</div>
+
+<div class="footer-work-time">
+<p><strong><span>Режим работы:</span></strong></p>
+
+<p>понедельник – суббота:</p>
+
+<p>с 11:00 до 19:00</p>
+
+<p>воскресенье:</p>
+
+<p>с 11:00 до 18:00</p>
+
+<p> </p>
+
+<p> </p>
+</div>
+</div>
+  </aside>
+            </div>
+            <div class="footer-grid-item">
+                <div>
+    <ul class="footer-nav">
+	<li><a href="/index.php?route=information/faq">Помощь покупателю</a></li>
+	<li><a href="/faq?faq_id=39">Доставка и оплата</a></li>
+	<li><a href="/faq?faq_id=53">Возврат товара</a></li>
+	<li><a href="https://kapkanshop.com/faq?faq_id=56">Программа лояльности</a></li>
+	<li><a href="/index.php?route=information/information&information_id=4">О магазине</a></li>
+	<li><a href="/index.php?route=information/sitemap">Карта сайта</a></li>
+	<li><a href="https://kapkanshop.com/privacy">Политика конфиденциальности</a></li>
+</ul>
+</div>
+            </div>
+            <div class="footer-grid-item">
+                <aside id="column-right" class="col-sm-3 hidden-xs">
+    <div>
+    <div class="footer-grid-item">
+  <div class="footer-container-form">
+    <span>Рассылка</span>
+    
+      <div action="https://kapkanshop.us10.list-manage.com/subscribe/post-json?u=05192d28ee50d789e7d0dbfcc&id=46362d7ab8" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+      <div class="footer-form-data">
+
+        <div><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="E-mail" required=""></div>
+<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_05192d28ee50d789e7d0dbfcc_46362d7ab8" tabindex="-1" value=""></div>
+        <div><button type="submit" name="subscribe"><span>Подписаться</span></button></div>
+
+      </div>
+    </div>
+    
+  </div>
+  <div class="footer-container-social">
+    <span>Социальные сети</span>
+    <a class="ico1" href="https://www.facebook.com/kapkanshopkiev" target="_blank"></a>
+    <a class="ico2" href="https://www.instagram.com/kapkanshop/" target="_blank"></a>
+    <a class="ico3" href="https://vk.com/kapkanshop" target="_blank"></a>
+    <a class="ico4" href="https://twitter.com/kapkanshop" target="_blank"></a>
+</div></div>
+<script>
+    $(document).ready(function() {
+        $(document).on('submit', '#mc-embedded-subscribe-form', function(e) {
+            e.preventDefault();
+            var form = $(this);
+            $.ajax({
+                type: 'GET',
+                url: form.attr('action'),
+                data: form.serialize(),
+                cache: false,
+                dataType: 'jsonp',
+                jsonp: "c",
+                contentType: "application/json; charset=utf-8",
+                success: function(json) {
+                    var $div = $('<div></div>').css({
+                        'position': 'absolute',
+                        'top': '16px',
+                        'width': '100%',
+                        'background': '#04b46a',
+                        'text-align': 'center',
+                        'line-height': '2.5em',
+                        'font-size': '1em',
+                        'color': '#fff',
+                        'cursor': 'default'
+                    }).text('Спасибо за подписку');
+                    form.css({'position':'relative'});
+                    if(json.result === 'success') {
+                        form.prepend($div);
+                    } else {
+                        if(json.msg.indexOf('подписан')) {
+                            $div.css('background', '#e4163f');
+                            $div.text('E-mail уже в списке рассылки');
+                            form.prepend($div);
+                            setTimeout(function() {
+                                $div.remove();
+                            }, 3000);
+                        } else {
+                            alert(json.msg);
+                        }
+                    }
+                },
+                error: function(xhr, ajaxOptions, thrownError) {
+                    alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+                }
+            });
+        });
+    });
+</script></div>
+  </aside>
+                <div id="google_translate_element"></div><script type="text/javascript">
+                    function googleTranslateElementInit() {
+                      new google.translate.TranslateElement({pageLanguage: 'ru', includedLanguages: 'en,uk', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+                    }
+                    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+            </div>
+        </div>
+        <div>
+    <div class="footer-copy">info@kapkanshop.com           ФОП Друзенко Катерина Сергеевна                                                                                                                                                                                                  © KAPKAN - Kiev Underground Shop </div>
+</div>
+    </div>
+</footer>
+
+<!--Modal-->
+<div class="modal-hide">
+    <div class="box-modal-google-map">
+        <div class="box-modal-close"></div>
+        <div class="title-googlemap">Как нас найти</div>
+        <div id="map_contact"></div>
+    </div>
+        <div class="box-modal-login">
+        <div class="login-form-body">
+    <div class="lf-item1">
+        <div class="title">
+            <span>Логин</span>
+            <p>Войдите, используя свой логин и пароль</p>
+        </div>
+        <form class="lf-data" action="https://kapkanshop.com/login" method="post" enctype="multipart/form-data">
+            <input type="text" name="email" value="" placeholder="Логин/E-Mail" id="login-email">
+            <input type="password" name="password" value="" placeholder="Пароль" id="login-password">
+            <button type="submit"><span>Войти</span></button>
+                        <input type="hidden" name="redirect" value="https://kapkanshop.com/login" />
+                        <input type="hidden" name="is_auth" value="1">
+        </form>
+        <div class="lf-link clr">
+            <a href="https://kapkanshop.com/forgot-password">Забыли пароль?</a>
+            <a href="https://kapkanshop.com/create-account">Регистрация</a>
+        </div>
+                    </div>
+    <div class="lf-item2">
+        <div class="title"><p>Или войдите, используя свой аккаунт в соцсетях:</p></div><div id="oneall_social_login_3758244"></div>
+	<script type='text/javascript'>
+	 /* OneAll Social Login - http://www.oneall.com/ */
+	 var _oneall = _oneall || [];
+	 _oneall.push(['social_login', 'set_providers', ['facebook','google','twitter','vkontakte']]);
+	 _oneall.push(['social_login', 'set_callback_uri', 'https://kapkanshop.com/index.php?route=extension/module/oneall/callback']);
+	 _oneall.push(['social_login', 'set_grid_size', 'x', 99]);
+	 _oneall.push(['social_login', 'set_grid_size', 'y', 99]);
+	 _oneall.push(['social_login', 'set_custom_css_uri', 'https://kapkanshop.com/catalog/view/theme/kapkan/stylesheet/social.css']);
+	 _oneall.push(['social_login', 'do_render_ui', 'oneall_social_login_3758244']);
+	 var have_oa_lib = (have_oa_lib || false);
+	 (function(){if (!have_oa_lib){
+	  var lib = document.createElement('script');
+	  lib.type = 'text/javascript'; lib.async = true;
+	  lib.src = '//kapkanshop.api.oneall.com/socialize/library.js';
+	  var node = document.getElementsByTagName('script')[0];
+	  node.parentNode.insertBefore(lib, node); have_oa_lib = true;
+	 }})();
+	</script>
+    </div>
+</div>    </div>
+    </div>
+
+<script src="/catalog/view/theme/kapkan/js/jquery-ui.min.js"></script>
+<script src="/catalog/view/theme/kapkan/js/imask.js"></script>
+<script src="/catalog/view/theme/kapkan/js/slick.min.js"></script>
+<script src="/catalog/view/theme/kapkan/js/arcticmodal.min.js"></script>
+<script src="/catalog/view/theme/kapkan/js/icheck.min.js"></script>
+<script src="/catalog/view/theme/kapkan/js/jquery.nice-select.min.js"></script>
+<script src="/catalog/view/theme/kapkan/js/common.js"></script>
+</body>
+</html>

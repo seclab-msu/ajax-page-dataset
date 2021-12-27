@@ -1,0 +1,221 @@
+{
+  "resource_id": 13249814,
+  "url": "https://kapkanshop.com/login",
+  "deps": [{
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/cart/quick_order",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/quick_order"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "qname=&qphone=",
+      "params": [{
+        "name": "qname",
+        "value": ""
+      }, {
+        "name": "qphone",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://kapkanshop.us10.list-manage.com/subscribe/post-json?u=05192d28ee50d789e7d0dbfcc&id=46362d7ab8&EMAIL=&b_05192d28ee50d789e7d0dbfcc_46362d7ab8=",
+    "queryString": [{
+      "name": "u",
+      "value": "05192d28ee50d789e7d0dbfcc"
+    }, {
+      "name": "id",
+      "value": "46362d7ab8"
+    }, {
+      "name": "EMAIL",
+      "value": ""
+    }, {
+      "name": "b_05192d28ee50d789e7d0dbfcc_46362d7ab8",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=common/header/getGeo",
+    "queryString": [{
+      "name": "route",
+      "value": "common/header/getGeo"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://kapkanshop.com/index.php?route=product/product/photos&product_id=",
+    "queryString": [{
+      "name": "route",
+      "value": "product/product/photos"
+    }, {
+      "name": "product_id",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/cart/add",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/add"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://kapkanshop.com/index.php?route=google/product/getProductInfo&event_name=addToCart&product_id=&quantity=1",
+    "queryString": [{
+      "name": "route",
+      "value": "google/product/getProductInfo"
+    }, {
+      "name": "event_name",
+      "value": "addToCart"
+    }, {
+      "name": "product_id",
+      "value": ""
+    }, {
+      "name": "quantity",
+      "value": "1"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/cart/remove",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/remove"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "key=",
+      "params": [{
+        "name": "key",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/cart/edit",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/edit"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "key=&quantity=1",
+      "params": [{
+        "name": "key",
+        "value": ""
+      }, {
+        "name": "quantity",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/checkout/setCoupon",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/checkout/setCoupon"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "code=",
+      "params": [{
+        "name": "code",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/shipping_method/save",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/shipping_method/save"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "shipping_method=&comment=",
+      "params": [{
+        "name": "shipping_method",
+        "value": ""
+      }, {
+        "name": "comment",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/checkout/setShipping",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/checkout/setShipping"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "shipping=",
+      "params": [{
+        "name": "shipping",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/payment_method/save",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/payment_method/save"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "payment_method=&comment=&agree=true",
+      "params": [{
+        "name": "payment_method",
+        "value": ""
+      }, {
+        "name": "comment",
+        "value": ""
+      }, {
+        "name": "agree",
+        "value": "true"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://kapkanshop.com/index.php?route=checkout/confirm",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/confirm"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=checkout/checkout/setNoCall",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/checkout/setNoCall"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "no_call=",
+      "params": [{
+        "name": "no_call",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kapkanshop.com/index.php?route=account/order",
+    "queryString": [{
+      "name": "route",
+      "value": "account/order"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "sort=&search=",
+      "params": [{
+        "name": "sort",
+        "value": ""
+      }, {
+        "name": "search",
+        "value": ""
+      }]
+    }
+  }]
+}
