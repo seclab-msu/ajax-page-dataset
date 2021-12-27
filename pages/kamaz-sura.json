@@ -1,0 +1,76 @@
+{
+  "resource_id": 15028247,
+  "url": "https://kamaz-sura-motors.ru/auto/samosvaly/",
+  "deps": [{
+    "method": "GET",
+    "url": "https://kamaz-sura-motors.ru/include/forms/call_back.php",
+    "httpVersion": "http/2.0",
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://kamaz-sura-motors.ru/include/forms/service_entry.php",
+    "httpVersion": "http/2.0",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "service=",
+      "params": [{
+        "name": "service",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kamaz-sura-motors.ru/include/forms/lising.php",
+    "httpVersion": "http/2.0",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "model=",
+      "params": [{
+        "name": "model",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://kamaz-sura-motors.ru/auto/samosvaly/",
+    "httpVersion": "http/2.0",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "PROPERTY_TYPE=&PROPERTY_PROP_A=all&PROPERTY_PROP_B=all&PROPERTY_PROP_C=all&PROPERTY_PROP_D=all&PROPERTY_PROP_E=all&PROPERTY_PROP_F=all&PROPERTY_AVAILABILITY=all&PROPERTY_PRICE_MIN=&PROPERTY_PRICE_MAX=",
+      "params": [{
+        "name": "PROPERTY_TYPE",
+        "value": ""
+      }, {
+        "name": "PROPERTY_PROP_A",
+        "value": "all"
+      }, {
+        "name": "PROPERTY_PROP_B",
+        "value": "all"
+      }, {
+        "name": "PROPERTY_PROP_C",
+        "value": "all"
+      }, {
+        "name": "PROPERTY_PROP_D",
+        "value": "all"
+      }, {
+        "name": "PROPERTY_PROP_E",
+        "value": "all"
+      }, {
+        "name": "PROPERTY_PROP_F",
+        "value": "all"
+      }, {
+        "name": "PROPERTY_AVAILABILITY",
+        "value": "all"
+      }, {
+        "name": "PROPERTY_PRICE_MIN",
+        "value": ""
+      }, {
+        "name": "PROPERTY_PRICE_MAX",
+        "value": ""
+      }]
+    }
+  }]
+}
