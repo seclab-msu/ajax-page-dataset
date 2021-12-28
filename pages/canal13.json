@@ -1,0 +1,96 @@
+{
+  "resource_id": 18390172,
+  "url": "https://www.canal13.ma/14901/",
+  "deps": [{
+    "method": "GET",
+    "url": "https://www.canal13.ma/ajax-calls.php?action=clear_better_facebook_comments&post_id=14901",
+    "queryString": [{
+        "name": "action",
+        "value": "clear_better_facebook_comments"
+      }, {
+        "name": "post_id",
+        "value": "14901"
+      }]
+  }, {
+    "method": "POST",
+    "url": "https://www.canal13.ma/ajax-calls.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=better_ads_manager_blocked_fallback&ads=",
+      "params": [{
+        "name": "action",
+        "value": "better_ads_manager_blocked_fallback"
+      }, {
+        "name": "ads",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://www.canal13.ma/ajax-calls.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=ajaxified-comments",
+      "params": [{
+        "name": "action",
+        "value": "ajaxified-comments"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://www.canal13.ma/ajax-calls.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=ajaxified-comments&post_ID=&loaded_posts=",
+      "params": [{
+        "name": "action",
+        "value": "ajax-get-post"
+      }, {
+        "name": "post_ID",
+        "value": ""
+      }, {
+        "name": "loaded_posts",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://www.canal13.ma/ajax-calls.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=bs_gdpr&data=",
+      "params": [{
+        "name": "action",
+        "value": "bs_gdpr"
+      }, {
+        "name": "data",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://www.canal13.ma/ajax-calls.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=ajaxified-search&s=&sections=&full_width=1",
+      "params": [{
+        "name": "action",
+        "value": "ajaxified-search"
+      }, {
+        "name": "s",
+        "value": ""
+      }, {
+        "name": "sections",
+        "value": ""
+      }, {
+        "name": "full_width",
+        "value": "1"
+      }]
+    }
+  }]
+}
