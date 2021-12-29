@@ -1,0 +1,71 @@
+.agency_ct .agency_dl{
+    height:180px;
+}
+.agency_ct .font_note{
+    font-size: 13px;
+    color: #4A4A4A;
+    margin: 0 0 15px 24px;
+}
+.comment_card{
+    border-bottom: 1px solid #EBEBEB;
+    padding-bottom: 10px;
+}
+.comment_card i{
+    background:url('../images/xcarfriendping.png') no-repeat 0 0 !important;
+}
+.comment_card .xing,
+.comment_card_kong .xing{
+    background: url('../images/xcarfriendxingg.png') no-repeat 0 0;
+    width: 125px;
+    height: 15px;
+    display: inline-block;
+    margin-top: 4px;
+    position: relative;
+}
+.comment_card .xinged,
+.comment_card_kong .xinged{
+    background: url('../images/xcarfriendxingy.png') no-repeat 0 0;
+    width: 100%;
+    height: 15px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.comment_card .xingwidth100,
+.comment_card_kong .xingwidth100{
+    width: 100%;
+}
+.comment_card .xingwidth80,
+.comment_card_kong .xingwidth80{
+    width: 80%;
+}
+.xcarfriendicon {
+    width: 54px;
+    height: 18px;
+    display: inline;
+    float: left;
+    margin: 0 0 0 5px;
+    background: url('../images/xcarfriendicon.png') no-repeat 0 0;
+}
+.comment_card_kong{
+    font: 14px/24px 'Simsun';
+}
+.comment_card_kong i{
+    background:url('../images/comment_card_kong.png') no-repeat 0 0 !important;
+}
+.sell_dl .dealer_site .sell .xcarfriendicon{
+    margin-top: 4px;
+}
+.bottom_font_note{
+    font-size: 13px;
+    color: #4A4A4A;
+    margin: 15px 0;
+}
+.demio_main .add_line .agency_dl .comment_card_kong{
+    width: 378px;
+    margin-right: 10px;
+    border-bottom: 1px solid #f4f4f4;
+    padding: 0 0 5px 0;
+    margin-bottom: 5px;
+}

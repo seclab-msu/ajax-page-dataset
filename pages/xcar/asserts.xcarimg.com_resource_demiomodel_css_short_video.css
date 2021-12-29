@@ -1,0 +1,86 @@
+/* 20190910 add by ll short_video */
+/* 车系--首页--短视频 */
+.short_video .video_item_box {
+  height: 420px;
+}
+.short_video .video_item_box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.video_item {
+  float: left;
+  margin-left: 26px;
+  width: 204px;
+  max-width: 204px;
+  /* max-height: 416px; */
+}
+.short_video .video_item dt {
+  height: 363px;
+  line-height: 363px;
+  background: #000;
+  border-radius: 2px 2px 0 0;
+  overflow: hidden;
+}
+.short_video .video_item dt img{
+  width: 100%;
+  height: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+}
+.short_video .video_item .desc {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  z-index: 1;
+  letter-spacing: 0;
+}
+.short_video .video_item .user_box .user_name{
+  max-width: 45%;
+}
+/* 车型--首页--短视频 */
+.short_video_1000 .video_item_box {
+  height: 375px;
+}
+.short_video_1000 .video_item {
+  width: 181px;
+  max-width: 181px;
+  margin-left: 17px;
+  max-height: 373px;
+}
+.short_video_1000 .video_item:first-child {
+  margin-left: 0;
+}
+.short_video_1000 .video_item dt {
+  height: 323px;
+  line-height: 323px;
+  background-color: #000;
+  border-radius: 2px 2px 0 0;
+}
+.short_video_1000 .video_item .desc {
+  bottom: 8px;
+  letter-spacing: 0.5px;
+}
+.short_video_1000 .video_item .user_box {
+  padding: 8px 6px 12px;
+}
+.short_video_1000 .video_item .user_box .user_name{
+  max-width: 58%;
+}
+/* 车系/车型--视频--短视频样式 */
+.short_video_flow_box {
+  font-family: "Microsoft Yahei", "Arial", "SimSun";
+}
+.short_video_flow_box:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.flow_box {
+  margin-left: 13px;
+}

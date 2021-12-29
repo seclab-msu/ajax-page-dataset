@@ -1,0 +1,88 @@
+@charset "gb2312";
+/* CSS Document */
+.g-links { width:1200px; margin:0px auto;}
+.g-links .g-content { padding:20px 0 0 0;}
+.g-links .g-content .g-link-group {
+    position: relative;
+    padding: 0 0 10px 100px;
+}
+.g-links .g-content .g-link-group .g-link-cls {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 90px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	line-height:22px;
+    color:#fff;
+    font-size: 14px;
+}
+.g-links .g-content .g-link-group .g-collp-link {
+	width: 19px;
+    height: 19px;
+	background:url(../images/g-links.png) no-repeat 1px -13px;
+	position: absolute;
+	display:block;
+    right: 0;
+    top: 2px;
+    border: 1px solid #d9d9d9;
+}
+.g-links .g-content .g-link-group .g-collp-link-cls {
+	background-position:1px 2px;
+}
+.g-links .g-content .g-link-group .g-link-items ul {
+	width:1100px;
+}
+.g-links .g-content .g-link-group .g-link-items li {
+    float: left;
+    padding: 0 0 6px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height:22px;
+    font-size: 14px;
+}
+.g-links .g-content .g-link-group .g-link-hide {
+    height: 26px;
+    overflow: hidden;
+}
+.g-links .g-content .g-link-group .g-link-items li a{
+    color: #858585;
+}
+.g-links .g-content .g-link-group .g-link-items li a:hover {
+	color: #34b2ff;
+}
+.g-links .g-content .sort-items a {
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    border: 1px solid #858585;
+    float: left;
+    display: inline;
+    font:14px/28px 'Arial';
+    margin: 0 0 6px 10px;
+    color: #fff;
+}
+.g-links .g-content .sort-items a:hover {
+	color: #34b2ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
