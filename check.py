@@ -74,7 +74,7 @@ def match_dep(found_dep, reference_dep):
         return False
     if reference_dep['url']:
         ref_parsed = urllib.parse.urlparse(reference_dep['url'])
-        found_parsed = urllib.parse.urlparse(reference_dep['url'])
+        found_parsed = urllib.parse.urlparse(found_dep['url'])
         ref_parsed = ref_parsed._replace(query='', scheme='')
         found_parsed = found_parsed._replace(query='', scheme='')
         if ref_parsed.geturl() != found_parsed.geturl():
