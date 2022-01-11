@@ -1,0 +1,291 @@
+{
+  "resource_id": 8793784,
+  "url": "https://mohandesfa.ir/product-category/computer-product/?per_row=4&shop_view=grid",
+  "deps": [{
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-json/contact-form-7/v1/contact-forms/UNKNOWN/feedback",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "",
+      "params": []
+    }
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-json/contact-form-7/v1/contact-forms/UNKNOWN/refill",
+    "queryString": [],
+    "headers": [{
+      "name": "X-WP-Nonce",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=woodmart_instagram_ajax_query&body=&atts=",
+      "params": [{
+        "name": "action",
+        "value": "woodmart_instagram_ajax_query"
+      }, {
+        "name": "body",
+        "value": ""
+      }, {
+        "name": "atts",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "paged=&atts=&action=woodmart_get_blog_UNKNOWN",
+      "params": [{
+        "name": "paged",
+        "value": ""
+      }, {
+        "name": "atts",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "woodmart_get_blog_UNKNOWN"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "paged=&atts=&action=woodmart_get_portfolio_UNKNOWN",
+      "params": [{
+        "name": "paged",
+        "value": ""
+      }, {
+        "name": "atts",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "woodmart_get_portfolio_UNKNOWN"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?action=woodmart_update_cart_item&item_id=&qty=",
+    "queryString": [{
+      "name": "action",
+      "value": "woodmart_update_cart_item"
+    }, {
+      "name": "item_id",
+      "value": ""
+    }, {
+      "name": "qty",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?action=woodmart_add_to_wishlist&product_id=2413&key=57510f4cfa",
+    "queryString": [{
+      "name": "action",
+      "value": "woodmart_add_to_wishlist"
+    }, {
+      "name": "product_id",
+      "value": "2413"
+    }, {
+      "name": "key",
+      "value": "57510f4cfa"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?action=woodmart_remove_from_wishlist&product_id=&key=",
+    "queryString": [{
+      "name": "action",
+      "value": "woodmart_remove_from_wishlist"
+    }, {
+      "name": "product_id",
+      "value": ""
+    }, {
+      "name": "key",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "UNKNOWN&action=woodmart_ajax_add_to_cart",
+      "params": [{
+        "name": "UNKNOWN",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "woodmart_ajax_add_to_cart"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "UNKNOWN&action=woodmart_ajax_add_to_cart&add-to-cart=",
+      "params": [{
+        "name": "UNKNOWN",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "woodmart_ajax_add_to_cart"
+      }, {
+        "name": "add-to-cart",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?action=woodmart_quick_shop&id=",
+    "queryString": [{
+      "name": "action",
+      "value": "woodmart_quick_shop"
+    }, {
+      "name": "id",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?id=&action=woodmart_quick_view",
+    "queryString": [{
+      "name": "id",
+      "value": ""
+    }, {
+      "name": "action",
+      "value": "woodmart_quick_view"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "atts=&action=woodmart_get_products_tab_shortcode",
+      "params": [{
+        "name": "atts",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "woodmart_get_products_tab_shortcode"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "atts=&paged=&action=woodmart_get_products_shortcode&woo_ajax=1",
+      "params": [{
+        "name": "atts",
+        "value": ""
+      }, {
+        "name": "paged",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "woodmart_get_products_shortcode"
+      }, {
+        "name": "woo_ajax",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "atts=&paged=&action=woodmart_get_products_UNKNOWN&woo_ajax=1",
+      "params": [{
+        "name": "atts",
+        "value": ""
+      }, {
+        "name": "paged",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "woodmart_get_products_UNKNOWN"
+      }, {
+        "name": "woo_ajax",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?loop=&woo_ajax=1",
+    "queryString": [{
+      "name": "loop",
+      "value": ""
+    }, {
+      "name": "woo_ajax",
+      "value": "1"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=woodmart_load_html_dropdowns&ids%5B%5D=",
+      "params": [{
+        "name": "action",
+        "value": "woodmart_load_html_dropdowns"
+      }, {
+        "name": "ids%5B%5D",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?action=woodmart_add_to_compare&id=",
+    "queryString": [{
+      "name": "action",
+      "value": "woodmart_add_to_compare"
+    }, {
+      "name": "id",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://mohandesfa.ir/wp-admin/admin-ajax.php?action=woodmart_remove_from_compare&id=",
+    "queryString": [{
+      "name": "action",
+      "value": "woodmart_remove_from_compare"
+    }, {
+      "name": "id",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/?wc-ajax=get_refreshed_fragments",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "time=",
+      "params": [{
+        "name": "time",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://mohandesfa.ir/?wc-ajax=get_variation",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "",
+      "params": []
+    }
+  }]
+}
