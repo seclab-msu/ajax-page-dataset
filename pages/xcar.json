@@ -248,7 +248,7 @@
     }
   }, {
     "method": "GET",
-    "url": "https://reg.xcar.com.cn/ajax/ajax_box_login_code.php?callback=&uid=&u=&mobile=&t=",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_bind_mo_send.php?callback=&uid=&u=&mobile=&t=",
     "queryString": [{
       "name": "callback",
       "value": ""
@@ -271,7 +271,7 @@
     }]
   }, {
     "method": "GET",
-    "url": "https://reg.xcar.com.cn/ajax/ajax_box_login_code.php?callback=&uid=&msgcode=&mobile=&t=",
+    "url": "https://reg.xcar.com.cn/ajax/ajax_boxlogin_dobind.php?callback=&uid=&msgcode=&mobile=&t=",
     "queryString": [{
       "name": "callback",
       "value": ""
