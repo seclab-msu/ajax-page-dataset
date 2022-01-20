@@ -1,0 +1,412 @@
+{
+  "resource_id": 10139377,
+  "url": "https://immunitet.org/tovary_zdorovia/apparaty_vitafon/vitafon-t",
+  "deps": [{
+    "method": "POST",
+    "url": "https://immunitet.org/index.php?route=checkout/cart/add",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/add"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "product_id=66",
+      "params": [{
+        "name": "product_id",
+        "value": "66"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://immunitet.org/index.php?route=module/cart",
+    "queryString": [{
+      "name": "route",
+      "value": "module/cart"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/index.php?route=product/product/upload",
+    "queryString": [{
+      "name": "route",
+      "value": "product/product/upload"
+    }],
+    "postData": {
+      "mimeType": "multipart/form-data",
+      "text": "",
+      "params": []
+    }
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/index.php?route=product/product/write&product_id=66",
+    "queryString": [{
+      "name": "route",
+      "value": "product/product/write"
+    }, {
+      "name": "product_id",
+      "value": "66"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "name=&text=&rating=&captcha=",
+      "params": [{
+        "name": "name",
+        "value": ""
+      }, {
+        "name": "text",
+        "value": ""
+      }, {
+        "name": "rating",
+        "value": ""
+      }, {
+        "name": "captcha",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/index.php?route=checkout/cart/add",
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/add"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "product_id=77&quantity=1",
+      "params": [{
+        "name": "product_id",
+        "value": "77"
+      }, {
+        "name": "quantity",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/index.php?route=account/wishlist/add",
+    "queryString": [{
+      "name": "route",
+      "value": "account/wishlist/add"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "product_id=",
+      "params": [{
+        "name": "product_id",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/index.php?route=product/compare/add",
+    "queryString": [{
+      "name": "route",
+      "value": "product/compare/add"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "product_id=",
+      "params": [{
+        "name": "product_id",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://immunitet.org/index.php?route=module/geoip/getList",
+    "queryString": [{
+      "name": "route",
+      "value": "module/geoip/getList"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://immunitet.org/index.php?route=module/geoip/getCity",
+    "queryString": [{
+      "name": "route",
+      "value": "module/geoip/getCity"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://immunitet.org/index.php?route=module/geoip/getRules",
+    "queryString": [{
+      "name": "route",
+      "value": "module/geoip/getRules"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://immunitet.org/index.php?route=module/geoip/save&fias_id=",
+    "queryString": [{
+      "name": "route",
+      "value": "module/geoip/save"
+    }, {
+      "name": "fias_id",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://immunitet.org/index.php?route=product/search/ajax&keyword=",
+    "queryString": [{
+      "name": "route",
+      "value": "product/search/ajax"
+    }, {
+      "name": "keyword",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/catalog/view/javascript/moneymaker_quickorder.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "product_title=&product_price=&product_code=&product_url=&mmr_quickorder_fields%5B%5D=&mmr_quickorder_fields%5B%5D=&mmr_quickorder_fields_label%5B%5D=%mmr_quickorder_fields_label%5B%5D=%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD&mmr_quickorder_fields_required%5B%5D=0&mmr_quickorder_fields_required%5B%5D=1&email=info%40immunitet.org&email_subject=%D0%9E%D0%9E%D0%9E%20%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3%20-%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%20(2021.03.02%2020%3A18)&email_order_received=%D0%92%D1%8B%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7&email_order_detail=%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0&email_url=%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B&country=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7&city=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7",
+      "params": [{
+        "name": "product_title",
+        "value": ""
+      }, {
+        "name": "product_price",
+        "value": ""
+      }, {
+        "name": "product_code",
+        "value": ""
+      }, {
+        "name": "product_url",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields_label%5B%5D",
+        "value": "%D0%98%D0%BC%D1%8F"
+      }, {
+        "name": "mmr_quickorder_fields_label%5B%5D",
+        "value": "%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD"
+      }, {
+        "name": "mmr_quickorder_fields_required%5B%5D",
+        "value": "0"
+      }, {
+        "name": "mmr_quickorder_fields_required%5B%5D",
+        "value": "1"
+      }, {
+        "name": "email",
+        "value": "info%40immunitet.org"
+      }, {
+        "name": "email_subject",
+        "value": "%D0%9E%D0%9E%D0%9E%20%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3%20-%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%BE%D0%B3%D0%BE%20%D0%97%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%20(2021.03.02%2020%3A18)"
+      }, {
+        "name": "email_order_received",
+        "value": "%D0%92%D1%8B%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7"
+      }, {
+        "name": "email_order_detail",
+        "value": "%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0"
+      }, {
+        "name": "email_url",
+        "value": "%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B"
+      }, {
+        "name": "country",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }, {
+        "name": "city",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/catalog/view/javascript/moneymaker_quickorder.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "product_title=&product_price=&product_code=&product_url=&mmr_quickorder_fields%5B%5D=&mmr_quickorder_fields%5B%5D=&mmr_quickorder_fields%5B%5D=&mmr_quickorder_fields%5B%5D=&mmr_quickorder_fields%5B%5D=&mmr_quickorder_fields_label%5B%5D=%D0%98%D0%BC%D1%8F&mmr_quickorder_fields_label%5B%5D=Email&mmr_quickorder_fields_label%5B%5D=%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD&mmr_quickorder_fields_label%5B%5D=%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0&mmr_quickorder_fields_label%5B%5D=%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9&mmr_quickorder_fields_required%5B%5D=0&mmr_quickorder_fields_required%5B%5D=1&mmr_quickorder_fields_required%5B%5D=0&mmr_quickorder_fields_required%5B%5D=0&mmr_quickorder_fields_required%5B%5D=0&email=info%40immunitet.org&email_subject=%D0%9E%D0%9E%D0%9E%20%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3%20-%20'%D0%97%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D1%81%D0%BD%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%86%D0%B5%D0%BD%D1%8B'%20(2021.03.02%2020%3A18)&email_order_received=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81&email_order_detail=%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8&email_url=%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B&country=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7&city=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7",
+      "params": [{
+        "name": "product_title",
+        "value": ""
+      }, {
+        "name": "product_price",
+        "value": ""
+      }, {
+        "name": "product_code",
+        "value": ""
+      }, {
+        "name": "product_url",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_quickorder_fields_label%5B%5D",
+        "value": "%D0%98%D0%BC%D1%8F"
+      }, {
+        "name": "mmr_quickorder_fields_label%5B%5D",
+        "value": "Email"
+      }, {
+        "name": "mmr_quickorder_fields_label%5B%5D",
+        "value": "%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD"
+      }, {
+        "name": "mmr_quickorder_fields_label%5B%5D",
+        "value": "%D0%A1%D1%81%D1%8B%D0%BB%D0%BA%D0%B0"
+      }, {
+        "name": "mmr_quickorder_fields_label%5B%5D",
+        "value": "%D0%9A%D0%BE%D0%BC%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%D1%80%D0%B8%D0%B9"
+      }, {
+        "name": "mmr_quickorder_fields_required%5B%5D",
+        "value": "0"
+      }, {
+        "name": "mmr_quickorder_fields_required%5B%5D",
+        "value": "1"
+      }, {
+        "name": "mmr_quickorder_fields_required%5B%5D",
+        "value": "0"
+      }, {
+        "name": "mmr_quickorder_fields_required%5B%5D",
+        "value": "0"
+      }, {
+        "name": "mmr_quickorder_fields_required%5B%5D",
+        "value": "0"
+      }, {
+        "name": "email",
+        "value": "info%40immunitet.org"
+      }, {
+        "name": "email_subject",
+        "value": "%D0%9E%D0%9E%D0%9E%20%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3%20-%20'%D0%97%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D1%81%D0%BD%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%86%D0%B5%D0%BD%D1%8B'%20(2021.03.02%2020%3A18)"
+      }, {
+        "name": "email_order_received",
+        "value": "%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81"
+      }, {
+        "name": "email_order_detail",
+        "value": "%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8"
+      }, {
+        "name": "email_url",
+        "value": "%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B"
+      }, {
+        "name": "country",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }, {
+        "name": "city",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/catalog/view/javascript/moneymaker_callback.php",
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "page_url=&mmr_callback_fields%5B%5D=&mmr_callback_fields%5B%5D=&mmr_callback_fields_label%5B%5D=%D0%98%D0%BC%D1%8F&mmr_callback_fields_label%5B%5D=%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD&mmr_callback_fields_required%5B%5D=0&mmr_callback_fields_required%5B%5D=1&email=info%40immunitet.org&email_subject=%D0%9E%D0%9E%D0%9E+%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3+-+%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81+%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0+(2021.03.02+20%3A18)&email_order_received=%D0%92%D1%8B+%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%B8+%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81+%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0&email_order_detail=%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8+%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B3%D0%BE+%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0%3A&email_url=%D0%90%D0%B4%D1%80%D0%B5%D1%81+%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B&country=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7&city=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7",
+      "params": [{
+        "name": "page_url",
+        "value": ""
+      }, {
+        "name": "mmr_callback_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_callback_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_callback_fields_label%5B%5D",
+        "value": "%D0%98%D0%BC%D1%8F"
+      }, {
+        "name": "mmr_callback_fields_label%5B%5D",
+        "value": "%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD"
+      }, {
+        "name": "mmr_callback_fields_required%5B%5D",
+        "value": "0"
+      }, {
+        "name": "mmr_callback_fields_required%5B%5D",
+        "value": "1"
+      }, {
+        "name": "email",
+        "value": "info%40immunitet.org"
+      }, {
+        "name": "email_subject",
+        "value": "%D0%9E%D0%9E%D0%9E%20%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3%20-%20%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0%20(2021.03.02%2020%3A18)"
+      }, {
+        "name": "email_order_received",
+        "value": "%D0%92%D1%8B%20%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%BB%D0%B8%20%D0%B7%D0%B0%D0%BF%D1%80%D0%BE%D1%81%20%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0"
+      }, {
+        "name": "email_order_detail",
+        "value": "%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8%20%D0%BE%D0%B1%D1%80%D0%B0%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%BA%D0%B0%3A"
+      }, {
+        "name": "email_url",
+        "value": "%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B"
+      }, {
+        "name": "country",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }, {
+        "name": "city",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://immunitet.org/catalog/view/javascript/moneymaker_callback.php",
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "page_url=&mmr_callback_fields%5B%5D=&mmr_callback_fields%5B%5D=&mmr_callback_fields%5B%5D=&mmr_callback_fields_label%5B%5D=%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD&mmr_callback_fields_label%5B%5D=Email&mmr_callback_fields_label%5B%5D=%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81&mmr_callback_fields_required%5B%5D=1&mmr_callback_fields_required%5B%5D=0&mmr_callback_fields_required%5B%5D=1&email=info%40immunitet.org&email_subject=%D0%9E%D0%9E%D0%9E%20%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3%20-%20'%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81'%20(2021.03.02%2020%3A18)&email_order_received=%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81&email_order_detail=%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8&email_url=%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B&country=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7&city=%D0%91%D0%B5%D0%BB%D0%B8%D0%B7",
+      "params": [{
+        "name": "page_url",
+        "value": ""
+      }, {
+        "name": "mmr_callback_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_callback_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_callback_fields%5B%5D",
+        "value": ""
+      }, {
+        "name": "mmr_callback_fields_label%5B%5D",
+        "value": "%D0%A2%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD"
+      }, {
+        "name": "mmr_callback_fields_label%5B%5D",
+        "value": "Email"
+      }, {
+        "name": "mmr_callback_fields_label%5B%5D",
+        "value": "%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81"
+      }, {
+        "name": "mmr_callback_fields_required%5B%5D",
+        "value": "1"
+      }, {
+        "name": "mmr_callback_fields_required%5B%5D",
+        "value": "0"
+      }, {
+        "name": "mmr_callback_fields_required%5B%5D",
+        "value": "1"
+      }, {
+        "name": "email",
+        "value": "info%40immunitet.org"
+      }, {
+        "name": "email_subject",
+        "value": "%D0%9E%D0%9E%D0%9E%20%D0%98%D0%BC%D0%BC%D1%83%D0%BD%D0%B8%D1%82%D0%B5%D1%82.%D0%BE%D1%80%D0%B3%20-%20'%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81'%20(2021.03.02%2020%3A18)"
+      }, {
+        "name": "email_order_received",
+        "value": "%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B2%D0%BE%D0%BF%D1%80%D0%BE%D1%81"
+      }, {
+        "name": "email_order_detail",
+        "value": "%D0%94%D0%B5%D1%82%D0%B0%D0%BB%D0%B8"
+      }, {
+        "name": "email_url",
+        "value": "%D0%90%D0%B4%D1%80%D0%B5%D1%81%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B"
+      }, {
+        "name": "country",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }, {
+        "name": "city",
+        "value": "%D0%91%D0%B5%D0%BB%D0%B8%D0%B7"
+      }]
+    }
+  }]
+}
