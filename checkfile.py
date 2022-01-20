@@ -24,6 +24,16 @@ def red(s):
         return colors.FAIL + s + colors.ENDC
     return s
 
+def dep_summary(d):
+    res = d['method'] + '\t' + d['url']
+    if 'postData' in d and d['postData']:
+        pd = d['postData']
+        if 'text' in pd and pd['text']:
+            res += '\t[' + pd['text'][:40] + ']'
+    return res
+
+
+
 def main():
     want = sys.argv[1]
     got = sys.argv[2]
@@ -38,9 +48,9 @@ def main():
         if have_dep(got_data, reference_dep):
             found_dep_count += 1
             if DEBUG:
-                print(green("FOUND"), reference_dep['method'], reference_dep['url'])
+                print(green("FOUND") + '\t' + dep_summary(reference_dep))
         elif DEBUG:
-                print(red("MISSED"), reference_dep['method'], reference_dep['url'])
+                print(red("MISSED") + '\t' + dep_summary(reference_dep))
     print("Score: %d of %d (%.1f%%)" % (found_dep_count, reference_dep_count, 100 * found_dep_count / reference_dep_count))
 
 
