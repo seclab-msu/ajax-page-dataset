@@ -1,0 +1,160 @@
+{
+  "resource_id": 83,
+  "url": "http://joomla-store.stands.fuchsia/index.php/shopping-cart",
+  "deps": [   {
+    "method": "GET",
+    "url": "http://joomla-store.stands.fuchsia/index.php/boys/cotton-hoodie-detail?tmpl=component&format=html&dynamic=1",
+    "queryString": [
+      {
+        "name": "tmpl",
+        "value": "component"
+      },
+      {
+        "name": "format",
+        "value": "html"
+      },
+      {
+        "name": "dynamic",
+        "value": "1"
+      }
+    ]
+  },
+  {
+    "method": "POST",
+    "url": "http://joomla-store.stands.fuchsia/index.php/shopping-cart?tmpl=component",
+    "queryString": [
+      {
+        "name": "tmpl",
+        "value": "component"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "billto=&STsameAsBT=0&quantity%5B0%5D=1&cartpos%5B%5D=0&coupon_code=&virtuemart_shipmentmethod_id=3&customer_note=&tos=0&order_language=en-GB&task=updatecart&option=com_virtuemart&view=cart"
+    }
+  },
+{
+    "method": "GET", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&nosef=1&view=cart&task=viewJS&format=json&lang=en",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "nosef",
+        "value": "1"
+      },
+      {
+        "name": "view",
+        "value": "cart"
+      },
+      {
+        "name": "task",
+        "value": "viewJS"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "lang",
+        "value": "en"
+      }
+    ]
+  },
+  {
+    "method": "POST", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&nosef=1&view=cart&task=addJS&format=json&lang=en&Itemid=801",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "nosef",
+        "value": "1"
+      },
+      {
+        "name": "view",
+        "value": "cart"
+      },
+      {
+        "name": "task",
+        "value": "addJS"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "lang",
+        "value": "en"
+      },
+      {
+        "name": "Itemid",
+        "value": "801"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "customProductData[152][34]=813&quantity[]=1&virtuemart_product_id[]=152&option=com_virtuemart&view=cart&pname=Patterned Dress&pid=152&Itemid=801"
+    }
+  },
+  {
+    "method": "POST", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&view=productdetails&task=recalculate&format=json&nosef=1&lang=en",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "view",
+        "value": "productdetails"
+      },
+      {
+        "name": "task",
+        "value": "recalculate"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "nosef",
+        "value": "1"
+      },
+      {
+        "name": "lang",
+        "value": "en"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "customProductData[129][34]=689&customProductData[129][35]=692&quantity[]=1&virtuemart_product_id[]=129&option=com_virtuemart&pname=Crazy Cool&pid=129&Itemid=791"
+    }
+  },
+  {
+    "method": "GET", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&view=state&format=json&virtuemart_country_id=239",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "view",
+        "value": "state"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "virtuemart_country_id",
+        "value": "239"
+      }
+    ]
+  }]
+}

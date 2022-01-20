@@ -1,0 +1,1257 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" dir="ltr">
+	<head>
+    <!-- viewport fix for devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- load core head -->
+    <base href="http://joomla-store.stands.fuchsia/" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Home</title>
+	<link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+	<link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+	<link href="http://joomla-store.stands.fuchsia/index.php/component/search/?layout=blog&amp;id=83&amp;Itemid=470&amp;format=opensearch" rel="search" title="Search Kids Fashion VirtueMart Store for Joomla CMS" type="application/opensearchdescription+xml" />
+	<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+	<link href="/media/system/css/modal.css?35496faeb954a42170dc1c658034313e" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/bootstrap.css" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/bootstrap_responsive.css" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/template.css" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/extensions.css" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/animated-buttons.css" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/style1.css" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/template_responsive.css" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/custom.css" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600,700" rel="stylesheet" type="text/css" />
+	<link href="/" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" type="text/css" />
+	<link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/cache/custom_css_1ca4035c927033f7163583e38fe3a332.css" rel="stylesheet" type="text/css" />
+	<link href="/media/djmediatools/css/tabber_17680173ad632f1be416d3eda6dc7fad.css" rel="stylesheet" type="text/css" />
+	<link href="/components/com_virtuemart/assets/css/jquery.fancybox-1.3.4.css?vmver=22deb4ef" rel="stylesheet" type="text/css" />
+	<link href="/templates/jm-kids-fashion-store/css/djmegamenu.css?v=3.5.4.pro" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_djmegamenu/assets/css/animations.css?v=3.5.4.pro" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_djmegamenu/assets/css/offcanvas.css?v=3.5.4.pro" rel="stylesheet" type="text/css" />
+	<link href="/modules/mod_djmegamenu/mobilethemes/light/djmobilemenu.css?v=3.5.4.pro" rel="stylesheet" type="text/css" />
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		.dj-hideitem, li.item-810, li.item-811, li.item-812, li.item-813, li.item-814, li.item-815, li.item-816, li.item-817, li.item-584, li.item-585, li.item-586, li.item-587, li.item-588, li.item-763, li.item-496, li.item-804 { display: none !important; }
+
+			#dj-megamenu141mobile { display: none; }
+		@media (max-width: 1278px) {
+			#dj-megamenu141, #dj-megamenu141sticky, #dj-megamenu141placeholder { display: none; }
+			#dj-megamenu141mobile { display: block; }
+		}
+	div.mod_search312 input[type="search"]{ width:auto; }
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"f8c5620298c00638185103d02649c5e2","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-core.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script>
+	<script src="/media/system/js/mootools-more.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script>
+	<script src="/media/system/js/modal.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script>
+	<!--[if lt IE 9]><script src="/media/system/js/html5fallback.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script><![endif]-->
+	<script src="/media/jui/js/jquery-migrate.min.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?35496faeb954a42170dc1c658034313e" type="text/javascript"></script>
+	<script src="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/js/styleswitcher.js" type="text/javascript"></script>
+	<script src="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/js/scripts.js" type="text/javascript"></script>
+	<script src="/media/djextensions/picturefill/picturefill.min.js" type="text/javascript" defer="defer"></script>
+	<script src="/media/djextensions/jquery-easing/jquery.easing.min.js" type="text/javascript" defer="defer"></script>
+	<script src="/components/com_djmediatools/layouts/slideshow/js/slideshow.js?v=2.10.1" type="text/javascript" defer="defer"></script>
+	<script src="/components/com_djmediatools/layouts/tabber/js/tabber.js?v=2.10.1" type="text/javascript" defer="defer"></script>
+	<script src="/components/com_virtuemart/assets/js/jquery.ui.autocomplete.html.js" type="text/javascript"></script>
+	<script src="/components/com_virtuemart/assets/js/vmsite.js?vmver=22deb4ef" type="text/javascript"></script>
+	<script src="/components/com_virtuemart/assets/js/fancybox/jquery.fancybox-1.3.4.pack.js?vmver=1.3.4" type="text/javascript"></script>
+	<script src="/components/com_virtuemart/assets/js/vmprices.js?vmver=22deb4ef" type="text/javascript"></script>
+	<script src="/modules/mod_djmegamenu/assets/js/jquery.djmegamenu.js?v=3.5.4.pro" type="text/javascript" defer="defer"></script>
+	<script src="/modules/mod_djmegamenu/assets/js/jquery.djmobilemenu.js?v=3.5.4.pro" type="text/javascript" defer="defer"></script>
+	<script src="/modules/mod_virtuemart_cart/assets/js/update_cart.js?vmver=22deb4ef" type="text/javascript"></script>
+	<script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+		jQuery(function($) {
+			SqueezeBox.initialize({});
+			SqueezeBox.assign($('a.modal').get(), {
+				parse: 'rel'
+			});
+		});
+
+		window.jModalClose = function () {
+			SqueezeBox.close();
+		};
+		
+		// Add extra modal close functionality for tinyMCE-based editors
+		document.onreadystatechange = function () {
+			if (document.readyState == 'interactive' && typeof tinyMCE != 'undefined' && tinyMCE)
+			{
+				if (typeof window.jModalClose_no_tinyMCE === 'undefined')
+				{	
+					window.jModalClose_no_tinyMCE = typeof(jModalClose) == 'function'  ?  jModalClose  :  false;
+					
+					jModalClose = function () {
+						if (window.jModalClose_no_tinyMCE) window.jModalClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+		
+				if (typeof window.SqueezeBoxClose_no_tinyMCE === 'undefined')
+				{
+					if (typeof(SqueezeBox) == 'undefined')  SqueezeBox = {};
+					window.SqueezeBoxClose_no_tinyMCE = typeof(SqueezeBox.close) == 'function'  ?  SqueezeBox.close  :  false;
+		
+					SqueezeBox.close = function () {
+						if (window.SqueezeBoxClose_no_tinyMCE)  window.SqueezeBoxClose_no_tinyMCE.apply(this, arguments);
+						tinyMCE.activeEditor.windowManager.close();
+					};
+				}
+			}
+		};
+		jQuery(function($) {
+			 $('.hasTip').each(function() {
+				var title = $(this).attr('title');
+				if (title) {
+					var parts = title.split('::', 2);
+					var mtelement = document.id(this);
+					mtelement.store('tip:title', parts[0]);
+					mtelement.store('tip:text', parts[1]);
+				}
+			});
+			var JTooltips = new Tips($('.hasTip').get(), {"maxTitleChars": 50,"fixed": false});
+		});jQuery(document).ready(function(){ if(!this.DJSlideshow25m319) this.DJSlideshow25m319 = new DJImageTabber('dj-tabber25m319',{autoplay: 0,pause_autoplay: 1,transition: 'easeInOutExpo',duration: 400,delay: 2400,slider_type: 'left',desc_effect: 'down',width: 1218,height: 485,spacing: 10,navi_margin: 0,preload: 0,wcag: 1,tab_height: 114,tab_indicator: 2}) });
+//<![CDATA[
+jQuery(document).ready(function() {
+		jQuery('#VMmenu48_68199 li.VmClose ul').hide();
+		jQuery('#VMmenu48_68199 li .VmArrowdown').click(
+		function() {
+
+			if (jQuery(this).parent().next('ul').is(':hidden')) {
+				jQuery('#VMmenu48_68199 ul:visible').delay(500).slideUp(500,'linear').parents('li').addClass('VmClose').removeClass('VmOpen');
+				jQuery(this).parent().next('ul').slideDown(500,'linear');
+				jQuery(this).parents('li').addClass('VmOpen').removeClass('VmClose');
+			}
+		});
+	});
+//]]>
+//<![CDATA[ 
+if (typeof Virtuemart === "undefined"){
+	var Virtuemart = {};}
+var vmSiteurl = 'http://joomla-store.stands.fuchsia/' ;
+Virtuemart.vmSiteurl = vmSiteurl;
+var vmLang = '&lang=en';
+Virtuemart.vmLang = vmLang; 
+var vmLangTag = 'en';
+Virtuemart.vmLangTag = vmLangTag;
+var Itemid = '&Itemid=470';
+Virtuemart.addtocart_popup = "1" ; 
+var usefancy = true; //]]>
+
+//<![CDATA[
+jQuery(document).ready(function() {
+		jQuery('#VMmenu48_75719 li.VmClose ul').hide();
+		jQuery('#VMmenu48_75719 li .VmArrowdown').click(
+		function() {
+
+			if (jQuery(this).parent().next('ul').is(':hidden')) {
+				jQuery('#VMmenu48_75719 ul:visible').delay(500).slideUp(500,'linear').parents('li').addClass('VmClose').removeClass('VmOpen');
+				jQuery(this).parent().next('ul').slideDown(500,'linear');
+				jQuery(this).parents('li').addClass('VmOpen').removeClass('VmClose');
+			}
+		});
+	});
+//]]>
+
+//<![CDATA[
+jQuery(document).ready(function() {
+		jQuery('#VMmenu48_78622 li.VmClose ul').hide();
+		jQuery('#VMmenu48_78622 li .VmArrowdown').click(
+		function() {
+
+			if (jQuery(this).parent().next('ul').is(':hidden')) {
+				jQuery('#VMmenu48_78622 ul:visible').delay(500).slideUp(500,'linear').parents('li').addClass('VmClose').removeClass('VmOpen');
+				jQuery(this).parent().next('ul').slideDown(500,'linear');
+				jQuery(this).parents('li').addClass('VmOpen').removeClass('VmClose');
+			}
+		});
+	});
+//]]>
+
+	(function(){
+		var cb = function() {
+			var add = function(css) {
+				var ss = document.styleSheets;
+			    for (var i = 0; i < ss.length; i++) {
+			        if (ss[i].href == css) return;
+			    }
+				var l = document.createElement('link'); l.rel = 'stylesheet';
+				l.href = css;
+				var h = document.getElementsByTagName('head')[0]; h.appendChild(l);
+			}
+			add('/media/djextensions/css/animate.min.css');
+			add('/media/djextensions/css/animate.ext.css');
+		};
+		var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+		if (raf) raf(cb);
+		else window.addEventListener('load', cb);
+	})();
+	</script>
+
+    
+       
+
+    <!--[if IE 9]>
+    <link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/css/ie9.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    
+    <!-- template path for styleswitcher script -->
+    <script type="text/javascript">
+        $template_path = 'http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store';
+    </script>
+    
+            <link href="http://joomla-store.stands.fuchsia/templates/jm-kids-fashion-store/images/favicon.ico" rel="Shortcut Icon" />
+    
+        
+        
+</head>	<body><div class="dj-offcanvas-wrapper"><div class="dj-offcanvas-pusher"><div class="dj-offcanvas-pusher-in">
+        <div id="jm-allpage" class="scheme1 nocolumn lcr ">  
+        	<div id="jm-top-border"></div>
+            
+<section id="jm-top-bar" class="count_1">  
+    <div id="jm-top-bar-in" class="container">
+        <div id="jm-top-bar-space" class="clearfix">            
+             
+                        <div id="jm-top-bar2">
+                <div class="jm-module-raw "><ul class="nav menu vertical">
+<li class="item-674"><a href="/index.php/service" >Service</a></li><li class="item-818"><a href="/index.php/my-account" >My Account</a></li><li class="item-464"><a href="/index.php/user-profile" >Your Profile</a></li><li class="item-819"><a href="/index.php/my-orders" >My Orders</a></li><li class="item-527"><a href="/index.php/login-form" >Login</a></li><li class="item-528"><a href="/index.php/registration-form" >Signup</a></li></ul>
+</div>
+            </div>
+                    </div>
+    </div>
+</section>
+    
+
+            
+<section id="jm-logo-bar" class="count_3">
+    <div id="jm-logo-bar-in" class="container">
+        <div id="jm-logo-bar-space" class="clearfix">
+            <div class="row">
+                                <div id="jm-logo-sitedesc">
+                                        <h1 id="jm-logo">
+                        <a href="http://joomla-store.stands.fuchsia/" onfocus="blur()" >
+                                                        <img src="http://joomla-store.stands.fuchsia/images/logo.png" alt="Kids Fashion VirtueMart Store for Joomla CMS" border="0" />
+                                                    </a>
+                    </h1>
+                                                        </div>
+                                                <div id="jm-logo-bar1">
+                    <div class="jm-module-raw  jm-search"><div class="search jm-search mod_search312">
+	<form action="/index.php" method="post" class="form-inline">
+		<label for="mod-search-searchword312" class="element-invisible">Search ...</label> <input name="searchword" id="mod-search-searchword312" maxlength="200"  class="inputbox search-query input-medium" type="search" size="45" placeholder="product name" /> <button class="button btn btn-primary" onclick="this.form.searchword.focus();">Search</button>		<input type="hidden" name="task" value="search" />
+		<input type="hidden" name="option" value="com_search" />
+		<input type="hidden" name="Itemid" value="470" />
+	</form>
+</div>
+</div>
+                </div>
+                 
+                                <div id="jm-logo-bar2">
+                    <div class="jm-module-raw  cart-horizontal">
+<!-- Virtuemart 2 Ajax Card -->
+<div class="vmCartModule  cart-horizontal" id="vmCartModule">
+
+
+<div class="total_products">Cart empty</div>
+<div class="show_cart">
+	</div>
+<div class="clear"></div>
+<div class="payments-signin-button" ></div><noscript>
+Please wait</noscript>
+</div></div>
+                </div>
+                            </div>
+        </div>
+    </div>             
+</section>
+            
+<nav id="jm-djmenu">
+    <div id="jm-djmenu-in" class="container">
+        <div id="jm-djmenu-space" class="clearfix">
+            <div id="dj-megamenu141sticky" class="dj-megamenu dj-megamenu-override  dj-megamenu-sticky">
+	<ul id="dj-megamenu141" class="dj-megamenu dj-megamenu-override " data-options='{"wrap":"jm-djmenu-in","animIn":"fadeInDown","animOut":"fadeOutUp","animSpeed":"normal","openDelay":"250","closeDelay":"500","event":"mouseenter","fixed":"1","offset":"0","theme":"override","direction":"ltr","wcag":"1"}' data-trigger="1278">
+<li class="dj-up itemid470 first current active parent"><a class="dj-up_a active " href="/index.php" ><span class="dj-drop" >Home<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  single_column subcols1" style=""><div class="dj-subwrap-in" style="width:220px;"><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid729 first"><a href="/index.php/home-page/home-1" >Home 1 - Gallery Grid</a></li><li class="itemid730"><a href="/index.php/home-page/home-2" >Home 2 - Modern Slider</a></li><li class="itemid731"><a href="/index.php/home-page/home-3" >Home 3 - Slideshow</a></li><li class="itemid732"><a href="/index.php/home-page/home-4" >Home 4 - Tabber</a></li><li class="itemid733"><a href="/index.php/home-page/home-5" >Home 5 - Nivo Slider</a></li></ul></div><div style="clear:both;height:0"></div></div></div></li><li class="dj-up itemid806"><a class="dj-up_a  " href="/index.php/online" ><span >Online</span></a></li><li class="dj-up itemid807 parent"><a class="dj-up_a  " href="/index.php/girls" ><span class="dj-drop" >Girls<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  multiple_cols subcols3" style=""><div class="dj-subwrap-in" style="width:820px;"><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid810 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Categories</h3>
+						
+<ul class="VMmenu" id="VMmenu48_68199" >
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/t-shirts" >T-Shirts</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/dresses" >Dresses</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/jeans" >Jeans</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/shoes" >Shoes</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/by-size" >By Size</a>			<span class="VmArrowdown"> </span>
+				</div>
+<ul class="menu nav">
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/80" >80</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/92" >92</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/104" >104</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/114" >114</a></div>
+</li>
+</ul>
+</li>
+</ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:300px"><ul class="dj-submenu"><li class="itemid811 first separator withmodule"><div class="modules-wrap">		<div class="moduletable vm-animated-products">
+							<h3>Latest Product</h3>
+						<div class="vmgroup  vm-animated-products">
+
+	
+		<ul class="vmproduct  vm-animated-products productdetails">
+						<li class="product-container width100 center">
+				<div class="spacer">
+					<div>
+						<div class="vm-product-media-container"><a href="/index.php/girls/patterned-dress-detail" title="Patterned Dress"><img src="/images/stories/virtuemart/product/resized/d6_270x470.jpg" alt="Front" class="featuredProductImage" /></a></div>						<div class="vm-product-content">		
+							<h3><a href="/index.php/girls/patterned-dress-detail">Patterned Dress</a></h3>        
+							<div class="product-price"><div class="PricesalesPrice vm-display vm-price-value"><span class="PricesalesPrice">30,00 €</span></div></div>
+	<div class="addtocart-area">
+		<form method="post" class="product js-recalculate" action="/index.php/component/virtuemart/" autocomplete="off" >
+			<div class="vm-customfields-wrap">
+					<div class="product-fields">
+		<div class="product-field product-field-type-S">
+									<span class="product-fields-title-wrapper"><span class="product-fields-title"><strong>Size</strong></span>
+						<span class="hasTooltip" title="&lt;strong&gt;Size&lt;/strong&gt;&lt;br /&gt;Choose the product size"><img src="/templates/jm-kids-fashion-store/images/tooltip.png" alt="Tooltip" /></span></span>
+				<div class="product-field-display"><select name="customProductData[152][34]" class="vm-chzn-select">
+	<option value="813">80 No additional charge</option>
+	<option value="814">92 No additional charge</option>
+	<option value="815">104 No additional charge</option>
+	<option value="816">114 No additional charge</option>
+</select>
+</div>			</div>
+		      <div class="clear"></div>
+	</div>
+			</div>			
+				
+	<div class="addtocart-bar">
+								<!-- <label for="quantity152" class="quantity_box">Quantity: </label> -->
+				<span class="quantity-box">
+				<input type="text" class="quantity-input js-recalculate" name="quantity[]"
+					data-errStr="You can buy this product only in multiples of %s pieces!"
+					value="1" init="1" step="1"  />
+				</span>
+				<span class="quantity-controls js-recalculate">
+				<input type="button" class="quantity-controls quantity-plus"/>
+				<input type="button" class="quantity-controls quantity-minus"/>
+			</span>
+			<span class="addtocart-button">
+				<input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />				</span> 			<input type="hidden" name="virtuemart_product_id[]" value="152"/>
+			<noscript><input type="hidden" name="task" value="add"/></noscript> 
+	</div>			<input type="hidden" name="option" value="com_virtuemart"/>
+			<input type="hidden" name="view" value="cart"/>
+			<input type="hidden" name="virtuemart_product_id[]" value="152"/>
+			<input type="hidden" name="pname" value="Patterned Dress"/>
+			<input type="hidden" name="pid" value="152"/>
+			<input type="hidden" name="Itemid" value="470"/>		</form>
+
+	</div>
+
+						</div>
+					</div>
+				</div>
+			</li>
+					</ul>
+
+		</div><script id="ready.vmprices_js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready(function($) {
+
+		Virtuemart.product($("form.product"));
+}); //]]>
+</script><script id="vm.countryState_js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready( function($) {
+			$("#virtuemart_country_id_field").vm2front("list",{dest : "#virtuemart_state_id_field",ids : "",prefiks : ""});
+		}); //]]>
+</script><script id="vm.countryStateshipto__js" type="text/javascript">//<![CDATA[ 
+jQuery(document).ready( function($) {
+			$("#shipto_virtuemart_country_id_field").vm2front("list",{dest : "#shipto_virtuemart_state_id_field",ids : "",prefiks : "shipto_"});
+		}); //]]>
+</script>		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:300px"><ul class="dj-submenu"><li class="itemid812 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Manufacturers</h3>
+						
+
+<div class="custom"  >
+	<p style="margin: 0;"><a href="/index.php/manfuacturer-details-layout"><img src="/images/modules/manufacturers/manufacturer1_small.jpg" alt="BonPrix" border="0" /></a><br /> <a href="/index.php/manufacturer-default-layout/manufacturers/gap"><img src="/images/modules/manufacturers/manufacturer2_small.jpg" alt="GAP" border="0" /></a><br /> <a href="/index.php/manufacturer-default-layout/manufacturers/h-38-m"><img src="/images/modules/manufacturers/manufacturer3_small.jpg" alt="H&amp;M" border="0" /></a></p></div>
+		</div>
+	</div></li></ul></div><div style="clear:both;height:0"></div></div></div></li><li class="dj-up itemid808 parent"><a class="dj-up_a  " href="/index.php/boys" ><span class="dj-drop" >Boys<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  multiple_cols subcols3" style=""><div class="dj-subwrap-in" style="width:820px;"><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid813 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Categories</h3>
+						
+<ul class="VMmenu" id="VMmenu48_75719" >
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/t-shirts-1" >T-Shirts</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/sportswear" >Sportswear</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/basics" >Basics</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/shoes-1" >Shoes</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/by-size-1" >By Size</a>			<span class="VmArrowdown"> </span>
+				</div>
+<ul class="menu nav">
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/80-1" >80</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/92-1" >92</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/104-1" >104</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/114-1" >114</a></div>
+</li>
+</ul>
+</li>
+</ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:300px"><ul class="dj-submenu"><li class="itemid814 first separator withmodule"><div class="modules-wrap">		<div class="moduletable vm-animated-products">
+							<h3>Latest Product</h3>
+						<div class="vmgroup  vm-animated-products">
+
+	
+		<ul class="vmproduct  vm-animated-products productdetails">
+						<li class="product-container width100 center">
+				<div class="spacer">
+					<div>
+						<div class="vm-product-media-container"><a href="/index.php/boys/cotton-hoodie-detail" title="Cotton Hoodie"><img src="/images/stories/virtuemart/product/resized/b6_270x470.jpg" alt="Front" class="featuredProductImage" /></a></div>						<div class="vm-product-content">		
+							<h3><a href="/index.php/boys/cotton-hoodie-detail">Cotton Hoodie</a></h3>        
+							<div class="product-price"><div class="PricesalesPrice vm-display vm-price-value"><span class="PricesalesPrice">25,00 €</span></div></div>
+	<div class="addtocart-area">
+		<form method="post" class="product js-recalculate" action="/index.php/component/virtuemart/" autocomplete="off" >
+			<div class="vm-customfields-wrap">
+					<div class="product-fields">
+		<div class="product-field product-field-type-S">
+									<span class="product-fields-title-wrapper"><span class="product-fields-title"><strong>Size</strong></span>
+						<span class="hasTooltip" title="&lt;strong&gt;Size&lt;/strong&gt;&lt;br /&gt;Choose the product size"><img src="/templates/jm-kids-fashion-store/images/tooltip.png" alt="Tooltip" /></span></span>
+				<div class="product-field-display"><select name="customProductData[176][34]" class="vm-chzn-select">
+	<option value="933">80 No additional charge</option>
+	<option value="934">92 No additional charge</option>
+	<option value="935">104 No additional charge</option>
+	<option value="936">114 No additional charge</option>
+</select>
+</div>			</div>
+		<div class="product-field product-field-type-S">
+									<span class="product-fields-title-wrapper"><span class="product-fields-title"><strong>Color</strong></span>
+						<span class="hasTooltip" title="&lt;strong&gt;Color&lt;/strong&gt;&lt;br /&gt;Choose the product color"><img src="/templates/jm-kids-fashion-store/images/tooltip.png" alt="Tooltip" /></span></span>
+				<div class="product-field-display"><select name="customProductData[176][35]" class="vm-chzn-select">
+	<option value="937">Blue No additional charge</option>
+	<option value="938">Black No additional charge</option>
+	<option value="939">Green No additional charge</option>
+</select>
+</div>			</div>
+		      <div class="clear"></div>
+	</div>
+			</div>			
+				
+	<div class="addtocart-bar">
+								<!-- <label for="quantity176" class="quantity_box">Quantity: </label> -->
+				<span class="quantity-box">
+				<input type="text" class="quantity-input js-recalculate" name="quantity[]"
+					data-errStr="You can buy this product only in multiples of %s pieces!"
+					value="1" init="1" step="1"  />
+				</span>
+				<span class="quantity-controls js-recalculate">
+				<input type="button" class="quantity-controls quantity-plus"/>
+				<input type="button" class="quantity-controls quantity-minus"/>
+			</span>
+			<span class="addtocart-button">
+				<input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />				</span> 			<input type="hidden" name="virtuemart_product_id[]" value="176"/>
+			<noscript><input type="hidden" name="task" value="add"/></noscript> 
+	</div>			<input type="hidden" name="option" value="com_virtuemart"/>
+			<input type="hidden" name="view" value="cart"/>
+			<input type="hidden" name="virtuemart_product_id[]" value="176"/>
+			<input type="hidden" name="pname" value="Cotton Hoodie"/>
+			<input type="hidden" name="pid" value="176"/>
+			<input type="hidden" name="Itemid" value="470"/>		</form>
+
+	</div>
+
+						</div>
+					</div>
+				</div>
+			</li>
+					</ul>
+
+		</div>		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:300px"><ul class="dj-submenu"><li class="itemid815 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Manufacturers</h3>
+						
+
+<div class="custom"  >
+	<p style="margin: 0;"><a href="/index.php/manfuacturer-details-layout"><img src="/images/modules/manufacturers/manufacturer1_small.jpg" alt="BonPrix" border="0" /></a><br /> <a href="/index.php/manufacturer-default-layout/manufacturers/gap"><img src="/images/modules/manufacturers/manufacturer2_small.jpg" alt="GAP" border="0" /></a><br /> <a href="/index.php/manufacturer-default-layout/manufacturers/h-38-m"><img src="/images/modules/manufacturers/manufacturer3_small.jpg" alt="H&amp;M" border="0" /></a></p></div>
+		</div>
+	</div></li></ul></div><div style="clear:both;height:0"></div></div></div></li><li class="dj-up itemid809 parent"><a class="dj-up_a  " href="/index.php/newborns" ><span class="dj-drop" >Newborns<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  multiple_cols subcols2" style=""><div class="dj-subwrap-in" style="width:820px;"><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid816 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Categories</h3>
+						
+<ul class="VMmenu" id="VMmenu48_78622" >
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/newborns/tops" >Tops</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/newborns/bottoms" >Bottoms</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/newborns/sleepwear" >Sleepwear</a>	</div>
+</li>
+</ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:600px"><ul class="dj-submenu"><li class="itemid817 first separator withmodule"><div class="modules-wrap">		<div class="moduletable vm-animated-products">
+							<h3>Latest Product</h3>
+						<div class="vmgroup  vm-animated-products">
+
+	
+		<ul class="vmproduct  vm-animated-products productdetails">
+						<li class="product-container width50 floatleft">
+				<div class="spacer">
+					<div>
+						<div class="vm-product-media-container"><a href="/index.php/newborns/smurfs-pajama-detail" title="Smurfs Pajama"><img src="/images/stories/virtuemart/product/resized/s627_270x470.jpg" alt="Front" class="featuredProductImage" /></a></div>						<div class="vm-product-content">		
+							<h3><a href="/index.php/newborns/smurfs-pajama-detail">Smurfs Pajama</a></h3>        
+							<div class="product-price"><div class="PricesalesPrice vm-display vm-price-value"><span class="PricesalesPrice">14,00 €</span></div></div>
+	<div class="addtocart-area">
+		<form method="post" class="product js-recalculate" action="/index.php/component/virtuemart/" autocomplete="off" >
+			<div class="vm-customfields-wrap">
+					<div class="product-fields">
+		<div class="product-field product-field-type-S">
+									<span class="product-fields-title-wrapper"><span class="product-fields-title"><strong>Size</strong></span>
+						<span class="hasTooltip" title="&lt;strong&gt;Size&lt;/strong&gt;&lt;br /&gt;Choose the product size"><img src="/templates/jm-kids-fashion-store/images/tooltip.png" alt="Tooltip" /></span></span>
+				<div class="product-field-display"><select name="customProductData[194][34]" class="vm-chzn-select">
+	<option value="1023">80 No additional charge</option>
+	<option value="1024">92 No additional charge</option>
+	<option value="1025">104 No additional charge</option>
+	<option value="1026">114 No additional charge</option>
+</select>
+</div>			</div>
+		      <div class="clear"></div>
+	</div>
+			</div>			
+				
+	<div class="addtocart-bar">
+								<!-- <label for="quantity194" class="quantity_box">Quantity: </label> -->
+				<span class="quantity-box">
+				<input type="text" class="quantity-input js-recalculate" name="quantity[]"
+					data-errStr="You can buy this product only in multiples of %s pieces!"
+					value="1" init="1" step="1"  />
+				</span>
+				<span class="quantity-controls js-recalculate">
+				<input type="button" class="quantity-controls quantity-plus"/>
+				<input type="button" class="quantity-controls quantity-minus"/>
+			</span>
+			<span class="addtocart-button">
+				<input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />				</span> 			<input type="hidden" name="virtuemart_product_id[]" value="194"/>
+			<noscript><input type="hidden" name="task" value="add"/></noscript> 
+	</div>			<input type="hidden" name="option" value="com_virtuemart"/>
+			<input type="hidden" name="view" value="cart"/>
+			<input type="hidden" name="virtuemart_product_id[]" value="194"/>
+			<input type="hidden" name="pname" value="Smurfs Pajama"/>
+			<input type="hidden" name="pid" value="194"/>
+			<input type="hidden" name="Itemid" value="470"/>		</form>
+
+	</div>
+
+						</div>
+					</div>
+				</div>
+			</li>
+						<li class="product-container width50 floatleft">
+				<div class="spacer">
+					<div>
+						<div class="vm-product-media-container"><a href="/index.php/newborns/hello-kitty-detail" title="Hello Kitty"><img src="/images/stories/virtuemart/product/resized/s573_270x470.jpg" alt="Front" class="featuredProductImage" /></a></div>						<div class="vm-product-content">		
+							<h3><a href="/index.php/newborns/hello-kitty-detail">Hello Kitty</a></h3>        
+							<div class="product-price"><div class="PricesalesPrice vm-display vm-price-value"><span class="PricesalesPrice">18,00 €</span></div></div>
+	<div class="addtocart-area">
+		<form method="post" class="product js-recalculate" action="/index.php/component/virtuemart/" autocomplete="off" >
+			<div class="vm-customfields-wrap">
+					<div class="product-fields">
+		<div class="product-field product-field-type-S">
+									<span class="product-fields-title-wrapper"><span class="product-fields-title"><strong>Size</strong></span>
+						<span class="hasTooltip" title="&lt;strong&gt;Size&lt;/strong&gt;&lt;br /&gt;Choose the product size"><img src="/templates/jm-kids-fashion-store/images/tooltip.png" alt="Tooltip" /></span></span>
+				<div class="product-field-display"><select name="customProductData[193][34]" class="vm-chzn-select">
+	<option value="1019">80 No additional charge</option>
+	<option value="1020">92 No additional charge</option>
+	<option value="1021">104 No additional charge</option>
+	<option value="1022">114 No additional charge</option>
+</select>
+</div>			</div>
+		      <div class="clear"></div>
+	</div>
+			</div>			
+				
+	<div class="addtocart-bar">
+								<!-- <label for="quantity193" class="quantity_box">Quantity: </label> -->
+				<span class="quantity-box">
+				<input type="text" class="quantity-input js-recalculate" name="quantity[]"
+					data-errStr="You can buy this product only in multiples of %s pieces!"
+					value="1" init="1" step="1"  />
+				</span>
+				<span class="quantity-controls js-recalculate">
+				<input type="button" class="quantity-controls quantity-plus"/>
+				<input type="button" class="quantity-controls quantity-minus"/>
+			</span>
+			<span class="addtocart-button">
+				<input type="submit" name="addtocart" class="addtocart-button" value="Add to Cart" title="Add to Cart" />				</span> 			<input type="hidden" name="virtuemart_product_id[]" value="193"/>
+			<noscript><input type="hidden" name="task" value="add"/></noscript> 
+	</div>			<input type="hidden" name="option" value="com_virtuemart"/>
+			<input type="hidden" name="view" value="cart"/>
+			<input type="hidden" name="virtuemart_product_id[]" value="193"/>
+			<input type="hidden" name="pname" value="Hello Kitty"/>
+			<input type="hidden" name="pid" value="193"/>
+			<input type="hidden" name="Itemid" value="470"/>		</form>
+
+	</div>
+
+						</div>
+					</div>
+				</div>
+			</li>
+					</ul>
+
+		</div>		</div>
+	</div></li></ul></div><div style="clear:both;height:0"></div></div></div></li><li class="dj-up itemid475 parent separator"><a class="dj-up_a  "   tabindex="0"><span class="dj-drop" >Template<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  single_column subcols1" style=""><div class="dj-subwrap-in" style="width:220px;"><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid476 first"><a href="http://www.joomla-monster.com/knowledge-base-area/templates-documentation/general-info-framework-for-joomla-3-0/framework-ver-ef-3-0" target="_blank" >Template Parameters</a></li><li class="itemid477"><a href="/index.php/template-features/positions" >All Template's Positions</a></li><li class="itemid478"><a href="/index.php/template-features/suffixes" >Module Suffixes</a></li><li class="itemid479"><a href="/index.php/template-features/typography" >Typography</a></li><li class="itemid737"><a href="#jm-styleswitcher" >Template color versions - use color selector at the bottom</a></li><li class="itemid480"><a href="http://www.joomla-monster.com/knowledge-base-area/general-questions/regarding-our-store/what-is-a-quickstart" target="_blank" >Install Demo Copy</a></li><li class="itemid481"><a href="http://www.joomla-monster.com/knowledge-base-area/general-questions/regarding-our-store/description-of-the-download-area" target="_blank" >What You Get After Purchase?</a></li><li class="itemid482"><a href="http://www.joomla-monster.com/all-templates" target="_blank" >Joomla Templates</a></li></ul></div><div style="clear:both;height:0"></div></div></div></li><li class="dj-up itemid583 parent"><a class="dj-up_a  " href="/index.php/left-content-right" ><span class="dj-drop" >Subpage<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  multiple_cols subcols5" style=""><div class="dj-subwrap-in" style="width:1090px;"><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid584 first separator withmodule"><div class="modules-wrap">		<div class="moduletable white-ms">
+							<h3>Scheme Layouts</h3>
+						<ul class="nav menu">
+<li class="item-564"><a href="/index.php/left-content-right" >Left-Content-Right</a></li><li class="item-565"><a href="/index.php/left-right-content" >Left-Right-Content</a></li><li class="item-566"><a href="/index.php/content-right-left" >Content-Right-Left</a></li><li class="item-567"><a href="/index.php/left-content" >Left-Content</a></li><li class="item-568"><a href="/index.php/content-right" >Content-Right</a></li><li class="item-569"><a href="/index.php/content" >Content</a></li></ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid585 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Content Component</h3>
+						<ul class="nav menu">
+<li class="item-574"><a href="/index.php/single-article" >Single Article</a></li><li class="item-575"><a href="/index.php/category-blog-2-columns" >Category Blog - 2 columns</a></li><li class="item-576"><a href="/index.php/category-blog-1-column" >Category Blog - 1 column</a></li><li class="item-577"><a href="/index.php/category-list" >Category List</a></li><li class="item-579"><a href="/index.php/tabs" >Tabs</a></li><li class="item-581"><a href="/index.php/single-contact" >Accordion</a></li></ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid586 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>User Component</h3>
+						<ul class="nav menu">
+<li class="item-572"><a href="/index.php/login-form" >Login Form</a></li><li class="item-573"><a href="/index.php/registration-form" >Registration Form</a></li><li class="item-589"><a href="/index.php/user-profile" >User Profile</a></li></ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:210px"><ul class="dj-submenu"><li class="itemid587 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Search Component</h3>
+						<ul class="nav menu">
+<li class="item-570"><a href="/index.php/search" >Search</a></li><li class="item-571"><a href="/index.php/smart-search" >Smart Search</a></li></ul>
+		</div>
+	</div></li><li class="itemid588 separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Contact Component</h3>
+						<ul class="nav menu">
+<li class="item-580"><a href="/index.php/single-contact" >Single Contact</a></li></ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid763 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Custom Pages</h3>
+						<ul class="nav menu">
+<li class="item-764"><a href="/index.php/service" >Service</a></li><li class="item-765"><a href="/index.php/size-chart" >Size Chart</a></li><li class="item-766"><a href="/index.php/faq" >FAQ</a></li></ul>
+		</div>
+	</div></li></ul></div><div style="clear:both;height:0"></div></div></div></li><li class="dj-up itemid487 parent separator"><a class="dj-up_a  "   tabindex="0"><span class="dj-drop" >Extensions<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  multiple_cols subcols2" style=""><div class="dj-subwrap-in" style="width:500px;"><div class="dj-subcol" style="width:250px"><ul class="dj-submenu"><li class="itemid496 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>DJ-MediaTools</h3>
+						<ul class="nav menu">
+<li class="item-582"><a href="/index.php/album-grid" >Album Grid</a></li><li class="item-497"><a href="/index.php/gallery-grid" >Gallery Grid</a></li><li class="item-498"><a href="/index.php/modern-slider" >Modern Slider</a></li><li class="item-499"><a href="/index.php/slider" >Slider</a></li><li class="item-500"><a href="/index.php/slideshow" >Slideshow</a></li><li class="item-501"><a href="/index.php/slideshow-with-thumbnails" >Slideshow With Thumbnails</a></li><li class="item-502"><a href="/index.php/tabber" >Tabber</a></li><li class="item-503"><a href="/index.php/skitter-slideshow" >Skitter Slideshow</a></li><li class="item-504"><a href="/index.php/nivo-slider" >Nivo Slider</a></li><li class="item-824"><a href="/index.php/kwicks-panel" >Kwicks Panel</a></li><li class="item-1012"><a href="/index.php/masonry" >Masonry</a></li></ul>
+		</div>
+	</div></li></ul></div><div class="dj-subcol" style="width:250px"><ul class="dj-submenu"><li class="itemid804 first separator withmodule"><div class="modules-wrap">		<div class="moduletable">
+							<h3>VirtueMart</h3>
+						<ul class="nav menu">
+<li class="item-790"><a href="/index.php/account-maintenance" >Account Maintenance</a></li><li class="item-791"><a href="/index.php/category-layout" >Category Layout</a></li><li class="item-796"><a href="/index.php/front-page" >Front Page</a></li><li class="item-797"><a href="/index.php/list-orders" >List Orders</a></li><li class="item-798"><a href="/index.php/manufacturer-default-layout" >Manufacturer Default Layout</a></li><li class="item-799"><a href="/index.php/manfuacturer-details-layout" >Manfuacturer Details Layout</a></li><li class="item-800"><a href="/index.php/product-details-layout" >Product Details Layout</a></li><li class="item-801"><a href="/index.php/shopping-cart" >Shopping Cart</a></li><li class="item-802"><a href="/index.php/user-edit-address" >User Edit Address</a></li><li class="item-793"><a href="/index.php/vendor-contact" >Vendor Contact</a></li><li class="item-794"><a href="/index.php/vendor-details" >Vendor Details</a></li><li class="item-803"><a href="/index.php/vendor-tos" >Vendor TOS</a></li></ul>
+		</div>
+	</div></li></ul></div><div style="clear:both;height:0"></div></div></div></li><li class="dj-up itemid687"><a class="dj-up_a  " href="/index.php/contact" ><span >Contact Us</span></a></li><li class="dj-up itemid472 parent separator"><a class="dj-up_a  "   tabindex="0"><span class="dj-drop" >RTL Languages<em class="arrow" aria-hidden="true"></em></span></a><div class="dj-subwrap  single_column subcols1" style=""><div class="dj-subwrap-in" style="width:220px;"><div class="dj-subcol" style="width:220px"><ul class="dj-submenu"><li class="itemid473 first"><a href="/?direction=ltr" >LTR Languages</a></li><li class="itemid474"><a href="/?direction=rtl" >RTL Languages</a></li></ul></div><div style="clear:both;height:0"></div></div></div></li></ul>
+
+</div>
+
+
+	<div id="dj-megamenu141mobile" class="dj-megamenu-offcanvas dj-megamenu-offcanvas-light ">
+		<a href="#" class="dj-mobile-open-btn" aria-label="Open mobile menu"><span class="fa fa-bars" aria-hidden="true"></span></a>
+		
+		<aside class="dj-offcanvas dj-offcanvas-light " data-effect="3">
+			<div class="dj-offcanvas-top">
+				<a href="#" class="dj-offcanvas-close-btn" aria-label="Close mobile menu"><span class="fa fa-close" aria-hidden="true"></span></a>
+			</div>
+							<div class="dj-offcanvas-logo">
+					<a href="http://joomla-store.stands.fuchsia/">
+						<img src="/images/logo.png" alt="Kids Fashion VirtueMart Store for Joomla CMS" />
+					</a>
+				</div>
+						
+						
+			<div class="dj-offcanvas-content">			
+				<ul class="dj-mobile-nav dj-mobile-light ">
+<li class="dj-mobileitem itemid-470 current active deeper parent"><a href="/index.php" >Home</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-729"><a href="/index.php/home-page/home-1" >Home 1 - Gallery Grid</a></li><li class="dj-mobileitem itemid-730"><a href="/index.php/home-page/home-2" >Home 2 - Modern Slider</a></li><li class="dj-mobileitem itemid-731"><a href="/index.php/home-page/home-3" >Home 3 - Slideshow</a></li><li class="dj-mobileitem itemid-732"><a href="/index.php/home-page/home-4" >Home 4 - Tabber</a></li><li class="dj-mobileitem itemid-733"><a href="/index.php/home-page/home-5" >Home 5 - Nivo Slider</a></li></ul></li><li class="dj-mobileitem itemid-806"><a href="/index.php/online" >Online</a></li><li class="dj-mobileitem itemid-807 deeper parent"><a href="/index.php/girls" >Girls</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-810 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Categories</h3>
+						
+<ul class="VMmenu" id="VMmenu48_68199" >
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/t-shirts" >T-Shirts</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/dresses" >Dresses</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/jeans" >Jeans</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/shoes" >Shoes</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/girls/by-size" >By Size</a>			<span class="VmArrowdown"> </span>
+				</div>
+<ul class="menu nav">
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/80" >80</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/92" >92</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/104" >104</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/girls/by-size/114" >114</a></div>
+</li>
+</ul>
+</li>
+</ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-811 divider"></li><li class="dj-mobileitem itemid-812 divider"></li></ul></li><li class="dj-mobileitem itemid-808 deeper parent"><a href="/index.php/boys" >Boys</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-813 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Categories</h3>
+						
+<ul class="VMmenu" id="VMmenu48_75719" >
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/t-shirts-1" >T-Shirts</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/sportswear" >Sportswear</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/basics" >Basics</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/shoes-1" >Shoes</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/boys/by-size-1" >By Size</a>			<span class="VmArrowdown"> </span>
+				</div>
+<ul class="menu nav">
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/80-1" >80</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/92-1" >92</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/104-1" >104</a></div>
+</li>
+<li class="VmClose">
+	<div ><a href="/index.php/boys/by-size-1/114-1" >114</a></div>
+</li>
+</ul>
+</li>
+</ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-814 divider"></li><li class="dj-mobileitem itemid-815 divider"></li></ul></li><li class="dj-mobileitem itemid-809 deeper parent"><a href="/index.php/newborns" >Newborns</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-816 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Categories</h3>
+						
+<ul class="VMmenu" id="VMmenu48_78622" >
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/newborns/tops" >Tops</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/newborns/bottoms" >Bottoms</a>	</div>
+</li>
+
+<li class="VmClose">
+	<div>
+		<a href="/index.php/newborns/sleepwear" >Sleepwear</a>	</div>
+</li>
+</ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-817 divider"></li></ul></li><li class="dj-mobileitem itemid-475 divider deeper parent"><a   tabindex="0">Template</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-476"><a href="http://www.joomla-monster.com/knowledge-base-area/templates-documentation/general-info-framework-for-joomla-3-0/framework-ver-ef-3-0" target="_blank" >Template Parameters</a></li><li class="dj-mobileitem itemid-477"><a href="/index.php/template-features/positions" >All Template's Positions</a></li><li class="dj-mobileitem itemid-478"><a href="/index.php/template-features/suffixes" >Module Suffixes</a></li><li class="dj-mobileitem itemid-479"><a href="/index.php/template-features/typography" >Typography</a></li><li class="dj-mobileitem itemid-737"><a href="#jm-styleswitcher" >Template color versions - use color selector at the bottom</a></li><li class="dj-mobileitem itemid-480"><a href="http://www.joomla-monster.com/knowledge-base-area/general-questions/regarding-our-store/what-is-a-quickstart" target="_blank" >Install Demo Copy</a></li><li class="dj-mobileitem itemid-481"><a href="http://www.joomla-monster.com/knowledge-base-area/general-questions/regarding-our-store/description-of-the-download-area" target="_blank" >What You Get After Purchase?</a></li><li class="dj-mobileitem itemid-482"><a href="http://www.joomla-monster.com/all-templates" target="_blank" >Joomla Templates</a></li></ul></li><li class="dj-mobileitem itemid-583 deeper parent"><a href="/index.php/left-content-right" >Subpage</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-584 divider"><div class="modules-wrap">		<div class="moduletable white-ms">
+							<h3>Scheme Layouts</h3>
+						<ul class="nav menu">
+<li class="item-564"><a href="/index.php/left-content-right" >Left-Content-Right</a></li><li class="item-565"><a href="/index.php/left-right-content" >Left-Right-Content</a></li><li class="item-566"><a href="/index.php/content-right-left" >Content-Right-Left</a></li><li class="item-567"><a href="/index.php/left-content" >Left-Content</a></li><li class="item-568"><a href="/index.php/content-right" >Content-Right</a></li><li class="item-569"><a href="/index.php/content" >Content</a></li></ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-585 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Content Component</h3>
+						<ul class="nav menu">
+<li class="item-574"><a href="/index.php/single-article" >Single Article</a></li><li class="item-575"><a href="/index.php/category-blog-2-columns" >Category Blog - 2 columns</a></li><li class="item-576"><a href="/index.php/category-blog-1-column" >Category Blog - 1 column</a></li><li class="item-577"><a href="/index.php/category-list" >Category List</a></li><li class="item-579"><a href="/index.php/tabs" >Tabs</a></li><li class="item-581"><a href="/index.php/single-contact" >Accordion</a></li></ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-586 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>User Component</h3>
+						<ul class="nav menu">
+<li class="item-572"><a href="/index.php/login-form" >Login Form</a></li><li class="item-573"><a href="/index.php/registration-form" >Registration Form</a></li><li class="item-589"><a href="/index.php/user-profile" >User Profile</a></li></ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-587 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Search Component</h3>
+						<ul class="nav menu">
+<li class="item-570"><a href="/index.php/search" >Search</a></li><li class="item-571"><a href="/index.php/smart-search" >Smart Search</a></li></ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-588 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Contact Component</h3>
+						<ul class="nav menu">
+<li class="item-580"><a href="/index.php/single-contact" >Single Contact</a></li></ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-763 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>Custom Pages</h3>
+						<ul class="nav menu">
+<li class="item-764"><a href="/index.php/service" >Service</a></li><li class="item-765"><a href="/index.php/size-chart" >Size Chart</a></li><li class="item-766"><a href="/index.php/faq" >FAQ</a></li></ul>
+		</div>
+	</div></li></ul></li><li class="dj-mobileitem itemid-487 divider deeper parent"><a   tabindex="0">Extensions</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-496 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>DJ-MediaTools</h3>
+						<ul class="nav menu">
+<li class="item-582"><a href="/index.php/album-grid" >Album Grid</a></li><li class="item-497"><a href="/index.php/gallery-grid" >Gallery Grid</a></li><li class="item-498"><a href="/index.php/modern-slider" >Modern Slider</a></li><li class="item-499"><a href="/index.php/slider" >Slider</a></li><li class="item-500"><a href="/index.php/slideshow" >Slideshow</a></li><li class="item-501"><a href="/index.php/slideshow-with-thumbnails" >Slideshow With Thumbnails</a></li><li class="item-502"><a href="/index.php/tabber" >Tabber</a></li><li class="item-503"><a href="/index.php/skitter-slideshow" >Skitter Slideshow</a></li><li class="item-504"><a href="/index.php/nivo-slider" >Nivo Slider</a></li><li class="item-824"><a href="/index.php/kwicks-panel" >Kwicks Panel</a></li><li class="item-1012"><a href="/index.php/masonry" >Masonry</a></li></ul>
+		</div>
+	</div></li><li class="dj-mobileitem itemid-804 divider"><div class="modules-wrap">		<div class="moduletable">
+							<h3>VirtueMart</h3>
+						<ul class="nav menu">
+<li class="item-790"><a href="/index.php/account-maintenance" >Account Maintenance</a></li><li class="item-791"><a href="/index.php/category-layout" >Category Layout</a></li><li class="item-796"><a href="/index.php/front-page" >Front Page</a></li><li class="item-797"><a href="/index.php/list-orders" >List Orders</a></li><li class="item-798"><a href="/index.php/manufacturer-default-layout" >Manufacturer Default Layout</a></li><li class="item-799"><a href="/index.php/manfuacturer-details-layout" >Manfuacturer Details Layout</a></li><li class="item-800"><a href="/index.php/product-details-layout" >Product Details Layout</a></li><li class="item-801"><a href="/index.php/shopping-cart" >Shopping Cart</a></li><li class="item-802"><a href="/index.php/user-edit-address" >User Edit Address</a></li><li class="item-793"><a href="/index.php/vendor-contact" >Vendor Contact</a></li><li class="item-794"><a href="/index.php/vendor-details" >Vendor Details</a></li><li class="item-803"><a href="/index.php/vendor-tos" >Vendor TOS</a></li></ul>
+		</div>
+	</div></li></ul></li><li class="dj-mobileitem itemid-687"><a href="/index.php/contact" >Contact Us</a></li><li class="dj-mobileitem itemid-472 divider deeper parent"><a   tabindex="0">RTL Languages</a><ul class="dj-mobile-nav-child"><li class="dj-mobileitem itemid-473"><a href="/?direction=ltr" >LTR Languages</a></li><li class="dj-mobileitem itemid-474"><a href="/?direction=rtl" >RTL Languages</a></li></ul></li></ul>
+			</div>
+			
+						
+			<div class="dj-offcanvas-end" tabindex="0"></div>
+		</aside>
+	</div>
+
+
+        </div>
+    </div>
+</nav>
+ 
+
+
+            
+<header id="jm-header-top">
+    <div id="jm-header-top-in" class="container">
+        <div id="jm-header-top-space">
+                        <div id="jm-header">
+                <div class="jm-module  navigation-ms sides-ms "><div class="jm-module-in"><div class="jm-module-content clearfix notitle">
+<div style="border: 0px !important;">
+<div id="dj-tabber25m319" class="dj-tabber desc-over">
+	<div class="dj-tabber-in dj-tabs-right">
+		<div class="dj-slides">
+        	
+          				
+				<div class="dj-slide dj-slide-1 dj-active">
+					<div class="dj-slide-in">
+					
+												
+						            			
+						
+<div class="dj-slide-image"><a href="/index.php/girls" target="_self"><img src="/components/com_djmediatools/assets/images/blank.gif" data-src="/media/djmediatools/cache/1218x485-crop-90-header.jpg"  data-srcset="/media/djmediatools/cache/1218x485-crop-90-header.jpg 1218w, /media/djmediatools/cache/_980w/1218x485-crop-90-header.jpg 980w, /media/djmediatools/cache/_768w/1218x485-crop-90-header.jpg 768w, /media/djmediatools/cache/_480w/1218x485-crop-90-header.jpg 480w, /media/djmediatools/cache/_320w/1218x485-crop-90-header.jpg 320w, /media/djmediatools/cache/_240w/1218x485-crop-90-header.jpg 240w, /media/djmediatools/cache/_160w/1218x485-crop-90-header.jpg 160w, /media/djmediatools/cache/_120w/1218x485-crop-90-header.jpg 120w, /media/djmediatools/cache/_80w/1218x485-crop-90-header.jpg 80w" data-sizes="78vw" alt="Get Into Character" class="dj-image" width="1218" height="485"  /></a></div>
+						
+													<div class="dj-slide-desc">
+																	<!-- Slide description area: START -->
+					<div class="dj-slide-desc-in">	
+						<div class="dj-slide-desc-bg"></div>
+						<div class="dj-slide-desc-text">
+														
+															<div class="dj-slide-title">
+									<a href="/index.php/girls" target="_self">										Get Into Character									</a>								</div>
+														
+															<div class="dj-slide-description">
+																	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>																</div>
+														
+													</div>
+						<div style="clear: both"></div>
+					</div>
+					<!-- Slide description area: END -->
+											</div>
+											</div>
+				</div>
+				
+            			
+				<div class="dj-slide dj-slide-2">
+					<div class="dj-slide-in">
+					
+												
+						            			
+						
+<div class="dj-slide-image"><a href="/index.php/boys" target="_self"><img src="/components/com_djmediatools/assets/images/blank.gif" data-src="/media/djmediatools/cache/1218x485-crop-90-header.jpg"  data-srcset="/media/djmediatools/cache/1218x485-crop-90-header.jpg 1218w, /media/djmediatools/cache/_980w/1218x485-crop-90-header.jpg 980w, /media/djmediatools/cache/_768w/1218x485-crop-90-header.jpg 768w, /media/djmediatools/cache/_480w/1218x485-crop-90-header.jpg 480w, /media/djmediatools/cache/_320w/1218x485-crop-90-header.jpg 320w, /media/djmediatools/cache/_240w/1218x485-crop-90-header.jpg 240w, /media/djmediatools/cache/_160w/1218x485-crop-90-header.jpg 160w, /media/djmediatools/cache/_120w/1218x485-crop-90-header.jpg 120w, /media/djmediatools/cache/_80w/1218x485-crop-90-header.jpg 80w" data-sizes="78vw" alt="Special offer only for you" class="dj-image" width="1218" height="485"  /></a></div>
+						
+													<div class="dj-slide-desc">
+																	<!-- Slide description area: START -->
+					<div class="dj-slide-desc-in">	
+						<div class="dj-slide-desc-bg"></div>
+						<div class="dj-slide-desc-text">
+														
+															<div class="dj-slide-title">
+									<a href="/index.php/boys" target="_self">										Special offer only for you									</a>								</div>
+														
+															<div class="dj-slide-description">
+																	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>																</div>
+														
+													</div>
+						<div style="clear: both"></div>
+					</div>
+					<!-- Slide description area: END -->
+											</div>
+											</div>
+				</div>
+				
+            			
+				<div class="dj-slide dj-slide-3">
+					<div class="dj-slide-in">
+					
+												
+						            			
+						
+<div class="dj-slide-image"><a href="/index.php/newborns" target="_self"><img src="/components/com_djmediatools/assets/images/blank.gif" data-src="/media/djmediatools/cache/1218x485-crop-90-header.jpg"  data-srcset="/media/djmediatools/cache/1218x485-crop-90-header.jpg 1218w, /media/djmediatools/cache/_980w/1218x485-crop-90-header.jpg 980w, /media/djmediatools/cache/_768w/1218x485-crop-90-header.jpg 768w, /media/djmediatools/cache/_480w/1218x485-crop-90-header.jpg 480w, /media/djmediatools/cache/_320w/1218x485-crop-90-header.jpg 320w, /media/djmediatools/cache/_240w/1218x485-crop-90-header.jpg 240w, /media/djmediatools/cache/_160w/1218x485-crop-90-header.jpg 160w, /media/djmediatools/cache/_120w/1218x485-crop-90-header.jpg 120w, /media/djmediatools/cache/_80w/1218x485-crop-90-header.jpg 80w" data-sizes="78vw" alt="Clothes from the top brands" class="dj-image" width="1218" height="485"  /></a></div>
+						
+													<div class="dj-slide-desc">
+																	<!-- Slide description area: START -->
+					<div class="dj-slide-desc-in">	
+						<div class="dj-slide-desc-bg"></div>
+						<div class="dj-slide-desc-text">
+														
+															<div class="dj-slide-title">
+									<a href="/index.php/newborns" target="_self">										Clothes from the top brands									</a>								</div>
+														
+															<div class="dj-slide-description">
+																	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>																</div>
+														
+													</div>
+						<div style="clear: both"></div>
+					</div>
+					<!-- Slide description area: END -->
+											</div>
+											</div>
+				</div>
+				
+            			
+				<div class="dj-slide dj-slide-4">
+					<div class="dj-slide-in">
+					
+												
+						            			
+						
+<div class="dj-slide-image"><a href="/index.php/girls" target="_self"><img src="/components/com_djmediatools/assets/images/blank.gif" data-src="/media/djmediatools/cache/1218x485-crop-90-header.jpg"  data-srcset="/media/djmediatools/cache/1218x485-crop-90-header.jpg 1218w, /media/djmediatools/cache/_980w/1218x485-crop-90-header.jpg 980w, /media/djmediatools/cache/_768w/1218x485-crop-90-header.jpg 768w, /media/djmediatools/cache/_480w/1218x485-crop-90-header.jpg 480w, /media/djmediatools/cache/_320w/1218x485-crop-90-header.jpg 320w, /media/djmediatools/cache/_240w/1218x485-crop-90-header.jpg 240w, /media/djmediatools/cache/_160w/1218x485-crop-90-header.jpg 160w, /media/djmediatools/cache/_120w/1218x485-crop-90-header.jpg 120w, /media/djmediatools/cache/_80w/1218x485-crop-90-header.jpg 80w" data-sizes="78vw" alt="Tell Your Friends About Our Offer" class="dj-image" width="1218" height="485"  /></a></div>
+						
+													<div class="dj-slide-desc">
+																	<!-- Slide description area: START -->
+					<div class="dj-slide-desc-in">	
+						<div class="dj-slide-desc-bg"></div>
+						<div class="dj-slide-desc-text">
+														
+															<div class="dj-slide-title">
+									<a href="/index.php/girls" target="_self">										Tell Your Friends About Our Offer									</a>								</div>
+														
+															<div class="dj-slide-description">
+																	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos.</p>																</div>
+														
+													</div>
+						<div style="clear: both"></div>
+					</div>
+					<!-- Slide description area: END -->
+											</div>
+											</div>
+				</div>
+				
+                    	
+        </div>
+        <div class="dj-navigation">
+        	<div class="dj-navigation-in">
+        			        		<a href="#" class="dj-prev showOnMouseOver"><img src="/images/transparent.png" alt="Previous" /></a>
+					<a href="#" class="dj-next showOnMouseOver"><img src="/images/transparent.png" alt="Next" /></a>
+											</div>
+		</div>
+		<div class="dj-tabs">
+			<div class="dj-tabs-in">
+								<a href="#" class="dj-tab dj-tab-active">
+					<span class="dj-tab-in">						
+						
+						<span>
+							<img src="/media/djmediatools/cache/90x90-crop-80-1218x485-crop-90-header.jpg" alt="Get Into Character" width="90" height="90" />
+						</span>						<span>
+						Get Into Character						</span>
+						
+					</span>
+				</a>
+								<a href="#" class="dj-tab ">
+					<span class="dj-tab-in">						
+						
+						<span>
+							<img src="/media/djmediatools/cache/90x90-crop-80-1218x485-crop-90-header.jpg" alt="Special offer only for you" width="90" height="90" />
+						</span>						<span>
+						Special offer only for you						</span>
+						
+					</span>
+				</a>
+								<a href="#" class="dj-tab ">
+					<span class="dj-tab-in">						
+						
+						<span>
+							<img src="/media/djmediatools/cache/90x90-crop-80-1218x485-crop-90-header.jpg" alt="Clothes from the top brands" width="90" height="90" />
+						</span>						<span>
+						Clothes from the top brands						</span>
+						
+					</span>
+				</a>
+								<a href="#" class="dj-tab ">
+					<span class="dj-tab-in">						
+						
+						<span>
+							<img src="/media/djmediatools/cache/90x90-crop-80-1218x485-crop-90-header.jpg" alt="Tell Your Friends About Our Offer" width="90" height="90" />
+						</span>						<span>
+						Tell Your Friends About Our Offer						</span>
+						
+					</span>
+				</a>
+													<div class="dj-tab-indicator  dj-tab-indicator-right"></div>
+							</div>
+		</div>
+		
+		<div class="dj-loader"></div>
+	</div>
+</div>
+<div style="clear: both" class="djslideshow-end"></div>
+</div>
+</div></div></div>
+            </div>
+                                    <div id="jm-top">
+                <div class="top count_3"><div class="row"><div class="top-in span4"><div class="top-bg"><div class="jm-module  box-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Best</span> Price</h3><div class="jm-module-content clearfix ">
+
+<div class="custom box-ms"  >
+	<p><a href="/index.php/girls/stylish-shorts-detail"><img src="/images/modules/top/1.jpg" alt="stylish-shorts" border="0" /></a></p>
+<div class="jm-custom-slide">
+<h3><a href="/index.php/girls/stylish-shorts-detail">Stylish Shorts</a></h3>
+<span class="jm-slide-price">$25</span> <span class="jm-slide-desc">offer valid until July 20th</span>
+<p class="readmore"><a class="readmore" href="/index.php/girls/stylish-shorts-detail"> </a></p>
+</div></div>
+</div></div></div></div></div><div class="top-in span4"><div class="top-bg"><div class="jm-module  box-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Special</span> Offer</h3><div class="jm-module-content clearfix ">
+
+<div class="custom box-ms"  >
+	<p><a href="/index.php/boys/t-shirts-1/monkey-t-shirt-detail"><img src="/images/modules/top/2.jpg" alt="monkey-tshirt" border="0" /></a></p>
+<div class="jm-custom-slide">
+<h3><a href="/index.php/boys/t-shirts-1/monkey-t-shirt-detail">Monkey T-Shirt</a></h3>
+<span class="jm-slide-price">$16</span> <span class="jm-slide-desc">offer valid until July 20th</span>
+<p class="readmore"><a class="readmore" href="/index.php/boys/t-shirts-1/monkey-t-shirt-detail"> </a></p>
+</div></div>
+</div></div></div></div></div><div class="top-in span4"><div class="top-bg"><div class="jm-module  box-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Best</span> Reviews</h3><div class="jm-module-content clearfix ">
+
+<div class="custom box-ms"  >
+	<p><a href="/index.php/newborns/bottoms/jersey-pants-detail"><img src="/images/modules/top/3.jpg" alt="jersey-pants" border="0" /></a></p>
+<div class="jm-custom-slide">
+<h3><a href="/index.php/newborns/bottoms/jersey-pants-detail">Jersey Pants</a></h3>
+<span class="jm-slide-price">$19</span> <span class="jm-slide-desc">offer valid until July 20th</span>
+<p class="readmore"><a class="readmore" href="/index.php/newborns/bottoms/jersey-pants-detail"> </a></p>
+</div></div>
+</div></div></div></div></div></div></div>            </div>
+                    </div>
+    </div>
+</header>
+ 
+                 	    
+<section id="jm-bottom1">
+        <div id="jm-bottom0">
+        <div class="jm-module clearfix  center-ms" id="Mod310"><div class="jm-module-in"><h3 class="jm-title "></h3><div class="container"><div class="jm-module-content clearfix "><div class="jm-module-content-in">
+
+<div class="custom center-ms"  >
+	<div class="jm-custom-categories jm-box3 jm-rounded">
+<div class="jm-custom-box pink">
+<div class="jm-custom-box-in">
+<h2><a href="/index.php/girls?categorylayout=0&amp;showcategory=1&amp;showproducts=1&amp;productsublayout=0"> <img src="/images/modules/categories/girls.png" alt="girls" border="0" /> <span class="category-name">Girls</span> </a></h2>
+</div>
+</div>
+<div class="jm-custom-box blue">
+<div class="jm-custom-box-in">
+<h2><a href="/index.php/boys?categorylayout=0&amp;showcategory=1&amp;showproducts=1&amp;productsublayout=0"> <img src="/images/modules/categories/boys.png" alt="boys" border="0" /> <span class="category-name">Boys</span> </a></h2>
+</div>
+</div>
+<div class="jm-custom-box yellow">
+<div class="jm-custom-box-in">
+<h2><a href="/index.php/newborns?categorylayout=0&amp;showcategory=1&amp;showproducts=1&amp;productsublayout=0"> <img src="/images/modules/categories/newborns.png" alt="newborns" border="0" /> <span class="category-name">Newborns</span> </a></h2>
+</div>
+</div>
+</div></div>
+</div></div></div></div></div>
+    </div>
+        </section>
+    	    
+<section id="jm-bottom2">
+    <div id="jm-bottom2-in" class="container">
+        <div id="jm-bottom2-space">
+            <div class="bottom2 count_1"><div class="row"><div class="bottom2-in span0"><div class="bottom2-bg"><div class="jm-module  center-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Bestsellers</span></h3><div class="jm-module-content clearfix ">
+
+<div class="custom center-ms"  >
+	<div class="jm-row jm-box3">
+<div class="jm-box" style="text-align: center;">
+<div class="jm-box-in"><a href="/index.php/girls/fashion-jeans-detail"><img class="border_img2" src="/images/modules/bottom2/banner.jpg" alt="Promotion" border="0" /></a></div>
+</div>
+<div class="jm-box" style="text-align: center;">
+<div class="jm-box-in">
+<div class="jm-animated-image"><img class="border_img2" src="/images/modules/bottom2/girl.jpg" alt="Promotion" border="0" />
+<div class="jm-mask-1"> </div>
+<div class="jm-mask-2"> </div>
+<div class="jm-mask">
+<div>
+<div>
+<div>
+<h3><a href="/index.php/girls?categorylayout=0&amp;showcategory=1&amp;showproducts=1&amp;productsublayout=0">Summer Dresses</a></h3>
+<span class="jm-description">OFFER VALID UNTIL JULY 20TH</span> <span class="jm-price">$18</span> <a class="jm-checkit" href="/index.php/girls?categorylayout=0&amp;showcategory=1&amp;showproducts=1&amp;productsublayout=0">CHECK IT OUT!</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jm-box" style="text-align: center;">
+<div class="jm-box-in">
+<div class="jm-animated-image"><img class="border_img2" src="/images/modules/bottom2/boy.jpg" alt="Promotion" border="0" />
+<div class="jm-mask-1"> </div>
+<div class="jm-mask-2"> </div>
+<div class="jm-mask">
+<div>
+<div>
+<div>
+<h3><a href="/index.php/boys?categorylayout=0&amp;showcategory=1&amp;showproducts=1&amp;productsublayout=0">Top Stuff</a></h3>
+<span class="jm-description">OFFER VALID UNTIL JULY 20TH</span> <span class="jm-price"> $28 </span> <a class="jm-checkit" href="/index.php/boys?categorylayout=0&amp;showcategory=1&amp;showproducts=1&amp;productsublayout=0">CHECK IT OUT!</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></div>
+</div></div></div></div></div></div></div>        </div>     
+    </div>
+</section>
+      	    
+<section id="jm-footer-mod">
+    <div id="jm-footer-mod-in" class="container">
+        <div id="jm-footer-mod-space" class="clearfix">
+            <div class="footer count_4"><div class="row"><div class="footer-in span3"><div class="footer-bg"><div class="jm-module  dotted-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Important</span></h3><div class="jm-module-content clearfix "><ul class="nav menu brackets">
+<li class="item-675"><a href="/index.php/how-to-buy" >How to Buy?</a></li><li class="item-676"><a href="/index.php/guarantee" >Guarantee</a></li><li class="item-677"><a href="/index.php/refund-policy" >Refund Policy</a></li><li class="item-678"><a href="/index.php/faq" >FAQ</a></li><li class="item-679"><a href="/index.php/single-contact" >Contact Us</a></li></ul>
+</div></div></div></div></div><div class="footer-in span3"><div class="footer-bg"><div class="jm-module   dotted-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Our</span> Service</h3><div class="jm-module-content clearfix ">
+
+<div class="custom  dotted-ms"  >
+	<ul class="jm-store-icons">
+<li class="icon-account"><a href="/index.php/account-maintenance/editaddress">My Account</a></li>
+<li class="icon-club"><a href="/index.php/kids-fashion-store-club">Kids Fashion Store Club</a></li>
+<li class="icon-sizing"><a href="/index.php/size-chart">Size Chart</a></li>
+<li class="icon-cart"><a href="/index.php/terms-of-service">Terms of Service</a></li>
+</ul></div>
+</div></div></div></div></div><div class="footer-in span3"><div class="footer-bg"><div class="jm-module  dotted-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Safe</span> Payments</h3><div class="jm-module-content clearfix ">
+
+<div class="custom dotted-ms"  >
+	<ul class="jm-store-icons">
+<li class="icon-secure"><a href="/index.php/secure-connection">Secure Connection</a></li>
+<li class="icon-mastercard"><a href="/index.php/mastercard">MasterCard</a></li>
+<li class="icon-visa"><a href="/index.php/visa">VISA</a></li>
+<li class="icon-delivery"><a href="/index.php/cash-on-delivery">Cash on Delivery</a></li>
+</ul></div>
+</div></div></div></div></div><div class="footer-in span3"><div class="footer-bg"><div class="jm-module  dotted-ms"><div class="jm-module-in"><h3 class="jm-title "><span>Contact</span></h3><div class="jm-module-content clearfix ">
+
+<div class="custom dotted-ms"  >
+	<p>JM Kids Fashion Store</p>
+<p><strong>Address:</strong> 123 Broadway, New York, USA</p>
+<p><strong>Phone:</strong> +0 123 456 789</p>
+<p class="jm-icons"><a class="jm-facebook" href="#"> </a> <a class="jm-twitter" href="#"> </a> <a class="jm-googleplus" href="#"> </a> <a class="jm-pinterest" href="#"> </a></p></div>
+</div></div></div></div></div></div></div>        </div>
+    </div>
+</section>     
+    	    
+<footer id="jm-footer">
+    <div id="jm-footer-in" class="container clearfix">
+        <div id="jm-footer-space" class="clearfix">
+                        <div id="jm-footer-left" class="pull-left">
+                <div id="jm-copyrights">
+                    
+
+<div class="custom"  >
+	<p style="margin: 0;">JM Kids Fashion Store © All Rights Reserved.</p></div>
+
+                </div>
+            </div>
+                        <div id="jm-footer-center" class="pull-left">               
+                                    <div id="jm-styleswitcher">
+                      <span id="style-switcher-label">Color version: </span>
+                        <a href="javascript:void(0);" id="style_icon-1"><span>&nbsp;</span></a>
+                        <a href="javascript:void(0);" id="style_icon-2"><span>&nbsp;</span></a>
+                        <a href="javascript:void(0);" id="style_icon-3"><span>&nbsp;</span></a>
+                    </div>
+                  
+            </div>
+            <div id="jm-footer-right" class="pull-right">
+                <div id="jm-style-power">
+                    <div id="jm-poweredby">
+                        <a href="http://www.joomla-monster.com/" target="_blank" title="Joomla Templates" rel="nofollow">Joomla Templates</a> by Joomla-Monster.com
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <p id="jm-back-top"><a id="backtotop" href="javascript:void(0);"><span>&nbsp;</span></a></p>
+		</div>
+	</div></div></div></body>
+</html>
