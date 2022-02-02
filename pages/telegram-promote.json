@@ -73,5 +73,56 @@
         "value": "getAdsList"
       }]
     }
+  }, {
+    "method": "POST",
+    "url": "https://promote.telegram.org/api?hash=e9d41e69dd1f9695da",
+    "queryString": [{
+      "name": "hash",
+      "value": "e9d41e69dd1f9695da"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "text=&promote_url=&method=checkAdPost",
+      "params": [{
+        "name": "text",
+        "value": ""
+      }, {
+        "name": "promote_url",
+        "value": ""
+      }, {
+        "name": "method",
+        "value": "checkAdPost"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://promote.telegram.org/api?hash=e9d41e69dd1f9695da",
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "text=&promote_url=&owner_id=&ad_id=&method=checkAdPost",
+      "params": [{
+        "name": "text",
+        "value": ""
+      }, {
+        "name": "promote_url",
+        "value": ""
+      }, {
+        "name": "owner_id",
+        "value": ""
+      }, {
+        "name": "ad_id",
+        "value": ""
+      }, {
+        "name": "method",
+        "value": "checkAdPost"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://promote.telegram.org/v/?views=",
+    "queryString": [{
+      "name": "views",
+      "value": ""
+    }]
   }]
 }
