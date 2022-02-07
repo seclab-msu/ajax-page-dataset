@@ -60,7 +60,12 @@ def match_post_data(reference, found):
     if ref_mime is not None:
         ref_mime = ref_mime.split('; charset=')[0]
 
-    if ref_mime != found.get('mimeType'):
+    found_mime = found.get('mimeType')
+
+    if found_mime is not None:
+        found_mime = found_mime.split('; charset=')[0]
+
+    if ref_mime != found_mime:
         return False
     ref_params = reference.get('params')
     if ref_params is None:
