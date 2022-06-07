@@ -1,0 +1,67 @@
+{
+    "resource_id": null,
+    "url": "https://pfdmedical.vhx.tv/search",
+    "deps": [{
+        "method": "POST",
+        "url": "https://pfdmedical.vhx.tv/admin/tokens/",
+        "queryString": [],
+        "headers": [{
+            "key": "X-Requested-With",
+            "value": "XMLHttpRequest"
+        }, {
+            "key": "Content-Type",
+            "value": "application/json"
+        }, {
+            "key": "X-CSRF-Token",
+            "value": "4kDD1yRhXF8En6zvAdUVk84XXoEqnjCjKGW4npVf7s6BunFelYmUhvRBPIKVsPcsqcDX/1bZM6IMJZiyqDQuXg=="
+        }]     
+    }, {
+        "method": "PUT",
+        "url": "https://pfdmedical.vhx.tv/customers/update_preferred_language_code",
+        "queryString": [],
+        "headers": [{
+            "key": "X-Requested-With",
+            "value": "XMLHttpRequest"
+        }, {
+            "key": "Content-Type",
+            "value": "application/json"
+        }, {
+            "key": "X-CSRF-Token",
+            "value": "4kDD1yRhXF8En6zvAdUVk84XXoEqnjCjKGW4npVf7s6BunFelYmUhvRBPIKVsPcsqcDX/1bZM6IMJZiyqDQuXg=="
+        }]    
+    }, {
+        "method": "GET",
+        "url": "https://pfdmedical.vhx.tv/search?q=&page=1",
+        "queryString": [{
+            "key": "q",
+            "value": ""
+        }, {
+            "key": "page",
+            "value": "1"
+        }]   
+    }, {
+        "method": "GET",
+        "url": "https://pfdmedical.vhx.tv/search?q=&page=1&section_update=true&type=videos",
+        "queryString": [{
+            "key": "q",
+            "value": ""
+        }, {
+            "key": "page",
+            "value": "1"
+        }, {
+            "name": "section_update",
+            "value": "true"
+        }, {
+            "name": "type",
+            "value": "videos"
+        }]  
+    }, {
+        "method": "POST",
+        "url": "https://pfdmedical.vhx.tv/tokens",
+        "queryString": [],
+        "headers": [{
+            "key": "X-CSRF-Token",
+            "value": "4kDD1yRhXF8En6zvAdUVk84XXoEqnjCjKGW4npVf7s6BunFelYmUhvRBPIKVsPcsqcDX/1bZM6IMJZiyqDQuXg=="
+        }]
+    }]
+}
