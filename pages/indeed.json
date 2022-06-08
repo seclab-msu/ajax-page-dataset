@@ -1,0 +1,180 @@
+{
+  "resource_id": null,
+  "url": "https://www.indeed.com/viewjob?jk=c98081f2d63e5496&from=tp-serp&tk=1g4vb5tuet561800",
+  "deps": [{
+    "method": "POST",
+    "url": "https://www.indeed.com/m/rpc/log/viewJobInteraction",
+    "headers": [{
+        "name": "Content-Type",
+        "value": "application/x-www-form-urlencoded;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+      "text": "jobKey=c98081f2d63e5496&tk=1g4vb5um2t4j7800&action=noImpression&component=ApplyEmailContactButton&isTwoPane=false&isMobile=true&indeedcsrftoken=",
+      "params": [{
+        "name": "jobKey",
+        "value": "c98081f2d63e5496"
+      }, {
+        "name": "tk",
+        "value": "1g4vb5um2t4j7800"
+      }, {
+        "name": "action",
+        "value": "noImpression"
+      }, {
+        "name": "component",
+        "value": "ApplyEmailContactButton"
+      }, {
+        "name": "isTwoPane",
+        "value": "false"
+      }, {
+        "name": "isMobile",
+        "value": "true"
+      }, {
+        "name": "indeedcsrftoken",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://www.indeed.com/rpc/jsn?UNKNOWN&jk=&jobType=organic&sim=",
+    "queryString": [{
+      "name": "UNKNOWN",
+      "value": ""
+    }, {
+      "name": "jk",
+      "value": ""
+    }, {
+      "name": "jobType",
+      "value": "organic"
+    }, {
+      "name": "sim",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://www.indeed.com/m/syncjobs?tk=&jk=&pageId=",
+    "queryString": [{
+      "name": "tk",
+      "value": ""
+    }, {
+      "name": "jk",
+      "value": ""
+    }, {
+      "name": "pageId",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://www.indeed.com/cmp/_r/viewjob-company?c=&tk=",
+    "queryString": [{
+      "name": "c",
+      "value": ""
+    }, {
+      "name": "tk",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://www.indeed.com/cmp/_r/viewjob-insights?l=&t=&c=&tk=&fr=&est=",
+    "queryString": [{
+      "name": "l",
+      "value": ""
+    }, {
+      "name": "t",
+      "value": ""
+    }, {
+      "name": "c",
+      "value": ""
+    }, {
+      "name": "tk",
+      "value": ""
+    }, {
+      "name": "fr",
+      "value": ""
+    }, {
+      "name": "est",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://www.indeed.com/m/rpc/log/savejobondevice",
+    "headers": [{
+        "name": "Content-Type",
+        "value": "application/x-www-form-urlencoded;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+      "text": "mobtk=&jobKey=&action=&origin=&fromElement=&indeedcsrftoken=",
+      "params": [{
+        "name": "mobtk",
+        "value": ""
+      }, {
+        "name": "jobKey",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": ""
+      }, {
+        "name": "origin",
+        "value": ""
+      }, {
+        "name": "fromElement",
+        "value": ""
+      }, {
+        "name": "indeedcsrftoken",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://www.indeed.com/rpc/log?a=vjsqc&href=&vjtk=&indeedcsrftoken=",
+    "queryString": [{
+        "name": "a",
+        "value": "vjsqc"
+      }, {
+        "name": "href",
+        "value": ""
+      }, {
+        "name": "vjtk",
+        "value": ""
+      }, {
+        "name": "indeedcsrftoken",
+        "value": ""
+      }]
+  }, {
+    "method": "POST",
+    "url": "https://www.indeed.com/m/rpc/dislikeCompany?indeedcsrftoken=&encryptedFccId=&undo=1&companyName=",
+    "headers": [{
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [{
+      "name": "indeedcsrftoken",
+      "value": ""
+    }, {
+      "name": "encryptedFccId",
+      "value": ""
+    }, {
+      "name": "undo",
+      "value": "1"
+    }, {
+      "name": "companyName",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://www.indeed.com/viewjob?isUndo=&action=&indeedcsrftoken=",
+    "queryString": [{
+        "name": "isUndo",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": ""
+      }, {
+        "name": "indeedcsrftoken",
+        "value": ""
+      }]
+  }]
+}
