@@ -1,0 +1,45 @@
+{
+    "resource_id": null,
+    "url": "https://confluence.atlassian.com/doc/confluence-use-cases-283641068.html",
+    "deps": [
+        {
+            "method": "GET",
+            "url": "https://confluence.atlassian.com/rest/feature/1/site/watches-page",
+            "queryString": []
+        },
+        {
+            "method": "POST",
+            "url": "https://jira.atlassian.com/rest/collectors/1.0/configuration/trigger/2253b6d2?os_authType=none&callback=trigger_2253b6d2",
+            "queryString": [
+                {
+                    "name": "os_authType",
+                    "value": "none"
+                },
+                {
+                    "name": "callback",
+                    "value": "trigger_2253b6d2"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://related-content-service.services.atlassian.com/related/page/283641068",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://confluence.atlassian.com/gateway/api/me",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://atl-global.atlassian.com/js/2.120.0/atl-global-2.120.0.min.js",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": " https://confluence.atlassian.com/rest/cac-theme/latest/tree/DOC",
+            "queryString": []
+        }
+    ]
+}
