@@ -4,8 +4,10 @@ import os
 import sys
 import glob
 import json
+from types import NoneType
 import urllib.parse
 import subprocess
+from weakref import ref
 
 ANALYZER_PATH = "../js-analyzer"
 PAGES_PATH = os.path.join(os.path.dirname(__file__), "pages")
@@ -49,6 +51,48 @@ def contains(reference, found):
             return False
     return True
 
+def match_jsons(reference, found):
+    if isinstance(reference, list):
+        return match_lists(reference, found)
+    elif isinstance(reference, dict):
+        return match_dicts(reference, found)
+    elif reference is None and found is None:
+        return True
+    else:
+        return match_primitives(reference, found)
+
+def match_lists(reference, found):
+    if not isinstance(found, list):
+            return False
+    if len(reference) != len(found):
+        return False
+    for r in reference:
+        match = False
+        for f in found:
+            if match_jsons(r, f):
+                match = True
+        if not match:
+            return False
+    return True
+
+def match_dicts(reference, found):
+    if not isinstance(found, dict):
+        return False
+    if len(reference) != len(found):
+        return False
+    for k, v in reference.items():
+        if k not in found:
+            return False
+        if not match_jsons(v, found[k]):
+            return False
+    return True
+
+def match_primitives(reference, found):
+    if reference in ['', 0, False]:
+        return reference == '' or found == '' or type(reference) is type(found)
+    return reference == found
+
+
 def match_post_data(reference, found):
     if reference is None:
         return True
@@ -69,6 +113,15 @@ def match_post_data(reference, found):
         return False
     ref_params = reference.get('params')
     if ref_params is None:
+        if "json" in ref_mime:
+            try:
+                ref_json = json.loads(reference.get('text'))
+                found_json = json.loads(found.get('text'))
+            except Exception as e:
+                print(e, file=sys.stderr)
+                return False
+            print(ref_json, found_json)
+            return match_jsons(ref_json, found_json)
         return reference.get('text') == found.get('text')
     found_params = found.get('params')
     return compare_unordered_keyvalue_ignoreemptyval(ref_params, found_params)
