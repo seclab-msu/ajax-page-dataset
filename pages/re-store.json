@@ -1,0 +1,636 @@
+{
+  "resource_id": null,
+  "url": "https://re-store.ru/apple-iphone/",
+  "deps": [{
+    "method": "POST",
+    "url": "https://re-store.ru/apple-iphone/local/components/multisite/city.selector/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }, {
+      "name": "X-Requested-With",
+      "value": "XMLHttpRequest"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded",
+      "text": "action=changeCityUser&city=",
+      "params": [{
+        "name": "action",
+        "value": "changeCityUser"
+      }, {
+        "name": "city",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/city.selector/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded;charset=UTF-8"
+    }, {
+      "name": "X-Requested-With",
+      "value": "XMLHttpRequest"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+      "text": "action=changeCity&id=&city=&url=https%3A%2F%2Fre-store.ru%2Fapple-iphone%2F",
+      "params": [{
+        "name": "action",
+        "value": "changeCity"
+      }, {
+        "name": "id",
+        "value": ""
+      }, {
+        "name": "city",
+        "value": ""
+      }, {
+        "name": "url",
+        "value": "https%3A%2F%2Fre-store.ru%2Fapple-iphone%2F"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/city.selector/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded",
+      "text": "action=changeCityUser&city=",
+      "params": [{
+        "name": "action",
+        "value": "changeCityUser"
+      }, {
+        "name": "city",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/city.selector/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded",
+      "text": "city=&url=https%3A%2F%2Fre-store.ru%2Fapple-iphone%2F&city_id=&action=changeCity",
+      "params": [{
+        "name": "city",
+        "value": ""
+      }, {
+        "name": "url",
+        "value": "https%3A%2F%2Fre-store.ru%2Fapple-iphone%2F"
+      }, {
+        "name": "city_id",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "changeCity"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/city.selector/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded",
+      "text": "query=&action=changeCity",
+      "params": [{
+        "name": "query",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "changeCity"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/classes/vue/rest-vue/product.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json;charset=UTF-8",
+      "text": "{\"action\":\"addCompare\",\"id\": \"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/classes/vue/rest-vue/fastOrder.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json;charset=UTF-8",
+      "text": "{\"action\":\"getFastOrderInfo\",\"id\":\"\",\"isVue\":true}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/classes/vue/rest-vue/product.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json;charset=UTF-8",
+      "text": "{\"action\":\"addBasket\",\"actionDdl\":\"addBasket\",\"id\":\"\",\"labelDdl\":\"Из каталога\",\"skuCode\":\"\",\"security\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/classes/vue/rest-vue/user.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json;charset=utf-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json;charset=UTF-8",
+      "text": "{\"action\":\"setTokenForChat\",\"token\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/cat/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+      "text": "action=get_catalog&VUE=Y&DDL=Y&sort=new&order=desc&url=%2Fapple-iphone%2F%3Fsort%3Dnew%26order%3Ddesc",
+      "params": [{
+        "name": "action",
+        "value": "get_catalog"
+      }, {
+        "name": "VUE",
+        "value": "Y"
+      }, {
+        "name": "DDL",
+        "value": "Y"
+      }, {
+        "name": "sort",
+        "value": "new"
+      }, {
+        "name": "order",
+        "value": "desc"
+      }, {
+        "name": "url",
+        "value": "%2Fapple-iphone%2F%3Fsort%3Dnew%26order%3Ddesc"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/order.delivery/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "multipart/form-data"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "multipart/form-data",
+      "text": null,
+      "params": [{
+        "name": "postomatId",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "pp_fast_order"
+      }, {
+        "name": "postomatNumber",
+        "value": ""
+      }, {
+        "name": "postomatApi",
+        "value": ""
+      }, {
+        "name": "productId",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/classes/vue/rest-vue/product.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json;charset=UTF-8",
+      "text": "{\"action\":\"submitPreorder\",\"isVue\":true,\"id\":\"\",\"name\":\"\",\"email\":\"\",\"phone\":\"\",\"delivery\":\"\",\"shop\":\"\",\"manager\":\"\",\"service_program\":\"\",\"accessories\":\"\",\"onlinePaySettings\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/classes/vue/rest-vue/product.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json;charset=UTF-8",
+      "text": "{\"action\":\"productNotify\",\"product_name\":\"\",\"product_id\":\"\",\"user_name\":\"\",\"user_email\":\"\",\"isLoading\":true}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/catalog.oneclick.buy/ajax_fast.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "multipart/form-data"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "multipart/form-data",
+      "text": null,
+      "params": [{
+        "name": "action",
+        "value": "order-create"
+      }, {
+        "name": "isVue",
+        "value": "true"
+      }, {
+        "name": "orderInfo",
+        "value": ""
+      }, {
+        "name": "security",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/pages/ajax/upload.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "multipart/form-data"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "multipart/form-data",
+      "text": null,
+      "params": [{
+        "name": "files%5B%5D",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/order.delivery/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "multipart/form-data"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "multipart/form-data",
+      "text": null,
+      "params": [{
+        "name": "city",
+        "value": ""
+      }, {
+        "name": "fias",
+        "value": ""
+      }, {
+        "name": "action",
+        "value": "delivery_settings"
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/cat/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded;charset=UTF-8"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded;charset=UTF-8",
+      "text": "action=get_count&VUE=Y&CATALOG%5B%5D=&CAMERA_NUMBER%5B%5D=&ZOOM_RANGE%5B%5D=&MATERIAL%5B%5D=&COLOR%5B%5D=&HDD%5B%5D=&DIAGONAL%5B%5D=&SERIES%5B%5D=&SECURE%5B%5D=&VIDEO_PLAYBACK%5B%5D=&MAGSAFE%5B%5D=&WATERPROOF%5B%5D=&min_price=&max_price=",
+      "params": [{
+        "name": "action",
+        "value": "get_count"
+      }, {
+        "name": "VUE",
+        "value": "Y"
+      }, {
+        "name": "CATALOG%5B%5D",
+        "value": ""
+      }, {
+        "name": "CAMERA_NUMBER%5B%5D",
+        "value": ""
+      }, {
+        "name": "ZOOM_RANGE%5B%5D",
+        "value": ""
+      }, {
+        "name": "MATERIAL%5B%5D",
+        "value": ""
+      }, {
+        "name": "COLOR%5B%5D",
+        "value": ""
+      }, {
+        "name": "HDD%5B%5D",
+        "value": ""
+      }, {
+        "name": "DIAGONAL%5B%5D",
+        "value": ""
+      }, {
+        "name": "SERIES%5B%5D",
+        "value": ""
+      }, {
+        "name": "SECURE%5B%5D",
+        "value": ""
+      }, {
+        "name": "VIDEO_PLAYBACK%5B%5D",
+        "value": ""
+      }, {
+        "name": "MAGSAFE%5B%5D",
+        "value": ""
+      }, {
+        "name": "WATERPROOF%5B%5D",
+        "value": ""
+      }, {
+        "name": "min_price",
+        "value": ""
+      }, {
+        "name": "max_price",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://re-store.ru/local/components/multisite/elastic.search/ajax.php?action=popular&siteId=re&city=1133&countProduct=10&prepare=false&from=now-14d&to=now%2Fd&fuserId=1428761482",
+    "headers": [],
+    "queryString": [{
+      "name": "action",
+      "value": "popular"
+    }, {
+      "name": "siteId",
+      "value": "re"
+    }, {
+      "name": "city",
+      "value": "1133"
+    }, {
+      "name": "countProduct",
+      "value": "10"
+    }, {
+      "name": "prepare",
+      "value": "false"
+    }, {
+      "name": "from",
+      "value": "now-14d"
+    }, {
+      "name": "to",
+      "value": "now%2Fd"
+    }, {
+      "name": "fuserId",
+      "value": "1428761482"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://re-store.ru/bitrix/tools/composite_data.php",
+    "headers": [],
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://re-store.ru/apple-iphone/?bxrand=1658930276595",
+    "headers": [{
+      "name": "BX-ACTION-TYPE",
+      "value": "get_dynamic"
+    }, {
+      "name": "BX-REF",
+      "value": ""
+    }, {
+      "name": "BX-CACHE-MODE",
+      "value": ""
+    }, {
+      "name": "BX-APPCACHE-PARAMS",
+      "value": ""
+    }, {
+      "name": "BX-APPCACHE-URL",
+      "value": ""
+    }],
+    "queryString": [{
+      "name": "bxrand",
+      "value": "1658930276595"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://re-store.ru/bitrix/tools/public_session.php?sessid=&interval=&k=",
+    "headers": [],
+    "queryString": [{
+      "name": "sessid",
+      "value": ""
+    }, {
+      "name": "interval",
+      "value": ""
+    }, {
+      "name": "k",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/system.auth.sms/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded; charset=UTF-8"
+    }, {
+      "name": "X-Requested-With",
+      "value": "XMLHttpRequest"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=code_sms&PERSONAL_PHONE=&PERSONAL_EMAIL=",
+      "params": [{
+        "name": "action",
+        "value": "code_sms"
+      }, {
+        "name": "PERSONAL_PHONE",
+        "value": ""
+      }, {
+        "name": "PERSONAL_EMAIL",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/system.auth.sms/ajax.php",
+    "headers": [{
+      "name": "Host",
+      "value": "re-store.ru"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded; charset=UTF-8"
+    }, {
+      "name": "X-Requested-With",
+      "value": "XMLHttpRequest"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "action=edit_profile&NAME=&EMAIL=&GENDER=&UF_SUBSCRIBE%5B%5D=",
+      "params": [{
+        "name": "action",
+        "value": "edit_profile"
+      }, {
+        "name": "NAME",
+        "value": ""
+      }, {
+        "name": "EMAIL",
+        "value": ""
+      }, {
+        "name": "GENDER",
+        "value": ""
+      }, {
+        "name": "UF_SUBSCRIBE%5B%5D",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://re-store.ru/bb071d4c7ca19779571f.hot-update.json",
+    "headers": [],
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://re-store.ru/bitrix/admin/user_options.php?sessid=",
+    "headers": [],
+    "queryString": [{
+      "name": "sessid",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/local/components/multisite/subscribe.email/ajax.php",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+      {
+        "name": "Host",
+        "value": "re-store.ru"
+      },
+      {
+        "name": "Content-Length",
+        "value": "45"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/json;charset=UTF-8"
+      }
+    ],
+    "queryString": [],
+    "bodySize": 45,
+    "postData": {
+      "text": "{\"XHR\":\"YES\",\"ACTION\":\"subscribe\",\"email\":\"\"}",
+      "mimeType": "application/json;charset=UTF-8"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://re-store.ru/cat/ajax.php",
+    "httpVersion": "HTTP/1.1",
+    "headers": [
+      {
+        "name": "Host",
+        "value": "re-store.ru"
+      },
+      {
+        "name": "Content-Length",
+        "value": "52"
+      },
+      {
+        "name": "Content-Type",
+        "value": "application/x-www-form-urlencoded"
+      }
+    ],
+    "queryString": [],
+    "bodySize": 52,
+    "postData": {
+      "text": "action=get_full_catalog&VUE=Y&DDL=Y&CATALOG%5B%5D=82",
+      "mimeType": "application/x-www-form-urlencoded",
+      "params": [
+        {
+          "name": "action",
+          "value": "get_full_catalog"
+        },
+        {
+          "name": "VUE",
+          "value": "Y"
+        },
+        {
+          "name": "DDL",
+          "value": "Y"
+        },
+        {
+          "name": "CATALOG[]",
+          "value": "82"
+        }
+      ]
+    }
+  }]
+}
