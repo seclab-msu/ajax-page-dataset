@@ -1,0 +1,180 @@
+/*
+ * responsive.custom.css is for custom media queries that are not set via the
+ * theme settings, such as cascading media queries.
+ *
+ * By default all the other responsive stylesheets used in Adaptivetheme use a
+ * "stacking method", however cascading media queries use a waterfall method so
+ * you can leverage the cascade and inheritance for all browsers that support
+ * media queries.
+ *
+ * @SEE http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/#mq-overlap-stack
+ *
+ * NOTE: this file loads by default, to disable go to your theme settings and
+ * look under the "CSS" settings tab.
+ */
+
+/*
+ * Really small screens and up
+ */
+/* @media only screen and (min-width: 220px) {} */
+
+/*
+ * Smalltouch sizes and up
+ */
+/* @media only screen and (min-width: 320px) {} */
+
+/*
+ * Smalltouch sizes and down
+ */
+@media only screen and (max-width: 480px) {
+    /*
+     * Float Region Blocks - custom media query CSS example:
+     *
+     * Float regions blocks is an Extension you can enable in the appearance
+     * settings for your theme. This feature allows you to automatically float
+     * blocks in regions, you can switch it on and off depending on your
+     * requirements. For design purposes you many want to remove the floats for
+     * devices where the entire theme is just one column - for example small
+     * mobile phones. The following CSS is inside the custom media query:
+     *
+     *   @media only screen and (max-width: 480px){}
+     *
+     * This will target devices with a maximum width of 480px - most small phones.
+     * In these smaller screen sizes we can remove the float and widths so all
+     * blocks stack instead of displaying horizonally. The selector used is an
+     * "attribute selector" which will match on any float block class. Use your
+     * inspector or Firebug to get the classes from the page output if you need
+     * more granular control over block alignment and stacking.
+     */
+    .region[class*="float-blocks"] .block {
+        float: none;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+/*    .block-logo,
+    .site-name {
+        float: left!important;
+        width: auto!important;
+        clear: initial!important;
+    }*/
+      .block-logo,
+      .site-name {
+        float: left!important;
+        clear: right!important;
+        width: auto!important;
+        margin-top: 0;
+      }
+    /*  .block-site-name h2,
+      .block-site-name h1 {
+        font-size: 22px;
+        line-height: 24px;
+        font-weight: 600;
+      }
+      .block-menu-kb-links,
+      .block-language-content {
+        float: right!important;
+        clear: right!important;
+        width: auto!important;
+      }
+      .block-menu-kb-links {
+        margin-top: -35px;
+      }*/
+    /*  .block-language-content {
+        margin-top: -4px;
+      }
+      .block-menu-kb-links .menu li {
+        margin-left: 20px;
+      }*/
+    .block-menu-kb-links .menu li.first {
+        margin-left: 0;
+    }
+    .node-type-article .region-one_main_header .block-content {
+        width: auto;
+    }
+    .node-type-article .region-one_main_header .block-title {
+        margin-bottom: 0;
+    }
+    .node-type-article .region-one_main_header .region-inner {
+        padding: 20px 10px 15px;
+    }
+    #nodefeedback-form .form-type-textarea label,
+    #nodefeedback-form .form-type-textarea .description,
+    #nodefeedback-form .form-textarea-wrapper,
+    #nodefeedback-form #edit-captcha-fieldset{
+        display: block;
+        width: 100%;
+    }
+    #nodefeedback-form .form-type-textarea label,
+    #nodefeedback-form .form-type-textarea .description,
+    #nodefeedback-form .form-textarea-wrapper,
+    #nodefeedback-form .form-submit,
+    #nodefeedback-form .form-item-resolution > label,
+    #nodefeedback-form #edit-captcha-fieldset{
+        float: none;
+        margin: 0 0 15px;
+    }
+    #nodefeedback-form .form-type-textarea label,
+    #nodefeedback-form .form-type-textarea .description {
+        padding-right: 0;
+    }
+    #nodefeedback-form #edit-resolution {
+        display: block;
+    }
+}
+@media only screen and (max-width: 679px) {
+    #block-search-form .search-group {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    #block-search-form .form-item-product {
+        width: 100%;
+    }
+    .front-block table {
+        border: 0;
+    }
+    .front-block td {
+        display: block;
+        width: 100%;
+        margin-top: -1px;
+    }
+    .region-two-66-33-second .region-inner {
+        padding: 20px 0;
+    }
+}
+@media only screen and (max-width: 581px) {
+    h1 {
+        font-size: 28px;
+        line-height: 32px;
+    }
+    h3, h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .node-article h4 {
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    #header {
+        padding: 15px 0;
+    }
+    .region-search {
+        padding: 20px 0;
+    }
+    #block-search-form .search-group .form-text {
+        padding-right: 50px;
+    }
+    #block-search-form .form-actions input[type="submit"] {
+        text-indent: -9999px;
+        padding: 17px 24px;
+        background: #4d94e0 url(../images/search.png) no-repeat center;
+    }
+    .front-block table a {
+        padding: 15px 8px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .front-block table span {
+        min-height: 0;
+    }
+}
