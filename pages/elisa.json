@@ -1,0 +1,143 @@
+{
+    "resource_id": 9479,
+    "url": "https://elisa.fi/asiakaspalvelu/ohje/huijausyritykset/",
+    "deps": [{
+        "method": "GET",
+        "url": "https//esco.elisa.fi/consent-management/verifyAudienceStudioCookie",
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://static.elisa.fi/content/elisa-navi/megafooter.json",
+        "queryString": [],
+        "headers": [{
+            "name": "Content-Type",
+            "value": "text/plain"
+        }]
+    }, {
+        "method": "GET",
+        "url": "https://elisa.fi/kauppa/rest/search/UNKNOWN",
+        "queryString": [],
+        "headers": [{
+            "name": "Content-Type",
+            "value": "application/json"
+        }]
+    }, {
+        "method": "GET",
+        "url": "https://elisa.fi/kauppa/rest/products?uid=",
+        "queryString": [{
+            "name": "uid",
+            "value": ""
+        }],
+        "headers": [{
+            "name": "Content-Type",
+            "value": "application/json"
+        }]
+    }, {
+        "method": "GET",
+        "url": "https://esco.elisa.fi/activation/list?lang=",
+        "queryString": [{
+            "name": "lang",
+            "value": ""
+        }]
+    }, {
+        "method": "GET",
+        "url": "https://static.elisa.fi/content/elisa-navi/elisa-react-navi-content.json",
+        "queryString": [],
+        "headers": [{
+            "name": "Content-Type",
+            "value": "text/plain"
+        }]
+    }, {
+        "method": "GET",
+        "url": "https://esco.elisa.fi/consent-management/verifyElisaIdCookie",
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://esco.elisa.fi/consent-management/templates/fi",
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://esco.elisa.fi/consent-management/permissions?uid=",
+        "queryString": [{
+            "name": "uid",
+            "value": ""
+        }]
+    }, {
+        "method": "POST",
+        "url": "https://esco.elisa.fi/consent-management/permissions",
+        "queryString": [],
+        "postData": {
+            "mimeType": "text/plain",
+            "text": "{\"decision\":\"true\",\"language\":\"fi\",\"uid\":\"UNKNOWN\"}"
+        }
+    }, {
+        "method": "POST",
+        "url": "https://esco.elisa.fi/consent-management/permissions",
+        "queryString": [],
+        "postData": {
+            "mimeType": "text/plain",
+            "text": "{\"decision\":\"false\",\"language\":\"fi\",\"uid\":\"UNKNOWN\"}"
+        }
+    }, {
+        "method": "GET",
+        "url": "https://elisa.fi/json/translations/index.json",
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://frosmo.elisa.fi/location",
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://frosmo.elisa.fi/messageApi?method=multifetch&origin=&cookieId=&positions=&states=%7B%22_device%22%3A%22desktop%22%2C%22loginStatus%22%3A%22unauthenticated%22%2C%22hasSeenLastViewedItem%22%3A%22false%22%7D&ver=8.134.0-3.6&version=3.0&ts=&targetGroups=&segments=&source=direct&profile=opt-out&debug=false",
+        "queryString": [{
+            "name": "method",
+            "value": "multifetch"
+        }, {
+            "name": "origin",
+            "value": ""
+        }, {
+            "name": "cookieId",
+            "value": ""
+        }, {
+            "name": "positions",
+            "value": ""
+        }, {
+            "name": "states",
+            "value": "%7B%22_device%22%3A%22desktop%22%2C%22loginStatus%22%3A%22unauthenticated%22%2C%22hasSeenLastViewedItem%22%3A%22false%22%7D"
+        }, {
+            "name": "ver",
+            "value": "8.134.0-3.6"
+        }, {
+            "name": "version",
+            "value": "3.0"
+        }, {
+            "name": "ts",
+            "value": ""
+        }, {
+            "name": "targetGroups",
+            "value": ""
+        }, {
+            "name": "segments",
+            "value": ""
+        }, {
+            "name": "source",
+            "value": "direct"
+        }, {
+            "name": "profile",
+            "value": "opt-out"
+        }, {
+            "name": "debug",
+            "value": "false"
+        }]
+    }, {
+        "method": "GET",
+        "url": "https://id.elisa.fi/sso/session?client_id=sites&language=",
+        "queryString": [{
+            "name": "client_id",
+            "velue": "sites"
+        }, {
+            "name": "language",
+            "value": ""
+        }]
+    }]
+}
