@@ -1,0 +1,209 @@
+{
+    "resource_id": 1514603,
+    "url": "https://www.hrblog.spotify.com/",
+    "deps": [{
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "multipart/form-data",
+            "text": null,
+            "params": [{
+                "name": "action",
+                "value": "pp_ajax_editprofile"
+            }, {
+                "name": "nonce",
+                "value": "8a26d566df"
+            }, {
+                "name": "melange_id",
+                "value": ""
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "multipart/form-data",
+            "text": null,
+            "params": [{
+                "name": "action",
+                "value": "pp_ajax_signup"
+            }, {
+                "name": "melange_id",
+                "value": ""
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=pp_ajax_passwordreset&data=%26melange_id%3D",
+            "params": [{
+                "name": "action",
+                "value": "pp_ajax_passwordreset"
+            }, {
+                "name": "data",
+                "value": "%26melange_id%3D"
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=pp_ajax_login&data=",
+            "params": [{
+                "name": "action",
+                "value": "pp_ajax_login"
+            }, {
+                "name": "data",
+                "value": ""
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=pp_del_avatar&nonce=8a26d566df",
+            "params": [{
+                "name": "action",
+                "value": "pp_del_avatar"
+            }, {
+                "name": "nonce",
+                "value": "8a26d566df"
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=pp_del_cover_image&nonce=8a26d566df",
+            "params": [{
+                "name": "action",
+                "value": "pp_del_cover_image"
+            }, {
+                "name": "nonce",
+                "value": "8a26d566df"
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=sbi_on_ajax_test_trigger",
+            "params": [{
+                "name": "action",
+                "value": "sbi_on_ajax_test_trigger"
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=sbi_resized_images_submit&needs_resizing=&offset=&feed_id=&atts=&location=&post_id=&cache_all=&locator_nonce=",
+            "params": [{
+                "name": "action",
+                "value": "sbi_resized_images_submit"
+            }, {
+                "name": "needs_resizing",
+                "value": ""
+            }, {
+                "name": "offset",
+                "value": ""
+            }, {
+                "name": "feed_id",
+                "value": ""
+            }, {
+                "name": "atts",
+                "value": ""
+            }, {
+                "name": "location",
+                "value": ""
+            }, {
+                "name": "post_id",
+                "value": ""
+            }, {
+                "name": "cache_all",
+                "value": ""
+            }, {
+                "name": "locator_nonce",
+                "value": ""
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=sbi_do_locator&feed_id=&atts=&location=&post_id=&locator_nonce=",
+            "params": [{
+                "name": "action",
+                "value": "sbi_do_locator"
+            }, {
+                "name": "feed_id",
+                "value": ""
+            }, {
+                "name": "atts",
+                "value": ""
+            }, {
+                "name": "location",
+                "value": ""
+            }, {
+                "name": "post_id",
+                "value": ""
+            }, {
+                "name": "locator_nonce",
+                "value": ""
+            }]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
+        "queryString": [],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "text": "action=sbi_load_more_clicked&offset=&page=&feed_id=&atts=&location=&post_id=&current_resolution=&locator_nonce=",
+            "params": [{
+                "name": "action",
+                "value": "sbi_load_more_clicked"
+            }, {
+                "name": "offset",
+                "value": ""
+            }, {
+                "name": "page",
+                "value": ""
+            }, {
+                "name": "feed_id",
+                "value": ""
+            }, {
+                "name": "atts",
+                "value": ""
+            }, {
+                "name": "location",
+                "value": ""
+            }, {
+                "name": "post_id",
+                "value": ""
+            }, {
+                "name": "current_resolution",
+                "value": ""
+            }, {
+                "name": "locator_nonce",
+                "value": ""
+            }]
+        }
+    }]
+}
