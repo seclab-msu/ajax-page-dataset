@@ -1,0 +1,1 @@
+/* Version=6.58.2,Timestamp=2022-05-26T20:31:38.780Z */define("html-injector",[],function(){"use strict";return IEA.module("UI.html-injector",function(t,e,i){_.extend(t,{initialize:function(t){this._super(t)},render:function(){this.$el.html(this.template(this.getModelJSON())),!1===this._isEnabled&&(this.enable(),this._isEnabled=!0)},enable:function(){}})})});

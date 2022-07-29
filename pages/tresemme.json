@@ -1,0 +1,197 @@
+{
+    "resource_id": 8310418,
+    "url": "https://www.tresemme.com/us/en/products/shampoo.html",
+    "deps": [
+        {
+            "method": "POST",
+            "url": "https://www.tresemme.com/americas/bin/ts/public/form",
+            "httpVersion": "http/2.0",
+            "headers": [
+                {
+                    "name": "brand",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "content-length",
+                    "value": "667"
+                },
+                {
+                    "name": "content-type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [],
+            "bodySize": 667,
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"hasTakenSkinTest\":null,\"skinTestTakeOnDate\":null,\"brand\":\"tresemme\",\"dynamicConditionValidator\":\"true\",\"locale\":\"en-US\",\"formType\":\"signUp\",\"formUrl\":\"https://www.tresemme.com/us/en/home.html\",\"formChangeDate\":\"2022-05-11 20:50:36\",\"contact\":{\"country\":\"US\",\"languagePref\":\"EN\",\"givenName\":\"\",\"familyName\":\"\",\"email\":\"\"},\"entity\":\"epsilon\",\"optIn\":{\"brand\":true,\"corporate\":true},\"g\":{\"recaptcha\":{\"type\":\"captcha\"}},\"dcuConfig\":{\"campaignId\":null,\"brandId\":null,\"webDomain\":null,\"emailBrandServiceId\":null,\"mobileBrandServiceId\":null},\"dcuConfigEpsilon\":{\"dataSourceID\":\"2000041838\",\"campaignId\":\"9000186870\",\"brandCCID\":\"9000186871\",\"corporateCCID\":\"9000001779\"}}"
+            }
+        },
+        {
+            "method": "GET",
+            "url": "https://www.tresemme.com/us/en/products/shampoo/_jcr_content/flexi_hero_par/productlistingv2_1865206465.data.json?pn=2",
+            "queryString": [
+                {
+                    "name": "pn",
+                    "value": "2"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.tresemme.com/americas/bin/ts/public/search/retrivalhandler?q=&fq=ContentType:Product&Locale=en_us&BrandName=tresemme&PageNum=1&ipp=3",
+            "queryString": [
+                {
+                    "name": "q",
+                    "value": ""
+                },
+                {
+                    "name": "fq",
+                    "value": "ContentType:Product"
+                },
+                {
+                    "name": "Locale",
+                    "value": "en_us"
+                },
+                {
+                    "name": "BrandName",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "PageNum",
+                    "value": "1"
+                },
+                {
+                    "name": "ipp",
+                    "value": "3"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "brand",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.tresemme.com/americas/bin/ts/public/search/retrivalhandler?q=&fq=ContentType:Article&Locale=en_us&BrandName=tresemme&PageNum=1&ipp=3",
+            "queryString": [
+                {
+                    "name": "q",
+                    "value": ""
+                },
+                {
+                    "name": "fq",
+                    "value": "ContentType:Article"
+                },
+                {
+                    "name": "Locale",
+                    "value": "en_us"
+                },
+                {
+                    "name": "BrandName",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "PageNum",
+                    "value": "1"
+                },
+                {
+                    "name": "ipp",
+                    "value": "3"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "brand",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.tresemme.com/americas/bin/ts/public/search/suggestionhandler?q=Shampoo&Locale=en_us&BrandName=tresemme",
+            "queryString": [
+                {
+                    "name": "q",
+                    "value": ""
+                },
+                {
+                    "name": "Locale",
+                    "value": "en_us"
+                },
+                {
+                    "name": "BrandName",
+                    "value": "tresemme"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "brand",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.tresemme.com/us/en/search.html?q=&fq=&Locale=en-US&BrandName=tresemme&SearchUnder=&sbn=&sip=/content/tresemme/en_us/home/jcr:content/secondarypar/searchinputv2",
+            "queryString": [
+                {
+                    "name": "q",
+                    "value": ""
+                },
+                {
+                    "name": "fq",
+                    "value": ""
+                },
+                {
+                    "name": "Locale",
+                    "value": "en-US"
+                },
+                {
+                    "name": "BrandName",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "SearchUnder",
+                    "value": ""
+                },
+                {
+                    "name": "sbn",
+                    "value": ""
+                },
+                {
+                    "name": "sip",
+                    "value": "/content/tresemme/en_us/home/jcr:content/secondarypar/searchinputv2"
+                }
+            ],
+            "headers": [
+                {
+                    "name": "brand",
+                    "value": "tresemme"
+                },
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ]
+        }
+    ]
+}
