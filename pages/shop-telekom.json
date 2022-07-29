@@ -1,0 +1,433 @@
+{
+  "resource_id": 5416093,
+  "url": "https://shop.telekom.de/geraete/strax-in-ear-headset-wired-with-jack-3-5mm-weiss",
+  "deps": [{
+    "method": "GET",
+    "url": "https://shop.telekom.de/api/shop/downtimes",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/shop/availability_subscriptions",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"subscription\":{\"articleNumber\":\"\",\"email\":\"\"}}"
+    }
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/availability_subscriptions/UNKNOWN/confirm",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/shop/order",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"order\":\"\"}"
+    }
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/paypal_express",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"order\":\"\"}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/api/shop/confirmation",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "DELETE",
+    "url": "https://shop.telekom.de/api/shop/order",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/api/shop/order",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/shop/items",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"item\":{\"quantity\":1,\"articleNumber\":\"\",\"contractNumber\":\"\"}}"
+    }
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/items/UNKNOWN",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"quantity\":1}"
+    }
+  }, {
+    "method": "DELETE",
+    "url": "https://shop.telekom.de/api/shop/items/UNKNOWN",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/shop/multiple_items",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"items\":\"\"}"
+    }
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/coupon",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"order\":{\"redeemedCoupon\":\"\"}}"
+    }
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/order",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"order\":\"\"}"
+    }
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/identification",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"order\":\"\"}"
+    }
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/reset_customer",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"order\":{\"reset_tvpp_customer\":true}}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/shop/coupon_items",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"item\":{\"contractNumber\":\"\",\"quantity\":1},\"order\":{\"redeemedCoupon\":\"\"}}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/shop/faq/category",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"q\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/shop/faq/search",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"q\":\"\"}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/api/shop/tvpp_parameter",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "PATCH",
+    "url": "https://shop.telekom.de/api/shop/shac_validate_upgrade",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"buchungsref\":\"\",\"signature\":\"\"}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/api/shop/revert_order_to_cart",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/vnd.td.eg-solo.v1+json"
+    }],
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://ebs10.telekom.de/opt-in/cookie.php",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://ebs10.telekom.de/opt-in/set.php?consent=",
+    "queryString": [{
+      "name": "consent",
+      "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/goliath/offer-category-by-slugs",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"productSlug\":\"\",\"contractSlug\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/goliath/offer-by-slugs",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"productSlug\":\"\",\"contractSlug\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/goliath/offer-recommendations",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"articleNumber\":\"4029948202457\",\"contractNumber\":null,\"quantity\":1}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/appmonitoring/status.json",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/geraete/api/yggdrasil",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }],
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/geraete/api/yggdrasil",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"test\":\"\",\"version\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/goliath/list",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"filter\":{\"listed\":true,\"articleNumbers\":\"\"},\"pagination\":{\"size\":5}}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://shop.telekom.de/api/goliath/list",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "queryString": [],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"search\":\"\",\"filter\":{\"listed\":true,\"productAvailable\":true},\"grouped\":true,\"sort\":{\"field\":\"RELEVANCE\",\"direction\":\"ASC\"},\"pagination\":{\"size\":4}}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://ebs02.telekom.de/nexus-pk-coin/?set=lt&q=&tab=alle&p=1&pp=10",
+    "queryString": [{
+      "name": "set",
+      "value": "lt"
+    }, {
+      "name": "q",
+      "value": ""
+    }, {
+      "name": "tab",
+      "value": "alle"
+    }, {
+      "name": "p",
+      "value": "1"
+    }, {
+      "name": "pp",
+      "value": "10"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/api/nuxt-redirects?path=",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }],
+    "queryString": [{
+      "name": "path",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://shop.telekom.de/api/content/data/shared/promotions?date=",
+    "headers": [{
+      "name": "Accept",
+      "value": "application/json"
+    }],
+    "queryString": [{
+      "name": "date",
+      "value": ""
+    }]
+  }]
+}
