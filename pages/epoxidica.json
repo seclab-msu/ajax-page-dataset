@@ -1,0 +1,121 @@
+{
+    "resource_id": 32466,
+    "url": "https://www.rasina-epoxidica.ro/catalog/rasina-epoxidica-4/filtru-culoare-pigment-magic-lilac-1",
+    "deps": [{
+        "method": "GET",
+        "url": "https://www.rasina-epoxidica.ro/cumpara/pigment-pentru-rasina-epoxidica-metalizat-1-kg-1250?action=quick_view",
+        "queryString": [
+            {
+                "name": "action",
+                "value": "quick_view"
+            }
+        ]
+    }, {
+        "method": "GET",
+        "url": "https://www.rasina-epoxidica.ro/cumpara/pigment-pentru-rasina-epoxidica-metalizat-1-kg-1250?action=toggle_fav",
+        "queryString": [
+            {
+                "name": "action",
+                "value": "toggle_fav"
+            }
+        ]
+    }, {
+        "method": "GET",
+        "url": "https://www.rasina-epoxidica.ro/cumpara/pigment-pentru-rasina-epoxidica-metalizat-1146?action=",
+        "queryString": [
+            {
+                "name": "action",
+                "value": ""
+            }
+        ]
+    }, {
+        "method": "POST",
+        "url": "https://www.rasina-epoxidica.ro/cumpara/pigment-pentru-rasina-epoxidica-metalizat-1-kg-1250?action=update_specifications&specifications_type=quick_view",
+        "queryString": [
+            {
+                "name": "action",
+                "value": "update_specifications"
+            },
+            {
+                "name": "specifications_type",
+                "value": "quick_view"
+            }
+        ],
+        "postData": {
+            "text": "prod_key=&properties[1]=&quantity=",
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "params": [
+                {
+                    "name": "prod_key",
+                    "value": ""
+                },
+                {
+                    "name": "properties[1]",
+                    "value": ""
+                },
+                {
+                    "name": "quantity",
+                    "value": ""
+                }
+            ]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.rasina-epoxidica.ro/cumpara/pigment-pentru-rasina-epoxidica-metalizat-1146?action=update_specifications&specifications_type=quick_view",
+        "queryString": [
+            {
+                "name": "action",
+                "value": "update_specifications"
+            },
+            {
+                "name": "specifications_type",
+                "value": "quick_view"
+            }
+        ],
+        "postData": {
+            "text": "prod_key=&properties[4]=&properties[1]=&quantity=",
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "params": [
+                {
+                    "name": "prod_key",
+                    "value": ""
+                },
+                {
+                    "name": "properties[4]",
+                    "value": ""
+                },
+                {
+                    "name": "properties[1]",
+                    "value": ""
+                },
+                {
+                    "name": "quantity",
+                    "value": ""
+                }
+            ]
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.rasina-epoxidica.ro/newsletter?position=footer_top",
+        "queryString": [
+            {
+                "name": "position",
+                "value": "footer_top"
+            }
+        ],
+        "postData": {
+            "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+            "params": [
+                {
+                    "name": "newsletter_name",
+                    "value": ""
+                },
+                {
+                    "name": "newsletter_email",
+                    "value": ""
+                }
+            ],
+            "text": "newsletter_name=&newsletter_email="
+        }
+    }]
+}
