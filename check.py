@@ -4,10 +4,8 @@ import os
 import sys
 import glob
 import json
-from types import NoneType
 import urllib.parse
 import subprocess
-from weakref import ref
 
 ANALYZER_PATH = "../js-analyzer"
 PAGES_PATH = os.path.join(os.path.dirname(__file__), "pages")
