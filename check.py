@@ -61,7 +61,7 @@ def match_jsons(reference, found):
 
 def match_lists(reference, found):
     if not isinstance(found, list):
-            return False
+        return False
     if len(reference) != len(found):
         return False
     for r in reference:
@@ -168,7 +168,7 @@ def check_pages(pages_jsons):
                 if DEBUG:
                     print("FOUND", reference_dep['method'], reference_dep['url'])
             elif DEBUG:
-                    print("MISSED", reference_dep['method'], reference_dep['url'])
+                print("MISSED", reference_dep['method'], reference_dep['url'])
     print("Score: %d of %d (%.1f%%)" % (found_dep_count, reference_dep_count, 100 * found_dep_count / reference_dep_count))
 
 def main():
