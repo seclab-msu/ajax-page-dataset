@@ -67,7 +67,7 @@ def match_lists(reference, found):
     for r in reference:
         match = False
         for f in found:
-            if match_jsons(r, f):
+            if match_jsons(r, f): # NOTE(asterite): list order is ignored here, but I guess it's OK
                 match = True
         if not match:
             return False
