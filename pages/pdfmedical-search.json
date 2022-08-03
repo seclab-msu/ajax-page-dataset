@@ -1,6 +1,7 @@
 {
     "resource_id": null,
     "url": "https://pfdmedical.vhx.tv/search",
+    "tags": ["bugbounty", "bundler"],
     "deps": [{
         "method": "POST",
         "url": "https://pfdmedical.vhx.tv/admin/tokens/",
