@@ -1,28 +1,12 @@
 #!/usr/bin/env python3
 
-import os
 import sys
 import json
+
 from check import have_dep
+from colorprint import red, green
 
 DEBUG = True
-
-COLOR_PRINT = os.isatty(1)
-
-class colors:
-    OKGREEN = "\33[38;5;35m"
-    FAIL = '\33[38;5;1m'
-    ENDC = '\033[0m'
-
-def green(s):
-    if COLOR_PRINT:
-        return colors.OKGREEN + s + colors.ENDC
-    return s
-
-def red(s):
-    if COLOR_PRINT:
-        return colors.FAIL + s + colors.ENDC
-    return s
 
 def dep_summary(d):
     res = d['method'] + '\t' + d['url']
