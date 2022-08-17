@@ -1,0 +1,79 @@
+{
+    "resource_id": 1209040,
+    "url": "https://shop.tesla.com/product/wall-connector",
+    "deps": [
+        {
+            "method": "GET",
+            "url": "https://shop.tesla.com/user-status.json",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://shop.tesla.com/carts.json?includeCartOrder=false&shipmentRequired=false&invoiceRequired=false&_=",
+            "queryString": [
+                {
+                    "name": "includeCartOrder",
+                    "value": "false"
+                },
+                {
+                    "name": "shipmentRequired",
+                    "value": "false"
+                },
+                {
+                    "name": "invoiceRequired",
+                    "value": "false"
+                },
+                {
+                    "name": "_",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://shop.tesla.com/store-configurations.json",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://shop.tesla.com/content/v2?file=react&locale=en_us",
+            "queryString": [
+                {
+                    "name": "file",
+                    "value": "react"
+                },
+                {
+                    "name": "locale",
+                    "value": "en_us"
+                }
+            ]
+        },
+        {
+            "method": "POST",
+            "url": "https://shop.tesla.com/recommendations/associations/v1",
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json;charset=UTF-8",
+                "text": "{\"includeInventory\":true,\"items\":[\"1457768-02-G\"]}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "https://shop.tesla.com/inventory.json",
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "[\"1457768-02-G\"]"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "https://shop.tesla.com/carts.json",
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"followLocation\":true,\"skuCode\":\"1457768-02-G\",\"quantity\":1}"
+            }
+        }
+    ]
+}
