@@ -1,0 +1,287 @@
+/* linked accounts */
+
+.social-account-list{
+    display: inline-block;
+}
+
+.social-account-item{
+    position: relative;   
+    margin-bottom: 15px; 
+}
+
+.social-account-item:first-child{
+    border-top: none;
+}
+
+.social-account-item .item-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.social-link-avatar{
+    width: 200px;
+    white-space: nowrap;
+    padding: 0 40px;
+    border-top: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+    overflow: hidden;
+}
+
+.social-account-wrapper .social-account-icon{
+    border-radius: 0;
+}
+
+.social-link-avatar-name{
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.social-account-unlink .action.primary{
+    line-height: 48px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border-radius: 0;
+}
+
+.social-account-item div.clearfix {
+    clear: both;
+}
+
+.social-account-item .social-account-wrapper,
+.social-account-item .social-link-avatar{
+    line-height: 0;
+}
+
+.social-link-avatar-img,
+.social-link-avatar-name{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.social-link-avatar-img{
+    max-width: 40px;
+    border-radius: 50%;
+    -ms-border-radius: 50%;
+}
+
+.social-link-avatar-name{
+    line-height: normal;
+    margin-left: 10px;
+}
+
+@media (max-width: 500px){
+    .social-link-avatar{
+        padding: 0 10px;
+    }
+    
+    .social-link-avatar-name{
+        font-size: 12px;
+        width: 100px;
+    }
+}
+
+/* ==================== */
+
+/* login with social account */
+
+.social-login-list{
+    padding: 0;
+}
+
+.social-login-list li{
+    list-style: none;
+}
+
+.social-login-btn{
+    position: relative;
+    display: inline-block;
+    width: 193px;
+    padding-left: 35px;
+    color: white;
+    font: 300 15px 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 30px;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
+    text-align: center;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.social-login-btn:visited{
+    color: #fff;
+}
+
+.social-login-btn:hover,
+.social-login-btn:active{
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-login-btn:active{
+    top: 2px;
+}
+
+.social-login-icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 35px;
+    height: 100%;
+    box-shadow: inset -1px 0px 0 0 rgba(255,255,255,0.15);
+}
+
+.social-login-label{
+    font-weight: 600;
+}
+
+.social-login-btn-twitter{
+    background-color: #61abea;
+}
+
+.social-login-btn-facebook{
+    background-color: #6274b3;
+}
+
+.social-login-btn-google{
+    background-color: #c35646;
+}
+
+.social-login-btn-linkedin{
+    background-color: #2088ba;
+}
+
+.social-login-btn-instagram{
+    background-color: #607e9c;
+}
+
+.social-login-btn-pinterest{
+    background-color: #cb383e;
+}
+
+.social-login-btn-vk{
+    background-color: #647ca2;
+}
+
+.social-login-btn-odnoklassniki{
+    background-color: #ea7f2f;
+}
+
+.social-login-btn-paypal{
+    background-color: #008ac9;
+}
+
+.social-login-icon-twitter{
+    border-right: 1px solid #408ccb;
+    background: url('../images/social-sprite.png') 3px 0px/30px no-repeat #529ede;
+    
+}
+
+.social-login-icon-facebook{
+    border-right: 1px solid #39497f;
+    background: url('../images/social-sprite.png') 3px -30px/30px no-repeat #4c5d98;
+}
+
+.social-login-icon-google{
+    border-right: 1px solid #9f3729;
+    background: url('../images/social-sprite.png') 3px -60px/30px no-repeat #af4738;
+}
+
+.social-login-icon-linkedin{
+    border-right: 1px solid #0e6691;
+    background: url('../images/social-sprite.png') 3px -90px/30px no-repeat #197cac;
+}
+
+.social-login-icon-instagram{
+    border-right: 1px solid #344c64;
+    background: url('../images/social-sprite.png') 3px -120px/30px no-repeat #445e78;
+}
+
+.social-login-icon-pinterest{
+    border-right: 1px solid #9a2024;
+    background: url('../images/social-sprite.png') 3px -150px/30px no-repeat #b62c31;
+}
+
+.social-login-icon-vk{
+    border-right: 1px solid #3c4f6d;
+    background: url('../images/social-sprite.png') 3px -180px/30px no-repeat #4f6589;
+}
+
+.social-login-icon-odnoklassniki{
+    border-right: 1px solid #ce671b;
+    background: url('../images/social-sprite.png') 3px -210px/30px no-repeat #de7527;
+}
+
+.social-login-icon-paypal{
+    border-right: 1px solid #0072a8;
+    background: url('../images/social-sprite.png') 3px -240px/30px no-repeat #009cde;
+}
+
+/* social account icon */
+
+.social-account-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+}
+
+.social-account-twitter{
+    background: url('../images/social-sprite.png') 0 0/50px no-repeat #529ede;
+}
+
+.social-account-facebook{
+    background: url('../images/social-sprite.png') 0 -50px/50px no-repeat #4c5d98;
+}
+
+.social-account-google{
+    background: url('../images/social-sprite.png') 0 -100px/50px no-repeat #af4738;
+}
+
+.social-account-linkedin{
+    background: url('../images/social-sprite.png') 0 -150px/50px no-repeat #197cac;
+}
+
+.social-account-instagram{
+    background: url('../images/social-sprite.png') 0 -200px/50px no-repeat #445e78;
+}
+
+.social-account-pinterest{
+    background: url('../images/social-sprite.png') 0 -250px/50px no-repeat #b62c31;
+}
+
+.social-account-vk{
+    background: url('../images/social-sprite.png') 0 -300px/50px no-repeat #4f6589;
+}
+
+.social-account-odnoklassniki{
+    background: url('../images/social-sprite.png') 0 -350px/50px no-repeat #de7527;
+}
+
+.social-account-paypal{
+    background: url('../images/social-sprite.png') 0 -400px/50px no-repeat #009cde;
+}
+
+/* social login blocks */
+
+/* cart page */
+.checkout-cart-index .social-login-list {
+    margin-top: 20px;
+}
+
+/* checkout page login popup */
+.block-authentication form[data-role='login'] ul.social-login-list {
+    padding-left: 0;
+}
+
+/* Magento Blank */
+
+/* customer login page */
+.customer-account-login .social-login-list.social-login-theme-magento_blank {
+    margin-left: 25.7%;
+}
+
+/* customer create page */
+.customer-account-create .social-login-list.social-login-theme-magento_blank {
+    margin-left: 25.7%;
+}
