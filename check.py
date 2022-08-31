@@ -7,6 +7,9 @@ import json
 import urllib.parse
 import subprocess
 
+from stats import Stats
+from colorprint import red, green
+
 ANALYZER_PATH = "../js-analyzer"
 PAGES_PATH = os.path.join(os.path.dirname(__file__), "pages")
 DEBUG = True
@@ -152,24 +155,37 @@ def have_dep(found_deps, want_dep):
     return False
 
 def check_pages(pages_jsons):
-    reference_dep_count = 0
-    found_dep_count = 0
+    samples = []
     for sample_file in pages_jsons:
         page_dir = sample_file[:-5]
         with open(sample_file, encoding='utf8') as f:
             sample_info = json.load(f)
+        samples.append((page_dir, sample_info))
+
+    sample_infos = [samp[1] for samp in samples]
+    stats = Stats(sample_infos)
+
+    for page_dir, sample_info in samples:
+        tags = sample_info.get('tags', [])
+        stats.inc_app(tags)
         reference_deps = sample_info['deps']
         analyzer_deps = run_analyzer(page_dir)
 
-        reference_dep_count += len(reference_deps)
+        all_matched = True
         for reference_dep in reference_deps:
+            stats.inc_dep(tags)
             if have_dep(analyzer_deps, reference_dep):
-                found_dep_count += 1
+                stats.succeed_dep(tags)
                 if DEBUG:
-                    print("FOUND", reference_dep['method'], reference_dep['url'])
-            elif DEBUG:
-                print("MISSED", reference_dep['method'], reference_dep['url'])
-    print("Score: %d of %d (%.1f%%)" % (found_dep_count, reference_dep_count, 100 * found_dep_count / reference_dep_count))
+                    print(green("FOUND") + '\t' + reference_dep['method'], reference_dep['url'])
+            else:
+                all_matched = False
+                if DEBUG:
+                    print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'])
+        if all_matched:
+            stats.succeed_app(tags)
+
+    stats.print_stats()
 
 def main():
     if len(sys.argv) < 2:

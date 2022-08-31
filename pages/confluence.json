@@ -1,6 +1,7 @@
 {
     "resource_id": null,
     "url": "https://confluence.atlassian.com/doc/confluence-use-cases-283641068.html",
+    "tags": ["bugbounty", "bundler"],
     "deps": [
         {
             "method": "GET",

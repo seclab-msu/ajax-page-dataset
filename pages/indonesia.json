@@ -1,6 +1,7 @@
 {
   "resource_id": 9500429,
   "url": "https://worldgeographyindonesia.wordpress.com/2014/10/14/ocean-currents-of-indonesia/",
+  "tags": [],
   "deps": [{
     "method": "POST",
     "url": "https://worldgeographyindonesia.wordpress.com/wp-admin/admin-ajax.php",
