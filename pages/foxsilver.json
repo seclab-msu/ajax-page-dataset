@@ -1,0 +1,153 @@
+{
+  "resource_id": 30867,
+  "url": "https://foxsilver.com.ua/sergi-zhakaranda%20",
+  "deps": [{
+    "method": "GET",
+    "url": "https://foxsilver.com.ua/index.php?route=common/cart/info",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+      "name": "Host",
+      "value": "foxsilver.com.ua"
+    }],
+    "queryString": [{
+      "name": "route",
+      "value": "common/cart/info"
+    }],
+    "bodySize": 0
+  }, {
+    "method": "POST",
+    "url": "https://foxsilver.com.ua/index.php?route=checkout/cart/add",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }, {
+      "name": "Host",
+      "value": "foxsilver.com.ua"
+    }],
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/add"
+    }],
+    "postData": {
+      "text": "product_id=62 &quantity=1",
+      "mimeType": "application/x-www-form-urlencoded",
+      "params": [{
+        "name": "product_id",
+        "value": "62 "
+      }, {
+        "name": "quantity",
+        "value": "1"
+      }]
+    }
+  }, {
+    "method": "GET",
+    "url": "https://foxsilver.com.ua/index.php?route=product/product/review&product_id=80",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+      "name": "Host",
+      "value": "foxsilver.com.ua"
+    }],
+    "queryString": [{
+      "name": "route",
+      "value": "product/product/review"
+    }, {
+      "name": "product_id",
+      "value": "80"
+    }],
+    "bodySize": 0
+  }, {
+    "method": "POST",
+    "url": "https://foxsilver.com.ua/index.php?route=account/wishlist/add",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+      "name": "Host",
+      "value": "foxsilver.com.ua"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }],
+    "queryString": [{
+      "name": "route",
+      "value": "account/wishlist/add"
+    }],
+    "postData": {
+        "mimeType": "application/x-www-form-urlencoded",
+        "params": [{
+          "name": "product_id",
+          "value": "80"
+        }],
+        "text": "product_id=80"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://foxsilver.com.ua/index.php?route=checkout/cart/remove",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }, {
+      "name": "Host",
+      "value": "foxsilver.com.ua"
+    }],
+    "queryString": [{
+      "name": "route",
+      "value": "checkout/cart/remove"
+    }],
+    "postData": {
+      "text": "key=",
+      "mimeType": "application/x-www-form-urlencoded",
+      "params": [{
+        "name": "key",
+        "value": ""
+      }]
+    }
+  }, {
+    "method": "POST",
+    "url": "https://foxsilver.com.ua/index.php?route=extension/module/newsletters/news",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }, {
+      "name": "Host",
+      "value": "foxsilver.com.ua"
+    }],
+    "queryString": [{
+      "name": "route",
+      "value": "extension/module/newsletters/news"
+    }],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded",
+      "params": [{
+        "name": "email",
+        "value": ""
+      }],
+      "text": "email="
+    }
+  }, {
+    "method": "POST",
+    "url": "https://foxsilver.com.ua/index.php?route=product/compare/add",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+      "name": "Host",
+      "value": "foxsilver.com.ua"
+    }, {
+      "name": "Content-Type",
+      "value": "application/x-www-form-urlencoded"
+    }],
+    "queryString": [{
+      "name": "route",
+      "value": "product/compare/add"
+    }],
+    "bodySize": 13,
+    "postData": {
+      "text": "product_id=80",
+      "mimeType": "application/x-www-form-urlencoded",
+      "params": [{
+        "name": "product_id",
+        "value": "80"
+      }]
+    }
+  }]
+}
