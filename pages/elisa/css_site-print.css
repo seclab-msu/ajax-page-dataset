@@ -1,0 +1,277 @@
+/* Primary colors */
+/* Secondary colors */
+/* Greys */
+.elisa-verlag-xlight {
+  font-family: 'verlag extra light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.elisa-verlag-xlight-italic {
+  font-family: 'verlag extra light', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.elisa-verlag-light {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.elisa-verlag-light-italic {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.elisa-verlag-book {
+  font-family: 'verlag book', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.elisa-verlag-book-italic {
+  font-family: 'verlag book', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.elisa-verlag-bold {
+  font-family: 'verlag bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.elisa-verlag-bold-italic {
+  font-family: 'verlag bold', sans-serif;
+  font-weight: normal;
+  font-style: italic;
+}
+.site-common-brand-font-light {
+  font-family: 'verlag extra light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.site-common-brand-font-regular {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.site-common-brand-font-medium {
+  font-family: 'verlag book', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.site-common-brand-font-bold {
+  font-family: 'verlag bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.site-common-sans-serif-font {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.site-common-headline-text {
+  font-family: 'verlag extra light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 80px;
+  color: #404041;
+  line-height: 1;
+}
+.site-common-headline-alternative-text {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 60px;
+  color: #404041;
+  line-height: 1;
+}
+.site-common-headline-alternative2-text {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  color: #404041;
+  line-height: 1;
+}
+.site-common-subheading-text {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 30px;
+  color: #404041;
+  line-height: 1.125;
+}
+.site-common-subheading2-text {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  color: #404041;
+}
+.site-common-product-listing-text {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  color: #404041;
+}
+.site-common-ingress-text {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #404041;
+}
+.site-common-body-text {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  color: #404041;
+  line-height: 18px;
+}
+.site-common-special-offer-text {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-size: 13px;
+  color: #ff6400;
+}
+.site-common-emphasized-text {
+  font-family: Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  color: #404041;
+}
+.site-common-grey-text {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  color: #808081;
+}
+.site-common-faded-grey-text {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  color: #808081;
+}
+.site-common-light-grey-text {
+  font-family: Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  color: #b0b0b1;
+}
+.site-common-button-text-big {
+  font-family: 'verlag bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+}
+.site-common-button-text {
+  font-family: 'verlag bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  color: #f5f5f5;
+}
+.site-common-button-text-small {
+  font-family: 'verlag bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 12px;
+  color: #f5f5f5;
+}
+.site-common-link a {
+  color: #0090f1;
+  text-decoration: none;
+}
+.site-common-link a:hover {
+  text-decoration: underline;
+}
+.site-common-link-text {
+  color: #0090f1;
+  text-decoration: none;
+}
+.site-common-link-text:hover {
+  text-decoration: underline;
+}
+.site-common-viihde-header-font {
+  font-family: 'verlag extra light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 54px;
+  color: #384248;
+  letter-spacing: -3px;
+}
+.site-common-viihde-ingress-font {
+  font-family: 'verlag extra light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  color: #384248;
+  letter-spacing: -1px;
+}
+.site-common-viihde-promotion-font {
+  font-size: 17px;
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  color: white;
+}
+.site-common-viihde-contact-text {
+  font-family: 'verlag light', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  color: #333333;
+}
+.site-common-viihde-price-font {
+  font-family: 'verlag book', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+}
+.highlight-picture,
+#main-tabs {
+  display: none;
+}
+.elisa-navi__global-header,
+a.loginLink,
+.right-side-component {
+  display: none;
+}
+footer .site-navigation {
+  display: none;
+}
+#expand-control {
+  display: none;
+}
+#map-controls {
+  margin-top: 30px;
+}
+#map-controls #coverage-filter-list {
+  margin-top: 30px;
+}
+#map-controls .mobile-header {
+  font-family: 'verlag bold', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#map-controls #minimize-controls {
+  display: none;
+}
+#map-controls .search-box {
+  display: none;
+}
+#map-controls .disturbance-types {
+  margin-top: 20px;
+}
+#map-controls .guide-container {
+  margin-top: 20px;
+}
+#map-footer {
+  display: none;
+}
