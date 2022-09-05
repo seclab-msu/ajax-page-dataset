@@ -1,0 +1,132 @@
+{
+  "resource_id": 8169637,
+  "url": "https://wise.com/",
+  "deps": [
+    {
+      "method": "GET",
+      "url": "https://wise.com/rates/history?source=&target=&length=&unit=day&resolution=hourly",
+      "queryString": [
+        {
+          "name": "source",
+          "value": ""
+        },
+        {
+          "name": "target",
+          "value": ""
+        },
+        {
+          "name": "length",
+          "value": ""
+        },
+        {
+          "name": "unit",
+          "value": "day"
+        },
+        {
+          "name": "resolution",
+          "value": "hourly"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://wise.com/gateway/v1/savings?sourceCurrency=&targetCurrency=&rate=&sendAmount=&fee=",
+      "queryString": [
+        {
+          "name": "sourceCurrency",
+          "value": ""
+        },
+        {
+          "name": "targetCurrency",
+          "value": ""
+        },
+        {
+          "name": "rate",
+          "value": ""
+        },
+        {
+          "name": "sendAmount",
+          "value": ""
+        },
+        {
+          "name": "fee",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "url": "https://wise.com/gateway/v3/quotes/",
+      "queryString": [],
+      "postData": {
+        "mimeType": "application/json",
+        "text": "{\"sourceAmount\":1000,\"sourceCurrency\":\"GBP\",\"targetCurrency\":\"RUB\",\"preferredPayIn\":null,\"guaranteedTargetAmount\":false,\"type\":\"REGULAR\"}"
+      }
+    },
+    {
+      "method": "POST",
+      "url": "https://wise.com/gateway/v3/quotes/",
+      "queryString": [],
+      "postData": {
+        "mimeType": "application/json",
+        "text": "{\"targetAmount\":1000,\"sourceCurrency\":\"GBP\",\"targetCurrency\":\"RUB\",\"preferredPayIn\":\"SOFORT\",\"guaranteedTargetAmount\":false,\"type\":\"REGULAR\"}"
+      }
+    },
+    {
+      "method": "GET",
+      "url": "https://wise.com/product-availability/v2/detail?country=&profileType=PERSONAL",
+      "queryString": [
+        {
+          "name": "country",
+          "value": ""
+        },
+        {
+          "name": "profileType",
+          "value": "PERSONAL"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://wise.com/gateway/v1/stat/?id=mcaTimesCheaper&id=millionUsers&id=cardAcceptedInCountries&id=mcaCurrencyCountFallback&id=mcaReceiveCurrencyCountryFallback&id=customerMoneyMoves&id=timesCheaperThanTraditionalBanksMTHPForSendOnlyHero&id=cheaperPayPal&country=DZ",
+      "queryString": [
+        {
+          "name": "id",
+          "value": "mcaTimesCheaper"
+        },
+        {
+          "name": "id",
+          "value": "millionUsers"
+        },
+        {
+          "name": "id",
+          "value": "cardAcceptedInCountries"
+        },
+        {
+          "name": "id",
+          "value": "mcaCurrencyCountFallback"
+        },
+        {
+          "name": "id",
+          "value": "mcaReceiveCurrencyCountryFallback"
+        },
+        {
+          "name": "id",
+          "value": "customerMoneyMoves"
+        },
+        {
+          "name": "id",
+          "value": "timesCheaperThanTraditionalBanksMTHPForSendOnlyHero"
+        },
+        {
+          "name": "id",
+          "value": "cheaperPayPal"
+        },
+        {
+          "name": "country",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
