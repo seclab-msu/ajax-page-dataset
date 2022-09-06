@@ -1,0 +1,1 @@
+window.VUE_CONSTANTS={youtube_key:"AIzaSyC74zv0HeIuOeDjcUs3sHAkLn-8SiVO-eE",google_recaptcha_key:"6LcOifkUAAAAAOyy9XMAMK_w6qZX9KxZolMyK3Oz"};

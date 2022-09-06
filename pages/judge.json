@@ -1,0 +1,359 @@
+{
+  "resource_id": null,
+  "url": "https://judge.me/people",
+  "deps": [
+    {
+      "method": "GET",
+      "url": "https://judge.me/people.json?filter_by=im_following&page=1",
+      "queryString": [
+        {
+          "name": "filter_by",
+          "value": "im_following"
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/people.json?filter_by=im_following&sort_by=rs_recommendations_count&page=1",
+      "queryString": [
+        {
+          "name": "filter_by",
+          "value": "im_following"
+        },
+        {
+          "name": "sort_by",
+          "value": "rs_recommendations_count"
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/people.json?filter_by=everyone&page=1",
+      "queryString": [
+        {
+          "name": "filter_by",
+          "value": "everyone"
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/people.json?filter_by=everyone&sort_by=rs_recommendations_count&page=1",
+      "queryString": [
+        {
+          "name": "filter_by",
+          "value": "everyone"
+        },
+        {
+          "name": "sort_by",
+          "value": "rs_recommendations_count"
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/me.json",
+      "queryString": []
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/profile/follows?Reviewer[]=D7oPEkvD&Reviewer[]=DzNbNXO8&Reviewer[]=WP07aKLG&Reviewer[]=yQGa0or7&Reviewer[]=gbMElZ2W&Reviewer[]=DGmMbqe7&Reviewer[]=WVBjX65m&Reviewer[]=WVBVemEr&Reviewer[]=yKY178op&Reviewer[]=WJPXv4eX&Reviewer[]=y4kYkaMD&Reviewer[]=grd07107&Reviewer[]=gEMoR9KZ&Reviewer[]=y94blP88&Reviewer[]=ykdbEwwR&Reviewer[]=glO693mW",
+      "queryString": [
+        {
+          "name": "Reviewer[]",
+          "value": "D7oPEkvD"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "DzNbNXO8"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "WP07aKLG"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "yQGa0or7"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "gbMElZ2W"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "DGmMbqe7"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "WVBjX65m"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "WVBVemEr"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "yKY178op"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "WJPXv4eX"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "y4kYkaMD"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "grd07107"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "gEMoR9KZ"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "y94blP88"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "ykdbEwwR"
+        },
+        {
+          "name": "Reviewer[]",
+          "value": "glO693mW"
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/people.json?sort_by=created_at&page=1",
+      "queryString": [
+        {
+          "name": "sort_by",
+          "value": "created_at"
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/people.json?filter_by=everyone&sort_by=created_at&page=1",
+      "queryString": [
+        {
+          "name": "filter_by",
+          "value": "everyone"
+        },
+        {
+          "name": "sort_by",
+          "value": "created_at"
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/instant_search?search_in_shop=false&q=",
+      "queryString": [
+        {
+          "name": "search_in_shop",
+          "value": "false"
+        },
+        {
+          "name": "q",
+          "value": ""
+        }
+      ],
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "url": "https://judge.me/profile/follows/heart",
+      "queryString": [],
+      "postData": {
+        "mimeType": "application/json;charset=UTF-8",
+        "text": "{\"is_hearting\":false,\"reviewer_enc_id\":\"\"}"
+      },
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "POST",
+      "url": "https://judge.me/profile/follows/heart",
+      "queryString": [],
+      "postData": {
+        "mimeType": "application/json;charset=UTF-8",
+        "text": "{\"is_hearting\":true,\"reviewer_enc_id\":\"\"}"
+      },
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/following.json",
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ],
+      "queryString": []
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/store_search.json?country=&page=1",
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ],
+      "queryString": [
+        {
+          "name": "country",
+          "value": ""
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/store_search.json?q=&country=&page=1",
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ],
+      "queryString": [
+        {
+          "name": "q",
+          "value": ""
+        },
+        {
+          "name": "country",
+          "value": ""
+        },
+        {
+          "name": "page",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/feed_events.json?user_events=true&store_events=true&product_events=true",
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ],
+      "queryString": [
+        {
+          "name": "user_events",
+          "value": "true"
+        },
+        {
+          "name": "store_events",
+          "value": "true"
+        },
+        {
+          "name": "product_events",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "method": "GET",
+      "url": "https://judge.me/reviews.json",
+      "headers": [
+        {
+          "name": "x-judgeme-redesign",
+          "value": "true"
+        }
+      ],
+      "queryString": []
+    }
+  ]
+}
