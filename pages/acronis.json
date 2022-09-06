@@ -1,0 +1,697 @@
+{
+    "resource_id": null,
+    "url": "https://kb.acronis.com/content/60440",
+    "deps": [
+        {
+            "method": "POST",
+            "url": "https://kb.acronis.com/system/ajax",
+            "httpVersion": "HTTP/2",
+            "headers": [
+                {
+                    "name": "Host",
+                    "value": "kb.acronis.com"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/x-www-form-urlencoded; charset=UTF-8"
+                },
+                {
+                    "name": "X-Requested-With",
+                    "value": "XMLHttpRequest"
+                },
+                {
+                    "name": "Content-Length",
+                    "value": "9091"
+                }
+            ],
+            "queryString": [],
+            "bodySize": 9091,
+            "postData": {
+                "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+                "text": "form_build_id=form-gLTVFWXuh5yFtYo4USIz-BQ58qLphpUgN2Etydm-SBA&form_id=nodefeedback_form&_triggering_element_name=op&_triggering_element_value=Yes&ajax_html_ids%5B%5D=pdst-capture&ajax_html_ids%5B%5D=skip-link&ajax_html_ids%5B%5D=page-wrapper&ajax_html_ids%5B%5D=page&ajax_html_ids%5B%5D=header-wrapper&ajax_html_ids%5B%5D=header&ajax_html_ids%5B%5D=branding&ajax_html_ids%5B%5D=name-and-slogan&ajax_html_ids%5B%5D=site-name&ajax_html_ids%5B%5D=block-block-42&ajax_html_ids%5B%5D=acronis_logo&ajax_html_ids%5B%5D=block-block-32&ajax_html_ids%5B%5D=block-lang-dropdown-language-content&ajax_html_ids%5B%5D=lang_dropdown_form_language_content&ajax_html_ids%5B%5D=lang-dropdown-select-language_content&ajax_html_ids%5B%5D=lang-dropdown-select-language_content-styler&ajax_html_ids%5B%5D=search-wrapper&ajax_html_ids%5B%5D=block-views-077ebe6543edc9b0a345b7f7f3a9e2b3&ajax_html_ids%5B%5D=views-exposed-form-main-search-main-seach-page&ajax_html_ids%5B%5D=edit-ap-wrapper&ajax_html_ids%5B%5D=edit-ap&ajax_html_ids%5B%5D=edit-ap-styler&ajax_html_ids%5B%5D=edit-s-wrapper&ajax_html_ids%5B%5D=edit-s&ajax_html_ids%5B%5D=edit-submit-main-search&ajax_html_ids%5B%5D=content-wrapper&ajax_html_ids%5B%5D=columns&ajax_html_ids%5B%5D=content-column&ajax_html_ids%5B%5D=block-acronis-panes-acronis-panes-print&ajax_html_ids%5B%5D=main-content&ajax_html_ids%5B%5D=main-content-header&ajax_html_ids%5B%5D=page-title&ajax_html_ids%5B%5D=content&ajax_html_ids%5B%5D=block-system-main&ajax_html_ids%5B%5D=google_translate_element&ajax_html_ids%5B%5D=%3A0.targetLanguage&ajax_html_ids%5B%5D=node-60440&ajax_html_ids%5B%5D=nodefeedback-form&ajax_html_ids%5B%5D=formwrapp&ajax_html_ids%5B%5D=edit-voting&ajax_html_ids%5B%5D=edit-resolution&ajax_html_ids%5B%5D=edit-resolution-0-styler&ajax_html_ids%5B%5D=edit-resolution-yes&ajax_html_ids%5B%5D=edit-resolution-1-styler&ajax_html_ids%5B%5D=edit-resolution-no&ajax_html_ids%5B%5D=footer-wrapper&ajax_html_ids%5B%5D=footer&ajax_html_ids%5B%5D=block-block-36&ajax_html_ids%5B%5D=footer-links&ajax_html_ids%5B%5D=cboxOverlay&ajax_html_ids%5B%5D=colorbox&ajax_html_ids%5B%5D=cboxWrapper&ajax_html_ids%5B%5D=cboxTopLeft&ajax_html_ids%5B%5D=cboxTopCenter&ajax_html_ids%5B%5D=cboxTopRight&ajax_html_ids%5B%5D=cboxMiddleLeft&ajax_html_ids%5B%5D=cboxContent&ajax_html_ids%5B%5D=cboxTitle&ajax_html_ids%5B%5D=cboxCurrent&ajax_html_ids%5B%5D=cboxPrevious&ajax_html_ids%5B%5D=cboxNext&ajax_html_ids%5B%5D=cboxSlideshow&ajax_html_ids%5B%5D=cboxLoadingOverlay&ajax_html_ids%5B%5D=cboxLoadingGraphic&ajax_html_ids%5B%5D=cboxMiddleRight&ajax_html_ids%5B%5D=cboxBottomLeft&ajax_html_ids%5B%5D=cboxBottomCenter&ajax_html_ids%5B%5D=cboxBottomRight&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=goog-gt-tt&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=&ajax_html_ids%5B%5D=_hjRemoteVarsFrame&ajax_html_ids%5B%5D=&ajax_page_state%5Btheme%5D=at_acronis&ajax_page_state%5Btheme_token%5D=hXT7d6DYkNLKyyhdM_ZWfmhNsXzGmgpLSql-wjB3-r8&ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.base.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.menus.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.messages.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.theme.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Fcomment%2Fcomment.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fdate%2Fdate_api%2Fdate.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fdate%2Fdate_popup%2Fthemes%2Fdatepicker.1.7.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Ffield%2Ftheme%2Ffield.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Fnode%2Fnode.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Fsearch%2Fsearch.css%5D=1&ajax_page_state%5Bcss%5D%5Bmodules%2Fuser%2Fuser.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fworkflow%2Fworkflow_admin_ui%2Fworkflow_admin_ui.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fviews%2Fcss%2Fviews.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fstyles%2Fdefault%2Fcolorbox_style.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fctools%2Fcss%2Fctools.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fpanels%2Fcss%2Fpanels.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Fnodefeedback%2Fcss%2Fnodefeedback.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Facronis_custom%2Fcss%2Fgoogle_translate.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fglobal.search.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Flang_dropdown%2Flang_dropdown.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fadaptivetheme%2Fat_core%2Fcss%2Fat.layout.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fjquery.formstyler.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fglobal.base.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Ffonts.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fglobal.styles.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Faccordion.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fdist%2Fglobal_icons.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fdist%2Fglobal_style.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fdist%2Fstyle.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fprint.css%5D=1&ajax_page_state%5Bcss%5D%5Bpublic%3A%2F%2Fadaptivetheme%2Fat_acronis_files%2Fat_acronis.responsive.layout.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.custom.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.smalltouch.portrait.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.smalltouch.landscape.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.tablet.portrait.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.tablet.landscape.css%5D=1&ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.desktop.css%5D=1&ajax_page_state%5Bcss%5D%5Bpublic%3A%2F%2Fadaptivetheme%2Fat_acronis_files%2Fat_acronis.lt-ie9.layout.css%5D=1&ajax_page_state%5Bjs%5D%5Bhttps%3A%2F%2Fwww.acronis.com%2Fen-us%2Fjs%2Fcrosssys%2Fasm-d7-d8.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Facronis_custom%2Fjs%2Fgoogle_translate.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Freplace%2Fjquery%2F1.12%2Fjquery.min.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fjquery-extend-3.4.0.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fjquery-html-prefilter-3.5.0-backport.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fjquery.once.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fdrupal.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fbeautytips%2Fjs%2Fjquery.bt.min.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fbeautytips%2Fjs%2Fbeautytips.min.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Freplace%2Fui%2Fexternal%2Fjquery.cookie.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Freplace%2Fjquery.form%2F4%2Fjquery.form.min.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fform.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fajax.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Fjs%2Fjquery_update.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Flibraries%2Fcolorbox%2Fjquery.colorbox-min.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fjs%2Fcolorbox.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fstyles%2Fdefault%2Fcolorbox_style.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fjs%2Fcolorbox_load.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fjs%2Fcolorbox_inline.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fcollapse.js%5D=1&ajax_page_state%5Bjs%5D%5Bmisc%2Fprogress.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fgoogle_analytics%2Fgoogleanalytics.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Flang_dropdown%2Flang_dropdown.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Facronis_panes%2Fjs%2Facronis_panes.print.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fjquery.floatThead.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fjquery.formstyler.min.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fmain.js%5D=1&ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fgoogle_tag_manager.js%5D=1&ajax_page_state%5Bjquery_version%5D=1.12",
+                "params": [
+                    {
+                        "name": "form_build_id",
+                        "value": "form-gLTVFWXuh5yFtYo4USIz-BQ58qLphpUgN2Etydm-SBA"
+                    },
+                    {
+                        "name": "form_id",
+                        "value": "nodefeedback_form"
+                    },
+                    {
+                        "name": "_triggering_element_name",
+                        "value": "op"
+                    },
+                    {
+                        "name": "_triggering_element_value",
+                        "value": "Yes"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "pdst-capture"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "skip-link"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "page-wrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "page"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "header-wrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "header"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "branding"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "name-and-slogan"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "site-name"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "block-block-42"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "acronis_logo"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "block-block-32"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "block-lang-dropdown-language-content"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "lang_dropdown_form_language_content"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "lang-dropdown-select-language_content"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "lang-dropdown-select-language_content-styler"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "search-wrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "block-views-077ebe6543edc9b0a345b7f7f3a9e2b3"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "views-exposed-form-main-search-main-seach-page"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-ap-wrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-ap"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-ap-styler"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-s-wrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-s"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-submit-main-search"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "content-wrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "columns"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "content-column"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "block-acronis-panes-acronis-panes-print"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "main-content"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "main-content-header"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "page-title"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "content"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "block-system-main"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "google_translate_element"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "%3A0.targetLanguage"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "node-60440"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "nodefeedback-form"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "formwrapp"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-voting"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-resolution"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-resolution-0-styler"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-resolution-yes"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-resolution-1-styler"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "edit-resolution-no"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "footer-wrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "footer"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "block-block-36"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "footer-links"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxOverlay"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "colorbox"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxWrapper"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxTopLeft"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxTopCenter"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxTopRight"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxMiddleLeft"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxContent"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxTitle"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxCurrent"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxPrevious"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxNext"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxSlideshow"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxLoadingOverlay"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxLoadingGraphic"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxMiddleRight"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxBottomLeft"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxBottomCenter"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "cboxBottomRight"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "goog-gt-tt"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": "_hjRemoteVarsFrame"
+                    },
+                    {
+                        "name": "ajax_html_ids%5B%5D",
+                        "value": ""
+                    },
+                    {
+                        "name": "ajax_page_state%5Btheme%5D",
+                        "value": "at_acronis"
+                    },
+                    {
+                        "name": "ajax_page_state%5Btheme_token%5D",
+                        "value": "hXT7d6DYkNLKyyhdM_ZWfmhNsXzGmgpLSql-wjB3-r8"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.base.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.menus.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.messages.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fsystem%2Fsystem.theme.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fcomment%2Fcomment.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fdate%2Fdate_api%2Fdate.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fdate%2Fdate_popup%2Fthemes%2Fdatepicker.1.7.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Ffield%2Ftheme%2Ffield.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fnode%2Fnode.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fsearch%2Fsearch.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bmodules%2Fuser%2Fuser.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fworkflow%2Fworkflow_admin_ui%2Fworkflow_admin_ui.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fviews%2Fcss%2Fviews.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fstyles%2Fdefault%2Fcolorbox_style.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fctools%2Fcss%2Fctools.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fpanels%2Fcss%2Fpanels.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Fnodefeedback%2Fcss%2Fnodefeedback.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Facronis_custom%2Fcss%2Fgoogle_translate.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fglobal.search.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Flang_dropdown%2Flang_dropdown.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fadaptivetheme%2Fat_core%2Fcss%2Fat.layout.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fjquery.formstyler.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fglobal.base.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Ffonts.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fglobal.styles.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Faccordion.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fdist%2Fglobal_icons.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fdist%2Fglobal_style.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fdist%2Fstyle.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fprint.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bpublic%3A%2F%2Fadaptivetheme%2Fat_acronis_files%2Fat_acronis.responsive.layout.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.custom.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.smalltouch.portrait.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.smalltouch.landscape.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.tablet.portrait.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.tablet.landscape.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fcss%2Fresponsive.desktop.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bcss%5D%5Bpublic%3A%2F%2Fadaptivetheme%2Fat_acronis_files%2Fat_acronis.lt-ie9.layout.css%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bhttps%3A%2F%2Fwww.acronis.com%2Fen-us%2Fjs%2Fcrosssys%2Fasm-d7-d8.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Facronis_custom%2Fjs%2Fgoogle_translate.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Freplace%2Fjquery%2F1.12%2Fjquery.min.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fjquery-extend-3.4.0.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fjquery-html-prefilter-3.5.0-backport.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fjquery.once.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fdrupal.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fbeautytips%2Fjs%2Fjquery.bt.min.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fbeautytips%2Fjs%2Fbeautytips.min.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Freplace%2Fui%2Fexternal%2Fjquery.cookie.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Freplace%2Fjquery.form%2F4%2Fjquery.form.min.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fform.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fajax.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fjquery_update%2Fjs%2Fjquery_update.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Flibraries%2Fcolorbox%2Fjquery.colorbox-min.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fjs%2Fcolorbox.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fstyles%2Fdefault%2Fcolorbox_style.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fjs%2Fcolorbox_load.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fcolorbox%2Fjs%2Fcolorbox_inline.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fcollapse.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bmisc%2Fprogress.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Fgoogle_analytics%2Fgoogleanalytics.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcontrib%2Flang_dropdown%2Flang_dropdown.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fmodules%2Fcustom%2Facronis_panes%2Fjs%2Facronis_panes.print.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fjquery.floatThead.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fjquery.formstyler.min.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fmain.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjs%5D%5Bsites%2Fall%2Fthemes%2Fat_acronis%2Fscripts%2Fgoogle_tag_manager.js%5D",
+                        "value": "1"
+                    },
+                    {
+                        "name": "ajax_page_state%5Bjquery_version%5D",
+                        "value": "1.12"
+                    }
+                ]
+            }
+        },
+        {
+            "method": "GET",
+            "url": "https://www.acronis.com/en-us/js/crosssys/ribbons/contents/subscription-form.html",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.acronis.com/en-us/js/crosssys/ribbons/contents/cookies-note-v2.html",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.acronis.com//en-us/js/crosssys/ribbons/contents/onboarding-service.html",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.acronis.com/en-us/js/crosssys/ribbons/contents/banner-acronis-cyber-protect.html",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.acronis.com/en-us/js/crosssys/ribbons/contents/banner-acronis-cyber-files.html",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.acronis.com/en-us/js/crosssys/ribbons/contents/banner-acronis-cyber-protect-home-office.html",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.acronis.com/en-us/js/crosssys/ribbons/contents/banner-acronis-snap-deploy.html",
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://geoapi.acronis.com/api",
+            "queryString": []
+        }
+    ]
+}

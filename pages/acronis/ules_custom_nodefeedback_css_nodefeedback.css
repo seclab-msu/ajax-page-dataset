@@ -1,0 +1,41 @@
+#nodefeedback-form .fieldset-wrapper .resolution_question {
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 25px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 0px;
+  cursor: default;
+}
+
+#nodefeedback-form .fieldset-wrapper .form-item-resolution .form-item-resolution {
+  display: inline-block;
+}
+
+#nodefeedback-form .fieldset-wrapper .form-item-resolution input[type="submit"] {
+  background: none;
+  font-size: 16px;
+  line-height: 25px;
+  color: #488bd3;
+  margin: 0;
+  padding-left: 5px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: capitalize;
+  float: none;
+  font-weight: 400;
+}
+
+#nodefeedback-form #edit-resolution .form-item-resolution:hover input[type="submit"] {
+  color: black;
+}
+
+#nodefeedback-form #edit-resolution .form-item-resolution:hover input[type="submit"]{
+  color: black;
+}
+
+#nodefeedback-form #edit-resolution .form-item-resolution input[type="submit"] {
+  padding: 0px 15px 0 5px;
+}
