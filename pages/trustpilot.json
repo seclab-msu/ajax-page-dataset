@@ -1,0 +1,155 @@
+{
+    "resource_id": null,
+    "url": "https://www.trustpilot.com/users/settings",
+    "deps": [{
+        "method": "POST",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/consumer/verification/start",
+        "headers": [{
+            "name": "Host",
+            "value": "www.trustpilot.com"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+        }, {
+            "name": "Content-Length",
+            "value": "0"
+        }],
+        "queryString": [],
+        "bodySize": 0
+    }, {
+        "method": "POST",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/consumer/verification/abandon",
+        "headers": [{
+            "name": "Host",
+            "value": "www.trustpilot.com"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+        }, {
+            "name": "Content-Length",
+            "value": "0"
+        }],
+        "queryString": [],
+        "bodySize": 0
+    }, {
+        "method": "POST",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/profile-picture",
+        "headers": [{
+            "name": "Host",
+            "value": "www.trustpilot.com"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+        }, {
+            "name": "Content-Length",
+            "value": "18"
+        }],
+        "queryString": [],
+        "bodySize": 18,
+        "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "{\"fileContent\":\"\"}"
+        }
+    }, {
+        "method": "DELETE",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/profile-picture",
+        "headers": [],
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://www.trustpilot.com/api/auth/users/info",
+        "headers": [],
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/csrf",
+        "headers": [],
+        "queryString": []
+    }, {
+        "method": "POST",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/users/accept-terms-for-country",
+        "headers": [{
+            "name": "Host",
+            "value": "www.trustpilot.com"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+        }, {
+            "name": "Content-Length",
+            "value": "18"
+        }],
+        "queryString": [],
+        "bodySize": 18,
+        "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "{\"countryCode\":\"\"}"
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/users/save-personal-settings",
+        "headers": [{
+            "name": "Host",
+            "value": "www.trustpilot.com"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+        }, {
+            "name": "Content-Length",
+            "value": "59"
+        }],
+        "queryString": [],
+        "bodySize": 59,
+        "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "{\"consumerId\":\"\",\"country\":\"\",\"displayName\":\"\",\"locale\":\"\"}"
+        }
+    }, {
+        "method": "POST",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/consumer/email/marketing",
+        "headers": [{
+            "name": "Host",
+            "value": "www.trustpilot.com"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+        }, {
+            "name": "Content-Length",
+            "value": "68"
+        }],
+        "queryString": [],
+        "bodySize": 68,
+        "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "{\"subscribe\":true,\"locale\":\"en-US\",\"textVersion\":4,\"countryCode\":\"\"}"
+        }
+    }, {
+        "method": "DELETE",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/consumer/email/marketing",
+        "headers": [],
+        "queryString": []
+    }, {
+        "method": "GET",
+        "url": "https://www.trustpilot.com/csrf",
+        "headers": [],
+        "queryString": []
+    }, {
+        "method": "POST",
+        "url": "https://www.trustpilot.com/api/businessunitprofile/consumer/email/invitations",
+        "headers": [{
+            "name": "Host",
+            "value": "www.trustpilot.com"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json; charset=utf-8"
+        }, {
+            "name": "Content-Length",
+            "value": "19"
+        }],
+        "queryString": [],
+        "bodySize": 19,
+        "postData": {
+            "mimeType": "application/json; charset=utf-8",
+            "text": "{\"subscribe\":false}"
+        }
+    }]
+}
