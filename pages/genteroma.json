@@ -1,0 +1,365 @@
+{
+    "resource_id": null,
+    "url": "https://www.genteroma.com/it/donna/abbigliamento/gonne.html?gr_designer_name=17631",
+    "deps": [
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/it/banner/ajax/load/?requesting_page_url=https://www.genteroma.com/it/donna/abbigliamento/gonne.html?gr_designer_name=17631&sections=&_=",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "requesting_page_url",
+                    "value": "https://www.genteroma.com/it/donna/abbigliamento/gonne.html?gr_designer_name=17631"
+                },
+                {
+                    "name": "sections",
+                    "value": ""
+                },
+                {
+                    "name": "_",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/it/customer/section/load/?sections=cart,captcha,gtm-customer,signifyd-fingerprint,messages&force_new_section_timestamp=true&_=",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "sections",
+                    "value": "cart,captcha,gtm-customer,signifyd-fingerprint,messages"
+                },
+                {
+                    "name": "force_new_section_timestamp",
+                    "value": "true"
+                },
+                {
+                    "name": "_",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/it/popup/ajax/addCookie/?isAjax=true&cookie_type=aw_popup_viewed_popup&popup_id=9&cookie_lifetime=1209600&_=",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "isAjax",
+                    "value": "true"
+                },
+                {
+                    "name": "cookie_type",
+                    "value": "aw_popup_viewed_popup"
+                },
+                {
+                    "name": "popup_id",
+                    "value": "9"
+                },
+                {
+                    "name": "cookie_lifetime",
+                    "value": "1209600"
+                },
+                {
+                    "name": "_",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/it/popup/ajax/addCookie/?isAjax=true&form_key=4GIggMH9vVa9jk1X&cookie_type=aw_popup_viewed_page&current_url=https://www.genteroma.com/it/catalog/category/view/id/6124/?gr_designer_name=17631",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "isAjax",
+                    "value": "true"
+                },
+                {
+                    "name": "form_key",
+                    "value": "4GIggMH9vVa9jk1X"
+                },
+                {
+                    "name": "cookie_type",
+                    "value": "aw_popup_viewed_page"
+                },
+                {
+                    "name": "current_url",
+                    "value": "https://www.genteroma.com/it/catalog/category/view/id/6124/?gr_designer_name=17631"
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/it/popup/ajax/prepareContent/?isAjax=true&aw_popup=true&form_key=4GIggMH9vVa9jk1X&name_in_layout=popup_category_page&product_id=6124&preview=0&popup_info=",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "isAjax",
+                    "value": "true"
+                },
+                {
+                    "name": "aw_popup",
+                    "value": "true"
+                },
+                {
+                    "name": "form_key",
+                    "value": "4GIggMH9vVa9jk1X"
+                },
+                {
+                    "name": "name_in_layout",
+                    "value": "popup_category_page"
+                },
+                {
+                    "name": "product_id",
+                    "value": "6124"
+                },
+                {
+                    "name": "preview",
+                    "value": "0"
+                },
+                {
+                    "name": "popup_info",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/it/search/ajax/suggest/?q=&_=",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [
+                {
+                    "name": "q",
+                    "value": ""
+                },
+                {
+                    "name": "_",
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Aheadworks_SocialLogin/template/authentication/social.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/MSP_AdvancedPrivacyUi/template/newsletter/newsletter-clauses.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "sec-fetch-mode",
+                    "value": "cors"
+                },
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                },
+                {
+                    "name": "Host",
+                    "value": "www.genteroma.com"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/MSP_ReCaptcha/template/reCaptcha.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Captcha/template/checkout/captcha.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Checkout/template/minicart/content.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Customer/template/authentication-popup.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": [],
+            "bodySize": 0
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Ui/template/messages.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Ui/templates/block-loader.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Ui/templates/modal/modal-custom.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Ui/templates/modal/modal-popup.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Ui/templates/modal/modal-slide.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/Magento_Ui/templates/tooltip/tooltip.html",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "https://www.genteroma.com/static/version1655973436/frontend/GenteRoma/default/it_IT/js-translation.json",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                }
+            ],
+            "queryString": []
+        },
+        {
+            "method": "POST",
+            "url": "https://www.genteroma.com/it/customer/ajax/login",
+            "httpVersion": "HTTP/1.1",
+            "headers": [
+                {
+                    "name": "x-requested-with",
+                    "value": "XMLHttpRequest"
+                },
+                {
+                    "name": "content-type",
+                    "value": "application/json"
+                }
+            ],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"username\":\"\",\"password\":\"\",\"captcha_form_id\":\"user_login\",\"g-recaptcha-response\":\"\",\"context\":\"checkout\",\"token\":\"\"}"
+            }
+        }
+    ]
+}
