@@ -1,6 +1,7 @@
 {
     "resource_id": 32466,
     "url": "https://www.rasina-epoxidica.ro/catalog/rasina-epoxidica-4/filtru-culoare-pigment-magic-lilac-1",
+    "tags": ["dom", "jquery-dom", "classes"],
     "deps": [{
         "method": "GET",
         "url": "https://www.rasina-epoxidica.ro/cumpara/pigment-pentru-rasina-epoxidica-metalizat-1-kg-1250?action=quick_view",
