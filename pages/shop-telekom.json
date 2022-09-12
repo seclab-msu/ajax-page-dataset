@@ -1,6 +1,12 @@
 {
   "resource_id": 5416093,
   "url": "https://shop.telekom.de/geraete/strax-in-ear-headset-wired-with-jack-3-5mm-weiss",
+  "tags": [
+    "bugbounty",
+    "bundler",
+    "return-value",
+    "classes"
+  ],
   "deps": [{
     "method": "GET",
     "url": "https://shop.telekom.de/api/shop/downtimes",
