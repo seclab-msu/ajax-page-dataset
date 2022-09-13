@@ -17,8 +17,10 @@ class StatCount:
         return (self.success * 100) / self.total
 
     def __str__(self):
-        return "%d of %d (%.1f%%)" % (self.success, self.total, self.percent())
-
+        if self.total != 0:
+            return "%d of %d (%.1f%%)" % (self.success, self.total, self.percent())
+        else:
+            return "%d of %d" % (self.success, self.total)
 
 class Stat:
     __slots__ = ["dep", "app"]
