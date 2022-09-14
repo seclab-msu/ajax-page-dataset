@@ -4,6 +4,8 @@ import os
 import sys
 import glob
 import json
+import asyncio
+import argparse
 import urllib.parse
 import subprocess
 
@@ -14,13 +16,16 @@ ANALYZER_PATH = "../js-analyzer"
 PAGES_PATH = os.path.join(os.path.dirname(__file__), "pages")
 DEBUG = True
 
-def run_analyzer(page_dir):
-    analyzer_process = subprocess.Popen(
-        ['./run-on-page.sh', ANALYZER_PATH, page_dir],
-        stdout=subprocess.PIPE
+async def run_analyzer(page_dir):
+    analyzer_process = await asyncio.create_subprocess_exec(
+        './run-on-page.sh', ANALYZER_PATH, page_dir,
+        stdin=subprocess.DEVNULL,
+        stdout=subprocess.PIPE,
+        stderr=None
     )
-    analyzer_deps = json.load(analyzer_process.stdout)
-    analyzer_status = analyzer_process.wait()
+    output, _ = await analyzer_process.communicate()
+    analyzer_deps = json.loads(output)
+    analyzer_status = await analyzer_process.wait()
     if analyzer_status != 0:
         print("Analyzer exited with nonzero status", file=sys.stderr)
     return analyzer_deps
@@ -154,22 +159,13 @@ def have_dep(found_deps, want_dep):
             return True
     return False
 
-def check_pages(pages_jsons):
-    samples = []
-    for sample_file in pages_jsons:
-        page_dir = sample_file[:-5]
-        with open(sample_file, encoding='utf8') as f:
-            sample_info = json.load(f)
-        samples.append((page_dir, sample_info))
-
-    sample_infos = [samp[1] for samp in samples]
-    stats = Stats(sample_infos)
-
-    for page_dir, sample_info in samples:
+async def check_page_worker(q, stats):
+    while True:
+        page_dir, sample_info = await q.get()
         tags = sample_info.get('tags', [])
         stats.inc_app(tags)
         reference_deps = sample_info['deps']
-        analyzer_deps = run_analyzer(page_dir)
+        analyzer_deps = await run_analyzer(page_dir)
 
         all_matched = True
         for reference_dep in reference_deps:
@@ -184,18 +180,47 @@ def check_pages(pages_jsons):
                     print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'])
         if all_matched:
             stats.succeed_app(tags)
+        q.task_done()
+
+async def check_pages(pages_jsons, n_workers):
+    samples = []
+    for sample_file in pages_jsons:
+        page_dir = sample_file[:-5]
+        with open(sample_file, encoding='utf8') as f:
+            sample_info = json.load(f)
+        samples.append((page_dir, sample_info))
+
+    sample_infos = [samp[1] for samp in samples]
+    stats = Stats(sample_infos)
+
+    q = asyncio.Queue(20)
+
+    for _ in range(n_workers):
+        asyncio.create_task(check_page_worker(q, stats))
+
+    for page_dir, sample_info in samples:
+        await q.put((page_dir, sample_info))
+
+    await q.join()
 
     stats.print_stats()
 
 def main():
-    if len(sys.argv) < 2:
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('-p', type=int, default=6)
+    parser.add_argument('pages', nargs='*')
+
+    args = parser.parse_args()
+
+    if len(args.pages) == 0:
         pages_jsons = glob.glob(PAGES_PATH + '/*.json')
     else:
-        pages_jsons = sys.argv[1:]
+        pages_jsons = args.pages[:]
         for i in range(len(pages_jsons)):
             if not pages_jsons[i].endswith('.json'):
                 pages_jsons[i] += '.json'
-    check_pages(pages_jsons)
+    asyncio.run(check_pages(pages_jsons, args.p))
 
 
 if __name__ == "__main__":
