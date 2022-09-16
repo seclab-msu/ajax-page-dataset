@@ -1,5 +1,6 @@
 {
   "resource_id": 8793784,
+  "tags": ["return-value", "namespace", "jquery-dom", "dom"],
   "url": "https://mohandesfa.ir/product-category/computer-product/?per_row=4&shop_view=grid",
   "deps": [{
     "method": "POST",
