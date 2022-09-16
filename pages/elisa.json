@@ -134,7 +134,7 @@
         "url": "https://id.elisa.fi/sso/session?client_id=sites&language=",
         "queryString": [{
             "name": "client_id",
-            "velue": "sites"
+            "value": "sites"
         }, {
             "name": "language",
             "value": ""
