@@ -1,6 +1,7 @@
 {
   "resource_id": 13249814,
   "url": "https://kapkanshop.com/login",
+  "tags": ["jquery-dom", "jquery-plugin"],
   "deps": [{
     "method": "POST",
     "url": "https://kapkanshop.com/index.php?route=checkout/cart/quick_order",
