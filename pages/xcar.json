@@ -1,7 +1,7 @@
 {
   "resource_id": 1811531,
   "url": "https://newcar.xcar.com.cn/4907/",
-  "tags": ["classes"],
+  "tags": ["classes", "return-value", "jquery-dom"],
   "deps": [{
     "method": "GET",
     "url": "https://newcar.xcar.com.cn/auto/index.php?r=AlaOrder/getmodel&pserid=4907",
