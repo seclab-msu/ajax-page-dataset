@@ -5,7 +5,7 @@
     "bugbounty",
     "bundler",
     "return-value",
-    "classes"
+    "vue"
   ],
   "deps": [{
     "method": "GET",
