@@ -1,7 +1,7 @@
 {
   "resource_id": null,
   "url": "https://judge.me/people",
-  "tags": ["bundler", "classes"],
+  "tags": ["bundler", "classes", "redux"],
   "deps": [
     {
       "method": "GET",
