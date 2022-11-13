@@ -177,7 +177,7 @@ async def check_page_worker(q, stats):
             else:
                 all_matched = False
                 if DEBUG:
-                    print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'])
+                    print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'], reference_dep.get('postData'))
         if all_matched:
             stats.succeed_app(tags)
         q.task_done()
