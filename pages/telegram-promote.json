@@ -1,6 +1,7 @@
 {
   "resource_id": null,
   "url": "https://promote.telegram.org/",
+  "tags": ["namespace"],
   "deps": [{
     "method": "POST",
     "url": "https://promote.telegram.org/auth/request",
