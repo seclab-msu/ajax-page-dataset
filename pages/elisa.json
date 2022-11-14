@@ -1,9 +1,10 @@
 {
     "resource_id": 9479,
     "url": "https://elisa.fi/asiakaspalvelu/ohje/huijausyritykset/",
+    "tags": ["react", "return-value", "classes"],
     "deps": [{
         "method": "GET",
-        "url": "https//esco.elisa.fi/consent-management/verifyAudienceStudioCookie",
+        "url": "https://esco.elisa.fi/consent-management/verifyAudienceStudioCookie",
         "queryString": []
     }, {
         "method": "GET",
