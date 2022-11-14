@@ -1,6 +1,7 @@
 {
     "resource_id": null,
     "url": "https://www.genteroma.com/it/donna/abbigliamento/gonne.html?gr_designer_name=17631",
+    "tags": ["amd", "magento", "namespace", "singleton", "jquery-plugin"],
     "deps": [
         {
             "method": "GET",
