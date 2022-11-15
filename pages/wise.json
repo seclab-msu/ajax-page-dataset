@@ -1,7 +1,7 @@
 {
   "resource_id": 8169637,
   "url": "https://wise.com/",
-  "tags": ["bundler", "return-value", "logical-or", "regenerator"],
+  "tags": ["bundler", "return-value", "logical-or", "regenerator", "custom-extend"],
   "deps": [
     {
       "method": "GET",
