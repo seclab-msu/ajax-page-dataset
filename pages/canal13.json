@@ -1,7 +1,7 @@
 {
   "resource_id": 18390172,
   "url": "https://www.canal13.ma/14901/",
-  "tags": ["bundler","lib-object-renamed"],
+  "tags": ["bundler","lib-object-renamed", "iife"],
   "deps": [{
     "method": "GET",
     "url": "https://www.canal13.ma/ajax-calls.php?action=clear_better_facebook_comments&post_id=14901",
@@ -18,12 +18,12 @@
     "queryString": [],
     "postData": {
       "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
-      "text": "action=better_ads_manager_blocked_fallback&ads=",
+      "text": "action=better_ads_manager_blocked_fallback&ads%5B%5D=",
       "params": [{
         "name": "action",
         "value": "better_ads_manager_blocked_fallback"
       }, {
-        "name": "ads",
+        "name": "ads%5B%5D",
         "value": ""
       }]
     }
@@ -45,7 +45,7 @@
     "queryString": [],
     "postData": {
       "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
-      "text": "action=ajaxified-comments&post_ID=&loaded_posts=",
+      "text": "action=ajax-get-post&post_ID=&loaded_posts=",
       "params": [{
         "name": "action",
         "value": "ajax-get-post"
