@@ -5,7 +5,8 @@
     "bugbounty",
     "bundler",
     "return-value",
-    "vue"
+    "vue",
+    "url-search-params"
   ],
   "deps": [{
     "method": "GET",
