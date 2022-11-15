@@ -1,7 +1,7 @@
 {
   "resource_id": 8827563,
   "url": "https://iticket.md/event/#tab-1",
-  "tags": [],
+  "tags": ["if-variants"],
   "deps": [{
     "method": "POST",
     "url": "https://iticket.md/home/popup-answer",
@@ -253,13 +253,6 @@
     "method": "GET",
     "url": "https://iticket.md/ro/events",
     "queryString": []
-  }, {
-    "method": "GET",
-    "url": "https://iticket.md/search/index?text=",
-    "queryString": [{
-      "name": "text",
-      "value": ""
-    }]
   }, {
     "method": "GET",
     "url": "https://iticket.md/filter/categories?category=&main=1",
