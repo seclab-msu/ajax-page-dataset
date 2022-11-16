@@ -5,7 +5,7 @@
   "deps": [
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/login",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/login",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -16,7 +16,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/login/cws",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/login/cws",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -27,14 +27,14 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/logout",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/logout",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users?t=&iid=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users?t=&iid=",
       "headers": [],
       "queryString": [
         {
@@ -54,7 +54,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users?page=&per_page=&in_team=&not_in_team=&in_channel=&not_in_channel=&in_group=&group_constrained=&without_team=&active=&inactive=&role=&sort=&roles=&channel_roles=&team_roles=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users?page=&per_page=&in_team=&not_in_team=&in_channel=&not_in_channel=&in_group=&group_constrained=&without_team=&active=&inactive=&role=&sort=&roles=&channel_roles=&team_roles=",
       "headers": [],
       "queryString": [
         {
@@ -126,14 +126,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/users",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/ids?since=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/ids?since=",
       "headers": [],
       "queryString": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/group_channels",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/group_channels",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -160,7 +160,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/usernames",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/usernames",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -171,7 +171,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -182,7 +182,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/autocomplete?team_id=&channel_id=&name=&limit=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/autocomplete?team_id=&channel_id=&name=&limit=",
       "headers": [],
       "queryString": [
         {
@@ -206,21 +206,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/known",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/known",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/stats",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/stats",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/stats/filtered?in_team=&in_channel=&include_deleted=&include_bots=&roles=&channel_roles=&team_roles=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/stats/filtered?in_team=&in_channel=&include_deleted=&include_bots=&roles=&channel_roles=&team_roles=",
       "headers": [],
       "queryString": [
         {
@@ -256,14 +256,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -274,14 +274,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -292,7 +292,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/roles",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/roles",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -303,7 +303,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/active",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/active",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -314,14 +314,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -338,28 +338,28 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/image/default",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/image/default",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/username/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/username/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/password/reset",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/password/reset",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -370,7 +370,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/mfa",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/mfa",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -381,35 +381,35 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/mfa/generate",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/mfa/generate",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/demote",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/demote",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/promote",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/promote",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/convert_to_bot",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/convert_to_bot",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/mfa",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/mfa",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -420,7 +420,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/password",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/password",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -431,7 +431,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/password/reset/send",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/password/reset/send",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -442,21 +442,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/email/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/email/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/sessions",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/sessions",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/sessions/revoke",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/sessions/revoke",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -467,14 +467,14 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/sessions/revoke/all",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/sessions/revoke/all",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/sessions/device",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/sessions/device",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -485,21 +485,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/audits",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/audits",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/email/verify/member",
-      "headers": [],
-      "queryString": [],
-      "httpVersion": "HTTP/1.1"
-    },
-    {
-      "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/email/verify",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/email/verify",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -510,7 +503,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/email/verify/send",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/email/verify/send",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -521,7 +514,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/login/switch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/login/switch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -532,7 +525,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/tokens",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/tokens",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -543,7 +536,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/tokens?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/tokens?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -559,7 +552,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/tokens?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/tokens?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -575,7 +568,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/tokens/revoke",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/tokens/revoke",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -586,14 +579,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/tokens/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/tokens/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/tokens/disable",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/tokens/disable",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -604,7 +597,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/tokens/enable",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/tokens/enable",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -615,7 +608,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/tokens/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/tokens/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -626,7 +619,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/auth",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/auth",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -637,7 +630,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/terms_of_service",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/terms_of_service",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -648,21 +641,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/terms_of_service",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/terms_of_service",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/sessions/revoke/all",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/sessions/revoke/all",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/typing",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/typing",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -673,14 +666,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/uploads",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/uploads",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/migrate_auth/ldap",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/migrate_auth/ldap",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -691,7 +684,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/migrate_auth/saml",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/migrate_auth/saml",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -702,7 +695,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/threads?since=&deleted=&extended=&page=&pageSize=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/threads?since=&deleted=&extended=&page=&pageSize=",
       "headers": [],
       "queryString": [
         {
@@ -730,49 +723,49 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/threads/read",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/threads/read",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/following",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/following",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/following",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/following",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/status",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/status",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/status",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/status",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -783,7 +776,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/status/ids",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/status/ids",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -794,7 +787,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -805,7 +798,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams?page=&per_page=&include_total_count=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams?page=&per_page=&include_total_count=",
       "headers": [],
       "queryString": [
         {
@@ -825,14 +818,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -843,7 +836,7 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN?permanent=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN?permanent=",
       "headers": [],
       "queryString": [
         {
@@ -855,7 +848,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -866,7 +859,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/privacy",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/privacy",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -877,21 +870,21 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/restore",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/restore",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/name/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/name/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -902,21 +895,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/name/UNKNOWN/exists",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/name/UNKNOWN/exists",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/teams",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/teams",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/members?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/members?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -932,7 +925,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/members",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/members",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -943,7 +936,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/members/invite?token=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/members/invite?token=",
       "headers": [],
       "queryString": [
         {
@@ -955,7 +948,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/members/batch?graceful=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/members/batch?graceful=",
       "headers": [],
       "queryString": [
         {
@@ -971,28 +964,28 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/teams/members",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/teams/members",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/members/ids",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/members/ids",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1003,28 +996,28 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/stats",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/stats",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/regenerate_invite_id",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/regenerate_invite_id",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1041,14 +1034,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/roles",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/roles",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1059,7 +1052,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/schemeRoles",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/schemeRoles",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1070,7 +1063,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/teams/unread?exclude_team=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/teams/unread?exclude_team=",
       "headers": [],
       "queryString": [
         {
@@ -1082,14 +1075,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/unread",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/unread",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/invite/email",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/invite/email",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1100,7 +1093,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/invite-guests/email",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/invite-guests/email",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1111,14 +1104,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/teams/invites/email",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/invites/email",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/import",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/import",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1143,14 +1136,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/invite/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/invite/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/scheme",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/scheme",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1161,7 +1154,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/members_minus_group_members?group_ids=&page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/members_minus_group_members?group_ids=&page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -1181,7 +1174,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels?not_associated_to_group=&page=&per_page=&exclude_default_channels=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels?not_associated_to_group=&page=&per_page=&exclude_default_channels=",
       "headers": [],
       "queryString": [
         {
@@ -1205,7 +1198,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1216,7 +1209,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/direct",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/direct",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1227,7 +1220,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/group",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/group",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1238,7 +1231,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1249,7 +1242,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/group/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/group/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1260,7 +1253,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels/ids",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels/ids",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1271,21 +1264,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/timezones",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/timezones",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1296,14 +1289,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1314,7 +1307,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/privacy",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/privacy",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1325,21 +1318,21 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/convert",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/convert",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/restore",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/restore",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/move",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/move",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1350,21 +1343,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/stats",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/stats",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/pinned",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/pinned",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -1380,7 +1373,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels/private?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels/private?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -1396,7 +1389,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels/deleted?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels/deleted?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -1412,7 +1405,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels/autocomplete?name=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels/autocomplete?name=",
       "headers": [],
       "queryString": [
         {
@@ -1424,7 +1417,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels/search_autocomplete?name=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels/search_autocomplete?name=",
       "headers": [],
       "queryString": [
         {
@@ -1436,7 +1429,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1447,7 +1440,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/channels/search_archived",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/channels/search_archived",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1458,7 +1451,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN?include_deleted=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN?include_deleted=",
       "headers": [],
       "queryString": [
         {
@@ -1470,7 +1463,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/name/UNKNOWN?include_deleted=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/name/UNKNOWN?include_deleted=",
       "headers": [],
       "queryString": [
         {
@@ -1482,7 +1475,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/members?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/members?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -1498,7 +1491,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/members",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/members",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1509,7 +1502,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/members/ids",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/members/ids",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1520,21 +1513,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/roles",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/roles",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1545,7 +1538,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/schemeRoles",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/schemeRoles",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1556,7 +1549,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/notify_props",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/notify_props",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1567,7 +1560,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/channels/members/UNKNOWN/view",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/members/UNKNOWN/view",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1578,14 +1571,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/channels/members",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels/members",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/channels?include_deleted=&last_delete_at=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels?include_deleted=&last_delete_at=",
       "headers": [],
       "queryString": [
         {
@@ -1601,14 +1594,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/unread",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/unread",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/scheme",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/scheme",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1619,7 +1612,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/members_minus_group_members?group_ids=&page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/members_minus_group_members?group_ids=&page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -1639,7 +1632,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/member_counts_by_group?include_timezones=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/member_counts_by_group?include_timezones=",
       "headers": [],
       "queryString": [
         {
@@ -1651,14 +1644,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/moderations",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/moderations",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/moderations/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/moderations/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1669,14 +1662,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/channels/categories",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels/categories",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/channels/categories",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels/categories",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1687,7 +1680,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/channels/categories",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels/categories",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1698,14 +1691,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/channels/categories/order",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels/categories/order",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/channels/categories/order",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels/categories/order",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1716,14 +1709,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1734,14 +1727,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/posts?set_online=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts?set_online=",
       "headers": [],
       "queryString": [
         {
@@ -1757,7 +1750,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/posts/ephemeral",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/ephemeral",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1768,21 +1761,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1793,14 +1786,14 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/set_unread",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/set_unread",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1811,14 +1804,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN/thread",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN/thread",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/posts/flagged?team_id=&channel_id=&page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/posts/flagged?team_id=&channel_id=&page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -1842,14 +1835,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN/files/info",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN/files/info",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/posts?page=&per_page=&since=&before=&after=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/posts?page=&per_page=&since=&before=&after=",
       "headers": [],
       "queryString": [
         {
@@ -1877,7 +1870,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/posts/unread?limit_before=&limit_after=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/posts/unread?limit_before=&limit_after=",
       "headers": [],
       "queryString": [
         {
@@ -1893,7 +1886,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/posts/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/posts/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1904,35 +1897,35 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN/pin",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN/pin",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN/unpin",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN/unpin",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/preferences",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/preferences",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/preferences",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/preferences",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1943,7 +1936,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/preferences/delete",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/preferences/delete",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -1954,21 +1947,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/files?channel_id=&filename=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/files?channel_id=&filename=",
       "headers": [],
       "queryString": [
         {
@@ -2002,42 +1995,42 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/files/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/files/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/files/UNKNOWN/thumbnail",
+      "url": "http://mattermost.stands.fuchsia/api/v4/files/UNKNOWN/thumbnail",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/files/UNKNOWN/preview",
+      "url": "http://mattermost.stands.fuchsia/api/v4/files/UNKNOWN/preview",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/files/UNKNOWN/link",
+      "url": "http://mattermost.stands.fuchsia/api/v4/files/UNKNOWN/link",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/files/UNKNOWN/info",
+      "url": "http://mattermost.stands.fuchsia/api/v4/files/UNKNOWN/info",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/files/UNKNOWN/public?h=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/files/UNKNOWN/public?h=",
       "headers": [],
       "queryString": [
         {
@@ -2049,7 +2042,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/uploads",
+      "url": "http://mattermost.stands.fuchsia/api/v4/uploads",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2060,14 +2053,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/uploads/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/uploads/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/uploads/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/uploads/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2079,7 +2072,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/jobs?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/jobs?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -2095,7 +2088,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/jobs",
+      "url": "http://mattermost.stands.fuchsia/api/v4/jobs",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2106,28 +2099,28 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/jobs/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/jobs/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/jobs/UNKNOWN/download",
+      "url": "http://mattermost.stands.fuchsia/api/v4/jobs/UNKNOWN/download",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/jobs/UNKNOWN/cancel",
+      "url": "http://mattermost.stands.fuchsia/api/v4/jobs/UNKNOWN/cancel",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/jobs/type/UNKNOWN?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/jobs/type/UNKNOWN?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -2143,14 +2136,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/system/timezones",
+      "url": "http://mattermost.stands.fuchsia/api/v4/system/timezones",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/system/ping?get_server_status=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/system/ping?get_server_status=",
       "headers": [],
       "queryString": [
         {
@@ -2162,7 +2155,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/system/notices/UNKNOWN?clientVersion=&locale=&client=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/system/notices/UNKNOWN?clientVersion=&locale=&client=",
       "headers": [],
       "queryString": [
         {
@@ -2182,7 +2175,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/system/notices/view",
+      "url": "http://mattermost.stands.fuchsia/api/v4/system/notices/view",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2193,14 +2186,14 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/database/recycle",
+      "url": "http://mattermost.stands.fuchsia/api/v4/database/recycle",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/email/test",
+      "url": "http://mattermost.stands.fuchsia/api/v4/email/test",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2211,7 +2204,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/site_url/test",
+      "url": "http://mattermost.stands.fuchsia/api/v4/site_url/test",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2222,7 +2215,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/file/s3_test",
+      "url": "http://mattermost.stands.fuchsia/api/v4/file/s3_test",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2233,14 +2226,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/config",
+      "url": "http://mattermost.stands.fuchsia/api/v4/config",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/config",
+      "url": "http://mattermost.stands.fuchsia/api/v4/config",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2251,14 +2244,14 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/config/reload",
+      "url": "http://mattermost.stands.fuchsia/api/v4/config/reload",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/config/client?format=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/config/client?format=",
       "headers": [],
       "queryString": [
         {
@@ -2270,14 +2263,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/config/environment",
+      "url": "http://mattermost.stands.fuchsia/api/v4/config/environment",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/config/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/config/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2288,7 +2281,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/config/migrate",
+      "url": "http://mattermost.stands.fuchsia/api/v4/config/migrate",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2299,7 +2292,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/license",
+      "url": "http://mattermost.stands.fuchsia/api/v4/license",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2316,14 +2309,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/license",
+      "url": "http://mattermost.stands.fuchsia/api/v4/license",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/license/client?format=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/license/client?format=",
       "headers": [],
       "queryString": [
         {
@@ -2335,14 +2328,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/license/renewal",
+      "url": "http://mattermost.stands.fuchsia/api/v4/license/renewal",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/trial-license",
+      "url": "http://mattermost.stands.fuchsia/api/v4/trial-license",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2353,7 +2346,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/audits?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/audits?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -2369,14 +2362,14 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/caches/invalidate",
+      "url": "http://mattermost.stands.fuchsia/api/v4/caches/invalidate",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/logs?page=&logs_per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/logs?page=&logs_per_page=",
       "headers": [],
       "queryString": [
         {
@@ -2392,7 +2385,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/logs",
+      "url": "http://mattermost.stands.fuchsia/api/v4/logs",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2403,7 +2396,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/analytics/old?name=&team_id=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/analytics/old?name=&team_id=",
       "headers": [],
       "queryString": [
         {
@@ -2419,7 +2412,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/server_busy?seconds=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/server_busy?seconds=",
       "headers": [],
       "queryString": [
         {
@@ -2431,28 +2424,28 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/server_busy",
+      "url": "http://mattermost.stands.fuchsia/api/v4/server_busy",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/server_busy",
+      "url": "http://mattermost.stands.fuchsia/api/v4/server_busy",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/notifications/ack",
+      "url": "http://mattermost.stands.fuchsia/api/v4/notifications/ack",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/redirect_location?url=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/redirect_location?url=",
       "headers": [],
       "queryString": [
         {
@@ -2464,42 +2457,42 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/upgrade_to_enterprise",
+      "url": "http://mattermost.stands.fuchsia/api/v4/upgrade_to_enterprise",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/upgrade_to_enterprise/status",
+      "url": "http://mattermost.stands.fuchsia/api/v4/upgrade_to_enterprise/status",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/restart",
+      "url": "http://mattermost.stands.fuchsia/api/v4/restart",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/warn_metrics/status",
+      "url": "http://mattermost.stands.fuchsia/api/v4/warn_metrics/status",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/warn_metrics/ack/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/warn_metrics/ack/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2510,21 +2503,21 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/warn_metrics/trial-license-ack/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/warn_metrics/trial-license-ack/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/integrity",
+      "url": "http://mattermost.stands.fuchsia/api/v4/integrity",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/emoji",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2545,7 +2538,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/emoji?page=&per_page=&sort=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji?page=&per_page=&sort=",
       "headers": [],
       "queryString": [
         {
@@ -2565,35 +2558,35 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/emoji/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/emoji/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/emoji/name/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji/name/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/emoji/UNKNOWN/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji/UNKNOWN/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/emoji/search",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji/search",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2604,7 +2597,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/emoji/autocomplete?name=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/emoji/autocomplete?name=",
       "headers": [],
       "queryString": [
         {
@@ -2616,7 +2609,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/hooks/incoming",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/incoming",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2627,7 +2620,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/hooks/incoming?page=&per_page=&team_id=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/incoming?page=&per_page=&team_id=",
       "headers": [],
       "queryString": [
         {
@@ -2647,21 +2640,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/hooks/incoming/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/incoming/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/hooks/incoming/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/incoming/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/hooks/incoming/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/incoming/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2672,7 +2665,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/hooks/outgoing",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/outgoing",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2683,7 +2676,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/hooks/outgoing?page=&per_page=&team_id=&channel_id=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/outgoing?page=&per_page=&team_id=&channel_id=",
       "headers": [],
       "queryString": [
         {
@@ -2707,21 +2700,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/hooks/outgoing/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/outgoing/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/hooks/outgoing/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/outgoing/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/hooks/outgoing/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/outgoing/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2732,28 +2725,28 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/hooks/outgoing/UNKNOWN/regen_token",
+      "url": "http://mattermost.stands.fuchsia/api/v4/hooks/outgoing/UNKNOWN/regen_token",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/saml/metadata",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/metadata",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/saml/metadatafromidp",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/metadatafromidp",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/saml/certificate/idp",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/certificate/idp",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2770,14 +2763,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/saml/certificate/idp",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/certificate/idp",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/saml/certificate/public",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/certificate/public",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2794,14 +2787,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/saml/certificate/public",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/certificate/public",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/saml/certificate/private",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/certificate/private",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2818,28 +2811,28 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/saml/certificate/private",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/certificate/private",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/saml/certificate/status",
+      "url": "http://mattermost.stands.fuchsia/api/v4/saml/certificate/status",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/compliance/reports",
+      "url": "http://mattermost.stands.fuchsia/api/v4/compliance/reports",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/compliance/reports?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/compliance/reports?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -2855,35 +2848,35 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/compliance/reports/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/compliance/reports/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/compliance/reports/UNKNOWN/download",
+      "url": "http://mattermost.stands.fuchsia/api/v4/compliance/reports/UNKNOWN/download",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/ldap/sync",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/sync",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/ldap/test",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/test",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/ldap/groups?q=&page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/groups?q=&page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -2903,21 +2896,21 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/ldap/groups/UNKNOWN/link",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/groups/UNKNOWN/link",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/ldap/groups/UNKNOWN/link",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/groups/UNKNOWN/link",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/ldap/migrateid",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/migrateid",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2928,7 +2921,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/ldap/certificate/public",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/certificate/public",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2945,14 +2938,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/ldap/certificate/public",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/certificate/public",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/ldap/certificate/private",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/certificate/private",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -2969,14 +2962,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/ldap/certificate/private",
+      "url": "http://mattermost.stands.fuchsia/api/v4/ldap/certificate/private",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups?page=&per_page=&q=&include_member_count=&not_associated_to_team=&not_associated_to_channel=&since=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups?page=&per_page=&q=&include_member_count=&not_associated_to_team=&not_associated_to_channel=&since=",
       "headers": [],
       "queryString": [
         {
@@ -3012,14 +3005,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3030,63 +3023,63 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/link",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/link",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/link",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/link",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/link",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/link",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/link",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/link",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/teams",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/teams",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/channels",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/channels",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3097,7 +3090,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3108,7 +3101,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/members?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/members?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -3124,14 +3117,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/groups/UNKNOWN/stats",
+      "url": "http://mattermost.stands.fuchsia/api/v4/groups/UNKNOWN/stats",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/channels/UNKNOWN/groups?page=&per_page=&filter_allow_reference=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/channels/UNKNOWN/groups?page=&per_page=&filter_allow_reference=",
       "headers": [],
       "queryString": [
         {
@@ -3151,7 +3144,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/groups?page=&per_page=&filter_allow_reference=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/groups?page=&per_page=&filter_allow_reference=",
       "headers": [],
       "queryString": [
         {
@@ -3171,7 +3164,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/groups_by_channels?page=&per_page=&filter_allow_reference=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/groups_by_channels?page=&per_page=&filter_allow_reference=",
       "headers": [],
       "queryString": [
         {
@@ -3191,28 +3184,28 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/groups",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/groups",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/cluster/status",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cluster/status",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/brand/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/brand/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/brand/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/brand/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3229,14 +3222,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/brand/image",
+      "url": "http://mattermost.stands.fuchsia/api/v4/brand/image",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/commands",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3247,7 +3240,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/commands?team_id=&custom_only=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands?team_id=&custom_only=",
       "headers": [],
       "queryString": [
         {
@@ -3263,14 +3256,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/commands/autocomplete",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/commands/autocomplete",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/teams/UNKNOWN/commands/autocomplete_suggestions?user_input=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/teams/UNKNOWN/commands/autocomplete_suggestions?user_input=",
       "headers": [],
       "queryString": [
         {
@@ -3282,14 +3275,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/commands/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/commands/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3300,14 +3293,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/commands/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/commands/UNKNOWN/move",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands/UNKNOWN/move",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3318,14 +3311,14 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/commands/UNKNOWN/regen_token",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands/UNKNOWN/regen_token",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/commands/execute",
+      "url": "http://mattermost.stands.fuchsia/api/v4/commands/execute",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3336,7 +3329,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/oauth/apps",
+      "url": "http://mattermost.stands.fuchsia/api/v4/oauth/apps",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3347,7 +3340,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/oauth/apps?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/oauth/apps?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -3363,14 +3356,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/oauth/apps/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/oauth/apps/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/oauth/apps/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/oauth/apps/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3381,28 +3374,28 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/oauth/apps/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/oauth/apps/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/oauth/apps/UNKNOWN/regen_secret",
+      "url": "http://mattermost.stands.fuchsia/api/v4/oauth/apps/UNKNOWN/regen_secret",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/oauth/apps/UNKNOWN/info",
+      "url": "http://mattermost.stands.fuchsia/api/v4/oauth/apps/UNKNOWN/info",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN/oauth/apps/authorized?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/oauth/apps/authorized?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -3418,35 +3411,35 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/elasticsearch/test",
+      "url": "http://mattermost.stands.fuchsia/api/v4/elasticsearch/test",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/elasticsearch/purge_indexes",
+      "url": "http://mattermost.stands.fuchsia/api/v4/elasticsearch/purge_indexes",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/bleve/purge_indexes",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bleve/purge_indexes",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/data_retention/policy",
+      "url": "http://mattermost.stands.fuchsia/api/v4/data_retention/policy",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/plugins",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3467,14 +3460,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/plugins",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/plugins/install_from_url?plugin_download_url=&force=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/install_from_url?plugin_download_url=&force=",
       "headers": [],
       "queryString": [
         {
@@ -3490,42 +3483,42 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/plugins/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/plugins/UNKNOWN/enable",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/UNKNOWN/enable",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/plugins/UNKNOWN/disable",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/UNKNOWN/disable",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/plugins/webapp",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/webapp",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/plugins/statuses",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/statuses",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/plugins/marketplace",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/marketplace",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3536,7 +3529,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/plugins/marketplace?page=&per_page=&filter=&server_version=&local_only=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/plugins/marketplace?page=&per_page=&filter=&server_version=&local_only=",
       "headers": [],
       "queryString": [
         {
@@ -3564,21 +3557,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/roles/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/roles/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/roles/name/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/roles/name/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/roles/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/roles/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3589,7 +3582,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/roles/names",
+      "url": "http://mattermost.stands.fuchsia/api/v4/roles/names",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3600,7 +3593,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/schemes?scope=&page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/schemes?scope=&page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -3620,7 +3613,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/schemes",
+      "url": "http://mattermost.stands.fuchsia/api/v4/schemes",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3631,21 +3624,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/schemes/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/schemes/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/schemes/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/schemes/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/schemes/UNKNOWN/patch",
+      "url": "http://mattermost.stands.fuchsia/api/v4/schemes/UNKNOWN/patch",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3656,7 +3649,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/schemes/UNKNOWN/teams?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/schemes/UNKNOWN/teams?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -3672,7 +3665,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/schemes/UNKNOWN/channels?page=&per_page=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/schemes/UNKNOWN/channels?page=&per_page=",
       "headers": [],
       "queryString": [
         {
@@ -3688,21 +3681,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/terms_of_service",
+      "url": "http://mattermost.stands.fuchsia/api/v4/terms_of_service",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/terms_of_service",
+      "url": "http://mattermost.stands.fuchsia/api/v4/terms_of_service",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/opengraph",
+      "url": "http://mattermost.stands.fuchsia/api/v4/opengraph",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3713,7 +3706,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/reactions",
+      "url": "http://mattermost.stands.fuchsia/api/v4/reactions",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3724,21 +3717,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/posts/UNKNOWN/reactions",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/UNKNOWN/reactions",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/users/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/posts/ids/reactions",
+      "url": "http://mattermost.stands.fuchsia/api/v4/posts/ids/reactions",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3749,7 +3742,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/actions/dialogs/open",
+      "url": "http://mattermost.stands.fuchsia/api/v4/actions/dialogs/open",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3760,7 +3753,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/actions/dialogs/submit",
+      "url": "http://mattermost.stands.fuchsia/api/v4/actions/dialogs/submit",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3771,7 +3764,7 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/bots",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3782,7 +3775,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/bots?page=&per_page=&include_deleted=&only_orphaned=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots?page=&per_page=&include_deleted=&only_orphaned=",
       "headers": [],
       "queryString": [
         {
@@ -3806,7 +3799,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3817,7 +3810,7 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN?include_deleted=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN?include_deleted=",
       "headers": [],
       "queryString": [
         {
@@ -3829,35 +3822,35 @@
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN/disable",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN/disable",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN/enable",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN/enable",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN/icon",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN/icon",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN/icon",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN/icon",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3874,14 +3867,14 @@
     },
     {
       "method": "DELETE",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN/icon",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN/icon",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/bots/UNKNOWN/convert_to_user?set_system_admin=",
+      "url": "http://mattermost.stands.fuchsia/api/v4/bots/UNKNOWN/convert_to_user?set_system_admin=",
       "headers": [],
       "queryString": [
         {
@@ -3897,21 +3890,21 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/cloud/products",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/products",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/cloud/payment",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/payment",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/cloud/payment/confirm",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/payment/confirm",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3928,14 +3921,14 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/cloud/customer",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/customer",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/cloud/customer",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/customer",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3946,7 +3939,7 @@
     },
     {
       "method": "PUT",
-      "url": "http://mattermost.stands.fuchsia/cloud/customer/address",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/customer/address",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1",
@@ -3957,35 +3950,35 @@
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/cloud/subscription",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/subscription",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/cloud/subscription/invoices",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/subscription/invoices",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/cloud/subscription/invoices/UNKNOWN/pdf",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/subscription/invoices/UNKNOWN/pdf",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/cloud/webhook",
+      "url": "http://mattermost.stands.fuchsia/api/v4/cloud/webhook",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
     },
     {
       "method": "GET",
-      "url": "http://mattermost.stands.fuchsia/imports",
+      "url": "http://mattermost.stands.fuchsia/api/v4/imports",
       "headers": [],
       "queryString": [],
       "httpVersion": "HTTP/1.1"
