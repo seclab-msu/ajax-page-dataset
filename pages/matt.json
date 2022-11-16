@@ -1,6 +1,7 @@
 {
   "resource_id": null,
   "url": "http://mattermost.stands.fuchsia/testing/channels/town-square",
+  "tags": ["classes", "bundler", "class-method-assigned-in-this", "return-value", "custom-query-string", "regenerator"],
   "deps": [
     {
       "method": "POST",
