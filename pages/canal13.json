@@ -1,7 +1,7 @@
 {
   "resource_id": 18390172,
   "url": "https://www.canal13.ma/14901/",
-  "tags": ["bundler","lib-object-renamed", "iife"],
+  "tags": ["bundler", "lib-object-renamed", "iife", "singleton"],
   "deps": [{
     "method": "GET",
     "url": "https://www.canal13.ma/ajax-calls.php?action=clear_better_facebook_comments&post_id=14901",
