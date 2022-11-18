@@ -1,6 +1,6 @@
 {
   "resource_id": 16468209,
-  "tags": ["classes", "jquery-dom"],
+  "tags": ["classes", "jquery-dom", "iife"],
   "url": "https://unidoor.co.uk/media-units/#ajax-content-wrap",
   "deps": [
     {
