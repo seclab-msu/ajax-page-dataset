@@ -1,6 +1,7 @@
 {
     "resource_id": 1514603,
     "url": "https://www.hrblog.spotify.com/",
+    "tags": ["jquery-dom", "iife", "lib-object-renamed"],
     "deps": [{
         "method": "POST",
         "url": "https://www.hrblog.spotify.com/wp-admin/admin-ajax.php",
