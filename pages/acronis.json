@@ -1,6 +1,7 @@
 {
     "resource_id": null,
     "url": "https://kb.acronis.com/content/60440",
+    "tags": ["if-variants", "drupal", "classes", "iife", "lib-object-renamed"],
     "deps": [
         {
             "method": "POST",
