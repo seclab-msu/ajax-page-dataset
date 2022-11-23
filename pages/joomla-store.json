@@ -1,6 +1,7 @@
 {
   "resource_id": 83,
   "url": "http://joomla-store.stands.fuchsia/index.php/shopping-cart",
+  "tags": ["namespace", "singleton", "jquery-dom"],
   "deps": [   {
     "method": "GET",
     "url": "http://joomla-store.stands.fuchsia/index.php/boys/cotton-hoodie-detail?tmpl=component&format=html&dynamic=1",
