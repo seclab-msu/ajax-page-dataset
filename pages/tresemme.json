@@ -1,7 +1,7 @@
 {
     "resource_id": 8310418,
     "url": "https://www.tresemme.com/us/en/products/shampoo.html",
-    "tags": ["bugbounty", "classes", "backbone"],
+    "tags": ["bugbounty", "classes", "backbone", "return-value"],
     "deps": [
         {
             "method": "POST",
