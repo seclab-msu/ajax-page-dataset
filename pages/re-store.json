@@ -1,6 +1,7 @@
 {
   "resource_id": null,
   "url": "https://re-store.ru/apple-iphone/",
+  "tags": ["bundler", "vue", "regenerator", "classes", "bitrix", "iife", "lib-object-renamed"],
   "deps": [{
     "method": "POST",
     "url": "https://re-store.ru/apple-iphone/local/components/multisite/city.selector/ajax.php",
@@ -456,7 +457,7 @@
     "queryString": []
   }, {
     "method": "GET",
-    "url": "https://re-store.ru/apple-iphone/?bxrand=1658930276595",
+    "url": "https://re-store.ru/apple-iphone/?bxrand=",
     "headers": [{
       "name": "BX-ACTION-TYPE",
       "value": "get_dynamic"
@@ -475,7 +476,7 @@
     }],
     "queryString": [{
       "name": "bxrand",
-      "value": "1658930276595"
+      "value": ""
     }]
   }, {
     "method": "GET",
