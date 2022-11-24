@@ -1,7 +1,7 @@
 {
   "resource_id": null,
   "url": "https://judge.me/people",
-  "tags": ["bundler", "classes", "vue", "vuex"],
+  "tags": ["bundler", "classes", "vue", "vuex", "regenerator", "return-value"],
   "deps": [
     {
       "method": "GET",
@@ -98,71 +98,11 @@
     },
     {
       "method": "GET",
-      "url": "https://judge.me/profile/follows?Reviewer[]=D7oPEkvD&Reviewer[]=DzNbNXO8&Reviewer[]=WP07aKLG&Reviewer[]=yQGa0or7&Reviewer[]=gbMElZ2W&Reviewer[]=DGmMbqe7&Reviewer[]=WVBjX65m&Reviewer[]=WVBVemEr&Reviewer[]=yKY178op&Reviewer[]=WJPXv4eX&Reviewer[]=y4kYkaMD&Reviewer[]=grd07107&Reviewer[]=gEMoR9KZ&Reviewer[]=y94blP88&Reviewer[]=ykdbEwwR&Reviewer[]=glO693mW",
+      "url": "https://judge.me/profile/follows?Reviewer[]=",
       "queryString": [
         {
           "name": "Reviewer[]",
-          "value": "D7oPEkvD"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "DzNbNXO8"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "WP07aKLG"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "yQGa0or7"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "gbMElZ2W"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "DGmMbqe7"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "WVBjX65m"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "WVBVemEr"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "yKY178op"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "WJPXv4eX"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "y4kYkaMD"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "grd07107"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "gEMoR9KZ"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "y94blP88"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "ykdbEwwR"
-        },
-        {
-          "name": "Reviewer[]",
-          "value": "glO693mW"
+          "value": ""
         }
       ],
       "headers": [
