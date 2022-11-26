@@ -1,0 +1,143 @@
+{
+    "1": {
+        "url": "http://127.0.0.1/viewer/json/whoami",
+        "type": "xhr",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["application/json; charset=utf-8"],
+            "transfer-encoding": ["chunked"],
+            "x-worker-name": ["localhost"]
+        }
+    },
+    "cluster_resources_css_main.947ae4dd.chunk.css": {
+        "url": "http://127.0.0.1/monitoring/cluster/resources/css/main.947ae4dd.chunk.css",
+        "type": "stylesheet",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["text/css"],
+            "transfer-encoding": ["chunked"]
+        }
+    },
+    "fonts.googleapis.com_css2": {
+        "url": "https://fonts.googleapis.com/css2?family=Rubik\u0026display=swap",
+        "type": "stylesheet",
+        "headers": {
+            "access-control-allow-origin": ["*"],
+            "alt-svc": ["h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""],
+            "cache-control": ["private, max-age=86400, stale-while-revalidate=604800"],
+            "content-encoding": ["gzip"],
+            "content-type": ["text/css; charset=utf-8"],
+            "cross-origin-opener-policy": ["same-origin-allow-popups"],
+            "cross-origin-resource-policy": ["cross-origin"],
+            "date": ["Sat, 26 Nov 2022 14:13:47 GMT"],
+            "expires": ["Sat, 26 Nov 2022 14:13:47 GMT"],
+            "last-modified": ["Sat, 26 Nov 2022 14:04:54 GMT"],
+            "link": ["\u003chttps://fonts.gstatic.com\u003e; rel=preconnect; crossorigin"],
+            "server": ["ESF"],
+            "strict-transport-security": ["max-age=31536000"],
+            "timing-allow-origin": ["*"],
+            "x-content-type-options": ["nosniff"],
+            "x-frame-options": ["SAMEORIGIN"],
+            "x-xss-protection": ["0"]
+        }
+    },
+    "fonts.gstatic.com_21_iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0U1.woff2": {
+        "url": "https://fonts.gstatic.com/s/rubik/v21/iJWZBXyIfDnIV5PNhY1KTN7Z-Yh-B4iFV0U1.woff2",
+        "type": "font",
+        "headers": {
+            "accept-ranges": ["bytes"],
+            "access-control-allow-origin": ["*"],
+            "age": ["309842"],
+            "alt-svc": ["h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""],
+            "cache-control": ["public, max-age=31536000"],
+            "content-length": ["17132"],
+            "content-security-policy-report-only": ["require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/apps-themes"],
+            "content-type": ["font/woff2"],
+            "cross-origin-opener-policy": ["same-origin; report-to=\"apps-themes\""],
+            "cross-origin-resource-policy": ["cross-origin"],
+            "date": ["Wed, 23 Nov 2022 00:09:46 GMT"],
+            "expires": ["Thu, 23 Nov 2023 00:09:46 GMT"],
+            "last-modified": ["Mon, 18 Jul 2022 19:20:13 GMT"],
+            "report-to": ["{\"group\":\"apps-themes\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/apps-themes\"}]}"],
+            "server": ["sffe"],
+            "timing-allow-origin": ["*"],
+            "x-content-type-options": ["nosniff"],
+            "x-xss-protection": ["0"]
+        }
+    },
+    "g_cluster_resources_js_main.d392c3f5.chunk.js": {
+        "url": "http://127.0.0.1/monitoring/cluster/resources/js/main.d392c3f5.chunk.js",
+        "type": "script",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["application/javascript"],
+            "transfer-encoding": ["chunked"]
+        }
+    },
+    "index.html": {
+        "url": "http://127.0.0.1/monitoring/cluster/cluster",
+        "type": "document",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["text/html"],
+            "transfer-encoding": ["chunked"]
+        }
+    },
+    "ng_cluster_resources_css_4.501d9812.chunk.css": {
+        "url": "http://127.0.0.1/monitoring/cluster/resources/css/4.501d9812.chunk.css",
+        "type": "stylesheet",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["text/css"],
+            "transfer-encoding": ["chunked"]
+        }
+    },
+    "ring_cluster_resources_js_4.b61784d1.chunk.js": {
+        "url": "http://127.0.0.1/monitoring/cluster/resources/js/4.b61784d1.chunk.js",
+        "type": "script",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["application/javascript"],
+            "transfer-encoding": ["chunked"]
+        }
+    },
+    "viewer_json_cluster": {
+        "url": "http://127.0.0.1/viewer/json/cluster?tablets=true",
+        "type": "xhr",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["application/json; charset=utf-8"],
+            "transfer-encoding": ["chunked"],
+            "x-worker-name": ["localhost"]
+        }
+    },
+    "viewer_json_sysinfo": {
+        "url": "http://127.0.0.1/viewer/json/sysinfo?node_id=.\u0026enums=true",
+        "type": "xhr",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["application/json; charset=utf-8"],
+            "transfer-encoding": ["chunked"],
+            "x-worker-name": ["localhost"]
+        }
+    },
+    "viewer_json_whoami": {
+        "url": "http://127.0.0.1/viewer/json/whoami",
+        "type": "xhr",
+        "headers": {
+            "connection": ["Keep-Alive"],
+            "content-encoding": ["gzip"],
+            "content-type": ["application/json; charset=utf-8"],
+            "transfer-encoding": ["chunked"],
+            "x-worker-name": ["localhost"]
+        }
+    }
+}
