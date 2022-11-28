@@ -22,7 +22,7 @@
     }
   }, {
     "method": "GET",
-    "url": "https://kapkanshop.us10.list-manage.com/subscribe/post-json?u=05192d28ee50d789e7d0dbfcc&id=46362d7ab8&EMAIL=&b_05192d28ee50d789e7d0dbfcc_46362d7ab8=",
+    "url": "https://us10.list-manage.kapkanshop.com/subscribe/post-json?u=05192d28ee50d789e7d0dbfcc&id=46362d7ab8&EMAIL=&b_05192d28ee50d789e7d0dbfcc_46362d7ab8=",
     "queryString": [{
       "name": "u",
       "value": "05192d28ee50d789e7d0dbfcc"
