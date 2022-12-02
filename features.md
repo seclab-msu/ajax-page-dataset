@@ -97,7 +97,6 @@
   jQuery extend/assign
   пример: elisa
 
-
 ##### bitrix
 
 Поддержка Bitrix
@@ -184,6 +183,26 @@ ydb, blog-eldorado
 варианты как хендлить:
 1. сигнатура на это
 2. поддерживать возврат другого объекта из конструктора
+
+## bundler
+
+##### bundler-exports-function
+
+экспорты модуля получаются вызовом функции в месте использования
+
+```js
+s = require("vDqi"),
+a = require.n(s)
+// ...
+a()({
+  url: "/ajax/auth/",
+  method: "POST",
+ ...
+  }
+```
+Здесь функция a возвращает дефолтный экспорт модуля axios, то есть `a()` это axios.
+
+сюда снова входит класс `jquery-import`
 
 ## builtins
 
@@ -278,6 +297,22 @@ epoxidica (возможно 0 депов из размети)
 
 pdfmedical
 
+## return-value
+
+для return-value нужно будет поддерживать точное значение для места вызова (context-sensitivity), иначе будет слишком неточно
+
+пример: wise
+
+##### routes-from-return-value
+
+функция возвращает объект с роутами
+
+пример: shop-telekom
+
+* route-function-from-return-value
+
+  роут может быть ФУНКЦИЕЙ, которую возвратят в месте вызова (пример опять же shop-telekom)
+
 ## function-side-effect
 
 ##### function-side-effect-on-constant-global-var
@@ -333,21 +368,6 @@ function mergeProps(initialObj) {
 ```
 Здесь свойства у объектов с чётными индексами (начиная с `2`) копируются с полным десктиптором, а у нечётных только значение.
 
-## return-value
-
-для return-value нужно будет поддерживать точное значение для места вызова (context-sensitivity), иначе будет слишком неточно
-
-пример: wise
-
-##### routes-from-return-value
-
-функция возвращает объект с роутами
-
-пример: shop-telekom
-
-* route-function-from-return-value
-
-  роут может быть ФУНКЦИЕЙ, которую возвратят в месте вызова (пример опять же shop-telekom)
 
 ## pure-transform-function
 
@@ -435,26 +455,6 @@ return new i["a"].Store({
 Вызов через `.$store.dispatch(...)` (judge)
 
 Dataflow через события: подписка на события и триггер через `$emit`
-
-## bundler
-
-##### bundler-exports-function
-
-экспорты модуля получаются вызовом функции в месте использования
-
-```js
-s = require("vDqi"),
-a = require.n(s)
-// ...
-a()({
-  url: "/ajax/auth/",
-  method: "POST",
- ...
-  }
-```
-Здесь функция a возвращает дефолтный экспорт модуля axios, то есть `a()` это axios.
-
-сюда снова входит класс `jquery-import`
 
 ## regenerator
 
