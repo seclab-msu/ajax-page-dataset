@@ -1,123 +1,125 @@
 # Особенности JS в dep-dataset
 
+[[_TOC_]]
+
 ## тег `<base>`
 
 это база
 
 ## Поддержка либ
 
-### Поддержка jQuery
+##### Поддержка jQuery
 
-#### Селектор в `.load()`
+* Селектор в `.load()`
 
-foxsilver, immunitet, ? kamaz ?
+  foxsilver, immunitet, ? kamaz ?
 
-#### доставание данных из DOM через jQuery
+* доставание данных из DOM через jQuery
 
-* доставание значения атрибута через `el.attr(...)`
-* Форма из DOM взятая через jQuery
-  * Взята явно через `$('...')`
-  * Взята из `this`, мы event handler
-  * $this.serialize()
-* mohandesfa
-  * ```js
-    var $this = $(this)
-    holder = $this.parent().siblings('.woodmart-blog-holder')
-    source = holder.data('source')
-    action = 'woodmart_get_blog_' + source
-    ```
-  *  ```js
-      $('body').on('click', '.woodmart-wishlist-btn a', function (e) {
-           var $this = $(this);
-           var productId = $this.data('product-id');
+  * доставание значения атрибута через `el.attr(...)`
+  * Форма из DOM взятая через jQuery
+    * Взята явно через `$('...')`
+    * Взята из `this`, мы event handler
+    * $this.serialize()
+  * mohandesfa
+    * ```js
+      var $this = $(this)
+      holder = $this.parent().siblings('.woodmart-blog-holder')
+      source = holder.data('source')
+      action = 'woodmart_get_blog_' + source
       ```
-#### импорт jQuery
+    *  ```js
+        $('body').on('click', '.woodmart-wishlist-btn a', function (e) {
+             var $this = $(this);
+             var productId = $this.data('product-id');
+        ```
+* импорт jQuery
 
-пример: pdfmedical-search
+  пример: pdfmedical-search
 
-#### переименованный объект jQuery
+* переименованный объект jQuery
 
-фактически, предыдущий класс входит сюда
-как мы это собираемся хендлить: матчить объект jQuery по значению
-пример: pdfmedical-search
+  фактически, предыдущий класс входит сюда
 
-#### плагины jQuery
+  как мы это собираемся хендлить: матчить объект jQuery по значению
+  
+  пример: pdfmedical-search
 
-* jquery-form/form
+* плагины jQuery
+  * jquery-form/form
+  * Кастомный плагин который шлёт запрос
 
-#### jQuery extend/assign
+    В данном случае `acticmodal`
+    ```js
+          var href = '/index.php?route=product/product/photos&product_id=' + productID;
+          $.arcticmodal({
+            type: 'ajax',
+            url: href,
+            ajax: {
+              type: 'GET',
+    ```
 
-пример: elisa
+* jQuery extend/assign
+  пример: elisa
 
-### Поддержка Bitrix
+
+##### Поддержка Bitrix
 
 * BX.ajax
 * методы класса BX, нужные для digit-nsd-test (см. первый деп)
 
-
-## Кастомный плагин который шлёт запрос
-
-* В данном случае `acticmodal`
-```js
-      var href = '/index.php?route=product/product/photos&product_id=' + productID;
-      $.arcticmodal({
-        type: 'ajax',
-        url: href,
-        ajax: {
-          type: 'GET',
-```
-
 ## namespace / singleton
 
-### инициализация поля в сеттере
+##### инициализация поля в сеттере
 
 telegram-promote
 
-### глобальный, по имени
+##### глобальный, по имени
 
 foxsilver
 
 ## classes (ООП)
 
-### renamed-this
+##### renamed-this
 
 epoxidica (возможно 0 депов из размети), pdfmedical-search
 
-### присваивание свойства в сеттере
+##### присваивание свойства в сеттере
 
 epoxidica (возможно 0 депов из размети)
 
-### присваивание свойства в конструкторе method-assigned-in-ctor
+##### присваивание свойства в конструкторе method-assigned-in-ctor
 
 epoxidica (возможно 0 депов из размети)
 matt
 
-### транспилированный `class`
+##### транспилированный `class`
 
-### типа iife c `new`
+##### типа iife c `new`
 
 насколько я помню это в blog-eldorado, в re-store тоже (sendAuthCode)
 
-### использования свойства из `this`
+##### использования свойства из `this`
 
-### class-inheritance
+##### class-inheritance
 
 ydb, blog-eldorado
 
-### засовывание методов в `this` в конструкторе
+##### засовывание методов в `this` в конструкторе
 
 * бывает не через `=`, а через функции (например `ensureNotUndefined` + `podrochniiEffect` - такое есть в `bankiru`)
 
-### транспилированный вызов `super`
+##### транспилированный вызов `super`
 
 также есть в bankiru
+
 использует фичу возврата другого объекта из конструктора
 
 варианты как хендлить:
 * сигнатура на это
 * поддерживать возврат другого объекта из конструктора
 
-### НАСЛЕДОВАНИЕ
+##### НАСЛЕДОВАНИЕ
 
 ydb
 
@@ -131,7 +133,7 @@ ydb
 
 epoxidica (возможно 0 депов из размети)
 
-### сериализация в query string
+##### сериализация в query string
 
 по сути, пересекается с классом с "чистыми" функциями
 indeed (https://github.com/ljharb/qs), wise (возможно либа та же)
@@ -154,45 +156,41 @@ exports.buildQueryString = function (e) {
 }
 ```
 
-### совсем кастомные особенности CMS
+##### совсем кастомные особенности CMS
 
 * magento
 
-### различные autocomplete
+##### различные autocomplete
 
 * typeahead.js/Bloodhound в bonus-banksoyuz
 
-### vercel/SWR
+##### vercel/SWR
 
 shoptesla
 
-### странные средства отправки запроса
+##### странные средства отправки запроса
 
 * В trustpilot это `fetch/FetchProvider` из `newsuk/times-component`
 
-# доставания данных из DOM
+## доставания данных из DOM
 
-## урл из DOM
+##### урл из DOM
 
 epoxidica (возможно 0 депов из размети)
 
-## данные через query-selector
+##### данные через query-selector
 
 pdfmedical
 
-## Побочный эффект на внешнюю глобальную переменную - но данные на самом деле одни и те же будут
-
-epoxidica (возможно 0 депов из размети)
-
-## присваивание `innerHTML`
-
-epoxidica (возможно 0 депов из размети)
-
 ## function-side-effect
+
+##### Побочный эффект на внешнюю глобальную переменную - но данные на самом деле одни и те же будут
+
+epoxidica (возможно 0 депов из размети)
 
 ## iife
 
-### с побочным эффектом
+##### с побочным эффектом
 
 пересечение с классом `function-side-effect`
 wise, причём в случае wise это эффект на глобальную переменную, то есть такая инициализация
@@ -239,7 +237,7 @@ function mergeProps(initialObj) {
 
 пример: wise
 
-### функция возвращает объект с роутами
+##### функция возвращает объект с роутами
 
 пример: shop-telekom
 
@@ -277,22 +275,22 @@ function podrochniiEffect(t, e, n) {
 
 Бывает merge объектов нескольких
 
-### хранилище конфика с get, разбивающим по точкам
+##### хранилище конфика с get, разбивающим по точкам
 
 freshbooks (`a8f8105d2d40178f277f.js`)
 возможно, надо чекать как то что метод вызывается только однажды или что свойство объекта присвавивается только однажды - и, если да, то брать значение из динамики. Или всё же как то вызывать
 
 ## react
 
-### поддержка `useRef`
+##### поддержка `useRef`
 
-### react-deafult-props
+##### react-deafult-props
 
 bankiru
 
 ## vue
 
-### поддержка дефолтных значений props
+##### поддержка дефолтных значений props
 
 пример - `shop-telekom`
 ```js
@@ -308,7 +306,7 @@ fetchStatusJson: function () {
     fetch(this.jsonUrl)
 ```
 
-### vuex
+##### vuex
 
 поддержка store
 опять же shop-telekom
@@ -326,7 +324,7 @@ Dataflow через события: подписка на события и тр
 
 ## bundler
 
-### экспорты модуля получаются вызовом функции в месте использования
+##### экспорты модуля получаются вызовом функции в месте использования
 
 ```js
 s = require("vDqi"),
@@ -340,7 +338,7 @@ a()({
 ```
 Здесь функция a возвращает дефолтный экспорт модуля axios, то есть `a()` это axios.
 
-### импорт jQuery
+##### импорт jQuery
 
 (этот класс также является подклассом jQuery)
 
@@ -352,7 +350,7 @@ a()({
 возможно, надо скипать _переприсваивания_ на неизвестное значение, если они внутри `if`
 У mohandesfa есть также кейс когда был объект с полями, а в `if` его переприсвоили на пустой
 
-### поддержка поиска аргументов даже если была конкретная альтернатива (но тривиальная)
+##### поддержка поиска аргументов даже если была конкретная альтернатива (но тривиальная)
 
 пример - xcar. Там тернарный оператор выбирает `0` вместо `FROM_ARG`, хотя, если бы мы искали аргументы, то нашли бы более нетривиальную альтернативу `475`.
 Как это можно было бы поддерживать - поддерживать множества значений, тогда мы знали бы что возможно найти ещё какой то аргумент. Но пока это как будто нужно только для xcar, и непонятно насколько ценно это для него. Может надо убрать просто требование конкретных значений в xcar
@@ -369,10 +367,7 @@ a()({
 
 ## грубые эвристики
 
-* `this.axios`
-* `this._axios`
-* `this.$axios` (re-store)
-* `this.request`
+* `this.axios`, `this._axios`, `this.$axios` (re-store), `this.request`
 
 ## возможная идея - field-based метод для поиска посылающих запрос объектов
 
@@ -380,12 +375,12 @@ a()({
 
 ## поддержка синтаксиса деструктуризации
 
+* дефолтноее значение деструктуризации
+
 ## кастомная инициализация либ
 
 * ajaxSetup
 * опции axios create
-
-### дефолтноее значение деструктуризации
 
 ## поддержка параметра-массива, при анализе он может быть пустым
 
@@ -398,3 +393,4 @@ a()({
 * угадывание значений по сравнениям в switch/if
 * confluence первый деп (/rest/feature/1/site/watches-page`)
 * депы где в описании есть пометки `future work`
+* присваивание `innerHTML` - epoxidica (возможно 0 депов из размети)
