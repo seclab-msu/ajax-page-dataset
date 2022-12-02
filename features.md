@@ -16,32 +16,32 @@
 
 Поддержка jQuery
 
-* jquery-load-selector
+* `jquery-load-selector`
 
   Селектор в `.load()`
 
   foxsilver, immunitet, ? kamaz ?
 
-* jquery-dom
+* `jquery-dom`
 
   доставание данных из DOM через jQuery
 
-  * jquery-dom-attr
+  * `jquery-dom-attr`
 
     доставание значения атрибута через `el.attr(...)`
 
-  * jquery-dom-direct
+  * `jquery-dom-direct`
 
     Элемент взят явно через `$('...')`
 
-  * jquery-dom-event-handler-this
+  * `jquery-dom-event-handler-this`
 
     Взята из `this`, мы event handler
 
-  * jquery-dom-form
+  * `jquery-dom-form`
 
     Форма из DOM взятая через jQuery
-    * jquery-dom-form-serialize
+    * `jquery-dom-form-serialize`
 
       поддержка `$this.serialize()`
   примеры из mohandesfa:
@@ -56,13 +56,13 @@
         var $this = $(this);
         var productId = $this.data('product-id');
    ```
-* jquery-import
+* `jquery-import`
 
   импорт jQuery
 
   пример: pdfmedical-search
 
-* lib-object-renamed
+* `lib-object-renamed`
 
   переименованный объект jQuery (ну и других либ на самом деле)
 
@@ -72,11 +72,11 @@
 
   пример: pdfmedical-search
 
-* jquery-plugin
+* `jquery-plugin`
 
   плагины jQuery. Хорошо бы анализатор умел отслеживать ссылки на кастомные объекты/функции,
   сидящие в `$` или объекте-обёртке элемента
-  * jquery-plugin-form
+  * `jquery-plugin-form`
 
     плагин jquery-form/form
 
@@ -93,7 +93,7 @@
   ```
   Надо подробнее чуть глянуть его код, если не осилим его явно проанализировать то мб эвристику сделаем на него
 
-* jquery-extend
+* `jquery-extend`
   jQuery extend/assign
   пример: elisa
 
@@ -101,10 +101,10 @@
 
 Поддержка Bitrix
 
-* bx-ajax
+* `bx-ajax`
 
   BX.ajax
-* bx-methods
+* `bx-methods`
 
   методы класса BX, нужные для digit-nsd-test (см. первый деп)
 
@@ -148,7 +148,7 @@ epoxidica (возможно 0 депов из размети)
 
 matt, bankiru
 
-* class-method-assigned-in-ctor-with-util-func
+* `class-method-assigned-in-ctor-with-util-func`
 
   не через `=`, а через функции (например `ensureNotUndefined` + `podrochniiEffect` - такое есть в `bankiru`)
 
@@ -208,19 +208,19 @@ a()({
 
 расширение поддержки встроенных в браузер функций и классов
 
-* url-class
+* `url-class`
 
   поддержка класса `URL`
 
-* url-search-params
+* `url-search-params`
 
   поддержка класса `URLSearchParams` - epoxidica (возможно 0 депов из размети), blog-eldorado
 
-* parse-int
+* `parse-int`
 
   `parseInt` - xcar
 
-* to-string
+* `to-string`
 
   `.toString()` - mohandesfa
 
@@ -257,13 +257,13 @@ exports.buildQueryString = function (e) {
 
 совсем кастомные особенности CMS
 
-* magento
+* `magento`
 
 ##### autocomplete-libs
 
 различные autocomplete
 
-* typeahead-js
+* `typeahead-js`
 
   typeahead.js/Bloodhound в bonus-banksoyuz
 
@@ -277,7 +277,7 @@ shoptesla
 
 странные средства отправки запроса
 
-* times-component-fetch-provider
+* `times-component-fetch-provider`
 
   В trustpilot это `fetch/FetchProvider` из `newsuk/times-component`
 
@@ -309,7 +309,7 @@ pdfmedical
 
 пример: shop-telekom
 
-* route-function-from-return-value
+* `route-function-from-return-value`
 
   роут может быть ФУНКЦИЕЙ, которую возвратят в месте вызова (пример опять же shop-telekom)
 
@@ -497,7 +497,7 @@ Dataflow через события: подписка на события и тр
 
 поддержка синтаксиса деструктуризации
 
-* destruct-default
+* `destruct-default`
 
   дефолтноее значение деструктуризации
 
@@ -514,10 +514,10 @@ Dataflow через события: подписка на события и тр
 
 кастомная инициализация либ
 
-* ajax-setup
+* `ajax-setup`
 
   `ajaxSetup`
-* axios-create
+* `axios-create`
 
   опции axios `.create`
 
@@ -546,18 +546,18 @@ Dataflow через события: подписка на события и тр
 
 ## на будущее
 
-* tresemme
-* guess-from-comparison
+* `tresemme`
+* `guess-from-comparison`
   угадывание значений по сравнениям в switch/if
 * confluence первый деп (/rest/feature/1/site/watches-page`)
 * депы где в описании есть пометки `future work`
 * присваивание `innerHTML` - epoxidica (возможно 0 депов из размети)
-* amd
-* backbone
-* generate
+* `amd`
+* `backbone`
+* `generate`
 
   какой то из сэмплов, надо грепнуть по описаниям слово `generate`
 
-* drupal
+* `drupal`
 
   возможно, какие то кастомные фичи Д.Р.У.П.А.Л.А.
