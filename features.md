@@ -1,139 +1,217 @@
 # Особенности JS в dep-dataset
 
-[[_TOC_]]
+<!-- [[_TOC_]] -->
 
-## тег `<base>`
+## base-tag
+
+тег `<base>`
 
 это база
 
-## Поддержка либ
+## library-model
 
-##### Поддержка jQuery
+Поддержка либ
 
-* Селектор в `.load()`
+##### jquery
+
+Поддержка jQuery
+
+* jquery-load-selector
+
+  Селектор в `.load()`
 
   foxsilver, immunitet, ? kamaz ?
 
-* доставание данных из DOM через jQuery
+* jquery-dom
 
-  * доставание значения атрибута через `el.attr(...)`
-  * Форма из DOM взятая через jQuery
-    * Взята явно через `$('...')`
-    * Взята из `this`, мы event handler
-    * $this.serialize()
-  * mohandesfa
-    * ```js
-      var $this = $(this)
-      holder = $this.parent().siblings('.woodmart-blog-holder')
-      source = holder.data('source')
-      action = 'woodmart_get_blog_' + source
-      ```
-    *  ```js
-        $('body').on('click', '.woodmart-wishlist-btn a', function (e) {
-             var $this = $(this);
-             var productId = $this.data('product-id');
-        ```
-* импорт jQuery
+  доставание данных из DOM через jQuery
+
+  * jquery-dom-attr
+
+    доставание значения атрибута через `el.attr(...)`
+
+  * jquery-dom-direct
+
+    Элемент взят явно через `$('...')`
+
+  * jquery-dom-event-handler-this
+
+    Взята из `this`, мы event handler
+
+  * jquery-dom-form
+
+    Форма из DOM взятая через jQuery
+    * jquery-dom-form-serialize
+
+      поддержка `$this.serialize()`
+  примеры из mohandesfa:
+  ```js
+  var $this = $(this)
+  holder = $this.parent().siblings('.woodmart-blog-holder')
+  source = holder.data('source')
+  action = 'woodmart_get_blog_' + source
+  ```
+  ```js
+   $('body').on('click', '.woodmart-wishlist-btn a', function (e) {
+        var $this = $(this);
+        var productId = $this.data('product-id');
+   ```
+* jquery-import
+
+  импорт jQuery
 
   пример: pdfmedical-search
 
-* переименованный объект jQuery
+* lib-object-renamed
+
+  переименованный объект jQuery (ну и других либ на самом деле)
 
   фактически, предыдущий класс входит сюда
 
   как мы это собираемся хендлить: матчить объект jQuery по значению
-  
+
   пример: pdfmedical-search
 
-* плагины jQuery
-  * jquery-form/form
-  * Кастомный плагин который шлёт запрос
+* jquery-plugins
 
-    В данном случае `acticmodal`
-    ```js
-          var href = '/index.php?route=product/product/photos&product_id=' + productID;
-          $.arcticmodal({
-            type: 'ajax',
-            url: href,
-            ajax: {
-              type: 'GET',
-    ```
+  плагины jQuery. Хорошо бы анализатор умел отслеживать ссылки на кастомные объекты/функции,
+  сидящие в `$` или объекте-обёртке элемента
+  * jquery-plugin-form
 
-* jQuery extend/assign
+    плагин jquery-form/form
+
+  Ещё бывают кастомные плагины которые шлют запросы.
+
+  К примеру, плагин `acticmodal`
+  ```js
+        var href = '/index.php?route=product/product/photos&product_id=' + productID;
+        $.arcticmodal({
+          type: 'ajax',
+          url: href,
+          ajax: {
+            type: 'GET',
+  ```
+  Надо подробнее чуть глянуть его код, если не осилим его явно проанализировать то мб эвристику сделаем на него
+
+* jquery-extend
+  jQuery extend/assign
   пример: elisa
 
 
-##### Поддержка Bitrix
+##### bitrix
 
-* BX.ajax
-* методы класса BX, нужные для digit-nsd-test (см. первый деп)
+Поддержка Bitrix
+
+* bx-ajax
+
+  BX.ajax
+* bx-methods
+
+  методы класса BX, нужные для digit-nsd-test (см. первый деп)
 
 ## namespace / singleton
 
-##### инициализация поля в сеттере
+##### singleton-prop-assigned-in-setter
+
+инициализация поля в сеттере
 
 telegram-promote
 
-##### глобальный, по имени
+##### singleton-global / namespace-global
 
-foxsilver
+глобальный неймспейс/синглтон, к которому обращаются по его глобально видмому имени
 
-## classes (ООП)
+foxsilver, teleram-promote
+
+## classes
+
+ООП
 
 ##### renamed-this
 
 epoxidica (возможно 0 депов из размети), pdfmedical-search
 
-##### присваивание свойства в сеттере
+##### class-prop-assigned-in-setter
+
+присваивание свойства в сеттере
 
 epoxidica (возможно 0 депов из размети)
 
-##### присваивание свойства в конструкторе method-assigned-in-ctor
+##### class-prop-assigned-in-ctor
+
+присваивание свойства в конструкторе
 
 epoxidica (возможно 0 депов из размети)
-matt
 
-##### транспилированный `class`
+##### class-method-assigned-in-ctor
 
-##### типа iife c `new`
+присваивание метода в инстанс (в `this`) в конструкторе, вместо прототипа
+
+matt, bankiru
+
+* class-method-assigned-in-ctor-with-util-func
+
+  не через `=`, а через функции (например `ensureNotUndefined` + `podrochniiEffect` - такое есть в `bankiru`)
+
+##### transpiled-class-declaration
+
+Транспилированный `class`
+
+##### immediately-instantiated-class
+
+типа iife c `new`
 
 насколько я помню это в blog-eldorado, в re-store тоже (sendAuthCode)
 
-##### использования свойства из `this`
+##### class-this-prop
+
+использования свойства из `this`
 
 ##### class-inheritance
 
+НАСЛЕДОВАНИЕ
+
 ydb, blog-eldorado
 
-##### засовывание методов в `this` в конструкторе
+##### class-transpiled-super
 
-* бывает не через `=`, а через функции (например `ensureNotUndefined` + `podrochniiEffect` - такое есть в `bankiru`)
+транспилированный вызов `super`
 
-##### транспилированный вызов `super`
-
-также есть в bankiru
+есть в bankiru
 
 использует фичу возврата другого объекта из конструктора
 
 варианты как хендлить:
-* сигнатура на это
-* поддерживать возврат другого объекта из конструктора
+1. сигнатура на это
+2. поддерживать возврат другого объекта из конструктора
 
-##### НАСЛЕДОВАНИЕ
+## builtins
 
-ydb
+расширение поддержки встроенных в браузер функций и классов
 
-## расширение поддержки встроенных в браузер функций и классов
+* url-class
 
-* поддержка класса `URL`, `URLSearchParams` - epoxidica (возможно 0 депов из размети), blog-eldorado
-* `parseInt` - xcar
-* `.toString()` - mohandesfa
+  поддержка класса `URL`
+
+* url-search-params
+
+  поддержка класса `URLSearchParams` - epoxidica (возможно 0 депов из размети), blog-eldorado
+
+* parse-int
+
+  `parseInt` - xcar
+
+* to-string
+
+  `.toString()` - mohandesfa
 
 ## custom-lib
 
 epoxidica (возможно 0 депов из размети)
 
-##### сериализация в query string
+##### custom-query-string
+
+сериализация в query string
 
 по сути, пересекается с классом с "чистыми" функциями
 indeed (https://github.com/ljharb/qs), wise (возможно либа та же)
@@ -156,46 +234,70 @@ exports.buildQueryString = function (e) {
 }
 ```
 
-##### совсем кастомные особенности CMS
+##### custom-cms-features
+
+совсем кастомные особенности CMS
 
 * magento
 
-##### различные autocomplete
+##### autocomplete-libs
 
-* typeahead.js/Bloodhound в bonus-banksoyuz
+различные autocomplete
 
-##### vercel/SWR
+* typeahead-js
+
+  typeahead.js/Bloodhound в bonus-banksoyuz
+
+##### vercel-swr
+
+vercel/SWR
 
 shoptesla
 
-##### странные средства отправки запроса
+##### exotic-request-senders
 
-* В trustpilot это `fetch/FetchProvider` из `newsuk/times-component`
+странные средства отправки запроса
 
-## доставания данных из DOM
+* times-component-fetch-provider
 
-##### урл из DOM
+  В trustpilot это `fetch/FetchProvider` из `newsuk/times-component`
+
+## dom
+
+доставания данных из DOM
+
+##### url-from-dom
+
+урл из DOM
 
 epoxidica (возможно 0 депов из размети)
 
-##### данные через query-selector
+##### query-selector
+
+данные через query-selector
 
 pdfmedical
 
 ## function-side-effect
 
-##### Побочный эффект на внешнюю глобальную переменную - но данные на самом деле одни и те же будут
+##### function-side-effect-on-constant-global-var
+
+Побочный эффект на внешнюю глобальную переменную - но данные на самом деле одни и те же будут
 
 epoxidica (возможно 0 депов из размети)
 
 ## iife
 
-##### с побочным эффектом
+##### iife-side-effect
+
+с побочным эффектом
 
 пересечение с классом `function-side-effect`
 wise, причём в случае wise это эффект на глобальную переменную, то есть такая инициализация
 
-## кастомный extend/assign
+## custom-extend
+
+кастомный extend/assign
 
 пример: wise, elisa
 
@@ -237,13 +339,19 @@ function mergeProps(initialObj) {
 
 пример: wise
 
-##### функция возвращает объект с роутами
+##### routes-from-return-value
+
+функция возвращает объект с роутами
 
 пример: shop-telekom
 
-* роут может быть ФУНКЦИЕЙ, которую возвратят в месте вызова (пример опять же shop-telekom)
+* route-function-from-return-value
 
-## "чистая" функция-преобразователь
+  роут может быть ФУНКЦИЕЙ, которую возвратят в месте вызова (пример опять же shop-telekom)
+
+## pure-transform-function
+
+"чистая" функция-преобразователь
 
 Бывает просто identity функция, например
 
@@ -275,22 +383,28 @@ function podrochniiEffect(t, e, n) {
 
 Бывает merge объектов нескольких
 
-##### хранилище конфика с get, разбивающим по точкам
+##### custom-config-class
+
+хранилище конфика с `get`, разбивающим по точкам
 
 freshbooks (`a8f8105d2d40178f277f.js`)
 возможно, надо чекать как то что метод вызывается только однажды или что свойство объекта присвавивается только однажды - и, если да, то брать значение из динамики. Или всё же как то вызывать
 
 ## react
 
-##### поддержка `useRef`
+##### react-use-ref
 
-##### react-deafult-props
+поддержка `useRef`
+
+##### react-default-props
 
 bankiru
 
 ## vue
 
-##### поддержка дефолтных значений props
+##### vue-default-props
+
+поддержка дефолтных значений props
 
 пример - `shop-telekom`
 ```js
@@ -324,7 +438,9 @@ Dataflow через события: подписка на события и тр
 
 ## bundler
 
-##### экспорты модуля получаются вызовом функции в месте использования
+##### bundler-exports-function
+
+экспорты модуля получаются вызовом функции в месте использования
 
 ```js
 s = require("vDqi"),
@@ -338,19 +454,24 @@ a()({
 ```
 Здесь функция a возвращает дефолтный экспорт модуля axios, то есть `a()` это axios.
 
-##### импорт jQuery
-
-(этот класс также является подклассом jQuery)
+сюда снова входит класс `jquery-import`
 
 ## regenerator
 
-## тернарный оператор или `if` создают одно из двух значений, оба из которых интересны
+`async`/`await` функции транспилируются в функции, использующие regenerator. Надо чтобы
+анализатор их распознавал чтобы правильно видеть data flow аргументов и возвращаемого значения.
+
+## if-variants
+
+тернарный оператор или `if` создают одно из двух значений, оба из которых интересны
 
 надо поддерживать множества, получается
 возможно, надо скипать _переприсваивания_ на неизвестное значение, если они внутри `if`
 У mohandesfa есть также кейс когда был объект с полями, а в `if` его переприсвоили на пустой
 
-##### поддержка поиска аргументов даже если была конкретная альтернатива (но тривиальная)
+##### from-arg-and-concrete-alternative
+
+поддержка поиска аргументов даже если была конкретная альтернатива (но тривиальная)
 
 пример - xcar. Там тернарный оператор выбирает `0` вместо `FROM_ARG`, хотя, если бы мы искали аргументы, то нашли бы более нетривиальную альтернативу `475`.
 Как это можно было бы поддерживать - поддерживать множества значений, тогда мы знали бы что возможно найти ещё какой то аргумент. Но пока это как будто нужно только для xcar, и непонятно насколько ценно это для него. Может надо убрать просто требование конкретных значений в xcar
@@ -361,36 +482,56 @@ a()({
 
 ## call-apply
 
-## поиск вызова метода класса/namespace/singleton field-based методом
+Надо чтобы анализатор распознавал вызовы с помощью call/apply как вызовы функций
+и видел data flow через них
 
-нужно для support.x5, там до сих пор не понял как `getKeywordsRoutingPage` найти по-другому
+## destruct
 
-## грубые эвристики
+поддержка синтаксиса деструктуризации
 
-* `this.axios`, `this._axios`, `this.$axios` (re-store), `this.request`
+* destruct-default
 
-## возможная идея - field-based метод для поиска посылающих запрос объектов
+  дефолтноее значение деструктуризации
 
-типа, если встретили где то `e.prototype.$axios = S.a.create();`, и поняли что это объект Axios создался, то считаем что везде поле `.$axios` это этот объект
+## lib-setup
 
-## поддержка синтаксиса деструктуризации
+кастомная инициализация либ
 
-* дефолтноее значение деструктуризации
+* ajax-setup
 
-## кастомная инициализация либ
+  `ajaxSetup`
+* axios-create
 
-* ajaxSetup
-* опции axios create
+  опции axios `.create`
 
-## поддержка параметра-массива, при анализе он может быть пустым
+## array-request-param
+
+поддержка параметра-массива, при анализе он может быть пустым
 
 возможно эта фича уже есть у нас
 пример: judge, деп `/profile/follows`
 
+## Идеи техник анализа
+
+Здесь не особенности JS, а уже идеи для алгоритма
+
+1. поиск вызова метода класса/namespace/singleton field-based методом
+
+  нужно для support.x5, там до сих пор не понял как `getKeywordsRoutingPage` найти по-другому
+
+2. грубые эвристики
+
+  `this.axios`, `this._axios`, `this.$axios` (re-store), `this.request`
+
+3. возможная идея - field-based метод для поиска посылающих запрос объектов
+
+  типа, если встретили где то `e.prototype.$axios = S.a.create();`, и поняли что это объект Axios создался, то считаем что везде поле `.$axios` это этот объект
+
 ## на будущее
 
 * tresemme
-* угадывание значений по сравнениям в switch/if
+* guess-from-comparison
+  угадывание значений по сравнениям в switch/if
 * confluence первый деп (/rest/feature/1/site/watches-page`)
 * депы где в описании есть пометки `future work`
 * присваивание `innerHTML` - epoxidica (возможно 0 депов из размети)
