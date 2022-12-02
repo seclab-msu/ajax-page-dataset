@@ -1,7 +1,7 @@
 {
     "resource_id": 1209040,
     "url": "https://shop.tesla.com/product/wall-connector",
-    "tags": ["lib-object-renamed", "return-value", "jquery-dom", "bundler", "classes", "namespace"],
+    "tags": ["lib-object-renamed", "return-value", "jquery-dom", "bundler", "classes", "namespace", "custom-lib", "vercel-swr"],
     "deps": [
         {
             "method": "GET",

@@ -1,7 +1,7 @@
 {
     "resource_id": null,
     "url": "https://www.trustpilot.com/users/settings",
-    "tags": ["destruct", "destruct-default", "bundler", "iife", "custom-lib"],
+    "tags": ["destruct", "destruct-default", "bundler", "iife", "custom-lib", "exotic-request-senders"],
     "deps": [{
         "method": "POST",
         "url": "https://www.trustpilot.com/api/businessunitprofile/consumer/verification/start",

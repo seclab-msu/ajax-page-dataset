@@ -1,7 +1,7 @@
 {
     "resource_id": 9479,
     "url": "https://elisa.fi/asiakaspalvelu/ohje/huijausyritykset/",
-    "tags": ["react", "return-value", "classes", "iife", "singleton", "bundler"],
+    "tags": ["react", "return-value", "classes", "iife", "singleton", "bundler", "jquery-extend", "custom-extend"],
     "deps": [{
         "method": "GET",
         "url": "https://esco.elisa.fi/consent-management/verifyAudienceStudioCookie",

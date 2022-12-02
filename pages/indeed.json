@@ -1,7 +1,7 @@
 {
   "resource_id": null,
   "url": "https://www.indeed.com/viewjob?jk=c98081f2d63e5496&from=tp-serp&tk=1g4vb5tuet561800",
-  "tags": ["bugbounty", "bundler", "iife", "custom-extend", "custom-lib", "custom-bind"],
+  "tags": ["bugbounty", "bundler", "iife", "custom-extend", "custom-lib", "custom-query-string", "custom-bind"],
   "deps": [{
     "method": "POST",
     "url": "https://www.indeed.com/m/rpc/log/viewJobInteraction",

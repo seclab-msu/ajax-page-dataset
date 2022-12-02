@@ -1,7 +1,7 @@
 {
   "resource_id": 15028247,
   "url": "https://kamaz-sura-motors.ru/auto/samosvaly/",
-  "tags": ["jquery-dom"],
+  "tags": ["jquery-dom", "jquery-dom-direct", "jquery-dom-form-serialize"],
   "deps": [{
     "method": "GET",
     "url": "https://kamaz-sura-motors.ru/include/forms/call_back.php",

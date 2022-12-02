@@ -5,7 +5,10 @@
     "bugbounty",
     "bundler",
     "return-value",
+    "routes-from-return-value",
+    "route-function-from-return-value",
     "vue",
+    "vuex",
     "url-search-params"
   ],
   "deps": [{

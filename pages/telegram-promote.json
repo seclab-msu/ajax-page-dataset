@@ -1,7 +1,7 @@
 {
   "resource_id": null,
   "url": "https://promote.telegram.org/",
-  "tags": ["namespace"],
+  "tags": ["namespace", "singleton", "singleton-prop-assigned-in-setter", "singleton-global", "namespace-global"],
   "deps": [{
     "method": "POST",
     "url": "https://promote.telegram.org/auth/request",
