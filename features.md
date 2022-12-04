@@ -105,15 +105,25 @@
 
   методы класса BX (нужные для digit-nsd-test, см. первый деп)
 
-## namespace / singleton
+## bundler
 
-##### singleton-prop-assigned-in-setter
+##### bundler-exports-function
 
-инициализация поля в сеттере
+экспорты модуля получаются вызовом функции в месте использования
 
-##### singleton-global / namespace-global
+```js
+s = require("vDqi"),
+a = require.n(s)
+// ...
+a()({
+  url: "/ajax/auth/",
+  method: "POST",
+ ...
+  }
+```
+Здесь функция a возвращает дефолтный экспорт модуля axios, то есть `a()` это axios.
 
-глобальный неймспейс/синглтон, к которому обращаются по его глобально видмому имени
+сюда снова входит класс `jquery-import`
 
 ## classes
 
@@ -171,45 +181,26 @@ epoxidica (возможно 0 депов из размети)
 1. сигнатура на это
 2. поддерживать возврат другого объекта из конструктора
 
-## bundler
+## return-value
 
-##### bundler-exports-function
+для return-value нужно будет поддерживать точное значение для места вызова (context-sensitivity), иначе будет слишком неточно
 
-экспорты модуля получаются вызовом функции в месте использования
+##### routes-from-return-value
 
-```js
-s = require("vDqi"),
-a = require.n(s)
-// ...
-a()({
-  url: "/ajax/auth/",
-  method: "POST",
- ...
-  }
-```
-Здесь функция a возвращает дефолтный экспорт модуля axios, то есть `a()` это axios.
+функция возвращает объект с роутами
 
-сюда снова входит класс `jquery-import`
+* `route-function-from-return-value`
 
-## builtins
+  роут может быть ФУНКЦИЕЙ, которую возвратят в месте вызова
 
-расширение поддержки встроенных в браузер функций и классов
+## iife
 
-* `url-class`
+##### iife-side-effect
 
-  поддержка класса `URL`
+с побочным эффектом
 
-* `url-search-params`
-
-  поддержка класса `URLSearchParams` - epoxidica (возможно 0 депов из размети)
-
-* `parse-int`
-
-  `parseInt`
-
-* `to-string`
-
-  `.toString()`
+пересечение с классом `function-side-effect`
+wise, причём в случае wise это эффект на глобальную переменную, то есть такая инициализация
 
 ## custom-lib
 
@@ -266,6 +257,41 @@ vercel/SWR
 
   В trustpilot это `fetch/FetchProvider` из `newsuk/times-component`
 
+## namespace / singleton
+
+##### singleton-prop-assigned-in-setter
+
+инициализация поля в сеттере
+
+##### singleton-global / namespace-global
+
+глобальный неймспейс/синглтон, к которому обращаются по его глобально видмому имени
+
+## regenerator
+
+`async`/`await` функции транспилируются в функции, использующие regenerator. Надо чтобы
+анализатор их распознавал чтобы правильно видеть data flow аргументов и возвращаемого значения.
+
+## builtins
+
+расширение поддержки встроенных в браузер функций и классов
+
+* `url-class`
+
+  поддержка класса `URL`
+
+* `url-search-params`
+
+  поддержка класса `URLSearchParams` - epoxidica (возможно 0 депов из размети)
+
+* `parse-int`
+
+  `parseInt`
+
+* `to-string`
+
+  `.toString()`
+
 ## dom
 
 доставания данных из DOM
@@ -280,18 +306,6 @@ epoxidica (возможно 0 депов из размети)
 
 данные через query-selector
 
-## return-value
-
-для return-value нужно будет поддерживать точное значение для места вызова (context-sensitivity), иначе будет слишком неточно
-
-##### routes-from-return-value
-
-функция возвращает объект с роутами
-
-* `route-function-from-return-value`
-
-  роут может быть ФУНКЦИЕЙ, которую возвратят в месте вызова
-
 ## function-side-effect
 
 ##### function-side-effect-on-constant-global-var
@@ -299,15 +313,6 @@ epoxidica (возможно 0 депов из размети)
 Побочный эффект на внешнюю глобальную переменную - но данные на самом деле одни и те же будут
 
 epoxidica (возможно 0 депов из размети)
-
-## iife
-
-##### iife-side-effect
-
-с побочным эффектом
-
-пересечение с классом `function-side-effect`
-wise, причём в случае wise это эффект на глобальную переменную, то есть такая инициализация
 
 ## custom-extend
 
@@ -434,11 +439,6 @@ return new i["a"].Store({
 Вызов через `.$store.dispatch(...)` (judge)
 
 Dataflow через события: подписка на события и триггер через `$emit`
-
-## regenerator
-
-`async`/`await` функции транспилируются в функции, использующие regenerator. Надо чтобы
-анализатор их распознавал чтобы правильно видеть data flow аргументов и возвращаемого значения.
 
 ## if-variants
 
