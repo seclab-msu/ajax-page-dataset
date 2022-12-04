@@ -524,7 +524,7 @@ Dataflow через события: подписка на события и тр
 * `tresemme`
 * `guess-from-comparison`
   угадывание значений по сравнениям в switch/if
-* confluence первый деп (/rest/feature/1/site/watches-page`)
+* confluence первый деп (/rest/feature/1/site/watches-page)
 * депы где в описании есть пометки `future work`
 * присваивание `innerHTML` - epoxidica (возможно 0 депов из размети)
 * `amd`
