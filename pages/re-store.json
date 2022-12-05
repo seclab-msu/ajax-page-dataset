@@ -1,7 +1,7 @@
 {
   "resource_id": null,
   "url": "https://re-store.ru/apple-iphone/",
-  "tags": ["bundler", "vue", "regenerator", "classes", "bitrix", "iife", "lib-object-renamed"],
+  "tags": ["bundler", "vue", "regenerator", "classes", "immediately-instantiated-class", "bitrix", "bx-ajax", "iife", "lib-object-renamed"],
   "deps": [{
     "method": "POST",
     "url": "https://re-store.ru/apple-iphone/local/components/multisite/city.selector/ajax.php",

@@ -1,7 +1,7 @@
 {
   "resource_id": 30867,
   "url": "https://foxsilver.com.ua/sergi-zhakaranda%20",
-  "tags": ["jquery-dom", "namespace"],
+  "tags": ["jquery-dom", "jquery-load-selector", "namespace", "singleton-global", "namespace-global"],
   "deps": [{
     "method": "GET",
     "url": "https://foxsilver.com.ua/index.php?route=common/cart/info",

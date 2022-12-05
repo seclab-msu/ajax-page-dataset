@@ -1,7 +1,7 @@
 {
   "resource_id": 841684,
   "url": "https://support.freshbooks.com/hc/en-us",
-  "tags": ["bundler", "call-apply", "regenerator", "classes", "return-value"],
+  "tags": ["bundler", "call-or-apply", "regenerator", "classes", "return-value", "custom-config-class"],
   "deps": [{
     "method": "POST",
     "url": "https://support.freshbooks.com/hc/tracking/events?locale=en-us",

@@ -1,7 +1,7 @@
 {
   "resource_id": 10139377,
   "url": "https://immunitet.org/tovary_zdorovia/apparaty_vitafon/vitafon-t",
-  "tags": ["jquery-dom", "classes"],
+  "tags": ["jquery-dom", "classes", "base-tag", "jquery-load-selector"],
   "deps": [{
     "method": "POST",
     "url": "https://immunitet.org/index.php?route=checkout/cart/add",

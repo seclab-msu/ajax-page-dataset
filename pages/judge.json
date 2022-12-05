@@ -1,7 +1,7 @@
 {
   "resource_id": null,
   "url": "https://judge.me/people",
-  "tags": ["bundler", "classes", "vue", "vuex", "regenerator", "return-value"],
+  "tags": ["bundler", "classes", "vue", "vuex", "regenerator", "return-value", "array-request-param"],
   "deps": [
     {
       "method": "GET",

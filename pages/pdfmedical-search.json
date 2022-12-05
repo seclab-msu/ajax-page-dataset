@@ -1,7 +1,18 @@
 {
     "resource_id": null,
     "url": "https://pfdmedical.vhx.tv/search",
-    "tags": ["bugbounty", "bundler", "classes", "return-value", "iife"],
+    "tags": [
+        "bugbounty",
+        "bundler",
+        "classes",
+        "return-value",
+        "iife",
+        "dom",
+        "jquery-import",
+        "lib-object-renamed",
+        "renamed-this",
+        "query-selector"
+    ],
     "deps": [{
         "method": "POST",
         "url": "https://pfdmedical.vhx.tv/admin/tokens/",
