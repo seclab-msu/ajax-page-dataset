@@ -1,3 +1,5 @@
+import json
+
 STAT_TAG_COMBINATIONS = [("clients", "bugbounty")]
 
 class StatCount:
@@ -34,12 +36,13 @@ class Stat:
         print("Score (apps):", str(self.app))
 
 class Stats:
-    __slots__ = ["stats"]
+    __slots__ = ["stats", "raw_results"]
 
     def __init__(self, pages_jsons):
         self.stats = {
             "total": Stat()
         }
+        self.raw_results = {}
         for sample_file in pages_jsons:
             for tag in sample_file.get("tags", []):
                 self.stats[tag] = Stat()
@@ -82,3 +85,16 @@ class Stats:
                 print()
         print("TOTAL:")
         self.stats["total"].print_stat()
+
+    def store_raw_result(self, page_name, dep_id, result):
+        page_name = page_name.split('/')[-1]
+        if page_name not in self.raw_results:
+            self.raw_results[page_name] = []
+        self.raw_results[page_name].append({
+            "dep": dep_id,
+            "result": result
+        })
+
+    def dump_raw_results(self):
+        with open('stats.json', 'w') as f:
+            json.dump(self.raw_results, f)

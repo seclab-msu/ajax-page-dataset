@@ -170,6 +170,9 @@ async def check_page_worker(q, stats):
         all_matched = True
         for reference_dep in reference_deps:
             stats.inc_dep(tags)
+            stats.store_raw_result(
+                page_dir, reference_dep['method'] + ' ' + reference_dep['url'] + ' ' + str(reference_dep.get('postData')), have_dep(analyzer_deps, reference_dep)
+            )
             if have_dep(analyzer_deps, reference_dep):
                 stats.succeed_dep(tags)
                 if DEBUG:
@@ -204,6 +207,7 @@ async def check_pages(pages_jsons, n_workers):
     await q.join()
 
     stats.print_stats()
+    stats.dump_raw_results()
 
 def main():
     parser = argparse.ArgumentParser()
