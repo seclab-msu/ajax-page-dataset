@@ -1559,17 +1559,6 @@
       }
     },
     {
-      "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/api/v4/channels/members/UNKNOWN/view",
-      "headers": [],
-      "queryString": [],
-      "httpVersion": "HTTP/1.1",
-      "postData": {
-        "mimeType": "application/json",
-        "text": "{\"channel_id\":\"\",\"prev_channel_id\":\"\"}"
-      }
-    },
-    {
       "method": "GET",
       "url": "http://mattermost.stands.fuchsia/api/v4/users/UNKNOWN/channels/members",
       "headers": [],
@@ -3610,17 +3599,6 @@
         }
       ],
       "httpVersion": "HTTP/1.1"
-    },
-    {
-      "method": "POST",
-      "url": "http://mattermost.stands.fuchsia/api/v4/schemes",
-      "headers": [],
-      "queryString": [],
-      "httpVersion": "HTTP/1.1",
-      "postData": {
-        "mimeType": "application/json",
-        "text": "{\"name\":\"\",\"description\":\"\",\"scope\":\"\"}"
-      }
     },
     {
       "method": "GET",

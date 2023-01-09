@@ -150,7 +150,7 @@
       "value": "4907"
     }]
   }, {
-    "method": "GET",
+    "method": "POST",
     "url": "https://reg.xcar.com.cn/ajax/checklogin.php?callback=",
     "queryString": [{
       "name": "callback",
