@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 
 STAT_TAG_COMBINATIONS = [("clients", "bugbounty")]
 
@@ -15,8 +16,14 @@ class StatCount:
     def succeed(self):
         self.success += 1
 
+    def cov_score(self):
+        return float(self.success) / self.total if self.total != 0 else 0
+
     def percent(self):
-        return (self.success * 100) / self.total
+        return self.cov_score() * 100
+
+    def fully_covered(self):
+        return self.total == self.success
 
     def __str__(self):
         if self.total != 0:
@@ -25,15 +32,45 @@ class StatCount:
             return "%d of %d" % (self.success, self.total)
 
 class Stat:
-    __slots__ = ["dep", "app"]
+    __slots__ = ["apps"]
 
     def __init__(self):
-        self.dep = StatCount()
-        self.app = StatCount()
+        self.apps = defaultdict(StatCount)
+
+    def inc_total(self, app):
+        self.apps[app].inc_total()
+
+    def succeed(self, app):
+        self.apps[app].succeed()
+
+    def __score(self, stat_func):
+        if len(self.apps) == 0:
+            return 0
+        return float(sum(stat_func(st) for st in self.apps.values())) / len(self.apps)
+
+    def cov_score(self):
+        return self.__score(lambda st: st.cov_score())
+
+    def strict_page_coverage(self):
+        return self.__score(lambda st: st.fully_covered())
+
+    def cov_1_score(self):
+        return self.__score(lambda st: st.cov_score() >= 0.01)
+
+    def cov_20_score(self):
+        return self.__score(lambda st: st.cov_score() >= 0.20)
 
     def print_stat(self):
-        print("Score (deps):", str(self.dep))
-        print("Score (apps):", str(self.app))
+        other_scores = [
+            ('COV_1', self.cov_1_score),
+            ('COV_20', self.cov_20_score),
+            ('STRICT_PAGE_COVERAGE', self.strict_page_coverage),
+        ]
+
+        for name, stat_fn in other_scores:
+            print("%s: %.1f%%" % (name, (stat_fn() * 100)))
+
+        print("Score (COV): %.1f%%" % (self.cov_score() * 100))
 
 class Stats:
     __slots__ = ["stats", "raw_results"]
@@ -59,21 +96,13 @@ class Stats:
                 if tag in comb:
                     yield self.stats[comb]
 
-    def inc_app(self, tags):
+    def inc_total(self, app, tags):
         for stat in self.get_relevant(tags):
-            stat.app.inc_total()
+            stat.inc_total(app)
 
-    def inc_dep(self, tags):
+    def succeed(self, app, tags):
         for stat in self.get_relevant(tags):
-            stat.dep.inc_total()
-
-    def succeed_app(self, tags):
-        for stat in self.get_relevant(tags):
-            stat.app.succeed()
-
-    def succeed_dep(self, tags):
-        for stat in self.get_relevant(tags):
-            stat.dep.succeed()
+            stat.succeed(app)
 
     def print_stats(self):
         for key, stat in self.stats.items():

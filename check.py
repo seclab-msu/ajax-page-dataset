@@ -163,26 +163,25 @@ async def check_page_worker(q, stats):
     while True:
         page_dir, sample_info = await q.get()
         tags = sample_info.get('tags', [])
-        stats.inc_app(tags)
         reference_deps = sample_info['deps']
         analyzer_deps = await run_analyzer(page_dir)
 
-        all_matched = True
         for reference_dep in reference_deps:
-            stats.inc_dep(tags)
+            dep_found = have_dep(analyzer_deps, reference_dep)
+            stats.inc_total(page_dir, tags)
             stats.store_raw_result(
-                page_dir, reference_dep['method'] + ' ' + reference_dep['url'] + ' ' + str(reference_dep.get('postData')), have_dep(analyzer_deps, reference_dep)
+                page_dir,
+                reference_dep['method'] + ' ' + reference_dep['url'] + ' ' + str(reference_dep.get('postData')),
+                dep_found
             )
-            if have_dep(analyzer_deps, reference_dep):
-                stats.succeed_dep(tags)
+            if dep_found:
+                stats.succeed(page_dir, tags)
                 if DEBUG:
                     print(green("FOUND") + '\t' + reference_dep['method'], reference_dep['url'])
             else:
                 all_matched = False
                 if DEBUG:
                     print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'], reference_dep.get('postData'))
-        if all_matched:
-            stats.succeed_app(tags)
         q.task_done()
 
 async def check_pages(pages_jsons, n_workers):
