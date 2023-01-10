@@ -9,14 +9,5 @@ variables:
 evaluate:
   stage: evaluate
   dependencies: []
-  needs:
-    - project: fuchsia/js-analyzer
-      job: "package-deb"
-      ref: master
-      artifacts: true
-  image: debian:bullseye
   script:
-    - 'ls -lah && echo "BUILD" && ls -lah build'
-    - pwd
-    - 'apt-get update && apt install -y ./build/*js-analyzer*.deb'
-    - 'ls -lah /usr/lib/fuchsia'
+    - 'echo TODO: trigger js-analyzer pipeline with DEP_DATASET_VERSION: $CI_COMMIT_REF_NAME'

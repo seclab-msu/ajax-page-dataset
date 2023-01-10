@@ -12,13 +12,13 @@ import subprocess
 from stats import Stats
 from colorprint import red, green
 
-ANALYZER_PATH = "../js-analyzer"
+DEFAULT_ANALYZER_PATH = "../js-analyzer"
 PAGES_PATH = os.path.join(os.path.dirname(__file__), "pages")
 DEBUG = True
 
-async def run_analyzer(page_dir):
+async def run_analyzer(page_dir, analyzer_path):
     analyzer_process = await asyncio.create_subprocess_exec(
-        './run-on-page.sh', ANALYZER_PATH, page_dir,
+        './run-on-page.sh', analyzer_path, page_dir,
         stdin=subprocess.DEVNULL,
         stdout=subprocess.PIPE,
         stderr=None
@@ -159,12 +159,12 @@ def have_dep(found_deps, want_dep):
             return True
     return False
 
-async def check_page_worker(q, stats):
+async def check_page_worker(q, stats, analyzer_path):
     while True:
         page_dir, sample_info = await q.get()
         tags = sample_info.get('tags', [])
         reference_deps = sample_info['deps']
-        analyzer_deps = await run_analyzer(page_dir)
+        analyzer_deps = await run_analyzer(page_dir, analyzer_path)
 
         for reference_dep in reference_deps:
             dep_found = have_dep(analyzer_deps, reference_dep)
@@ -184,7 +184,7 @@ async def check_page_worker(q, stats):
                     print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'], reference_dep.get('postData'))
         q.task_done()
 
-async def check_pages(pages_jsons, n_workers):
+async def check_pages(pages_jsons, n_workers, analyzer_path):
     samples = []
     for sample_file in pages_jsons:
         page_dir = sample_file[:-5]
@@ -198,7 +198,7 @@ async def check_pages(pages_jsons, n_workers):
     q = asyncio.Queue(20)
 
     for _ in range(n_workers):
-        asyncio.create_task(check_page_worker(q, stats))
+        asyncio.create_task(check_page_worker(q, stats, analyzer_path))
 
     for page_dir, sample_info in samples:
         await q.put((page_dir, sample_info))
@@ -212,6 +212,11 @@ def main():
     parser = argparse.ArgumentParser()
 
     parser.add_argument('-p', type=int, default=6)
+    parser.add_argument(
+        '--analyzer-path',
+        type=str,
+        default=DEFAULT_ANALYZER_PATH
+    )
     parser.add_argument('pages', nargs='*')
 
     args = parser.parse_args()
@@ -223,7 +228,7 @@ def main():
         for i in range(len(pages_jsons)):
             if not pages_jsons[i].endswith('.json'):
                 pages_jsons[i] += '.json'
-    asyncio.run(check_pages(pages_jsons, args.p))
+    asyncio.run(check_pages(pages_jsons, args.p, args.analyzer_path))
 
 
 if __name__ == "__main__":
