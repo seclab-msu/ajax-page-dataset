@@ -1,0 +1,22 @@
+stages:
+  - evaluate
+
+variables:
+  JS_ANALYZER_VERSION:
+    value: master
+    description: "Version of js-analyzer for which DEB package will be taken"
+
+evaluate:
+  stage: evaluate
+  dependencies: []
+  needs:
+    - project: fuchsia/js-analyzer
+      job: "package-deb"
+      ref: master
+      artifacts: true
+  image: debian:bullseye
+  script:
+    - 'ls -lah && echo "BUILD" && ls -lah build'
+    - pwd
+    - 'apt-get update && apt install -y ./build/*js-analyzer*.deb'
+    - 'ls -lah /usr/lib/fuchsia'
