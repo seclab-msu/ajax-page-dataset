@@ -341,26 +341,6 @@
                 }
             ],
             "queryString": []
-        },
-        {
-            "method": "POST",
-            "url": "https://www.genteroma.com/it/customer/ajax/login",
-            "httpVersion": "HTTP/1.1",
-            "headers": [
-                {
-                    "name": "x-requested-with",
-                    "value": "XMLHttpRequest"
-                },
-                {
-                    "name": "content-type",
-                    "value": "application/json"
-                }
-            ],
-            "queryString": [],
-            "postData": {
-                "mimeType": "application/json",
-                "text": "{\"username\":\"\",\"password\":\"\",\"captcha_form_id\":\"user_login\",\"g-recaptcha-response\":\"\",\"context\":\"checkout\",\"token\":\"\"}"
-            }
         }
     ]
 }
