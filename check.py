@@ -6,6 +6,7 @@ import glob
 import json
 import asyncio
 import argparse
+import traceback
 import urllib.parse
 import subprocess
 
@@ -159,12 +160,22 @@ def have_dep(found_deps, want_dep):
             return True
     return False
 
+run_failed = False
+
 async def check_page_worker(q, stats, analyzer_path):
     while True:
         page_dir, sample_info = await q.get()
         tags = sample_info.get('tags', [])
         reference_deps = sample_info['deps']
-        analyzer_deps = await run_analyzer(page_dir, analyzer_path)
+
+        try:
+            analyzer_deps = await run_analyzer(page_dir, analyzer_path)
+        except Exception:
+            global run_failed
+            traceback.print_exc()
+            run_failed = True
+            q.task_done()
+            continue
 
         for reference_dep in reference_deps:
             dep_found = have_dep(analyzer_deps, reference_dep)
@@ -208,6 +219,10 @@ async def check_pages(pages_jsons, n_workers, analyzer_path):
         await q.put((page_dir, sample_info))
 
     await q.join()
+
+    if run_failed:
+        print('Some of the analyzer processed failed!', file=sys.stderr)
+        exit(1)
 
     stats.print_stats()
     stats.dump_raw_results()
