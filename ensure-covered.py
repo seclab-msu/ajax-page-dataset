@@ -32,5 +32,6 @@ if len(not_covered) > 0:
     print('Coverage decreased! DEPs not covered:')
     for dep in not_covered:
         print(dep)
+    exit(1)
 else:
     print('OK')
