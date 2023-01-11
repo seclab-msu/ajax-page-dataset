@@ -171,7 +171,11 @@ async def check_page_worker(q, stats, analyzer_path):
             stats.inc_total(page_dir, tags)
             stats.store_raw_result(
                 page_dir,
-                reference_dep['method'] + ' ' + reference_dep['url'] + ' ' + str(reference_dep.get('postData')),
+                {
+                    'method': reference_dep['method'],
+                    'url': reference_dep['url'],
+                    'postData': reference_dep.get('postData')
+                },
                 dep_found
             )
             if dep_found:
