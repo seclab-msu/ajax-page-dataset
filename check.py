@@ -16,20 +16,94 @@ from colorprint import red, green
 DEFAULT_ANALYZER_PATH = "../js-analyzer"
 PAGES_PATH = os.path.join(os.path.dirname(__file__), "pages")
 DEBUG = True
+ANALYZER_RETRIES = 3
+ANALYZER_FIRST_BYTE_TIMEOUT = 2
+ANALYZER_TIMEOUT = 17 * 60
+
+async def pipe_stderr(initial_data, stream):
+    buf = initial_data
+    while buf:
+        sys.stdout.buffer.write(buf)
+        buf = await stream.read(4096)
+
+async def kill_analyzer(analyzer_process):
+    print('Killing analyzer with SIGTERM', file=sys.stderr)
+    analyzer_process.terminate()
+    try:
+        await asyncio.wait_for(analyzer_process.wait(), 2)
+    except asyncio.TimeoutError:
+        print(
+            'SIGTERM did not kill analyzer, using SIGKILL',
+            file=sys.stderr
+        )
+        analyzer_process.kill()
+        await asyncio.wait_for(analyzer_process.wait(), 5)
+
+pipe_tasks = set()
 
 async def run_analyzer(page_dir, analyzer_path):
     analyzer_process = await asyncio.create_subprocess_exec(
         './run-on-page.sh', analyzer_path, page_dir,
         stdin=subprocess.DEVNULL,
         stdout=subprocess.PIPE,
-        stderr=None
+        stderr=subprocess.PIPE
     )
-    output, _ = await analyzer_process.communicate()
-    analyzer_deps = json.loads(output)
-    analyzer_status = await analyzer_process.wait()
-    if analyzer_status != 0:
-        print("Analyzer exited with nonzero status", file=sys.stderr)
+
+    try:
+        try:
+            first_stderr_byte = await asyncio.wait_for(
+                analyzer_process.stderr.read(1),
+                timeout=ANALYZER_FIRST_BYTE_TIMEOUT
+            )
+        except asyncio.TimeoutError:
+            print(
+                'Timed out waiting for the first byte from analyzer',
+                file=sys.stderr
+            )
+            raise
+
+        pipe_stderr_task = asyncio.create_task(
+            pipe_stderr(first_stderr_byte, analyzer_process.stderr)
+        )
+        pipe_tasks.add(pipe_stderr_task)
+        pipe_stderr_task.add_done_callback(pipe_tasks.discard)
+
+        try:
+            output = await asyncio.wait_for(
+                analyzer_process.stdout.read(),
+                timeout=ANALYZER_TIMEOUT
+            )
+        except asyncio.TimeoutError:
+            print(
+                'Timed out waiting for analyzer to output data',
+                file=sys.stderr
+            )
+            raise
+        analyzer_deps = json.loads(output)
+        analyzer_status = await analyzer_process.wait()
+        if analyzer_status != 0:
+            print("Analyzer exited with nonzero status", file=sys.stderr)
+    finally:
+        if analyzer_process.returncode is None:
+            print(
+                'Analyzer process is still running at the end of run_analyzer()',
+                file=sys.stderr
+            )
+            await kill_analyzer(analyzer_process)
     return analyzer_deps
+
+async def run_analyzer_retry(page_dir, analyzer_path):
+    r = ANALYZER_RETRIES
+    while r:
+        try:
+            return await run_analyzer(page_dir, analyzer_path)
+        except asyncio.TimeoutError:
+            print(f'Running analyzer for {page_dir} timed out', file=sys.stderr)
+            r -= 1
+            if r:
+                print(f'will retry ({r} left)', file=sys.stderr)
+            else:
+                raise
 
 def frozen_keyvalue(x):
     return map(lambda el: list(el.items()), x)
@@ -169,7 +243,7 @@ async def check_page_worker(q, stats, analyzer_path):
         reference_deps = sample_info['deps']
 
         try:
-            analyzer_deps = await run_analyzer(page_dir, analyzer_path)
+            analyzer_deps = await run_analyzer_retry(page_dir, analyzer_path)
         except Exception:
             global run_failed
             traceback.print_exc()
