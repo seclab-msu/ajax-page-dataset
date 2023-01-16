@@ -17,7 +17,7 @@ DEFAULT_ANALYZER_PATH = "../js-analyzer"
 PAGES_PATH = os.path.join(os.path.dirname(__file__), "pages")
 DEBUG = True
 ANALYZER_RETRIES = 3
-ANALYZER_FIRST_BYTE_TIMEOUT = 2
+ANALYZER_OUTPUT_START_TIMEOUT = 15
 ANALYZER_TIMEOUT = 17 * 60
 
 async def pipe_stderr(initial_data, stream):
@@ -39,6 +39,12 @@ async def kill_analyzer(analyzer_process):
         analyzer_process.kill()
         await asyncio.wait_for(analyzer_process.wait(), 5)
 
+async def await_analyzer_output_start(stream):
+    buf = b''
+    while b'Navigating to URL:' not in buf:
+        buf += await stream.read(1000)
+    return buf
+
 pipe_tasks = set()
 
 async def run_analyzer(page_dir, analyzer_path):
@@ -51,9 +57,9 @@ async def run_analyzer(page_dir, analyzer_path):
 
     try:
         try:
-            first_stderr_byte = await asyncio.wait_for(
-                analyzer_process.stderr.read(1),
-                timeout=ANALYZER_FIRST_BYTE_TIMEOUT
+            stderr_beginning = await asyncio.wait_for(
+                await_analyzer_output_start(analyzer_process.stderr),
+                timeout=ANALYZER_OUTPUT_START_TIMEOUT
             )
         except asyncio.TimeoutError:
             print(
@@ -63,7 +69,7 @@ async def run_analyzer(page_dir, analyzer_path):
             raise
 
         pipe_stderr_task = asyncio.create_task(
-            pipe_stderr(first_stderr_byte, analyzer_process.stderr)
+            pipe_stderr(stderr_beginning, analyzer_process.stderr)
         )
         pipe_tasks.add(pipe_stderr_task)
         pipe_stderr_task.add_done_callback(pipe_tasks.discard)
