@@ -88,7 +88,11 @@ async def run_analyzer(page_dir, analyzer_path):
         analyzer_deps = json.loads(output)
         analyzer_status = await analyzer_process.wait()
         if analyzer_status != 0:
-            print("Analyzer exited with nonzero status", file=sys.stderr)
+            print(
+                "Analyzer exited with nonzero status for",
+                page_dir,
+                file=sys.stderr
+            )
     finally:
         if analyzer_process.returncode is None:
             print(
@@ -240,7 +244,7 @@ def have_dep(found_deps, want_dep):
             return True
     return False
 
-run_failed = False
+run_failed = []
 
 async def check_page_worker(q, stats, analyzer_path):
     while True:
@@ -252,8 +256,9 @@ async def check_page_worker(q, stats, analyzer_path):
             analyzer_deps = await run_analyzer_retry(page_dir, analyzer_path)
         except Exception:
             global run_failed
+            print('failed running on', page_dir, file=sys.stderr)
             traceback.print_exc()
-            run_failed = True
+            run_failed.append(page_dir)
             q.task_done()
             continue
 
@@ -301,7 +306,7 @@ async def check_pages(pages_jsons, n_workers, analyzer_path):
     await q.join()
 
     if run_failed:
-        print('Some of the analyzer processed failed!', file=sys.stderr)
+        print('Some of the analyzer processed failed!', run_failed, file=sys.stderr)
         exit(1)
 
     stats.print_stats()
