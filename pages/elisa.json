@@ -81,10 +81,6 @@
         }
     }, {
         "method": "GET",
-        "url": "https://elisa.fi/json/translations/index.json",
-        "queryString": []
-    }, {
-        "method": "GET",
         "url": "https://frosmo.elisa.fi/location",
         "queryString": []
     }, {
