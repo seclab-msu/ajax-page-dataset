@@ -42,7 +42,13 @@ async def kill_analyzer(analyzer_process):
 async def await_analyzer_output_start(stream):
     buf = b''
     while b'Navigating to URL:' not in buf:
-        buf += await stream.read(1000)
+        data = await stream.read(1000)
+        buf += data
+        if not data and b'Navigating to URL:' not in buf:
+            raise Exception(
+                "Analyzer did not output 'Navigating to URL:' and died, its "+
+                "output was " + buf.decode('utf8', errors='replace')
+            )
     return buf
 
 pipe_tasks = set()
