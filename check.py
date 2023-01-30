@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import sys
 import glob
 import json
@@ -223,6 +224,11 @@ def match_post_data(reference, found):
     found_params = found.get('params')
     return compare_unordered_keyvalue_ignoreemptyval(ref_params, found_params)
 
+def match_url_path(ref, found):
+    if ref == found:
+        return True
+    ref_pattern = '^' + re.escape(ref).replace('UNKNOWN', '[^/]*') + '$'
+    return re.match(ref_pattern, found) != None
 
 def match_dep(found_dep, reference_dep):
     if found_dep['method'] != reference_dep['method']:
@@ -232,7 +238,7 @@ def match_dep(found_dep, reference_dep):
         found_parsed = urllib.parse.urlparse(found_dep['url'])
         ref_parsed = ref_parsed._replace(query='', scheme='')
         found_parsed = found_parsed._replace(query='', scheme='')
-        if ref_parsed.geturl() != found_parsed.geturl():
+        if not match_url_path(ref_parsed.geturl(), found_parsed.geturl()):
             return False
     qs_matches = compare_unordered_keyvalue_ignoreemptyval(
         reference_dep.get('queryString'),
