@@ -104,14 +104,18 @@ class Stats:
         for stat in self.get_relevant(tags):
             stat.succeed(app)
 
-    def print_stats(self):
-        for key, stat in self.stats.items():
-            if key != 'total':
-                if isinstance(key, tuple):
-                    key = ' + '.join(key)
-                print("Stat for", key)
-                stat.print_stat()
-                print()
+    def print_stats(self, tags_stat_cfg):
+        if tags_stat_cfg != None:
+            for key, stat in self.stats.items():
+                if key != 'total' and (
+                    key in tags_stat_cfg or
+                    tags_stat_cfg == ['all']
+                ):
+                    if isinstance(key, tuple):
+                        key = ' + '.join(key)
+                    print("Stat for", key)
+                    stat.print_stat()
+                    print()
         print("TOTAL:")
         self.stats["total"].print_stat()
 

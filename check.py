@@ -296,7 +296,7 @@ async def check_page_worker(q, stats, analyzer_path):
                     print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'], reference_dep.get('postData'))
         q.task_done()
 
-async def check_pages(pages_jsons, n_workers, analyzer_path):
+async def check_pages(pages_jsons, n_workers, analyzer_path, tags_stat_cfg):
     samples = []
     for sample_file in pages_jsons:
         page_dir = sample_file[:-5]
@@ -321,7 +321,7 @@ async def check_pages(pages_jsons, n_workers, analyzer_path):
         print('Some of the analyzer processed failed!', run_failed, file=sys.stderr)
         exit(1)
 
-    stats.print_stats()
+    stats.print_stats(tags_stat_cfg)
     stats.dump_raw_results()
 
 def main():
@@ -333,9 +333,20 @@ def main():
         type=str,
         default=DEFAULT_ANALYZER_PATH
     )
+    parser.add_argument(
+        '--tag',
+        type=str,
+        action='append',
+        help='Print stats for given tags (use `--tag all` to print all the statistics)'
+    )
     parser.add_argument('pages', nargs='*')
 
     args = parser.parse_args()
+
+    if args.tag != None:
+        for i, tag in enumerate(args.tag):
+            if '+' in tag:
+                args.tag[i] = tuple(part.strip() for part in tag.split('+'))
 
     if len(args.pages) == 0:
         pages_jsons = glob.glob(PAGES_PATH + '/*.json')
@@ -344,7 +355,7 @@ def main():
         for i in range(len(pages_jsons)):
             if not pages_jsons[i].endswith('.json'):
                 pages_jsons[i] += '.json'
-    asyncio.run(check_pages(pages_jsons, args.p, args.analyzer_path))
+    asyncio.run(check_pages(pages_jsons, args.p, args.analyzer_path, args.tag))
 
 
 if __name__ == "__main__":
