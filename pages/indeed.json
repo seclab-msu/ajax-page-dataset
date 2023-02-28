@@ -164,18 +164,5 @@
       "name": "companyName",
       "value": ""
     }]
-  }, {
-    "method": "POST",
-    "url": "https://www.indeed.com/viewjob?isUndo=&action=&indeedcsrftoken=",
-    "queryString": [{
-        "name": "isUndo",
-        "value": ""
-      }, {
-        "name": "action",
-        "value": ""
-      }, {
-        "name": "indeedcsrftoken",
-        "value": ""
-      }]
   }]
 }
