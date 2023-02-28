@@ -98,8 +98,8 @@
       }
     ],
     "postData": {
-      "mimeType": "application/json",
-      "text": "customProductData[152][34]=813&quantity[]=1&virtuemart_product_id[]=152&option=com_virtuemart&view=cart&pname=Patterned Dress&pid=152&Itemid=801"
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "UNKNOWN"
     }
   },
   {
@@ -132,8 +132,8 @@
       }
     ],
     "postData": {
-      "mimeType": "application/json",
-      "text": "customProductData[129][34]=689&customProductData[129][35]=692&quantity[]=1&virtuemart_product_id[]=129&option=com_virtuemart&pname=Crazy Cool&pid=129&Itemid=791"
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "UNKNOWN"
     }
   },
   {
