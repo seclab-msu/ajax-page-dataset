@@ -28,7 +28,7 @@ for sample_name in previous:
         if p[i]['result'] and not c[i]['result']:
             not_covered.append(p[i]['dep'])
         if c[i]['result'] and not p[i]['result']:
-            print('new dep!', c)
+            print('new dep!', c[i])
 
 if len(not_covered) > 0:
     print('Coverage decreased! DEPs not covered:')
