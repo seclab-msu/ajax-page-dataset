@@ -1,4 +1,5 @@
 import json
+import time
 from collections import defaultdict
 
 STAT_TAG_COMBINATIONS = [("clients", "bugbounty")]
@@ -105,6 +106,8 @@ class Stats:
             stat.succeed(app)
 
     def print_stats(self, tags_stat_cfg):
+        print("Average execution time: %s" % self.average_time())
+        print("Longest execution time on %s: %s" % self.max_time())
         if tags_stat_cfg != None:
             for key, stat in self.stats.items():
                 if key != 'total' and (
@@ -120,13 +123,30 @@ class Stats:
         self.stats["total"].print_stat()
 
     def store_raw_result(self, page_name, dep_id, result):
-        page_name = page_name.split('/')[-1]
         if page_name not in self.raw_results:
-            self.raw_results[page_name] = []
-        self.raw_results[page_name].append({
+            self.raw_results[page_name] = {'deps': []}
+        elif 'deps' not in self.raw_results[page_name]:
+            self.raw_results[page_name]['deps'] = []
+
+        self.raw_results[page_name]['deps'].append({
             "dep": dep_id,
             "result": result
         })
+
+    def average_time(self):
+        time_sec = sum(app['timeSeconds'] for app in self.raw_results.values()) / len(self.raw_results)
+        return time.strftime("%H:%M:%S", time.gmtime(time_sec))
+
+    def max_time(self):
+        (name, raw_result) = max(self.raw_results.items(), key=lambda k: k[1]['timeSeconds'])
+        return (name, raw_result['time'])
+
+    def save_time(self, page_name, execution_time):
+        if page_name not in self.raw_results:
+            self.raw_results[page_name] = {}
+
+        self.raw_results[page_name]['time'] = time.strftime("%H:%M:%S", time.gmtime(execution_time))
+        self.raw_results[page_name]['timeSeconds'] = execution_time
 
     def dump_raw_results(self):
         with open('stats.json', 'w') as f:

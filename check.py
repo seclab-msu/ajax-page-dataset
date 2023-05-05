@@ -10,6 +10,7 @@ import argparse
 import traceback
 import urllib.parse
 import subprocess
+import time
 
 from stats import Stats
 from colorprint import red, green
@@ -63,6 +64,7 @@ async def run_analyzer(page_dir, analyzer_path):
     )
 
     try:
+        time_started = time.time()
         try:
             stderr_beginning = await asyncio.wait_for(
                 await_analyzer_output_start(analyzer_process.stderr),
@@ -107,7 +109,9 @@ async def run_analyzer(page_dir, analyzer_path):
                 file=sys.stderr
             )
             await kill_analyzer(analyzer_process)
-    return analyzer_deps
+        execution_time = time.time() - time_started
+
+    return analyzer_deps, execution_time
 
 async def run_analyzer_retry(page_dir, analyzer_path):
     r = ANALYZER_RETRIES
@@ -266,7 +270,7 @@ async def check_page_worker(q, stats, analyzer_path):
         reference_deps = sample_info['deps']
 
         try:
-            analyzer_deps = await run_analyzer_retry(page_dir, analyzer_path)
+            analyzer_deps, execution_time = await run_analyzer_retry(page_dir, analyzer_path)
         except Exception:
             global run_failed
             print('failed running on', page_dir, file=sys.stderr)
@@ -275,11 +279,17 @@ async def check_page_worker(q, stats, analyzer_path):
             q.task_done()
             continue
 
+        sample_name = page_dir.split('/')[-1]
+        print(
+            'Execution time for %s: %s' % (sample_name, time.strftime("%H:%M:%S", time.gmtime(execution_time)))
+        )
+        stats.save_time(sample_name, execution_time)
+
         for reference_dep in reference_deps:
             dep_found = have_dep(analyzer_deps, reference_dep)
             stats.inc_total(page_dir, tags)
             stats.store_raw_result(
-                page_dir,
+                sample_name,
                 {
                     'method': reference_dep['method'],
                     'url': reference_dep['url'],
