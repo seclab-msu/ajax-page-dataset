@@ -39,16 +39,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "46"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"email\":\"\",\"password\":\"\",\"passwordRepeat\":\"\"}"
-            },
-            "bodySize": 46
+            }
         },
         {
             "method": "POST",
@@ -59,16 +55,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "26"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"email\":\"\",\"password\":\"\"}"
-            },
-            "bodySize": 26
+            }
         },
         {
             "method": "GET",
@@ -127,16 +119,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "88"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"email\":\"\",\"password\":\"\",\"passwordRepeat\":\"\",\"securityQuestion\":\"\",\"securityAnswer\":\"\"}"
-            },
-            "bodySize": 88
+            }
         },
         {
             "method": "POST",
@@ -147,16 +135,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "49"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"UserId\":\"\",\"answer\":\"\",\"SecurityQuestionId\":\"\"}"
-            },
-            "bodySize": 49
+            }
         },
         {
             "method": "GET",
@@ -179,16 +163,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "45"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"email\":\"\",\"answer\":\"\",\"new\":\"\",\"repeat\":\"\"}"
-            },
-            "bodySize": 45
+            }
         },
         {
             "method": "POST",
@@ -199,16 +179,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "43"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"ProductId\":\"\",\"BasketId\":\"\",\"quantity\":1}"
-            },
-            "bodySize": 43
+            }
         },
         {
             "method": "PUT",
@@ -219,16 +195,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "14"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"quantity\":1}"
-            },
-            "bodySize": 14
+            }
         },
         {
             "method": "POST",
@@ -239,16 +211,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "96"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"country\":\"\",\"fullName\":\"\",\"mobileNum\":\"\",\"zipCode\":\"\",\"streetAddress\":\"\",\"city\":\"\",\"state\":\"\"}"
-            },
-            "bodySize": 96
+            }
         },
         {
             "method": "PUT",
@@ -259,16 +227,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "2"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{}"
-            },
-            "bodySize": 2
+            }
         },
         {
             "method": "GET",
@@ -297,16 +261,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "33"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"paymentMode\":\"\",\"paymentId\":\"\"}"
-            },
-            "bodySize": 33
+            }
         },
         {
             "method": "PATCH",
@@ -317,16 +277,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "22"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"id\":\"\",\"message\":\"\"}"
-            },
-            "bodySize": 22
+            }
         },
         {
             "method": "GET",
@@ -349,16 +305,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "30"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"tmpToken\":\"\",\"totpToken\":\"\"}"
-            },
-            "bodySize": 30
+            }
         },
         {
             "method": "POST",
@@ -369,16 +321,12 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "26"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"UserId\":\"\",\"message\":\"\"}"
-            },
-            "bodySize": 26
+            }
         },
         {
             "method": "POST",
@@ -413,16 +361,710 @@
             }, {
                 "name": "Content-Type",
                 "value": "application/json"
-            }, {
-                "name": "Content-Length",
-                "value": "66"
             }],
             "queryString": [],
             "postData": {
                 "mimeType": "application/json",
                 "text": "{\"UserId\":\"\",\"captchaId\":\"\",\"captcha\":\"\",\"comment\":\"\",\"rating\":\"\"}"
-            },
-            "bodySize": 66
+            }
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/admin/application-version",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Challenges/?name=Score%20Board",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": [{
+                "name": "name",
+                "value": "Score%20Board"
+            }]
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/track-order/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/rest/memories",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "multipart/form-data"
+            }, {
+                "name": "Authorization",
+                "value": "Bearer UNKNOWN"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "multipart/form-data",
+                "text": null,
+                "params": [{
+                    "name": "image",
+                    "value": "",
+                    "type": "file"
+                }, {
+                    "name": "caption",
+                    "value": ""
+                }]
+            }
+        },
+        {
+            "method": "DELETE",
+            "url": "http://juice-shop.stands.fuchsia/api/BasketItems/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "DELETE",
+            "url": "http://juice-shop.stands.fuchsia/api/Feedbacks/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "DELETE",
+            "url": "http://juice-shop.stands.fuchsia/api/Addresss/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "DELETE",
+            "url": "http://juice-shop.stands.fuchsia/api/Cards/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Products/UNKNOWN?d=",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": [{
+                "name": "d",
+                "value": ""
+            }]
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/snippets/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/BasketItems/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Addresss/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Deliverys/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Cards/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/snippets",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/basket/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/languages",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/2fa/status",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/SecurityQuestions/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Products/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Recycles/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Challenges/?sort=name",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": [{
+                "name": "sort",
+                "value": "name"
+            }]
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/snippets/fixes/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/order-history/orders",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/captcha/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/memories/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Addresss",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/wallet/balance",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Deliverys",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/api/Cards",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/order-history",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/continue-code-findIt",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/continue-code-fixIt",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/continue-code",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/country-mapping",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/deluxe-membership",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/image-captcha/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/saveLoginIp",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "GET",
+            "url": "http://juice-shop.stands.fuchsia/rest/chatbot/status",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }],
+            "queryString": []
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/rest/basket/UNKNOWN/checkout",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"couponData\":\"\",\"orderDetails\":{\"paymentId\":\"\",\"addressId\":\"\",\"deliveryMethodId\":\"\"}}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/rest/2fa/disable",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"password\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/rest/2fa/setup",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"password\":\"\",\"setupToken\":\"\",\"initialToken\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/snippets/fixes",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"key\":\"\",\"selectedFix\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/snippets/verdict",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"key\":\"\",\"selectedLines\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/rest/user/data-export",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"answer\":\"\",\"format\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/rest/chatbot/respond",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"action\":\"query\",\"query\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/rest/products/reviews",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"id\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/api/Users/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"email\":\"\",\"password\":\"\",\"passwordRepeat\":\"\",\"securityQuestion\":\"\",\"securityAnswer\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/api/Recycles/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"UserId\":\"\",\"AddressId\":\"\",\"quantity\":\"\",\"isPickUp\":\"\",\"date\":\"\"}"
+            }
+        },
+        {
+            "method": "POST",
+            "url": "http://juice-shop.stands.fuchsia/api/Cards/",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"fullName\":\"\",\"cardNum\":\"\",\"expMonth\":\"\",\"expYear\":\"\"}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/rest/order-history/UNKNOWN/delivery-status",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"deliveryStatus\":\"\"}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/api/Products/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"price\":0}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/api/Quantitys/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"quantity\":0}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/api/Addresss/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"country\":\"\",\"fullName\":\"\",\"mobileNum\":\"\",\"zipCode\":\"\",\"streetAddress\":\"\",\"city\":\"\",\"state\":\"\"}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/rest/products/UNKNOWN/reviews",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"message\":\"\",\"author\":\"Anonymous\"}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/rest/wallet/balance",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{\"balance\":0,\"paymentId\":\"\"}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/rest/continue-code/apply/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/rest/continue-code-findIt/apply/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{}"
+            }
+        },
+        {
+            "method": "PUT",
+            "url": "http://juice-shop.stands.fuchsia/rest/continue-code-fixIt/apply/UNKNOWN",
+            "headers": [{
+                "name": "Host",
+                "value": "juice-shop.stands.fuchsia"
+            }, {
+                "name": "Content-Type",
+                "value": "application/json"
+            }],
+            "queryString": [],
+            "postData": {
+                "mimeType": "application/json",
+                "text": "{}"
+            }
         }
     ]
 }
