@@ -399,7 +399,8 @@
                 "text": null,
                 "params": [{
                     "name": "file",
-                    "value": ""
+                    "value": "",
+                    "type": "file"
                 }]
             }
         },
