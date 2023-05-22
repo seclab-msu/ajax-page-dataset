@@ -5,7 +5,7 @@ from collections import defaultdict
 STAT_TAG_COMBINATIONS = [("clients", "bugbounty")]
 
 class StatCount:
-    __slots__ = ["total", "success"]
+    __slots__ = ["total", "success", "found"]
 
     def __init__(self):
         self.total = 0
@@ -17,8 +17,14 @@ class StatCount:
     def succeed(self):
         self.success += 1
 
+    def save_found(self, count):
+        self.found = count
+
     def cov_score(self):
         return float(self.success) / self.total if self.total != 0 else 0
+
+    def precision_score(self):
+        return float(self.success) / self.found if self.found != 0 else None
 
     def percent(self):
         return self.cov_score() * 100
@@ -44,19 +50,38 @@ class Stat:
     def succeed(self, app):
         self.apps[app].succeed()
 
+    def save_found(self, app, count):
+        return self.apps[app].save_found(count)
+
     def __score(self, stat_func):
-        if len(self.apps) == 0:
-            return 0
-        return float(sum(stat_func(st) for st in self.apps.values())) / len(self.apps)
+        total = 0
+        count_apps = len(self.apps)
+        for st in self.apps.values():
+            res = stat_func(st)
+            if res != None:
+                total += res
+            else:
+                count_apps -= 1
+
+        return float(total) / count_apps if count_apps != 0 else 0
 
     def cov_score(self):
         return self.__score(lambda st: st.cov_score())
+
+    def coverage(self, app):
+        return self.apps[app].cov_score()
+
+    def precision(self, app):
+        return self.apps[app].precision_score()
 
     def strict_page_coverage(self):
         return self.__score(lambda st: st.fully_covered())
 
     def cov_1_score(self):
         return self.__score(lambda st: st.cov_score() >= 0.01)
+
+    def precision_score(self):
+        return self.__score(lambda st: st.precision_score())
 
     def cov_20_score(self):
         return self.__score(lambda st: st.cov_score() >= 0.20)
@@ -106,6 +131,8 @@ class Stats:
             stat.succeed(app)
 
     def print_stats(self, tags_stat_cfg):
+        print("-------------------------------")
+        print("Average precision: %.2f%%" % (self.average_precision() * 100))
         print("Average execution time: %s" % self.average_time())
         print("Longest execution time on %s: %s" % self.max_time())
         if tags_stat_cfg != None:
@@ -141,12 +168,28 @@ class Stats:
         (name, raw_result) = max(self.raw_results.items(), key=lambda k: k[1]['timeSeconds'])
         return (name, raw_result['time'])
 
-    def save_time(self, page_name, execution_time):
+    def save_found(self, page_name, count):
+        self.stats['total'].save_found(page_name, count)
+
+    def store_properties(self, page_name, props):
         if page_name not in self.raw_results:
             self.raw_results[page_name] = {}
 
-        self.raw_results[page_name]['time'] = time.strftime("%H:%M:%S", time.gmtime(execution_time))
-        self.raw_results[page_name]['timeSeconds'] = execution_time
+        for name, value in props.items():
+            if name == 'time':
+                self.raw_results[page_name]['timeSeconds'] = props[name]
+                self.raw_results[page_name][name] = time.strftime("%H:%M:%S", time.gmtime(props['time']))
+            else:
+                self.raw_results[page_name][name] = props[name]
+
+    def average_precision(self):
+        return self.stats['total'].precision_score()
+
+    def get_precision(self, page_name):
+        return self.stats['total'].precision(page_name)
+
+    def get_coverage(self, page_name):
+        return self.stats['total'].coverage(page_name)
 
     def dump_raw_results(self):
         with open('stats.json', 'w') as f:
