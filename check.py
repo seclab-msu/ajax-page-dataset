@@ -280,14 +280,11 @@ async def check_page_worker(q, stats, analyzer_path):
             continue
 
         sample_name = page_dir.split('/')[-1]
-        print(
-            'Execution time for %s: %s' % (sample_name, time.strftime("%H:%M:%S", time.gmtime(execution_time)))
-        )
-        stats.save_time(sample_name, execution_time)
+        stats.save_found(sample_name, len(analyzer_deps))
 
         for reference_dep in reference_deps:
             dep_found = have_dep(analyzer_deps, reference_dep)
-            stats.inc_total(page_dir, tags)
+            stats.inc_total(sample_name, tags)
             stats.store_raw_result(
                 sample_name,
                 {
@@ -298,13 +295,29 @@ async def check_page_worker(q, stats, analyzer_path):
                 dep_found
             )
             if dep_found:
-                stats.succeed(page_dir, tags)
+                stats.succeed(sample_name, tags)
                 if DEBUG:
                     print(green("FOUND") + '\t' + reference_dep['method'], reference_dep['url'])
             else:
                 all_matched = False
                 if DEBUG:
                     print(red("MISSED") + '\t' + reference_dep['method'], reference_dep['url'], reference_dep.get('postData'))
+
+        precision = stats.get_precision(sample_name)
+        coverage = stats.get_coverage(sample_name)
+        print('Execution time for %s: %s' % (sample_name, time.strftime("%H:%M:%S", time.gmtime(execution_time))))
+        if precision == None:
+            print('Precision for %s: N/A' % (sample_name))
+        else:
+            print('Precision for %s: %.2f%%' % (sample_name, precision * 100))
+        print('Coverage for %s: %.2f%%' % (sample_name, coverage * 100))
+
+        stats.store_properties(sample_name, {
+            'precision': precision,
+            'coverage': coverage,
+            'time': execution_time,
+        })
+
         q.task_done()
 
 async def check_pages(pages_jsons, n_workers, analyzer_path, tags_stat_cfg):
