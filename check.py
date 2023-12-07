@@ -229,13 +229,15 @@ def match_post_data(reference, found):
     found_params = found.get('params')
     return compare_unordered_keyvalue_ignoreemptyval(ref_params, found_params)
 
-def match_url_path(ref, found):
+def match_url_path(ref, found, path_ignore_multislash=False):
     if ref == found:
         return True
+    if path_ignore_multislash:
+        found = found[:2] + re.sub('/+', '/', found[2:])
     ref_pattern = '^' + re.escape(ref).replace('UNKNOWN', '[^/]*') + '$'
     return re.match(ref_pattern, found) != None
 
-def match_dep(found_dep, reference_dep):
+def match_dep(found_dep, reference_dep, dep_attributes):
     if found_dep['method'] != reference_dep['method']:
         return False
     if reference_dep['url']:
@@ -243,7 +245,8 @@ def match_dep(found_dep, reference_dep):
         found_parsed = urllib.parse.urlparse(found_dep['url'])
         ref_parsed = ref_parsed._replace(query='', scheme='')
         found_parsed = found_parsed._replace(query='', scheme='')
-        if not match_url_path(ref_parsed.geturl(), found_parsed.geturl()):
+        path_ignore_multislash = 'path_ignore_multislash' in dep_attributes
+        if not match_url_path(ref_parsed.geturl(), found_parsed.geturl(), path_ignore_multislash):
             return False
     qs_matches = compare_unordered_keyvalue_ignoreemptyval(
         reference_dep.get('queryString'),
@@ -255,9 +258,9 @@ def match_dep(found_dep, reference_dep):
         return False
     return match_post_data(reference_dep.get('postData'), found_dep.get('postData'))
 
-def have_dep(found_deps, want_dep):
+def have_dep(found_deps, want_dep, dep_attributes):
     for found_dep in found_deps:
-        if match_dep(found_dep, want_dep):
+        if match_dep(found_dep, want_dep, dep_attributes):
             return True
     return False
 
@@ -268,6 +271,7 @@ async def check_page_worker(q, stats, analyzer_path):
         page_dir, sample_info = await q.get()
         tags = sample_info.get('tags', [])
         reference_deps = sample_info['deps']
+        attributes = sample_info.get('attributes', [])
 
         try:
             analyzer_deps, execution_time = await run_analyzer_retry(page_dir, analyzer_path)
@@ -283,7 +287,7 @@ async def check_page_worker(q, stats, analyzer_path):
         stats.save_found(sample_name, len(analyzer_deps))
 
         for reference_dep in reference_deps:
-            dep_found = have_dep(analyzer_deps, reference_dep)
+            dep_found = have_dep(analyzer_deps, reference_dep, attributes)
             stats.inc_total(sample_name, tags)
             stats.store_raw_result(
                 sample_name,
