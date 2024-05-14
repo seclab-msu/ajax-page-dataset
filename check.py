@@ -9,6 +9,7 @@ import asyncio
 import argparse
 import traceback
 import urllib.parse
+import shlex
 import subprocess
 import time
 
@@ -55,9 +56,9 @@ async def await_analyzer_output_start(stream):
 
 pipe_tasks = set()
 
-async def run_analyzer(page_dir, analyzer_path):
+async def run_analyzer(page_dir, cmd):
     analyzer_process = await asyncio.create_subprocess_exec(
-        './run-on-page.sh', analyzer_path, page_dir,
+        *shlex.split(cmd), page_dir,
         stdin=subprocess.DEVNULL,
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE
@@ -113,11 +114,11 @@ async def run_analyzer(page_dir, analyzer_path):
 
     return analyzer_deps, execution_time
 
-async def run_analyzer_retry(page_dir, analyzer_path):
+async def run_analyzer_retry(page_dir, cmd):
     r = ANALYZER_RETRIES
     while r:
         try:
-            return await run_analyzer(page_dir, analyzer_path)
+            return await run_analyzer(page_dir, cmd)
         except asyncio.TimeoutError:
             print(f'Running analyzer for {page_dir} timed out', file=sys.stderr)
             r -= 1
@@ -258,7 +259,7 @@ def match_dep(found_dep, reference_dep, dep_attributes):
         return False
     return match_post_data(reference_dep.get('postData'), found_dep.get('postData'))
 
-def have_dep(found_deps, want_dep, dep_attributes):
+def have_dep(found_deps, want_dep, dep_attributes=[]):
     for found_dep in found_deps:
         if match_dep(found_dep, want_dep, dep_attributes):
             return True
@@ -266,7 +267,7 @@ def have_dep(found_deps, want_dep, dep_attributes):
 
 run_failed = []
 
-async def check_page_worker(q, stats, analyzer_path):
+async def check_page_worker(q, stats, cmd):
     while True:
         page_dir, sample_info = await q.get()
         tags = sample_info.get('tags', [])
@@ -274,7 +275,7 @@ async def check_page_worker(q, stats, analyzer_path):
         attributes = sample_info.get('attributes', [])
 
         try:
-            analyzer_deps, execution_time = await run_analyzer_retry(page_dir, analyzer_path)
+            analyzer_deps, execution_time = await run_analyzer_retry(page_dir, cmd)
         except Exception:
             global run_failed
             print('failed running on', page_dir, file=sys.stderr)
@@ -324,7 +325,7 @@ async def check_page_worker(q, stats, analyzer_path):
 
         q.task_done()
 
-async def check_pages(pages_jsons, n_workers, analyzer_path, tags_stat_cfg):
+async def check_pages(pages_jsons, n_workers, cmd, tags_stat_cfg):
     samples = []
     for sample_file in pages_jsons:
         page_dir = sample_file[:-5]
@@ -338,7 +339,7 @@ async def check_pages(pages_jsons, n_workers, analyzer_path, tags_stat_cfg):
     q = asyncio.Queue(20)
 
     for _ in range(n_workers):
-        asyncio.create_task(check_page_worker(q, stats, analyzer_path))
+        asyncio.create_task(check_page_worker(q, stats, cmd))
 
     for page_dir, sample_info in samples:
         await q.put((page_dir, sample_info))
@@ -367,6 +368,11 @@ def main():
         action='append',
         help='Print stats for given tags (use `--tag all` to print all the statistics)'
     )
+    parser.add_argument(
+        '--cmd',
+        type=str,
+        help='Command to run on the dataset'
+    )
     parser.add_argument('pages', nargs='*')
 
     args = parser.parse_args()
@@ -376,6 +382,10 @@ def main():
             if '+' in tag:
                 args.tag[i] = tuple(part.strip() for part in tag.split('+'))
 
+    cmd = f'./run-on-page.sh {args.analyzer_path}'
+    if args.cmd != None:
+        cmd = args.cmd
+
     if len(args.pages) == 0:
         pages_jsons = glob.glob(PAGES_PATH + '/*.json')
     else:
@@ -383,7 +393,7 @@ def main():
         for i in range(len(pages_jsons)):
             if not pages_jsons[i].endswith('.json'):
                 pages_jsons[i] += '.json'
-    asyncio.run(check_pages(pages_jsons, args.p, args.analyzer_path, args.tag))
+    asyncio.run(check_pages(pages_jsons, args.p, cmd, args.tag))
 
 
 if __name__ == "__main__":
