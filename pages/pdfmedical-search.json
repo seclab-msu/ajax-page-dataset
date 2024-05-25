@@ -1,0 +1,79 @@
+{
+    "resource_id": null,
+    "url": "https://pfdmedical.vhx.tv/search",
+    "tags": [
+        "bugbounty",
+        "bundler",
+        "classes",
+        "return-value",
+        "iife",
+        "dom",
+        "jquery-import",
+        "lib-object-renamed",
+        "renamed-this",
+        "query-selector"
+    ],
+    "deps": [{
+        "method": "POST",
+        "url": "https://pfdmedical.vhx.tv/admin/tokens/",
+        "queryString": [],
+        "headers": [{
+            "name": "X-Requested-With",
+            "value": "XMLHttpRequest"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json"
+        }, {
+            "name": "X-CSRF-Token",
+            "value": "4kDD1yRhXF8En6zvAdUVk84XXoEqnjCjKGW4npVf7s6BunFelYmUhvRBPIKVsPcsqcDX/1bZM6IMJZiyqDQuXg=="
+        }]     
+    }, {
+        "method": "PUT",
+        "url": "https://pfdmedical.vhx.tv/customers/update_preferred_language_code",
+        "queryString": [],
+        "headers": [{
+            "name": "X-Requested-With",
+            "value": "XMLHttpRequest"
+        }, {
+            "name": "Content-Type",
+            "value": "application/json"
+        }, {
+            "name": "X-CSRF-Token",
+            "value": "4kDD1yRhXF8En6zvAdUVk84XXoEqnjCjKGW4npVf7s6BunFelYmUhvRBPIKVsPcsqcDX/1bZM6IMJZiyqDQuXg=="
+        }]    
+    }, {
+        "method": "GET",
+        "url": "https://pfdmedical.vhx.tv/search?q=&page=1",
+        "queryString": [{
+            "name": "q",
+            "value": ""
+        }, {
+            "name": "page",
+            "value": "1"
+        }]   
+    }, {
+        "method": "GET",
+        "url": "https://pfdmedical.vhx.tv/search?q=&page=1&section_update=true&type=videos",
+        "queryString": [{
+            "name": "q",
+            "value": ""
+        }, {
+            "name": "page",
+            "value": "1"
+        }, {
+            "name": "section_update",
+            "value": "true"
+        }, {
+            "name": "type",
+            "value": "videos"
+        }]  
+    }, {
+        "method": "POST",
+        "url": "https://pfdmedical.vhx.tv/tokens",
+        "queryString": [],
+        "headers": [{
+            "name": "X-CSRF-Token",
+            "value": "4kDD1yRhXF8En6zvAdUVk84XXoEqnjCjKGW4npVf7s6BunFelYmUhvRBPIKVsPcsqcDX/1bZM6IMJZiyqDQuXg=="
+        }]
+    }]
+}

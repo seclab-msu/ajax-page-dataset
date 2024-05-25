@@ -1,0 +1,1 @@
+{"cc":{"enforce":false},"gcc":{"enforce":true},"tcv2":{"enforce":true},"loggingEnabled":false,"observe":{"percent":1,"pageScans":10,"initialDelay":3,"scanInterval":5}}

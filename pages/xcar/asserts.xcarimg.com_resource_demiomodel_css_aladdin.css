@@ -1,0 +1,89 @@
+@charset "gb2312";
+/* 20190125 zjx add 阿拉丁 */
+/* 下拉框 */
+.proice_form .selectbox{float:left;}
+.margin_r{margin-right:10px;}
+.selectbox{float:left;cursor:default;height:36px;border:#d6d5da solid 1px;color:#444;font-size:14px;width:58px;position:relative; z-index:90;margin-left:0;}
+.selectbox_hover{/*border:1px solid #bbb;position:relative;*/}
+.selectbox_on{border:1px solid #bbb; background-position:right -32px; z-index:100;position:relative;}
+.selectbox_error{ background-color:#ffe5e6;border:1px solid #f90000;}
+.selectbox .selecttxt{color:#999;display:block;height:36px;overflow:hidden;line-height:36px;cursor:pointer;width:100%;}
+.selectbox .selectem{background:#fff url(//icon.xcar.com.cn/pengtao/selectbox/images/selectico.gif) no-repeat right 14px;}
+.selectbox .selectem:hover{background-position: right 14px !important;}
+.selectbox_on .selectem{background-position:right -26px;}
+.selectbox_on .selectem:hover{background-position:right -26px !important;}
+.selectbox .option a,.selectbox .option a:hover{color:#666;}
+.selectbox .selectem{ display:block;padding:0 30px 0 12px;font-size:12px;}
+.selectbox .option{width:100%;background-color:#fff;border:solid 1px #bbb;position:absolute;top:36px; z-index:99;max-height:250px;padding:0;left:-1px; overflow-x:hidden;overflow-y:auto;display:none;}
+.selectbox .option li{display:block;height:36px;overflow:hidden;color:#999;line-height:36px;text-align:left;padding:0 10px;background:#fff;border-bottom:1px solid #f1f1f1;cursor:pointer;margin:0;font-size:12px;}
+.selectbox .option li cite{color:#9a9a9a;margin-right:9px;}
+.selectbox .option a:hover{color:#1ea3cc;}
+.selectbox .option li.active{background-color:#f6f6f6;}
+.tp_select01{height:30px;width:94px;}
+.tp_select01 .selecttxt{padding:4px 0;}
+.tp_select01 .option{top:36px;}
+.selectbox .option .onblur:hover{background:none;}
+.proice_btn{  display: inline-block;width: 67px;height: 36px;padding: 0;float: left;line-height: 36px;text-align: center;background-color: #fc8600;color: #fff;}
+.proice_btn:hover{background:#ef8002;}
+/* 下拉框完毕 */
+
+.selectbox_two{float:left;cursor:default;height:36px;border:#d6d5da solid 1px;color:#444;font-size:14px;width:58px;position:relative; z-index:999;}
+.selectbox_two .selecttxt_two{color:#999;display:block;height:36px;overflow:hidden;line-height:36px;cursor:pointer;width:100%;}
+.selectbox_two .selectem_two{background:#fff url(//icon.xcar.com.cn/pengtao/selectbox/images/selectico.gif) no-repeat right 14px;}
+.selectbox_two .option_two a,.selectbox_two .option_two a:hover{color:#666;}
+.selectbox_two .selectem_two{ display:block;padding:0 30px 0 12px;font-size:12px;}
+.selectbox_on .selectem_two{background-position:right -26px;}
+.selectbox_two .option_two{width:100%;background-color:#fff;border:solid 1px #bbb;position:absolute;top:36px; z-index:999;max-height:250px;padding:0;left:-1px; overflow-x:hidden;overflow-y:auto;display:none;}
+.selectbox_two .option_two li{display:block;height:36px;overflow:hidden;color:#999;line-height:36px;text-align:left;padding:0 10px;background:#fff;border-bottom:1px solid #f1f1f1;cursor:pointer;margin:0;font-size:12px;}
+.selectbox_two .option_two li cite{color:#9a9a9a;margin-right:9px;}
+.selectbox_two .option_two a:hover{color:#1ea3cc;}
+.selectbox_two .option_two li.active{background-color:#f6f6f6;}
+.selectbox_two .option_two .onblur:hover{background:none;}
+.selectem_two span ,.option_two li span{float: right;}
+.selectem_two span em {color: #ec6e61;}
+
+.system_pop{width:634px;height:460px; position:fixed;left:50%;top:50%;margin:-230px 0 0 -317px;background:#fff;z-index: 9999;box-shadow:0px 0px 30px 10px #888;border-radius:5px;}
+.system_tit{ font: 20px/80px 'Microsoft YaHei';display:block; text-align:center;color:#FC8103;}
+.pop_dl{ clear:both;padding-bottom:24px;}
+.pop_dl dt{width:90px;float:left; text-align:left;padding-left:44px; font: 12px/36px 'Microsoft YaHei';color:#4A4A4A;}
+.pop_dl dd{float:left;position: relative}
+.appinput {border: 1px solid #dad9de;color: #777;float: left;height: 36px;line-height: 36px;padding:0 10px 0 10px;vertical-align: middle;width: 430px;font-size:12px;}
+.appsubmit {padding-top: 8px;width:100%;text-align: center;}
+.appsubmit a{background-color: #fd9001;color: #fff;display: inline-block;font-family: "Microsoft YaHei";font-size: 16px;height: 36px;line-height: 36px;text-align: center;width: 240px;height:36px;}
+.appsubmit a:hover{ text-decoration:none; color:#fff;}
+.appsubmit .special {font-size: 14px;color: #acacac;font-family: "Microsoft YaHei";margin: 0;height: 42px;line-height: 44px;}
+
+.infor_protect {text-align: center;font-size: 12px;margin: 0 auto;width: 324px;position: relative;left: 0px;height:38px;}
+.infor_protect input {margin-right: 6px;width: 13px;height: 13px;float: left;margin-top: 14px;}
+.infor_protect span {display: inline-block;font: 12px/38px 'Microsoft YaHei';color: #444444;float: left;font-size: 12px;}
+.infor_protect span a {display: inline-block;color: #54b8f5;}
+.stytem_close{display:block;width:16px;height:16px; position:absolute;right:20px;top:20px;background:url(//asserts.xcarimg.com/resource/DemioModel/images/pop_close.jpg) no-repeat right top; cursor:pointer;}
+.yes_icon{width:92px;height:92px;margin:106px auto 0;background:url(//asserts.xcarimg.com/resource/DemioModel/images/yes_icon.png) no-repeat right top;}
+.yes_txt{ text-align:center;font: 20px/80px 'Microsoft YaHei';color: #FC8103;padding-bottom:50px;}
+.intro_txt_p{ position:absolute;left:0;top:36px;font: 12px/24px 'Microsoft YaHei';color: #FF1F1F;}
+
+
+
+
+/* 右侧 */
+.fast_text{width:84px;height:84px;background:url(../images/fast_text.png?v2019) no-repeat right top; cursor:pointer;margin-bottom: 1px;font: 12px/22px 'Microsoft Yahei';text-align: center;color: #22a4f3;}
+.fast_text .a_link_fast{display: inline-block;color: #1da1f2;text-align: center;width: 84px;height: 36px;padding-top: 48px;background-position: left -338px;font: 14px/36px "Microsoft YaHei";}
+.fast_text .a_link_fast:hover{color:#fff; text-decoration:none;}
+.fast_text_70 .a_link_fast{width:70px;font-size:12px;color:#999;padding-top:36px;}
+.fast_text:hover{background:url(../images/fast_text_hover.png?v2019) no-repeat right top;}
+.fast_pop{width:84px;height:67px;background:url(../images/fast_pop.png?v2019) no-repeat right top; cursor:pointer; position:relative;padding-bottom:20px;}
+.fast_pop_txt{padding-top:13px;font:12px/22px "Microsoft YaHei";color:#22A4F3; text-align:center;}
+.fast_pop .fast_pop_txt{padding-top:10px;}
+.fast_pop_70 .fast_pop_txt{padding-top:13px;}
+.fast_pop:hover{width:84px;height:67px;background:url(../images/fast_pop_hover.png?v2019) no-repeat right top; cursor:pointer;}
+.fast_pop:hover .fast_pop_txt{color:#fff;}
+.fast_pop_close{width:6px;height:6px; position:absolute;right:5px;top:5px;cursor:pointer;}
+.fast_pop_70{width:70px;height:70px;background:url(../images/fast_pop_70.png?v2019) no-repeat right top;}
+.fast_pop_70:hover{width:70px;height:70px;background:url(../images/fast_pop_hover_70.png?v2019) no-repeat right top;}
+.fast_text_70{width:70px;height:70px;background:url(../images/fast_text_70.png?v2019) no-repeat right top;}
+.fast_text_70:hover{width:70px;height:70px;background:url(../images/fast_text_hover_70.png?v2019) no-repeat right top;}
+
+
+
+
+

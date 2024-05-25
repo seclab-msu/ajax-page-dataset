@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>back-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="back-arrow" transform="translate(1.000000, 1.000000)">
+            <rect id="Rectangle-7" fill="#42526E" fill-rule="nonzero" x="0" y="4" width="12" height="2" rx="1"></rect>
+            <polyline id="Path-2" stroke="#42526E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="5.03326416 10.0199585 0.0520800777 5.03877441 5.04854144 0.0423130528"></polyline>
+        </g>
+    </g>
+</svg>

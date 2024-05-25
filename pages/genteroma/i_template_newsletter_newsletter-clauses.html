@@ -1,0 +1,69 @@
+<!--
+  ~ Copyright © MageSpecialist - Skeeller srl. All rights reserved.
+  ~ See COPYING.txt for license details.
+  -->
+<div data-role="newsletter-clauses">
+    <div class="newsletter-clauses">
+        <!-- ko foreach: clauses -->
+            <!-- ko if: ($parent.hasClauseInput($data)) -->
+                <div class="privacy-clause required">
+                    <!-- ko if: ($parent.isCheckbox($data)) -->
+                        <input type="checkbox" class="required-entry"
+                            data-bind="attr: {
+                                'id': $parent.getCheckboxId($parentContext, clauseId),
+                                'name': inputName,
+                                'value': clauseId
+                            }, css: {'required-entry': $parent.isClauseRequired($data)}"/>
+                    <!-- /ko -->
+                    <!-- ko ifnot: ($parent.isCheckbox($data)) -->
+                        <div class="privacy-clause-radio clause-radio">
+                            <label class="radio-content">
+                                <input type="radio" class="custom-validate-one-required-by-name"
+                                    data-bind="attr: {
+                                        'id': $parent.getRadioId($parentContext, clauseId, 1),
+                                        'name': inputName,
+                                        'value': 1
+                                        }, css: {'custom-validate-one-required-by-name': $parent.isClauseRequired($data)}" />
+                                <span data-bind="html: radioTextAgree"></span>
+                            </label>
+                            <label class="radio-content">
+                                <input type="radio" class="custom-validate-one-required-by-name"
+                                    data-bind="attr: {
+                                        'id': $parent.getRadioId($parentContext, clauseId, 0),
+                                        'name': inputName,
+                                        'value': 0
+                                        }, css: {'custom-validate-one-required-by-name': $parent.isClauseRequired($data)}" />
+                                <span data-bind="html: radioTextNoAgree"></span>
+                            </label>
+                        </div>
+                    <!-- /ko -->
+                    <!-- ko if: ($parent.isModal($data)) -->
+                        <label data-bind="attr: {'for': $parent.getCheckboxId($parentContext, clauseId)}">
+                            <button type="button"
+                                    class="action action-show"
+                                    data-bind="click: function(data, event) { return $parent.showContent(data, event) }"
+                            >
+                                <span data-bind="html: inputText"></span>
+                            </button>
+                        </label>
+                    <!-- /ko -->
+                    <!-- ko ifnot: ($parent.isModal($data)) -->
+                        <label data-bind="attr: {'for': $parent.getCheckboxId($parentContext, clauseId)}">
+                            <span data-bind="html: inputText"></span>
+                        </label>
+                    <!-- /ko -->
+                </div>
+            <!-- /ko -->
+            <!-- ko if: ($parent.isModal($data)) -->
+                <div id="privacy-clauses-modal" data-bind="afterRender: initModal" style="display: none">
+                    <div class="privacy-clauses-item-content" data-bind="html: modalContent"></div>
+                </div>
+            <!-- /ko -->
+            <!-- ko ifnot: ($parent.hasClauseInput($data)) -->
+            <div class="privacy-clause privacy-clause-text-container">
+                <div class="privacy-clause-text" data-bind="html: inputText"></div>
+            </div>
+            <!-- /ko -->
+        <!-- /ko -->
+    </div>
+</div>

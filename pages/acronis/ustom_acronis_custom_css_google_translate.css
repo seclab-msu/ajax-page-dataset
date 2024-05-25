@@ -1,0 +1,20 @@
+.goog-te-gadget {
+  font-family: inherit !important;
+  font-size: inherit;
+}
+
+.goog-te-gadget img {
+  display: none;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span:first-of-type {
+  padding: 0 10px 0 5px;
+  text-transform: capitalize;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span:last-of-type {
+  padding: 0 3px 0 5px;
+  text-transform: capitalize;
+}
+
+

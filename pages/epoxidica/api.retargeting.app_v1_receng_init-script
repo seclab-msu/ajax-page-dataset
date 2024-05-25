@@ -1,0 +1,46 @@
+_rtg_c_k = document.cookie.split('; ').find(row => row.startsWith('__ra='));
+
+function _rtgre_ejcf(node) {
+    if (node.tagName === 'SCRIPT') {
+        let newNode = document.createElement("script");
+
+        newNode.text = node.innerHTML;
+
+        let i = -1, attrs = node.attributes, attr;
+
+        while (++i < attrs.length) {
+            newNode.setAttribute((attr = attrs[i]).name, attr.value);
+        }
+
+        node.parentNode.replaceChild( newNode, node);
+    } else {
+        let i = -1, children = node.childNodes;
+
+        while(++i < children.length) {
+            _rtgre_ejcf(children[i]);
+        }
+    }
+}
+
+function _rtgre_cfre() { //check for existance of paramters _rtgrep in link
+    let searchString = location.search.substr(1);
+    let pairs = searchString.split("&");
+    let parts;
+    let i;
+
+    for(i = 0; i < pairs.length; i++){
+        parts = pairs[i].split("=");
+
+        if(parts[0] === '__rtgrep') {
+            fetch('https://api.retargeting.app/v1/receng/widget-c?k=BNRV2YOS2LSXYN&p=' + decodeURI(parts[1]) + '&c=' + _rtg_c_k).then(function(response) {return response.text()});
+            return;
+        }
+    }
+}
+
+function _rtgre_so(orderNumber) { //saveorder event requested
+    fetch('https://api.retargeting.app/v1/receng/save-order?k=BNRV2YOS2LSXYN&o=' + orderNumber + '&c=' + _rtg_c_k).then(function(response) {return response.text()});
+}
+
+_rtgre_cfre();
+

@@ -1,0 +1,143 @@
+{
+  "resource_id": 83,
+  "url": "http://joomla-store.stands.fuchsia/index.php/shopping-cart",
+  "tags": ["namespace", "singleton", "jquery-dom"],
+  "deps": [{
+    "method": "POST",
+    "url": "http://joomla-store.stands.fuchsia/index.php/shopping-cart?tmpl=component",
+    "queryString": [
+      {
+        "name": "tmpl",
+        "value": "component"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "billto=&STsameAsBT=0&quantity%5B0%5D=1&cartpos%5B%5D=0&coupon_code=&virtuemart_shipmentmethod_id=3&customer_note=&tos=0&order_language=en-GB&task=updatecart&option=com_virtuemart&view=cart"
+    }
+  },
+{
+    "method": "GET", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&nosef=1&view=cart&task=viewJS&format=json&lang=en",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "nosef",
+        "value": "1"
+      },
+      {
+        "name": "view",
+        "value": "cart"
+      },
+      {
+        "name": "task",
+        "value": "viewJS"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "lang",
+        "value": "en"
+      }
+    ]
+  },
+  {
+    "method": "POST", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&nosef=1&view=cart&task=addJS&format=json&lang=en&Itemid=801",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "nosef",
+        "value": "1"
+      },
+      {
+        "name": "view",
+        "value": "cart"
+      },
+      {
+        "name": "task",
+        "value": "addJS"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "lang",
+        "value": "en"
+      },
+      {
+        "name": "Itemid",
+        "value": "801"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "UNKNOWN"
+    }
+  },
+  {
+    "method": "POST", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&view=productdetails&task=recalculate&format=json&nosef=1&lang=en",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "view",
+        "value": "productdetails"
+      },
+      {
+        "name": "task",
+        "value": "recalculate"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "nosef",
+        "value": "1"
+      },
+      {
+        "name": "lang",
+        "value": "en"
+      }
+    ],
+    "postData": {
+      "mimeType": "application/x-www-form-urlencoded; charset=UTF-8",
+      "text": "UNKNOWN"
+    }
+  },
+  {
+    "method": "GET", 
+    "url": "http://joomla-store.stands.fuchsia/index.php?option=com_virtuemart&view=state&format=json&virtuemart_country_id=239",
+    "queryString": [
+      {
+        "name": "option",
+        "value": "com_virtuemart"
+      },
+      {
+        "name": "view",
+        "value": "state"
+      },
+      {
+        "name": "format",
+        "value": "json"
+      },
+      {
+        "name": "virtuemart_country_id",
+        "value": "239"
+      }
+    ]
+  }]
+}

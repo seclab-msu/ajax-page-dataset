@@ -1,0 +1,68 @@
+.ui-accordion-header:hover {
+  background-color: #488bd3 !important;
+}
+.ui-accordion-header-active {
+  background: url(../images/arrow6.png) no-repeat right -132px !important;
+}
+.ui-accordion-header-active {
+  background-color: #f2f6fb !important;
+}
+.ui-accordion .ui-state-default {
+  background: none;
+  border-bottom: 1px solid #e0e4e7;
+  border-left: none;
+  border-right: none;
+  border-top: 1px solid #e0e4e7;
+  color: white;
+  margin-top: -1px;
+}
+.ui-accordion-header {
+  padding: .5em 1em;
+
+}
+.ui-accordion-header:not(.ui-accordion-header-active) {
+  background: url(https://kb.acronis.com/sites/all/themes/at_acronis/images/arrow6.png) no-repeat right 19px;
+}
+.ui-accordion-header a {
+  color: #488bd3;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.ui-accordion .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+  color: #488bd3;
+}
+.ui-accordion-header:hover a {
+  color: white;
+}
+.ui-accordion .ui-corner-all {
+  border-radius: 0;
+}
+.ui-accordion .ui-corner-all {
+  border-radius: 0;
+}
+.ui-accordion .ui-icon {
+  display: none;
+}
+.ui-accordion .ui-widget-content {
+  background: none;
+  border: none;
+  color: #525966;
+  height: 100% !important;
+  padding: 11px 0 11px 16px;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  line-height: 1.4em;
+}
+.ui-accordion .ui-widget-content h2 {
+  color: #525966;
+  font-weight: 700;
+  font-size: 16px;
+}
+.ui-accordion .ui-widget-content h3 {
+  color: #525966;
+  font-weight: 700;
+  font-size: 16px;
+}

@@ -1,0 +1,64 @@
+*{margin:0;padding:0}ul, ul
+li{list-style:none}img{border:none}body{background-color:#FFF}html
+.x_borno{border-bottom:none}.x_logininfo{width:933px;padding:0
+10px;border:solid 1px #e0e0e0;margin:0
+auto;height:28px;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) repeat-x 0 -176px;font:normal 12px/28px SimSun;position:relative;z-index:1000}html .x_logininfo a,html .x_navtb
+a{color:#666;text-decoration:none}html .x_logininfo a:hover,html .x_navtb a:hover{color:#f72c04;text-decoration:underline}.x_logininfo i,.x_navtb span
+i{color:#ccc;padding:0
+5px;font-style:normal}.x_loginb{float:right}.x_navxt{width:948px;padding-left:5px;border:solid 1px #e0e0e0;border-top:0px;margin:0
+auto;height:30px;font:normal 12px/30px SimSun;clear:both}.x_input1{width:80px;height:18px;padding:0
+4px;border:solid 1px #e3e3e3;margin-right:8px;margin-top:4px;float:left;color:#666;line-height:19px}.x_bun1{width:38px;height:19px;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) 0 -153px;border:0px;color:#fff;text-align:center;margin-right:8px;font-size:12px;float:left;margin-top:4px;padding-bottom:2px;line-height:21px\9;padding-bottom:0px\9;cursor:pointer}.x_logina
+span{float:left}html .x_navxt
+a{color:#666;text-decoration:none;padding:0
+5px 0 4px;display:inline-block}html .x_navxt a:hover{color:#f72c04;text-decoration:underline}.x_boxdown{padding-right:12px;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat right 5px;display:inline}.x_boxtop{padding-right:12px;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat right -13px;display:inline}.x_navxt
+i{color:#ccc;font-style:normal}.x_navxt
+.x_bold{font-weight:bold;color:#333}.x_purikura{padding:1px;background:#fff;border:solid 1px #d1d1d1;display:inline;float:left;margin:2px
+5px 0 0;float:left;_margin-right:2px;width:20px;height:20px;overflow:hidden}.x_logina
+span{margin-right:10px}.x_message{width:15px;height:11px;display:inline-block;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) 0 -30px;margin:7px
+5px 0 0;float:left}.x_navtb{width:955px;height:41px;margin:0
+auto;position:relative;z-index:32;clear:both;overflow:hidden}.x_navtb
+span{float:right;font:normal 12px/31px SimSun;padding:10px
+10px 0}.x_navul{padding-top:14px;height:28px;position:absolute;left:181px;z-index:2}.x_logo{float:left;overflow:hidden}html .x_navtb .x_logotxt,html .x_navtb .x_logotxt:hover{float:left;width:86px;text-align:center;font:bold 16px/36px Microsoft YaHei;padding-top:5px;color:#2a4989;text-decoration:none}.x_navul
+li{float:left;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) repeat-x 0 -267px;height:26px;margin-right:7px;border:solid 1px #d7d7d7;border-bottom:0px}html .x_navul li
+a{display:inline-block;font:normal 14px/25px SimSun;color:#333;padding:0
+10px !important;border:solid 1px #FFF;border-bottom:0px}html .x_navul
+li.active{background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat right -92px;height:29px;border:0px}html .x_navul li.active
+a{color:#fff;font:bold 14px/29px Microsoft YaHei;height:29px;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat 0 -122px;padding:0
+10px!important;border:none}html .x_navul li.active a:hover{text-decoration:none;color:#fff}html .x_navul li a:hover{color:#333}.x_navdt{background:#3c70bf;min-height:2px;height:auto!important;height:2px;width:955px;margin:0
+auto;font-size:0px}.x_navdt
+span{display:block;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) repeat-x 0 -234px;height:30px;padding-top:2px;font:normal 12px/30px SimSun}html .x_navdt
+a{color:#FFF;text-decoration:none;margin-left:24px}html .x_navdt
+a.active{color:#fe9900;font-weight:bold}html .x_navdt a:hover{color:#fe9900;text-decoration:none}.x_mypub{width:95px;padding:5px;position:absolute;background:#fff;border:solid 1px #d7d7d7;border-top:0px;top:29px;z-index:1000;left:-1px}.x_mypub
+li{text-align:center;border-bottom:solid 1px #d7d7d7;line-height:28px}.x_navdt
+h1{font:bold 12px/30px SimSun;display:inline}.xsh_city{background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat right -418px;cursor:pointer;display:inline-block;float:left;font:normal 12px/25px SimSun;padding-right:18px;margin:10px
+0 0 0;padding:4px
+25px 2px 5px}.xsh_city2{background:#fff url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat right -421px;cursor:pointer;display:inline-block;float:left;font:normal 12px/25px SimSun;padding-right:18px;margin-top:12px;padding:1px
+25px 3px 4px;border:solid 1px #BACEEF;border-bottom:none;position:absolute;z-index:100000;left:195px}.x_navtb .xsh_city:hover,.x_navtb .xsh_city2:hover{color:#666;text-decoration:none}html .xsh_city a,html .change_city11 a:link{color:#CAC9CE}html .xsh_city a:hover{color:#CAC9CE}.xsh_citylist{background:none repeat scroll 0 0 #FFF;border:1px
+solid #BACEEF;font-size:12px;left:195px;padding:10px;position:absolute;top:41px !important;width:290px;z-index:10000}.xsh_citylist
+dl{clear:both;height:100%;margin:0;overflow:hidden;width:auto}.xsh_citylist dl
+dt{color:#000;font-weight:bold;height:22px;line-height:22px}.xsh_citylist dl
+dd{color:#CCC;float:left;line-height:22px;width:290px;font-weight:400}.xsh_citylist
+iframe{display:none;height:120px;left:0;position:absolute;top:0;width:320px;z-index: -1}.xsh_cityclose{background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat 0 -460px;cursor:pointer;display:block;float:right;height:12px;overflow:hidden;width:23px;z-index:2000000000}.cnet_link
+.friend_nt{line-height:22px;color:#ccc}.cnet_link .friend_nt
+a{color:#666;margin:0
+2px;display:inline;float:none;line-height:22px;width:auto}.friend_nt{padding:5px
+0px;margin:0px
+5px;_height:1%;overflow:auto;line-height:18px}.friend_nt
+b{color:#666;float:left;width:188px;line-height:36px}.friend_nt b
+a{display:inline;float:none;color:#666}.friend_nt
+a{display:block;float:left;height:18px;width:94px;overflow:hidden}.friend_ntbg{border-top:1px dashed #D1D1D1}.xot_login{width:96px;height:20px;position:absolute;left:350px;top:0}.xot_logina{color:#053299;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat scroll -60px 11px;display:block;padding-left:6px;height:20px}.xot_loginb{color:#053299;background:url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat 0 -312px;display:block;padding-left:6px;height:20px}.x_logininfo .xot_logina:hover,.x_logininfo .xot_loginb:hover{text-decoration:none;color:#666}.xot_loginc{width:94px;position:absolute;left:0px;top:20px;border:solid 1px #d0d0d0;border-top:none;background:#fff url(//icon.xcar.com.cn/2011/header/images/t0412_nav.gif) no-repeat -1px -328px;padding-top:3px}.x_logininfo .xot_loginc
+a{display:block;padding-left:29px;line-height:29px;color:#053299}.content_nt{margin:0
+auto;width:955px}.footer_nt{clear:both;color:#666;text-align:center;line-height:22px;font-family:arial,SimSun}.footer_nt
+a{color:#333;margin:0
+5px}.content_nt .footer_nt a:hover{color:#f00}.footer_nt a:hover,.footer_nt p a:hover{color:#f00}.mar_top8{margin-top:8px}.tw_0803_ggbox{float:right;display:block;height:22px;line-height:22px;padding-left:18px;background:url("//icon.xcar.com.cn/2011/index/images/layout_2012.gif") no-repeat -142px -285px;margin-top:7px}.tw_0803_ggbox
+a.a{color:#f00;margin-right:12px}.tw_0803_ggbox
+a.more{color:#00F}.tw_0803_ggbox a.more:hover{color:#f00}.nav_kzRelative{position:relative;cursor:pointer}span.price_span{width:24px;height:12px;display:inline-block;background:url(//icon.xcar.com.cn/2011/header/images/xin_navpic_x.png) no-repeat;position:absolute;right:-10px;top:-1px}.adMain_KZ{height:90px;margin-top:10px;clear:both}.adMain_KZ
+div{float:left;width:231px;height:90px;overflow:hidden;margin-right:10px}.adMain_KZ
+div.adMain_KZmr{margin-right:11px}.adMain_KZ
+div.adMain_KZm0{margin-right:0}.crumbs{width:955px;margin:0
+auto;padding:10px
+0;display:block;font:12px/20px 'SimSun';color:#919191}.crumbs
+a{color:#444;text-decoration:none}.crumbs a:hover{color:#406ea0;text-decoration:underline}.crumbs
+em{padding:0
+5px}.crumbs
+span{color:#777}.pl{position:relative}

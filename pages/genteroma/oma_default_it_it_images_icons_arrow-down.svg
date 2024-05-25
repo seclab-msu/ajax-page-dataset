@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="7px" viewBox="0 0 10 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>9FFD8111-D22C-439D-8ADE-E0A007729272</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="linea-guida" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03.-Components" transform="translate(-1539.000000, -1065.000000)" fill="#151c1f" fill-rule="nonzero">
+            <g id="Input" transform="translate(120.000000, 909.000000)">
+                <g id="Multi-select" transform="translate(1200.000000, 79.000000)">
+                    <g id="Dropdown/Multiselect/Default" transform="translate(0.000000, 56.000000)">
+                        <g id="Icons/16px/Arrow--Glyph-Down" transform="translate(216.000000, 16.000000)">
+                            <g id="small-triangle-down" transform="translate(2.000000, 5.000000)">
+                                <path d="M1.41496403,1.65079137 L5.2407434,6.11420063 C5.60016555,6.53352647 6.23146553,6.58208801 6.65079137,6.22266586 C6.68967018,6.18934117 6.72593191,6.15307944 6.7592566,6.11420063 L10.585036,1.65079137 C10.9444581,1.23146553 10.8958966,0.600165549 10.4765707,0.240743398 C10.2953276,0.085392161 10.0644906,-9.52081778e-16 9.82577936,-1.33226763e-15 L2.17422064,-3.33066907e-16 C1.62193589,-2.31613845e-16 1.17422064,0.44771525 1.17422064,1 C1.17422064,1.23871127 1.2596128,1.46954826 1.41496403,1.65079137 Z" id="Path"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

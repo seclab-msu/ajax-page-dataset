@@ -1,0 +1,308 @@
+.dj-megamenu.dj-megamenu-override {
+    margin: 0;
+    height: 60px;
+    position: relative;
+    z-index: 500;
+    text-align: left;
+}
+
+.dj-megamenu.dj-megamenu-override li.dj-up {
+	position: relative;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 0 -1px 0 0;
+    background: none;
+}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a {
+    display: block;
+    float: left;
+    height: 58px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1px 20px;
+    cursor: pointer;
+}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a span {
+    float: left;
+    display: block;
+    height: 58px;
+    line-height: 58px;
+}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a.withsubtitle span {
+	line-height: 46px;
+}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a span.dj-drop {}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a small.subtitle {
+	display: block;
+    font-size: 12px;
+    font-weight: normal; 
+    line-height: 1em;
+    text-transform: none;
+    color: #999999;
+    margin-top: -12px;
+}
+
+.dj-megamenu.dj-megamenu-override li:hover a.dj-up_a,
+.dj-megamenu.dj-megamenu-override li.hover a.dj-up_a, 
+.dj-megamenu.dj-megamenu-override li.active a.dj-up_a {
+	padding: 0 20px 1px;
+	text-decoration: none;
+}
+
+.dj-megamenu.dj-megamenu-override li.hover a.dj-up_a,
+.dj-megamenu.dj-megamenu-override li:hover a.dj-up_a {
+	color: #444;
+	background: #fafafa;
+	-webkit-box-shadow: inset 0px -1px 0px 0px #ececec; 
+	box-shadow: inset 0px -1px 0px 0px #ececec;
+}
+
+.dj-megamenu.dj-megamenu-override li.parent:hover a.dj-up_a,
+.dj-megamenu.dj-megamenu-override li.parent.hover a.dj-up_a {
+	border-bottom: 1px solid #fafafa;
+	padding-bottom: 0;
+	-webkit-box-shadow: none; 
+	box-shadow: none;
+}
+
+.dj-megamenu.dj-megamenu-override li:hover a.dj-up_a small.subtitle,
+.dj-megamenu.dj-megamenu-override li.hover a.dj-up_a small.subtitle, 
+.dj-megamenu.dj-megamenu-override li.active a.dj-up_a small.subtitle {}
+
+.dj-megamenu.dj-megamenu-override li:hover a.dj-up_a span,
+.dj-megamenu.dj-megamenu-override li.hover a.dj-up_a span, 
+.dj-megamenu.dj-megamenu-override li.active a.dj-up_a span {}
+
+.dj-megamenu.dj-megamenu-override li:hover a.dj-up_a span.dj-drop,
+.dj-megamenu.dj-megamenu-override li.hover a.dj-up_a span.dj-drop, 
+.dj-megamenu.dj-megamenu-override li.active a.dj-up_a span.dj-drop {}
+
+.dj-megamenu.dj-megamenu-override li.separator > a {
+    cursor: default;
+}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a span span.image-title {
+	display: inline-block;
+	float: none;
+	height: auto;
+}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a img {
+	margin: 0 10px 0 0;
+	max-height: 32px;
+	vertical-align: middle;
+}
+
+.dj-megamenu.dj-megamenu-override li a.dj-up_a.withsubtitle img {
+	margin-top: -18px;
+}
+
+/* sticky */
+
+.dj-megamenu.dj-megamenu-override .dj-stickylogo.dj-align-center {
+  text-align: center;
+  margin: 10px;
+}
+.dj-megamenu.dj-megamenu-override .dj-stickylogo.dj-align-left {
+  text-align: left;
+  margin: 10px;
+}
+.dj-megamenu.dj-megamenu-override .dj-stickylogo.dj-align-right {
+  text-align: right;
+  margin: 10px;
+}
+
+#jm-djmenu .dj-megamenu-offcanvas,
+#jm-djmenu .dj-megamenu-accordion,
+#jm-djmenu .dj-megamenu-select.select-button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Default list styling */
+.dj-megamenu.dj-megamenu-override li:hover,
+.dj-megamenu.dj-megamenu-override li.hover {
+    /*position: relative;*/ 
+    z-index: 200;
+}
+
+/* Hide submenus */
+.dj-megamenu.dj-megamenu-override li div.dj-subwrap, 
+.dj-megamenu.dj-megamenu-override li:hover div.dj-subwrap li div.dj-subwrap,
+.dj-megamenu.dj-megamenu-override li.hover div.dj-subwrap li div.dj-subwrap {
+    position: absolute;
+    left: -9999px;
+    top: -9999px;
+    height: 0;
+}
+
+/* Show first level submenu */
+.dj-megamenu.dj-megamenu-override li:hover div.dj-subwrap,
+.dj-megamenu.dj-megamenu-override li.hover div.dj-subwrap {
+	left: 0;
+    top: 60px;
+    background: none;
+    height: auto;
+    z-index: 300;
+}
+
+/* Show higher level submenus */
+.dj-megamenu.dj-megamenu-override li:hover div.dj-subwrap li:hover > div.dj-subwrap,
+.dj-megamenu.dj-megamenu-override li.hover div.dj-subwrap li.hover > div.dj-subwrap {
+    left: 100%;
+    top: -9px;
+    background: none;
+    height: auto;
+    z-index: 400;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+}
+
+.dj-megamenu.dj-megamenu-override li:hover div.dj-subwrap-in,
+.dj-megamenu.dj-megamenu-override li.hover div.dj-subwrap-in {
+    border: 1px solid #ececec;
+    background: #fafafa;
+    border-top: none;
+}
+
+.dj-megamenu.dj-megamenu-override li:hover li:hover div.dj-subwrap-in,
+.dj-megamenu.dj-megamenu-override li.hover li.hover div.dj-subwrap-in {
+    border: 1px solid #ececec;
+}
+
+/* Submenu elements styles - drop down */
+.dj-megamenu.dj-megamenu-override li div.dj-subcol {
+	float: left;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu {	
+    padding: 15px 0;
+    margin: 0;
+    height: auto;
+    width: auto;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li {
+	list-style: none outside;
+    display: block;
+    height: auto;
+    position: relative;
+    width: auto;
+    background: none;
+    padding: 0 15px;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li > a {
+    display: block;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #444444;
+    background: transparent;
+    text-decoration: none;
+    padding: 5px 0;
+	border-bottom: 1px solid #f1f1f1;
+    -webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+    -ms-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li > a span.image-title {
+	vertical-align: middle;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li > a img {
+	float: left;
+	border: 0;
+	margin: 0 5px 5px 0;
+	vertical-align: middle;
+	max-height: 16px;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li > a small.subtitle {
+	color: #999;
+    display: block;
+    font-size: 10px;
+    line-height: 1.5em;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li:hover > a,
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.hover > a {
+	padding-left: 8px;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li:hover > a small.subtitle,
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.hover > a small.subtitle {}
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li > a:hover {}
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li > a:hover span.image-title {}
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li > a.active {}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.parent > a {}
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.parent:hover > a,
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.parent.hover > a {}
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.parent > a.active {}
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.parent:hover > a.active,
+.dj-megamenu.dj-megamenu-override li ul.dj-submenu > li.parent.hover > a.active {}
+
+/* Submenu elements styles - tree */
+.dj-megamenu.dj-megamenu-override li ul.dj-subtree {}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-subtree > li {}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-subtree > li > a {
+	color: #444;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-subtree > li > a:hover {
+	text-decoration: none;
+}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-subtree > li.active > a {}
+
+.dj-megamenu.dj-megamenu-override li ul.dj-subtree > li > a small.subtitle {
+	color: #666;
+    display: block;
+    font-size: 0.9em;
+    line-height: 1;
+}
+
+/* modules loaded into menu */
+
+.dj-megamenu.dj-megamenu-override .modules-wrap {
+    color: #444;
+}
+
+.dj-megamenu.dj-megamenu-override .moduletable {
+    clear: both;
+}
+
+.dj-megamenu.dj-megamenu-override .modules-wrap .moduletable > h3 {
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: none;
+}
+
+.dj-megamenu.dj-megamenu-override .modules-wrap .moduletable {
+    margin: 30px 0 0;
+}
+
+.dj-megamenu.dj-megamenu-override .modules-wrap .moduletable:first-child {
+    margin: 0;
+}
+
+.select-input .dj-select {
+	font-size: inherit !important;
+	padding: 6px !important;
+	max-width: 400px !important;
+	margin: 10px 0 !important;
+}

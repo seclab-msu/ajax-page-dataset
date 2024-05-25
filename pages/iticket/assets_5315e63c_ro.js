@@ -1,0 +1,1 @@
+var languageItems=(function(){var _languages={"d4a8968f52233729744797511ed0b4c0":"Ești sigur ca dorești să ștergi?","80ebdccece38141cd9c0f9b3b623091f":"Ești sigur ca dorești să ștergi?","c9cc8cce247e49bae79f15173ce97354":"Salvează","d3d2e617335f08df83599665eef8a418":"Închide"};return{getLanguageItems:function(){return _languages;}};})();

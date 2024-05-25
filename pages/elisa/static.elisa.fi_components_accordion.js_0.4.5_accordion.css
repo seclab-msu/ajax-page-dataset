@@ -1,0 +1,64 @@
+.content-toggleable .toggle {
+  cursor: pointer;
+}
+.content-toggleable .toggle p {
+  margin-bottom: 0;
+}
+.content-toggleable .content {
+  display: none;
+  margin: 0;
+}
+.content-toggleable h3.toggle {
+  padding-left: 38px;
+}
+.content-toggleable.closed h3.toggle {
+  background-image: url('images/icon_expand_accordion.png');
+  background-repeat: no-repeat;
+}
+.content-toggleable.expanded h3.toggle {
+  background-image: url('images/icon_close_accordion.png');
+  background-repeat: no-repeat;
+}
+.content-toggleable.small {
+  border-bottom: 1px solid #EBEAE9;
+  padding: 8px 0;
+}
+.content-toggleable.small .toggle {
+  padding-left: 18px;
+}
+.content-toggleable.small.closed .toggle {
+  background: url('images/icon_expand_accordion_small.png') 0 40% no-repeat;
+}
+.content-toggleable.small.expanded .toggle {
+  background: url('images/icon_close_accordion_small.png') 0 40% no-repeat;
+  color: #878787;
+}
+.content-toggleable.small .content {
+  margin-left: 18px;
+  padding-top: 10px;
+}
+.ea-accordion h4 {
+  margin: inherit !important;
+  line-height: 60px !important;
+}
+.ea-accordion h3 {
+  margin: inherit !important;
+  line-height: 60px !important;
+}
+.ea-accordion .ea-accordion__header {
+  height: auto;
+}
+.ea-accordion .ea-accordion__header:before {
+  line-height: 52px;
+}
+.ea-accordion__content.inner-accordion-container {
+  padding-right: 0px;
+}
+.ea-accordion__inner .ea-accordion__header {
+  line-height: 24px;
+}
+.ea-accordion__inner .ea-accordion__header:before {
+  font-size: 2rem;
+  padding-right: 8px;
+  line-height: 24px;
+}

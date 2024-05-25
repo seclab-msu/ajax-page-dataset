@@ -1,0 +1,536 @@
+.stripe-payments-saved-card {
+    margin-bottom: 0.7em;
+}
+.stripe-payments-saved-card span.type {
+    font-weight: bold;
+}
+.stripe-payments-saved-card span.exp {
+    float: right;
+}
+.stripe-payments-saved-card span.stripe-payments-fade {
+    color: #999;
+    font-weight: normal;
+}
+.stripe-payments-saved-card label {
+    display: inline;
+}
+
+/* My Subscriptions customer account section */
+a.subscription-name {
+    display: block;
+}
+.stripe-subscription-edit {
+    max-height: 30em;
+    overflow: hidden;
+    transition: max-height;
+    transition-duration: 0.8s;
+    vertical-align: top;
+    display: inline-block;
+    padding-right: 20px;
+}
+.stripe-subscription-edit.show {
+    max-height: 30em;
+}
+.stripe-subscription-edit .section {
+    margin: 5px 0;
+}
+.stripe-subscription-edit .mutable {
+    display: none;
+}
+.stripe-subscription-edit.edit .mutable {
+    display: block;
+}
+.stripe-subscription-edit.edit .static {
+    display: none;
+}
+.stripe-subscription-edit .actions {
+    margin-top: 10px;
+}
+.stripe-subscription-edit input {
+    margin: 2px 0;
+}
+.subscription-card input {
+    margin-right: 5px;
+}
+.subscription-card {
+    padding: 5px 0 0 5px;
+}
+.subscription-card .exp, .details.stripe-payments .exp {
+    color: #aaa;
+}
+.subscription-card.add-new {
+    padding: 10px;
+    text-align: center;
+}
+.stripe-subscriptions .section b {
+    padding-bottom: 0.5em;
+    display: inline-block;
+}
+table.subscription-details {
+    font-size: small;
+    color: #333;
+    margin-top: 1em;
+}
+table.subscription-details td {
+    padding: 0;
+}
+table.subscription-details tr td:first-child {
+    width: 100%;
+}
+@media (pointer: fine) {
+    table.subscription-details a.edit {
+        visibility: hidden;
+    }
+    table.subscription-details div.details:hover a.edit {
+        visibility: visible;
+    }
+}
+.stripe-subscriptions .subscription-name {
+    font-size: 1.1em;
+}
+.stripe-subscriptions div.billed {
+    font-size: smaller;
+    color: #999;
+}
+table.subscription-details a {
+    cursor: pointer;
+}
+table.subscription-details .stripe-payments span.type {
+    font-size: small;
+}
+
+/* My Saved Cards section */
+.stripe-payments.delete-card {
+    padding-left: 20px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+ZGVsZXRlLS1saW5rPC90aXRsZT48cGF0aCBkPSJNMTEuODY2IDkuOTk5bDIuNzQzLTIuNzQ0YTEuMzIyIDEuMzIyIDAgMCAwIC4wMDItMS44NjggMS4zMTggMS4zMTggMCAwIDAtMS44NjguMDAyTDEwIDguMTMzIDcuMjUyIDUuMzg0YTEuMzIzIDEuMzIzIDAgMCAwLTEuODYzLjAwMyAxLjMxNCAxLjMxNCAwIDAgMC0uMDAzIDEuODYzTDguMTM0IDEwbC0yLjc0MyAyLjc0M2ExLjMyMiAxLjMyMiAwIDAgMC0uMDAyIDEuODY4IDEuMzE4IDEuMzE4IDAgMCAwIDEuODY4LS4wMDJMMTAgMTEuODY0bDIuNzQ4IDIuNzQ5YTEuMzIzIDEuMzIzIDAgMCAwIDEuODYzLS4wMDNjLjUyLS41MTkuNTE3LTEuMzUuMDAzLTEuODYzbC0yLjc0OC0yLjc0OHoiIGZpbGw9IiMwMDk5RTUiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==');
+    background-repeat: no-repeat;
+}
+.new-saved-card #stripe_payments_cc_owner { width: auto; min-width: 300px; }
+.new-saved-card #stripe_payments_cc_number { width: auto; min-width: 300px; }
+.new-saved-card #stripe_payments_expiration_mo { width: auto; }
+.new-saved-card #stripe_payments_expiration_yr { width: auto; }
+
+/* Card Icons */
+.stripe-payments span.type.Visa,
+.stripe-payments span.type.visa { background: url(../img/visa.png) no-repeat; }
+
+.stripe-payments span.type.American.Express,
+.stripe-payments span.type.amex { background: url(../img/amex.png) no-repeat; }
+
+.stripe-payments span.type.MasterCard,
+.stripe-payments span.type.mastercard { background: url(../img/mastercard.png) no-repeat; }
+
+.stripe-payments span.type.Discover,
+.stripe-payments span.type.discover { background: url(../img/discover.png) no-repeat; }
+
+.stripe-payments span.type.Diners,
+.stripe-payments span.type.diners { background: url(../img/diners.png) no-repeat; }
+
+.stripe-payments span.type.JCB,
+.stripe-payments span.type.jcb { background: url(../img/jcb.png) no-repeat; }
+
+.stripe-payments span.type.Visa, .stripe-payments span.type.visa,
+.stripe-payments span.type.American.Express, .stripe-payments span.type.amex,
+.stripe-payments span.type.MasterCard, .stripe-payments span.type.mastercard,
+.stripe-payments span.type.Discover, .stripe-payments span.type.discover,
+.stripe-payments span.type.Diners, .stripe-payments span.type.diners,
+.stripe-payments span.type.JCB, .stripe-payments span.type.jcb {
+    padding-left: 40px;
+    background-position-y: -3px;
+    display: inline-block;
+    height: 22px;
+    font-size: 16px;
+    background-size: 30px;
+}
+
+.payment-method.stripe-payments .checkout-agreements-block {
+    margin-bottom: 10px;
+}
+.payment-method.stripe-payments.mobile {
+    padding-top: 1em;
+}
+@media only screen and (max-width: 767px) {
+    .checkout-payment-method .step-title.mobile {
+        padding-left: 0;
+    }
+}
+
+/* Apple Pay */
+.stripe-payments-apple-pay-section {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.stripe-payments-apple-pay-section label {
+    font-weight: bold;
+    margin: 10px 0;
+    float: none;
+    display: block;
+}
+
+/* Authorized Apple Pay Result */
+.stripe-payments-apple-pay-result label {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.stripe-payments-apple-pay-result {
+    text-align: center;
+    padding: 10px 0 15px;
+    font-size: 1.1em;
+}
+.stripe-payments-apple-pay-result > div {
+    margin-bottom: 18px;
+}
+
+/* Checkout Errors */
+#stripe-payments-card-errors {
+    border: 0;
+    border-radius: 3px;
+    height: 0;
+    margin: 0 auto;
+    transition: height 1s, margin 1s, border 1s, padding 1s;
+    display: inline-block;
+    padding: 0 1em;
+}
+#stripe-payments-card-errors.populated {
+    border: 1px hsla(0,100%,50%,0.5) dashed;
+    padding: 5px 1em;
+    color: #D20;
+    height: auto;
+    margin: 0.5em auto 1em;
+}
+
+/* Euro Payments */
+#payment_form_stripe_payments_sepa .payment-method-note.mandate {
+    display: inline-block;
+    margin: 0.7em 0;
+}
+#payment_form_stripe_payments_sepa fieldset {
+    border: 0;
+}
+.indent {
+    margin-right: 20px;
+}
+
+/* Stripe Express */
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+.box-tocart .action.tocart.payment-request-button
+{
+    padding: 0;
+}
+
+.payment-request-button {
+    width: 240px;
+}
+
+.payment-request-button.disabled,
+.payment-request-button.disabled * {
+    pointer-events: none !important;
+}
+
+.payment-request-button.disabled {
+    opacity: 0.5;
+    filter: grayscale(50%);
+}
+
+.payment-request-button.disabled::after {
+    position: relative;
+    height: 1em;
+    width: 1em;
+    display: block;
+    left: 50%;
+    margin-left: -.5em;
+    margin-top: -1.2em;
+    content: '';
+    -webkit-animation: spin 1s ease-in-out infinite;
+    animation: spin 1s ease-in-out infinite;
+    background: url(../svg/loader.svg) center center;
+    background-size: cover;
+    line-height: 1;
+    text-align: center;
+    font-size: 2em;
+    color: rgba(0, 0, 0, .75)
+}
+
+.stripe-payments-express-minicart {
+    margin-top: 15px;
+}
+
+.stripe-payments-express-minicart .payment-request-button, .payment-request-button.cart {
+    width: 100% !important;
+}
+
+.cart-summary .stripe-payments-express-minicart {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.catalog-product-view .payment-request-button {
+    margin-bottom: 15px;
+    margin-right: 1%;
+    width: 49%;
+}
+
+/* Checkout success page */
+.checkout-onepage-success .stripe-success-section {
+    margin-top: 1em;
+}
+.checkout-onepage-success .stripe-success-section p {
+    margin-bottom: 0.8em;
+}
+.checkout-onepage-success .stripe-success-section img {
+    margin: 0 auto;
+}
+.checkout-onepage-success button.button.wechat {
+    background-color: #1979c3;
+    border: 1px solid #1979c3;
+    color: #fff;
+    box-shadow: unset;
+}
+.stripe-success-section.oxxo .oxxo-voucher div {
+    display: block;
+    clear: both;
+    width: 100%;
+}
+.stripe-success-section.oxxo .oxxo-voucher {
+    padding: 2em 0;
+}
+.stripe-success-section.oxxo .oxxo-logo img {
+    width: 100px;
+}
+.stripe-success-section.oxxo .oxxo-voucher {
+    text-align: center;
+}
+.stripe-success-section.oxxo .oxxo-amount {
+    font-size: 3em;
+}
+.stripe-success-section.oxxo .oxxo-expires {
+    color: #888;
+    font-size: 1em;
+}
+.stripe-success-section.oxxo .oxxo-number {
+    font-family: 'LibreBarcode128Text-Regular';
+    font-size: 4em;
+}
+.stripe-success-section.oxxo .print-button {
+    display: block;
+    width: 100%;
+    height: 4em;
+}
+.stripe-success-section.oxxo .print-button button {
+    width: 40%;
+    padding: 1em;
+    margin: 2em 0 1em;
+}
+
+@media print {
+    .stripe-success-section.oxxo .action {
+        display: none;
+    }
+}
+
+/* FPX */
+#stripe-fpx-select {
+    background: #fff url(../img/select-bg.svg) no-repeat 100% 45%;
+    background-clip: padding-box;
+    font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    vertical-align: baseline;
+    width: 100%;
+    box-sizing: border-box;
+}
+#stripe-fpx-select, #stripe-fpx-dropdown {
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 3px 0px #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+#stripe-fpx-dropdown {
+    list-style: none;
+    padding: 0;
+}
+#stripe-fpx-dropdown li {
+    padding: 10px 12px 10px 50px;
+    margin: 0;
+    background-position: 10px 45%;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+#stripe-fpx-dropdown li:first-child {
+    margin-top: 5px;
+}
+#stripe-fpx-dropdown li:last-child {
+    margin-bottom: 5px;
+}
+#stripe-fpx-dropdown li:hover {
+    background-color: #eee;
+}
+#stripe-fpx-dropdown li.affin_bank { background-image: url(../svg/fpx/affin_bank.svg); }
+#stripe-fpx-dropdown li.alliance_bank { background-image: url(../svg/fpx/alliance_bank.svg); }
+#stripe-fpx-dropdown li.ambank { background-image: url(../svg/fpx/ambank.svg); }
+#stripe-fpx-dropdown li.bank_islam { background-image: url(../svg/fpx/bank_islam.svg); }
+#stripe-fpx-dropdown li.bank_rakyat { background-image: url(../svg/fpx/bank_rakyat.svg); }
+#stripe-fpx-dropdown li.bank_muamalat { background-image: url(../svg/fpx/bank_muamalat.svg); }
+#stripe-fpx-dropdown li.bsn { background-image: url(../svg/fpx/bsn.svg); }
+#stripe-fpx-dropdown li.cimb { background-image: url(../svg/fpx/cimb.svg); }
+#stripe-fpx-dropdown li.hong_leong_bank { background-image: url(../svg/fpx/hong_leong_bank.svg); }
+#stripe-fpx-dropdown li.hsbc { background-image: url(../svg/fpx/hsbc.svg); }
+#stripe-fpx-dropdown li.kfh { background-image: url(../svg/fpx/kfh.svg); }
+#stripe-fpx-dropdown li.maybank2u { background-image: url(../svg/fpx/maybank2u.svg); }
+#stripe-fpx-dropdown li.maybank2e { background-image: url(../svg/fpx/maybank2e.svg); }
+#stripe-fpx-dropdown li.ocbc { background-image: url(../svg/fpx/ocbc.svg); }
+#stripe-fpx-dropdown li.public_bank { background-image: url(../svg/fpx/public_bank.svg); }
+#stripe-fpx-dropdown li.rhb { background-image: url(../svg/fpx/rhb.svg); }
+#stripe-fpx-dropdown li.standard_chartered { background-image: url(../svg/fpx/standard_chartered.svg); }
+#stripe-fpx-dropdown li.uob { background-image: url(../svg/fpx/uob.svg); }
+#stripe-fpx-dropdown li.separator {
+    border-bottom: 3px dotted #ccc;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+
+.multishipping-authorization {
+    font-size: large;
+}
+.multishipping-authorization .block-title {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 1em;
+    font-weight: 400;
+}
+.multishipping-authorization .authentication.message {
+    margin: 2em 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 3px 0px #ccc;
+    padding: 1em 4em 1em 2em;
+}
+
+.stripe-icon-container img.stripe-icon {
+    height: 1.7em;
+    position: relative;
+    top: 0.4em;
+    margin-right: 2px;
+}
+
+#stripe_fpx .stripe-icon-container.right img.stripe-icon {
+    height: 3em;
+    position: relative;
+    top: -0.2em;
+}
+#stripe_ideal .stripe-icon-container.right img.stripe-icon,
+#stripe_eps .stripe-icon-container.right img.stripe-icon,
+#stripe_giropay .stripe-icon-container.right img.stripe-icon,
+#stripe_bancontact .stripe-icon-container.right img.stripe-icon,
+#stripe_wechat .stripe-icon-container.right img.stripe-icon {
+    height: 2.5em;
+    position: relative;
+    top: 0.1em;
+}
+
+.stripe-icon-container.right {
+    float: right;
+    position: relative;
+    top: -0.6em;
+}
+
+/* Klarna */
+.klarna-payment-options-tabs, .klarna-payment-options-container {
+    text-align: center;
+    margin: 0 1em 2em;
+}
+.klarna-tab {
+    display: inline-block;
+    margin: 0 3px;
+    border-radius: 5px;
+    padding: 12px 20px;
+    box-shadow: 2px 2px 5px 2px #ccc;
+}
+
+input[name=klarna-payment-option] {
+    display: none;
+}
+
+input[name=klarna-payment-option]:checked+label {
+    background: #487B94;
+    color: #fff;
+}
+
+label.klarna-tab {
+    font-weight: bold;
+    background: #f8f9fa;
+    cursor: pointer;
+}
+
+.klarna-loader .payment-method-note {
+    margin: 2em;
+}
+
+/* SEPA Credit */
+#payment_form_stripe_payments_sepa_credit .optional {
+    font-weight: normal;
+    color: #aaa;
+    margin-left: 4px;
+}
+#payment_form_stripe_payments_sepa_credit .subnote
+{
+    color: #888;
+    font-size: smaller;
+}
+
+.stripe-payments-installments-form .installments-header {
+
+}
+.stripe-payments-installments-form .installments-header .back-link {
+    display: inline-block;
+    margin-right: 0.5em;
+    cursor: pointer;
+    text-decoration: none;
+}
+.stripe-payments-installments-form .installments-header h3 {
+    display: block;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #ccc;
+}
+.stripe-payments-installments-form .stripe-payments-installment-plans {
+    padding: 1em;
+    font-size: 1.1em;
+}
+.stripe-payments-installments-form .stripe-payments-installment-plans label {
+    display: block;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.stripe-payments-installments-form .stripe-payments-installment-plans select {
+    display: inline-block;
+    width: 150px;
+    margin-left: 1em;
+}
+
+/* Trialing Subscriptions */
+.trialing_shipping .mark,
+.trialing_tax .mark,
+.trialing_discount .mark {
+    text-indent: 0.5em;
+}
+.trialing_shipping .mark::before,
+.trialing_tax .mark::before,
+.trialing_discount .mark::before {
+    content: "- ";
+}

@@ -1,0 +1,248 @@
+{
+    "index.html": {
+        "url": "https://worldgeographyindonesia.wordpress.com/2014/10/14/ocean-currents-of-indonesia/",
+        "type": "document",
+        "headers": {
+            "Content-Type": ["text/html; charset=UTF-8"],
+            "Date": ["Tue, 02 Mar 2021 04:23:48 GMT"],
+            "Link": ["<https://wp.me/p58fSy-x>; rel=shortlink"],
+            "Server": ["nginx"],
+            "Strict-Transport-Security": ["max-age=15552000"],
+            "Vary": ["Accept-Encoding", "Cookie"],
+            "X-Ac": ["5.ams _dfw "],
+            "X-Hacker": ["If you're reading this, you should visit automattic.com/jobs and apply to join the fun, mention this header."],
+            "X-Pingback": ["https://worldgeographyindonesia.wordpress.com/xmlrpc.php"]
+        }
+    },
+    "fonts.googleapis.com_css": {
+        "url": "https://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C700%7CLato%3A400%2C700%2C400italic%2C700italic&subset=latin%2Clatin-ext",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Origin": ["*"],
+            "Alt-Svc": ["h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\""],
+            "Cache-Control": ["private, max-age=86400, stale-while-revalidate=604800"],
+            "Content-Type": ["text/css; charset=utf-8"],
+            "Cross-Origin-Resource-Policy": ["cross-origin"],
+            "Date": ["Tue, 02 Mar 2021 04:23:41 GMT"],
+            "Expires": ["Tue, 02 Mar 2021 04:23:41 GMT"],
+            "Last-Modified": ["Tue, 02 Mar 2021 03:45:33 GMT"],
+            "Link": ["<https://fonts.gstatic.com>; rel=preconnect; crossorigin"],
+            "Server": ["ESF"],
+            "Strict-Transport-Security": ["max-age=31536000"],
+            "Timing-Allow-Origin": ["*"],
+            "X-Content-Type-Options": ["nosniff"],
+            "X-Frame-Options": ["SAMEORIGIN"],
+            "X-Xss-Protection": ["0"]
+        }
+    },
+    "stats.wp.com_w.js": {
+        "url": "https://stats.wp.com/w.js?61",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"5e6029bb-4e62\""],
+            "Expires": ["Thu, 04 Mar 2021 22:24:11 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Nc": ["HIT ams"]
+        }
+    },
+    "s0.wp.com_jetpack-carousel.css": {
+        "url": "https://s0.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1614628167h&cssminify=yes",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Methods": ["GET, HEAD"],
+            "Access-Control-Allow-Origin": ["*"],
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["text/css"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"603d455a-6a69\""],
+            "Expires": ["Tue, 01 Mar 2022 19:49:51 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "s0.wp.com_static": {
+        "url": "https://s0.wp.com/_static/??-eJydkdFuwyAMRX9oxE21Vn2Z9i0QLEZrAsKmVf5+kKhb1mrRtBeE7XuusYFbUkMcBUeBUFSi4vzIcEtDDIqDJ5weom5gfoEVZii6bzBmqy2Do2g0PWlXLTKSFrQqRZaHaAsjf0GGM0rSw0XN0ZP8rnWlhgazq5WMcO133a7bgymebHv2bGCyzhOwTIR/MJqpVX89xSLKZW//a5G1+NHxL/hq8jZDzYekpSkCWq+RMFTZFrZ8njEpI7OqZ/AlKPmo4OaiK9WslxVDFf7MLKiHMYqvNH9dWuE9vPXH/nV/PJ36w/kTIQnmlA==?cssminify=yes",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Methods": ["GET, HEAD"],
+            "Access-Control-Allow-Origin": ["*"],
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["text/css;charset=utf-8"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"6037c9cf-1c623\""],
+            "Expires": ["Fri, 25 Feb 2022 16:01:36 GMT"],
+            "Last-Modified": ["Thu, 25 Feb 2021 16:01:19 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "13": {
+        "url": "https://s0.wp.com/_static/??-eJyFjMEKwjAQRH/I7RqsxYv4LbVdw4ZkE7NZin9vCxXEi6dhhjcPlwJTlkbSMCimfOdIYEp19OsGLI/cBT3gF5cMSjTPolgpjo1mKFnbT/u8WKZoM+mmD0+j+tqjSyx/IUjs6yrd4Vu6usH1gzsdL+fwBn02Rbg=",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"603d0a70-1e009\""],
+            "Expires": ["Tue, 01 Mar 2022 15:38:30 GMT"],
+            "Last-Modified": ["Mon, 01 Mar 2021 15:38:24 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "14": {
+        "url": "https://s0.wp.com/_static/??-eJydUttOwzAM/SFSM0CDF8SnILd1O7e5LU4WxtfjCYbYRUXwZOscHzs+MdRouuAz+QyTQE877ii+NZPcwCkVg2RHIjjSFXbaFkr7r9Cw3zHVX8smyhG72SQSfr/o6oqJtozsBSzPJKCiQhv0vaW0UNwF5xQyn6LpoG5BKselCReiE+BcmDekVkAsLWjGfqy41y1q4qz8QX4F/nsTjzseMXP4h1Zmjvp4P5shdEXMwN+fyr6zpT9dM1G0+0Y7LXhUuR8pC1BRNsxMxmKFTC5azHSGL/TBXueYFhM4lExJM5OTHsKFzz8/CFMoQhaOR3MElgbNLI6yuW9u4VW3hiEkt1B/OHEzWOQEssGkth6jil7c82q9eljfPa3Wj9MHFKQ2KQ==",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"603d455a-2ed08\""],
+            "Expires": ["Tue, 01 Mar 2022 19:49:58 GMT"],
+            "Last-Modified": ["Mon, 01 Mar 2021 19:49:46 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "2": {
+        "url": "https://s0.wp.com/_static/??-eJyNjtEOwiAMRX9IrDOZmQ/Gb2GsYhUogRKyvxfjy4xx+nZvbk9OoUZlOAgGAbmixwyxjNASBVv1rBLWRNJ2yDI73JqcN7CAfFHRFUshg8WAidrwJX6wP4QUzEuqajTs19SVJouSAUtb+U6onK4g6KPT0hR//M7KsdFCHN6KujhNaQ1NODq2LVpoV4v6hM7+1PXHXXfo98NwewC+g4pJ?cssminify=yes",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Methods": ["GET, HEAD"],
+            "Access-Control-Allow-Origin": ["*"],
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["text/css;charset=utf-8"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"5ec7ff38-dbd5\""],
+            "Expires": ["Sat, 22 May 2021 16:35:09 GMT"],
+            "Last-Modified": ["Fri, 22 May 2020 16:35:04 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["3.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "s0.wp.com_global-print.css": {
+        "url": "https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h&cssminify=yes",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Methods": ["GET, HEAD"],
+            "Access-Control-Allow-Origin": ["*"],
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["text/css"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"575f1ca1-1f6c\""],
+            "Expires": ["Thu, 03 Feb 2022 04:32:43 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "s0.wp.com_style.css": {
+        "url": "https://s0.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1530132353h&cssminify=yes",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Methods": ["GET, HEAD"],
+            "Access-Control-Allow-Origin": ["*"],
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["text/css"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"5b33f7b7-5e1f\""],
+            "Expires": ["Thu, 03 Feb 2022 04:32:43 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "s0.wp.com_wpgroho.js": {
+        "url": "https://s0.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1610363240h",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"5ffc31a9-465\""],
+            "Expires": ["Tue, 11 Jan 2022 11:08:28 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "6": {
+        "url": "https://s0.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1573483029j",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"5dc97222-a830\""],
+            "Expires": ["Wed, 10 Nov 2021 14:37:26 GMT"],
+            "Last-Modified": ["Mon, 11 Nov 2019 14:37:22 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "s0.wp.com_wp-content_js_bilmur.min.js": {
+        "url": "https://s0.wp.com/wp-content/js/bilmur.min.js?m=202109",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"5f72415a-dbf\""],
+            "Expires": ["Tue, 01 Mar 2022 00:00:01 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    },
+    "0.gravatar.com_js_gprofiles.js": {
+        "url": "https://0.gravatar.com/js/gprofiles.js?ver=202109y",
+        "type": "javascript",
+        "headers": {
+            "Cache-Control": ["max-age=604800"],
+            "Content-Type": ["application/javascript"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"5e8609cc-5dea\""],
+            "Expires": ["Tue, 09 Mar 2021 04:23:42 GMT"],
+            "Last-Modified": ["Thu, 02 Apr 2020 15:50:36 GMT"],
+            "Server": ["nginx"]
+        }
+    },
+    "9": {
+        "url": "https://s0.wp.com/_static/??-eJxti0EKgCAQAD+ULUaJl+gtJqbG6opr9P3o0CHqNAzMwFmEpdxcbpAOUfDwMTMU4iY2NLECB1Nj9g97y9zB/8Vko0GB5Oktn6kFlxxDGMEjrQbvYEmzVHIclNZy2i9lFDfR?cssminify=yes",
+        "type": "css",
+        "headers": {
+            "Access-Control-Allow-Methods": ["GET, HEAD"],
+            "Access-Control-Allow-Origin": ["*"],
+            "Cache-Control": ["max-age=31536000"],
+            "Content-Type": ["text/css;charset=utf-8"],
+            "Date": ["Tue, 02 Mar 2021 04:23:42 GMT"],
+            "Etag": ["W/\"6037c9cf-72b3\""],
+            "Expires": ["Fri, 25 Feb 2022 16:01:25 GMT"],
+            "Last-Modified": ["Thu, 25 Feb 2021 16:01:19 GMT"],
+            "Server": ["nginx"],
+            "Vary": ["Accept-Encoding"],
+            "X-Ac": ["4.ams _dfw"],
+            "X-Nc": ["HIT ams 1"]
+        }
+    }
+}

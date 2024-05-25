@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Acronis-Icons';
+  src: url("fonts/acronis_icons/Acronis-Icons.woff") format("woff"), url("fonts/acronis_icons/Acronis-Icons.woff2") format("woff2"), url("fonts/acronis_icons/Acronis-Icons.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+/*******
+  COLORS
+ *******/
+/*******
+  SIZES
+ *******/
+/*******
+  ICONS
+ *******/
+/*******
+  COLORS
+ *******/
+/*******
+  SIZES
+ *******/
+/*******
+  ICONS
+ *******/
+/***
+  Search box icon
+ */
+#views-exposed-form-main-search-main-seach-page .views-submit-button {
+  line-height: 73px;
+  position: absolute;
+  right: 379px; }
+#views-exposed-form-main-search-main-seach-page .views-submit-button:before {
+  content: "";
+  display: block;
+  position: absolute;
+  font-family: "Acronis-Icons";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  top: 1.3125em;
+  left: 2.5em; }
+#views-exposed-form-main-search-main-seach-page .views-submit-button .form-submit {
+  margin: 0;
+  vertical-align: bottom; }
+
+/***
+  Language dropdown icon
+ */
+.block-language-content .jq-selectbox__select:before {
+  content: "";
+  display: inline-block;
+  font-family: "Acronis-Icons";
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: 3px;
+  padding-right: 7px; }
+
+@media (max-width: 767px) {
+  #views-exposed-form-main-search-main-seach-page .views-submit-button {
+    position: relative;
+    right: 0;
+    order: 3;
+    width: 100%;
+    text-align: center; }
+  #views-exposed-form-main-search-main-seach-page .views-submit-button:before {
+    top: 20px;
+    left: 115px; } }
+
+/**
+ * SM design
+ */
+@media (min-width: 768px) and (max-width: 992px) {
+  #views-exposed-form-main-search-main-seach-page .views-submit-button {
+    position: relative;
+    right: 0;
+    order: 3; } }
+
+/**
+ * MD design
+ */
+@media (min-width: 992px) and (max-width: 1199px) {
+  #views-exposed-form-main-search-main-seach-page .views-submit-button {
+    position: relative;
+    right: 0;
+    order: 3; } }

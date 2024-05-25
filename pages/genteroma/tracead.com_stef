@@ -1,0 +1,20 @@
+(function () {
+    var jq_major = 0;
+    var jq_minor = 0;
+
+    if (window.jQuery.fn.jQuery) {
+      var jq_parts = window.jQuery.fn.jQuery.split(".");
+      jq_major = parseInt(jq_parts[0]);
+      jq_minor = parseInt(jq_parts[1]);
+    }
+
+    if (jq_major > 1 || (jq_major == 1 && jq_minor >= 7)) {
+      if (typeof window.__tracead_jq === 'undefined')
+      {
+        window.__tracead_jq = window.jQuery;
+      }
+      window.jQuery('body').append('<script type="text/javascript" src="https://tracead.com/siteTagHandler.php?cId=5878&ljq=1&ljq=2"></script>');
+    } else {
+      window.jQuery('body').append('<script type="text/javascript" src="https://tracead.com/siteTagHandler.php?cId=5878&ljq=1&ljq=0"></script>');
+    }
+  })();

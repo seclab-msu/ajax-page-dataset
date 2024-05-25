@@ -1,0 +1,362 @@
+@charset "UTF-8";
+/* 非瀑布流短视频公共样式 */
+.video_item {
+  border-radius: 2px;
+  background: #fff;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  top: 0;
+  transition: all linear 0.3s;
+  font-family: "Microsoft YaHei", "PingFang SC", Arial;
+}
+.video_item:first-child {
+  margin-left: 0;
+}
+.video_item:hover {
+  top: -4px;
+  /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3); */
+  box-shadow: 0 1px 8px 3px rgba(0, 0, 0, 0.2);
+}
+.video_item img {
+  width: 100%;
+  max-height: 100%;
+  border-radius: 2px;
+}
+.video_item dt {
+  position: relative;
+}
+.video_item .desc {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 6px;
+  height: auto;
+  max-height: 44px;
+  line-height: 22px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 0.1px;
+  word-break: break-all;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+.video_item .desc img{
+  display:inline-block;
+  max-width: 20px;
+  height: auto;
+  vertical-align: top !important;
+}
+.video_item .mask {
+  /* display: none; */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 2px;
+  top: 0;
+  left: 0;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/mask_bg@2x.png)
+    center center no-repeat;
+  background-size: 100%;
+  /* background: url(//asserts.xcarimg.com/resource/common/short_video/images/mask_bg.png)
+    center center no-repeat \9; */
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//asserts.xcarimg.com/resource/common/short_video/images/mask_bg.png',  sizingMethod='scale');
+}
+.video_item:hover .mask {
+  display: block;
+}
+.video_item .user_box {
+  background: #fff;
+  padding: 10px 6px 13px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 0 0 2px 2px;
+  box-sizing: content-box;
+}
+.video_item .user_box .user_portrait {
+  display: inline-block;
+  position: relative;
+}
+.video_item .user_box .user_portrait img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #ededed;
+  vertical-align: middle;
+}
+.video_item .user_box .user_portrait .admit {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.video_item .user_box .user_portrait .admit_organ {
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/v_organ2x.png)
+    center center no-repeat;
+  background-size: 100%;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/v_organ.png)
+    center center no-repeat \9;
+}
+.video_item .user_box .user_portrait .admit_nom {
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/v_nom2x.png)
+    center center no-repeat;
+  background-size: 100%;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/v_nom.png)
+    center center no-repeat \9;
+}
+.video_item .user_box .user_portrait .admit_daren {
+  /* 达人标识 */
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/v_daren.png)
+    center center no-repeat;
+  background-size: 100%;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/v_daren.png)
+    center center no-repeat \9;
+}
+.video_item .user_box .user_name {
+  display: inline-block;
+  max-width: 50%;
+  height: 20px;
+  line-height: 20px;
+  vertical-align: middle;
+  overflow: hidden;
+  font-size: 14px;
+  color: #181818;
+  font-family: "Microsoft YaHei", "PingFang SC", Arial;
+}
+.video_item .user_box .user_name:hover {
+  color: #08f;
+  text-decoration: none;
+}
+.video_item .user_box .attention {
+  float: right;
+  margin-top: 2px;
+  padding-left: 24px;
+  display: block;
+  width: 36px;
+  height: 26px;
+  line-height: 26px;
+  text-align: left;
+  font-size: 14px;
+  color: #08f;
+  border: 1px solid #08f;
+  border-radius: 2px;
+  cursor: pointer;
+  box-sizing: content-box;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/guanzhu@2x.png)
+    1px 0px no-repeat;
+  background-size: 26px 26px;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/guanzhu.png)
+    1px 0px no-repeat \9;
+  font-family: "Microsoft YaHei", "PingFang SC", Arial;
+}
+.video_item .user_box .attention:hover {
+  color: #fff;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/guanzhu_pitch@2x.png)
+    1px 0px no-repeat #0288ff;
+  background-size: 26px 26px;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/guanzhu_pitch.png)
+    1px 0px no-repeat #0288ff \9;
+}
+.video_item .user_box .attention_the {
+  border: 1px solid #f0f0f0;
+  background: #f0f0f0;
+  border-radius: 1px;
+  cursor: pointer;
+  text-align: center;
+  color: #999;
+  height: 26px;
+  line-height: 26px;
+  width: 58px;
+  padding-left: 0;
+}
+.video_item .user_box .attention_the:hover {
+  color: #999;
+  background: #f0f0f0;
+}
+/* 关注按钮只有 icon 没有文字时使用该样式 small_attention_box,该类名和 user_box 类名平级使用 */
+.video_item .small_attention_box .user_name {
+  max-width: 60%;
+}
+.video_item .small_attention_box .attention {
+  padding-left: 0;
+  width: 28px;
+}
+.video_item .small_attention_box .attention_the,
+.video_item .small_attention_box .attention_the:hover {
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/concerned@2x.png)
+    1px 0px no-repeat;
+  background-size: 26px 26px;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/concerned.png)
+    1px 0px no-repeat \9;
+  background-color: #f0f0f0;
+}
+/* 瀑布流短视频公共样式 */
+.flow_box {
+  float: left;
+  width: 240px;
+  max-width: 240px;
+  margin-top: 20px;
+}
+.flow_box:first-child {
+  margin-left: 0;
+}
+.flow_box .video_item {
+  float: none;
+  width: 240px;
+  max-width: 240px;
+  height: auto;
+  max-height: initial;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.flow_box .video_item .desc {
+  height: auto;
+  max-height: 44px;
+  margin: 8px auto;
+  color: #181818;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  font-family: "Microsoft YaHei", "PingFang SC", Arial;
+}
+.flow_box .video_item .user_box {
+  margin-top: 8px;
+  padding: 0 6px 15px;
+}
+.flow_box .video_item .user_name {
+  max-width: 56%;
+}
+/* 暂无内容 */
+.short_video_flow_box .no_content {
+  width: 100%;
+  height: 375px;
+  padding: 100px 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.short_video_flow_box .no_content p{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  color: #C0C4CC;
+  margin-top: 20px;
+}
+.short_video_flow_box .no_content img{
+  max-width: 170px;
+}
+.short_video_flow_box .load_more {
+  float: left;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  font-size: 14px;
+  color: #4f5466;
+  background: #f6f7f8;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+.short_video_flow_box .load_more:hover {
+  color: #0088ff;
+}
+.short_video_flow_box .load_more.empty {
+  color: #c0c4cc;
+  cursor: default;
+}
+/* 瀑布流发布按钮 */
+.flow_box .video_item .publish {
+  display: inline-block;
+  width: 222px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 2px;
+  padding-left: 80px;
+  box-sizing: border-box;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/publish@2x.png)
+    54px 21px no-repeat;
+  background-size: 20px 20px;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/publish.png)
+    54px 21px no-repeat \9;
+  background-color: #1ecca4;
+}
+.flow_box .video_item .publish:hover {
+  text-decoration: none;
+  background-color: #1bbb96;
+}
+/* 话题样式 */
+.flow_box .video_item .topic_box {
+  display: block;
+  width: 100%;
+  height: 222px;
+  border-radius: 2px;
+  position: relative;
+}
+.flow_box .video_item .topic_box img {
+  width: 100%;
+  height: 222px;
+}
+.flow_box .video_item .topic_box .title {
+  width: 154px;
+  height: 50px;
+  line-height: 25px;
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 58px;
+  left: 34px;
+}
+.flow_box .video_item .topic_box .topic_btn {
+  /* display: none; */
+  width: 108px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  background-color: #0088ff;
+  position: absolute;
+  bottom: 40px;
+  left: 57px;
+}
+.flow_box .video_item .topic_box:hover .topic_btn {
+  display: block;
+}
+.flow_box .video_item .topic_box .topic_btn:hover {
+  text-decoration: none;
+  background-color: #0080ff;
+}
+/* 弹窗iframe 样式 */
+.layui-layer-setwin .layui-layer-close2 {
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/icon-close@2x.png)
+    center center no-repeat !important;
+  background-size: 32px 32px;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/icon-close@1x.png)
+    no-repeat \9 !important;
+  right: -50px !important;
+  top: -16px !important;
+  background-size: cover !important;
+}
+.layui-layer-setwin .layui-layer-close2:hover {
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/icon-close-hover@2x.png)
+    center center no-repeat !important;
+  background-size: 32px 32px;
+  background: url(//asserts.xcarimg.com/resource/common/short_video/images/icon-close-hover@1x.png)
+    no-repeat \9 !important;
+  background-size: cover !important;
+}
+.layui-layer-content iframe {
+  background: #181818;
+}
+.layui-layer-shade {
+  opacity: 0.8 !important;
+}

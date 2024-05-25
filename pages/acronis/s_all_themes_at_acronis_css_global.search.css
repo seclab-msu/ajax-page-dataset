@@ -1,0 +1,53 @@
+.page-search #views-exposed-form-main-search-main-seach-page .views-submit-button {
+  right: 365px !important;
+}
+/**
+  iPhone 5s styling
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  .page-search #views-exposed-form-main-search-main-seach-page .views-submit-button {
+    right: 0 !important;
+  }
+
+  .page-search #views-exposed-form-main-search-main-seach-page .views-submit-button:before {
+    left: 75px !important;
+  }
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+  .page-search #views-exposed-form-main-search-main-seach-page .views-submit-button {
+    right: 0 !important;
+  }
+
+  .page-search #views-exposed-form-main-search-main-seach-page .views-submit-button:before {
+    left: 190px !important;
+  }
+}
+
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi) {
+  #views-exposed-form-main-search-main-seach-page .views-submit-button {
+    line-height: 69px;
+    right: 380px !important;
+  }
+
+  .page-search #views-exposed-form-main-search-main-seach-page .views-submit-button {
+    line-height: 73px;
+    right: 365px !important;
+  }
+}
+
+/* Safari 10.1+ */
+@media not all and (min-resolution:.001dpcm) {
+  @media {
+    #views-exposed-form-main-search-main-seach-page .views-submit-button {
+      right: 380px !important;
+    }
+  }
+}
