@@ -407,9 +407,6 @@
             }, {
                 "name": "Content-Type",
                 "value": "multipart/form-data"
-            }, {
-                "name": "Authorization",
-                "value": "Bearer UNKNOWN"
             }],
             "queryString": [],
             "postData": {
