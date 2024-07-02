@@ -140,7 +140,7 @@ def compare_unordered_keyvalue_ignoreemptyval(reference, found):
         for found_kv in found:
             if found_kv["name"] == ref_kv["name"]:
                 if ref_kv["value"] == "" or ref_kv["value"] == found_kv["value"]:
-                    if "type" not in ref_kv or ref_kv["type"] == found_kv["type"]:
+                    if "type" not in ref_kv or ("type" in found_kv and ref_kv["type"] == found_kv["type"]):
                         is_found = True
                         break
         if not is_found:
