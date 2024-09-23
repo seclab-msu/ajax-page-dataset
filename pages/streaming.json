@@ -1,0 +1,385 @@
+{
+  "resource_id": null,
+  "url": "https://streaming.tst/",
+  "tags": ["bundler", "namespace"],
+  "attributes": ["path_ignore_multislash"],
+  "deps": [{
+    "method": "GET",
+    "url": "https://kappa.streaming.tst/tokens",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "kappa.streaming.tst"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://kappa.streaming.tst/tokens",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "kappa.streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"accessToken\":\"\",\"refreshToken\":\"\"}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://sauron.streaming.tst/identify",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "sauron.streaming.tst"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/check_connection",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/v2/web/Subscriptions",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/v7/web/PageData?url=",
+    "queryString": [{
+      "name": "url",
+      "value": ""
+    }],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/web/Payments/CheckStatus?transactionId=",
+    "queryString": [{
+      "name": "transactionId",
+      "value": ""
+    }],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Subscriptions/UNKNOWN/AutoRenewing",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"isAutoRenewing\":\"\"}"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Subscriptions/UNKNOWN/ChangeCard",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "mimeType": "application/json",
+      "text": "{\"subscriptionId\":\"\",\"cardId\":\"\"}"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/web/Projects/Filters?filter=",
+    "queryString": [{
+      "name": "filter",
+      "value": ""
+    }],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/_more-partners",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/gondwana/v1/favourites?page=1&perPage=500&orderBy=createdAt",
+    "queryString": [{
+      "name": "page",
+      "value": "1"
+    }, {
+      "name": "perPage",
+      "value": "500"
+    }, {
+      "name": "orderBy",
+      "value": "createdAt"
+    }],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "DELETE",
+    "url": "https://streaming.tst/gondwana/v1/favourites?externalId=&type=&device=&timezone=&subscribe=",
+    "httpVersion": "HTTP/1.1",
+    "headers": [{
+        "name": "Host",
+        "value": "streaming.tst"
+    }],
+    "queryString": [{
+        "name": "externalId",
+        "value": ""
+    }, {
+        "name": "type",
+        "value": ""
+    }, {
+        "name": "device",
+        "value": ""
+    }, {
+        "name": "timezone",
+        "value": ""
+    }, {
+        "name": "subscribe",
+        "value": ""
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Account/RequestConfirmationEmailReset",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/v3/web/projects/UNKNOWN",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/v5/web/seasons/UNKNOWN/tracks",
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/lachesa/transactions",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"session_id\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/web/Subscriptions/EmailConfirmationOffers?id=",
+    "queryString": [{
+      "name": "id",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/web/promocodes/UNKNOWN",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }]
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Account/BindPinCode",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"pinCode\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/12/Subscriptions/Modifiers/EmailConfirmationOffer",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"id\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Account/RequestPasswordReset",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"email\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/upuaut/v4/web/suggest?q=",
+    "queryString": [{
+      "name": "q",
+      "value": ""
+    }]
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/v4/web/WidgetProjects/UNKNOWN",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/v3/web/WidgetDigestGroup/UNKNOWN",
+    "queryString": []
+  },  {
+    "method": "GET",
+    "url": "https://streaming.tst/api/v3/web/Account",
+    "queryString": []
+  }, {
+    "method": "GET",
+    "url": "https://streaming.tst/api/web/Auth/Providers",
+    "queryString": []
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Auth/RefreshToken",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"accessToken\":\"\",\"refreshToken\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Auth/Login",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"email\":\"\",\"password\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/laurentia/v1/sync-impressions",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"impressions\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/gondwana/v1/favourites",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"favourites\":\"\"}",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Payments",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/api/web/Account",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "",
+      "mimeType": "application/json"
+    }
+  }, {
+    "method": "POST",
+    "url": "https://streaming.tst/nereus/v1/phone/confirmation-request",
+    "queryString": [],
+    "headers": [{
+      "name": "Host",
+      "value": "streaming.tst"
+    }, {
+      "name": "Content-Type",
+      "value": "application/json"
+    }],
+    "postData": {
+      "text": "{\"phone\": \"\", \"type\": \"\"}",
+      "mimeType": "application/json"
+    }
+  }]
+}
